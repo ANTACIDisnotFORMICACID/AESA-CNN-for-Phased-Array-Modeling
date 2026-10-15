@@ -3,7 +3,7 @@
 本仓库整理 47 GHz 有源相控阵项目中由本人完成的算法版本。提交历史从 V2.5 开始，
 每个版本对应一个独立提交和同名 Git 标签；接手项目前的原始主线代码不在本仓库中。
 
-当前已纳入：**V2.5–V2.12**。
+当前已纳入：**V2.5–V2.13**。
 
 ## 研究主线
 
@@ -23,6 +23,7 @@
 | [V2.10](algorithm_versions/v2.10/README.md) | 严格正半球纯幅度监督基线 | 协议、基线和证据已冻结 |
 | [V2.11](algorithm_versions/v2.11/README.md) | 方向编码迁移与消融 | 编码对照实验完成 |
 | [V2.12](algorithm_versions/v2.12/README.md) | 物理约束 rank-1 算子与 CNN 主干 | 受控主干和评估协议完成 |
+| [V2.13](algorithm_versions/v2.13/README.md) | HFSS 闭环与测量可辨识性审计 | Gate-A 完成，Gate-B 保留证据边界 |
 
 ## 环境与检查
 

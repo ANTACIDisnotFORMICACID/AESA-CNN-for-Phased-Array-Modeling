@@ -1,0 +1,17 @@
+﻿command_id,family,port_index,source_name,power_w,phase_deg,amplitude_coefficient
+H00,uniform_phase_control_0deg,1,1:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,2,2:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,3,3:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,4,4:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,5,5:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,6,6:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,7,7:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,8,8:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,9,9:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,10,10:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,11,11:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,12,12:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,13,13:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,14,14:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,15,15:1,0.0625,0,0.25
+H00,uniform_phase_control_0deg,16,16:1,0.0625,0,0.25

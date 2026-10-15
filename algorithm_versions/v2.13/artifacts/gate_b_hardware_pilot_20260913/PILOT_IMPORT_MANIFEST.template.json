@@ -1,0 +1,22 @@
+{
+  "schema": "v213-gate-b-import-manifest-1",
+  "dataset_id": "gate-b-hardware-pilot-fill-after-acquisition",
+  "source_kind": "hardware_measurement",
+  "independent_repeats": true,
+  "frequency_hz": 47000000000.0,
+  "receiver_channel": "calibrated_single_polarization_power",
+  "power_unit": "W",
+  "array_id": "fill-array-id",
+  "instrument": "fill-receiver-and-detector",
+  "calibration_reference_plane": "fill-reference-plane",
+  "calibration_id": "fill-calibration-id",
+  "source_files": [
+    "fill-measurements-long-csv-path"
+  ],
+  "generated_from_single_complex_g": false,
+  "not_for_training": true,
+  "external_test_used": false,
+  "pilot_design": "PILOT_SUMMARY.json",
+  "schedule": "pilot_schedule_r10.csv",
+  "notes": "Ten independent repeats split across session_A and session_B; fill all placeholder fields."
+}

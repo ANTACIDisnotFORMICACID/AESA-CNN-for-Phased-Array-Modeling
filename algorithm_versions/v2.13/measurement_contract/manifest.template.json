@@ -1,0 +1,20 @@
+{
+  "schema": "v213-gate-b-import-manifest-1",
+  "dataset_id": "replace-with-stable-dataset-id",
+  "source_kind": "hardware_measurement",
+  "independent_repeats": true,
+  "frequency_hz": 47000000000.0,
+  "receiver_channel": "calibrated_single_polarization_power",
+  "power_unit": "W",
+  "array_id": "replace-with-array-id",
+  "instrument": "replace-with-receiver-and-detector",
+  "calibration_reference_plane": "replace-with-reference-plane",
+  "calibration_id": "replace-with-calibration-id",
+  "source_files": [
+    "measurements_long.csv"
+  ],
+  "generated_from_single_complex_g": false,
+  "not_for_training": true,
+  "external_test_used": false,
+  "notes": "Each repeat must be an independently acquired sweep."
+}

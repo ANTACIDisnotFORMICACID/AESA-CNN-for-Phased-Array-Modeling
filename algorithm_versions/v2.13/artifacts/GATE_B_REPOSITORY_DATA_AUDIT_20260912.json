@@ -1,0 +1,51 @@
+{
+  "schema": "v213-gate-b-repository-data-audit-1",
+  "audit_date": "2026-09-12",
+  "repository_root": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26",
+  "scope": "read-only search for nonidentical repeated HFSS or measured amplitude/power observations",
+  "external_test_used": false,
+  "result": "no_eligible_independent_nonidentical_repeats",
+  "gate_b_status": "ideal_synthetic_only_hardware_blocked",
+  "candidates": [
+    {
+      "path": "algorithm_versions/v2.12/artifacts/hfss_operator_96_20260910/audit/power_repeats.npy",
+      "classification": "three_bit_identical_synthetic_repeats_from_one_g",
+      "shape": [32400, 96, 3],
+      "maximum_absolute_repeat_0_1_difference": 0.0,
+      "maximum_absolute_repeat_1_2_difference": 0.0,
+      "direction_command_cells_with_positive_repeat_range": 0,
+      "eligible": false,
+      "evidence": "PREPARATION.json and the generator both mark np.repeat(abs(g@w)^2,3) as a zero-noise synthetic baseline"
+    },
+    {
+      "path": "algorithm_versions/v2.10/artifacts/strict_single_pol_amplitude_20260908/dataset/amplitude.npy",
+      "classification": "single_amplitude_surface_synthesized_from_one_HFSS_complex_state",
+      "repeat_axis": false,
+      "eligible": false
+    },
+    {
+      "path": "algorithm_versions/v2.8/data/processed/hfss_47ghz_ephi_amplitude/amplitude.npy",
+      "classification": "single_amplitude_surface_synthesized_from_HFSS_FFD",
+      "repeat_axis": false,
+      "eligible": false
+    },
+    {
+      "path": "algorithm_versions/v2.13/hfss_gate_a/raw_direct_reports",
+      "classification": "eight_direct_HFSS_reports_for_eight_distinct_commands",
+      "repeat_axis": false,
+      "eligible": false,
+      "note": "H00 and H90 differ by an intentional global 90 degree source phase. Their power relative L2 difference is about 1.50e-15, but they are not independently repeated acquisitions and reuse the same converged HFSS solution."
+    },
+    {
+      "path": "algorithm_versions/v2.9/tools/hfss/batch_linear_superposition.py and derived complex_farfield artifacts",
+      "classification": "python_linear_superposition_from_stored_single_port_fields",
+      "eligible": false
+    },
+    {
+      "path": "algorithm_versions/v2.7/output/reports/oracle_repeatability_5pct.json",
+      "classification": "algorithmic_oracle_recomputation_not_measurement_repeatability",
+      "eligible": false
+    }
+  ],
+  "claim_boundary": "No artifact in the repository can estimate hardware power-noise covariance or close Gate B. The existing complex HFSS truth may only support synthetic-noise sensitivity and measurement design."
+}

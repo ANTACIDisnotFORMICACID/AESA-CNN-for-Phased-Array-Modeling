@@ -1,0 +1,174 @@
+{
+  "schema": "v213-hfss-gate-a-direct-export-1",
+  "passed": true,
+  "pyaedt_version": "0.9.6 (existing direct reports; packaging-only run)",
+  "aedt_version": "2025.2",
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\projects\\v2_8_array_4x4.aedt",
+  "project_sha256_before": "9577a2d1a356b0d03b65928f04d17afaf37c30872e4c8243df5a8b88ea097708",
+  "project_sha256_after": "9577a2d1a356b0d03b65928f04d17afaf37c30872e4c8243df5a8b88ea097708",
+  "project_unchanged_on_disk": true,
+  "restored_environment": {
+    "ANSYSEM_ROOT252": "machine",
+    "ANSYSLMD_LICENSE_FILE": "machine"
+  },
+  "data_boundary": "combined fields are direct HFSS report-engine outputs after Edit Sources; comparison fields alone are Python combinations of stored single-port FFDs",
+  "command_count": 8,
+  "grid": {
+    "theta_count": 181,
+    "phi_count": 361,
+    "point_count": 65341
+  },
+  "aggregate_complex_nmse": 1.1646270922194175e-23,
+  "aggregate_complex_nmse_db": -229.33813111304636,
+  "commands": [
+    {
+      "command_id": "H00",
+      "family": "uniform_phase_control_0deg",
+      "provenance": "reused_prior_direct_HFSS_report",
+      "not_python_superposition": true,
+      "raw_report": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.13\\hfss_gate_a\\raw_direct_reports\\H00_hfss_direct.csv",
+      "bytes": 5929732,
+      "theta_count": 181,
+      "phi_count": 361,
+      "point_count": 65341,
+      "source_report_unit": "V",
+      "stored_complex_unit": "V"
+    },
+    {
+      "command_id": "H90",
+      "family": "uniform_phase_control_90deg",
+      "provenance": "new_direct_HFSS_report_via_EditSources",
+      "not_python_superposition": true,
+      "raw_report": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.13\\hfss_gate_a\\raw_direct_reports\\H90_hfss_direct.csv",
+      "bytes": 2310181,
+      "theta_count": 181,
+      "phi_count": 361,
+      "point_count": 65341,
+      "source_report_unit": "mV",
+      "stored_complex_unit": "V"
+    },
+    {
+      "command_id": "P01",
+      "family": "random_continuous_phase_only",
+      "provenance": "new_direct_HFSS_report_via_EditSources",
+      "not_python_superposition": true,
+      "raw_report": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.13\\hfss_gate_a\\raw_direct_reports\\P01_hfss_direct.csv",
+      "bytes": 2307309,
+      "theta_count": 181,
+      "phi_count": 361,
+      "point_count": 65341,
+      "source_report_unit": "mV",
+      "stored_complex_unit": "V"
+    },
+    {
+      "command_id": "P02",
+      "family": "random_continuous_phase_only",
+      "provenance": "new_direct_HFSS_report_via_EditSources",
+      "not_python_superposition": true,
+      "raw_report": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.13\\hfss_gate_a\\raw_direct_reports\\P02_hfss_direct.csv",
+      "bytes": 2301403,
+      "theta_count": 181,
+      "phi_count": 361,
+      "point_count": 65341,
+      "source_report_unit": "mV",
+      "stored_complex_unit": "V"
+    },
+    {
+      "command_id": "P03",
+      "family": "random_continuous_phase_only",
+      "provenance": "new_direct_HFSS_report_via_EditSources",
+      "not_python_superposition": true,
+      "raw_report": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.13\\hfss_gate_a\\raw_direct_reports\\P03_hfss_direct.csv",
+      "bytes": 2308971,
+      "theta_count": 181,
+      "phi_count": 361,
+      "point_count": 65341,
+      "source_report_unit": "mV",
+      "stored_complex_unit": "V"
+    },
+    {
+      "command_id": "P04",
+      "family": "random_continuous_phase_only",
+      "provenance": "new_direct_HFSS_report_via_EditSources",
+      "not_python_superposition": true,
+      "raw_report": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.13\\hfss_gate_a\\raw_direct_reports\\P04_hfss_direct.csv",
+      "bytes": 2302691,
+      "theta_count": 181,
+      "phi_count": 361,
+      "point_count": 65341,
+      "source_report_unit": "mV",
+      "stored_complex_unit": "V"
+    },
+    {
+      "command_id": "A01",
+      "family": "random_amplitude_phase",
+      "provenance": "new_direct_HFSS_report_via_EditSources",
+      "not_python_superposition": true,
+      "raw_report": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.13\\hfss_gate_a\\raw_direct_reports\\A01_hfss_direct.csv",
+      "bytes": 2309751,
+      "theta_count": 181,
+      "phi_count": 361,
+      "point_count": 65341,
+      "source_report_unit": "mV",
+      "stored_complex_unit": "V"
+    },
+    {
+      "command_id": "A02",
+      "family": "random_amplitude_phase",
+      "provenance": "new_direct_HFSS_report_via_EditSources",
+      "not_python_superposition": true,
+      "raw_report": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.13\\hfss_gate_a\\raw_direct_reports\\A02_hfss_direct.csv",
+      "bytes": 2299638,
+      "theta_count": 181,
+      "phi_count": 361,
+      "point_count": 65341,
+      "source_report_unit": "mV",
+      "stored_complex_unit": "V"
+    }
+  ],
+  "per_command": [
+    {
+      "command_id": "H00",
+      "complex_nmse": 4.422254171907687e-30,
+      "complex_nmse_db": -293.54356299684787
+    },
+    {
+      "command_id": "H90",
+      "complex_nmse": 4.415105738290334e-30,
+      "complex_nmse_db": -293.55058890952523
+    },
+    {
+      "command_id": "P01",
+      "complex_nmse": 2.1132457000183105e-23,
+      "complex_nmse_db": -226.75050006043415
+    },
+    {
+      "command_id": "P02",
+      "complex_nmse": 1.7118411457924154e-23,
+      "complex_nmse_db": -227.66536539137078
+    },
+    {
+      "command_id": "P03",
+      "complex_nmse": 1.0701504859943629e-23,
+      "complex_nmse_db": -229.70555146948837
+    },
+    {
+      "command_id": "P04",
+      "complex_nmse": 1.2873107502634013e-23,
+      "complex_nmse_db": -228.90316603962472
+    },
+    {
+      "command_id": "A01",
+      "complex_nmse": 1.160035854228178e-23,
+      "complex_nmse_db": -229.35528587451694
+    },
+    {
+      "command_id": "A02",
+      "complex_nmse": 1.920177720279804e-23,
+      "complex_nmse_db": -227.16658573710546
+    }
+  ],
+  "prepared_npz": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.13\\hfss_gate_a\\prepared\\gate_a_hfss_direct_complex.npz",
+  "external_test_used": false,
+  "not_for_training": true
+}

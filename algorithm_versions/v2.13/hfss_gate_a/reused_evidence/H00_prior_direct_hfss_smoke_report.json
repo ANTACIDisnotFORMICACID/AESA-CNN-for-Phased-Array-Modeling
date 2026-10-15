@@ -1,0 +1,124 @@
+{
+  "aedt_process_id": 4864,
+  "attached_to_existing_desktop": true,
+  "available_far_field_displays": [
+    "Rectangular Plot",
+    "Rectangular Stacked Plot",
+    "Radiation Pattern",
+    "Data Table",
+    "3D Rectangular Plot",
+    "3D Rectangular Bar Plot",
+    "3D Polar Plot",
+    "3D Spherical Plot",
+    "Rectangular Contour Plot"
+  ],
+  "available_far_field_quantities": [
+    "GainTotal",
+    "GainPhi",
+    "GainTheta",
+    "GainX",
+    "GainY",
+    "GainZ",
+    "GainLHCP",
+    "GainRHCP",
+    "GainL3X",
+    "GainL3Y",
+    "GainCoPolar",
+    "GainCrossPolar"
+  ],
+  "available_report_types": [
+    "Modal Solution Data",
+    "Fields",
+    "Emission Test",
+    "Far Fields",
+    "Antenna Parameters"
+  ],
+  "design": "HFSSDesign1",
+  "exported_bytes": 5929732,
+  "exported_csv": "V:\\algorithm_versions\\v2.9\\data\\external_next\\hfss_direct_validation\\automation_smoke\\A01\\V29_API_SMOKE_cmd_A01_uniform_0_sources.csv",
+  "exported_line_count": 182,
+  "exported_sha256": "3A46556325C0951263B6F642AD3AB3544472154E795305B5A3BBC174B9FC6CD7",
+  "passed": true,
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\projects\\v2_8_array_4x4.aedt",
+  "project_sha256_after": "55DE531D9CA4729D85C3AAD3E2EEA0FFA13346E918591006AC639EB2E1B9A980",
+  "project_sha256_before": "55DE531D9CA4729D85C3AAD3E2EEA0FFA13346E918591006AC639EB2E1B9A980",
+  "project_unchanged_on_disk": true,
+  "pyaedt_version": "0.9.6",
+  "report_api_ok": true,
+  "requested_expressions": [
+    "re(rETheta)",
+    "im(rETheta)",
+    "re(rEPhi)",
+    "im(rEPhi)",
+    "RealizedGainTotal"
+  ],
+  "schema_version": 1,
+  "source_api_ok": true,
+  "source_csv": "V:\\algorithm_versions\\v2.9\\data\\external_next\\hfss_direct_validation\\commands\\sources\\cmd_A01_uniform_0_sources.csv",
+  "sources": {
+    "10:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "11:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "12:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "13:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "14:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "15:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "16:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "1:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "2:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "3:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "4:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "5:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "6:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "7:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "8:1": [
+      "0.0625W",
+      "0deg"
+    ],
+    "9:1": [
+      "0.0625W",
+      "0deg"
+    ]
+  }
+}

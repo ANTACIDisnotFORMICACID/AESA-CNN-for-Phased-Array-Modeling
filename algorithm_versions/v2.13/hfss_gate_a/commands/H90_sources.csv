@@ -1,0 +1,17 @@
+﻿command_id,family,port_index,source_name,power_w,phase_deg,amplitude_coefficient
+H90,uniform_phase_control_90deg,1,1:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,2,2:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,3,3:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,4,4:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,5,5:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,6,6:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,7,7:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,8,8:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,9,9:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,10,10:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,11,11:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,12,12:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,13,13:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,14,14:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,15,15:1,0.0625,90,0.25
+H90,uniform_phase_control_90deg,16,16:1,0.0625,90,0.25

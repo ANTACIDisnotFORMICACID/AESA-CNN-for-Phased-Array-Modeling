@@ -1,0 +1,17 @@
+﻿command_id,family,port_index,source_name,power_w,phase_deg,amplitude_coefficient
+P01,random_continuous_phase_only,1,1:1,0.0625,130.56404911666624,0.25
+P01,random_continuous_phase_only,2,2:1,0.0625,80.264159871903033,0.25
+P01,random_continuous_phase_only,3,3:1,0.0625,139.65936744115075,0.25
+P01,random_continuous_phase_only,4,4:1,0.0625,62.839917546187557,0.25
+P01,random_continuous_phase_only,5,5:1,0.0625,-161.64429062451921,0.25
+P01,random_continuous_phase_only,6,6:1,0.0625,145.61203724559957,0.25
+P01,random_continuous_phase_only,7,7:1,0.062499999999999986,51.864914644963946,0.24999999999999997
+P01,random_continuous_phase_only,8,8:1,0.0625,146.3992723170891,0.25
+P01,random_continuous_phase_only,9,9:1,0.062499999999999986,130.25361101240267,0.24999999999999997
+P01,random_continuous_phase_only,10,10:1,0.0625,116.42628060640459,0.25
+P01,random_continuous_phase_only,11,11:1,0.0625,57.277790014830863,0.25
+P01,random_continuous_phase_only,12,12:1,0.0625,-117.10736358734898,0.25
+P01,random_continuous_phase_only,13,13:1,0.0625,29.996272008959657,0.25
+P01,random_continuous_phase_only,14,14:1,0.0625,139.3528920632952,0.25
+P01,random_continuous_phase_only,15,15:1,0.0625,123.62278156897668,0.25
+P01,random_continuous_phase_only,16,16:1,0.0625,-68.117810874475055,0.25

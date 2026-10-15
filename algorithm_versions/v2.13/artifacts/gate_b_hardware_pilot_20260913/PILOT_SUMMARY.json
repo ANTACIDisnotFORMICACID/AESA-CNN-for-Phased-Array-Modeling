@@ -1,0 +1,189 @@
+{
+  "schema": "v213-gate-b-hardware-pilot-design-1",
+  "status": "measurement_plan_ready_gate_b_hardware_blocked",
+  "external_test_used": false,
+  "new_model_trained": false,
+  "source_truth": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.12\\artifacts\\hfss_operator_96_20260910\\audit\\hfss_complex_operator_audit_only.npz",
+  "source_split": "query_validation only",
+  "validation_population": 4900,
+  "pilot_direction_count": 240,
+  "command_count": 80,
+  "train_command_count": 64,
+  "heldout_validation_command_count": 16,
+  "recommended_repeat_count": 10,
+  "minimum_repeat_count": 3,
+  "selection": {
+    "seed": 21330,
+    "selection": "five mutually exclusive probability strata plus farthest-point coverage supplement",
+    "core_strata": [
+      "known_failure_angle",
+      "high_condition",
+      "strong_field",
+      "weak_field",
+      "other_validation"
+    ],
+    "per_core_stratum": 40,
+    "coverage_supplement": 40,
+    "population_counts": {
+      "known_failure_angle": 100,
+      "high_condition": 455,
+      "strong_field": 1098,
+      "weak_field": 1086,
+      "other_validation": 2161
+    },
+    "selected_counts": {
+      "known_failure_angle": 40,
+      "high_condition": 40,
+      "strong_field": 40,
+      "weak_field": 40,
+      "other_validation": 40
+    },
+    "poststratification_weight": {
+      "known_failure_angle": 2.5,
+      "high_condition": 11.375,
+      "strong_field": 27.45,
+      "weak_field": 27.15,
+      "other_validation": 54.025
+    },
+    "thresholds": {
+      "known_failure_theta_deg": [
+        50.0,
+        60.0
+      ],
+      "known_failure_phi_deg": [
+        30.0,
+        40.0
+      ],
+      "high_condition_p90": 19.21515464782715,
+      "strong_field_p75_db_relative": -4.148796081542969,
+      "weak_field_p25_db_relative": -12.049188613891602
+    },
+    "inference_rule": "Use only core_stratified rows with poststratification weights for whole-validation estimates; report coverage_diagnostic rows separately."
+  },
+  "coverage": {
+    "nearest_pilot_angle_deg": {
+      "minimum": 0.0,
+      "p05": 0.027566747646778963,
+      "median": 2.0129990577697754,
+      "p95": 4.051782608032227,
+      "maximum": 5.366076469421387
+    },
+    "validation_signal_db_relative": {
+      "minimum": -20.73063850402832,
+      "p05": -16.81910924911499,
+      "median": -6.867044925689697,
+      "p95": -1.6949803233146667,
+      "maximum": 0.0
+    },
+    "pilot_signal_db_relative": {
+      "minimum": -20.73063850402832,
+      "p05": -17.65662775039673,
+      "median": -7.60602331161499,
+      "p95": -1.6834292352199558,
+      "maximum": -0.35953718423843384
+    },
+    "validation_jacobian_condition": {
+      "minimum": 8.280765533447266,
+      "p05": 10.355541181564332,
+      "median": 14.820415019989014,
+      "p95": 20.458173179626467,
+      "maximum": 33.85150146484375
+    },
+    "pilot_jacobian_condition": {
+      "minimum": 8.931015014648438,
+      "p05": 10.837932062149049,
+      "median": 15.810424327850342,
+      "p95": 21.287680530548094,
+      "maximum": 26.576520919799805
+    }
+  },
+  "repeat_precision": [
+    {
+      "repeat_count": 3,
+      "degrees_of_freedom": 2,
+      "variance_95ci_factor_relative_to_sample_variance": [
+        0.2710850306818169,
+        39.49789020520721
+      ],
+      "standard_deviation_95ci_factor_relative_to_sample_std": [
+        0.5206582666988174,
+        6.2847346964853825
+      ],
+      "mean_power_95ci_half_width_percent_by_repeat_snr_db": {
+        "20": 24.841377117503303,
+        "30": 7.855533190649866,
+        "40": 2.4841377117503303
+      },
+      "assumptions": "independent approximately Gaussian repeat errors with fixed calibration state"
+    },
+    {
+      "repeat_count": 5,
+      "degrees_of_freedom": 4,
+      "variance_95ci_factor_relative_to_sample_variance": [
+        0.3589605184087298,
+        8.257321982142676
+      ],
+      "standard_deviation_95ci_factor_relative_to_sample_std": [
+        0.5991331391341409,
+        2.873555634078219
+      ],
+      "mean_power_95ci_half_width_percent_by_repeat_snr_db": {
+        "20": 12.41663998203764,
+        "30": 3.926486322955113,
+        "40": 1.241663998203764
+      },
+      "assumptions": "independent approximately Gaussian repeat errors with fixed calibration state"
+    },
+    {
+      "repeat_count": 10,
+      "degrees_of_freedom": 9,
+      "variance_95ci_factor_relative_to_sample_variance": [
+        0.4731172716434392,
+        3.3328525385191514
+      ],
+      "standard_deviation_95ci_factor_relative_to_sample_std": [
+        0.6878352067489997,
+        1.8256101825195739
+      ],
+      "mean_power_95ci_half_width_percent_by_repeat_snr_db": {
+        "20": 7.153569059706647,
+        "30": 2.262157162798205,
+        "40": 0.7153569059706647
+      },
+      "assumptions": "independent approximately Gaussian repeat errors with fixed calibration state"
+    },
+    {
+      "repeat_count": 20,
+      "degrees_of_freedom": 19,
+      "variance_95ci_factor_relative_to_sample_variance": [
+        0.5783456398680078,
+        2.133269504235973
+      ],
+      "standard_deviation_95ci_factor_relative_to_sample_std": [
+        0.7604903943298743,
+        1.4605716361192191
+      ],
+      "mean_power_95ci_half_width_percent_by_repeat_snr_db": {
+        "20": 4.680144064199197,
+        "30": 1.4799915020586765,
+        "40": 0.46801440641991965
+      },
+      "assumptions": "independent approximately Gaussian repeat errors with fixed calibration state"
+    }
+  ],
+  "observation_budget": {
+    "3": 57600,
+    "5": 96000,
+    "10": 192000,
+    "20": 384000
+  },
+  "analysis_contract": {
+    "whole_population_estimates": "core_stratified_only_with_poststratification_weights",
+    "coverage_diagnostics": "report_separately",
+    "noise_covariance": "per_direction_diagonal_from_repeats_plus_pooled_relative_cross_command_diagnostic",
+    "confidence_interval": "stratified_or_weighted_direction_bootstrap_95_percent",
+    "session_effect": "report_session_A_vs_session_B_and_use_mixed_effect_if_drift_is_detected",
+    "operator_nmse": "only_if_independent_calibrated_complex_reference_is_available"
+  },
+  "claim_boundary": "This is a privileged-HFSS-assisted measurement design, not hardware evidence."
+}
