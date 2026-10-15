@@ -1,0 +1,50 @@
+V2.5 complete-package regression record
+Date: 2026-08-24 (Asia/Shanghai)
+
+Scope:
+- V2.4 controller-training chain embedded in algorithm_versions/v2.5/code
+- V2.5 full-pattern physics renderer and compatibility wrapper
+- controller_training and full_pattern input/output evidence
+- inherited main baseline validator
+
+Command:
+python -X utf8 -B -m unittest discover -s algorithm_versions/v2.5/code -p "test_*.py" -v
+Result: 35 tests, PASS
+- V2.4 controller chain: 22/22
+- V2.5 full-pattern tests: 13/13
+
+Command:
+python -X utf8 -B algorithm_versions/v2.5/code/export_v24_controller_bundle.py --check
+Result: PASS; controller input/output JSON and 3 PNG views match frozen evidence
+
+Command:
+python -X utf8 -B algorithm_versions/v2.5/code/export_v25_comparison_bundle.py --check
+Result: PASS; full-pattern input/output JSON and 3 PNG views match frozen evidence;
+four text-source hashes use UTF-8/LF canonicalization
+
+Command:
+python -X utf8 -B algorithm_versions/v2.5/code/validate_v25_artifacts.py
+Result: PASS
+- exact package layout: code 20, input 3
+- controller output: 24 top-level files plus 3 pictures
+- full-pattern output: 15 top-level files plus 3 pictures
+- controller validation: 8 checkpoints strict-loaded, FP32/INT8 golden replay,
+  CSV/JSON mirrors, aggregate/paired recomputation, validation-only selection
+- full-pattern validation: 64 numerical cases, 2 independent golden NPZ files,
+  complexity/benchmark mirrors, intermediate values and contracts
+- historical input Git blob 6d11801fcc420937c381e475b7bfbe8345a2ddbf
+  replayed point-by-point on the 64x64 grid
+- CRLF and LF text-source bytes normalize to the same published SHA-256
+- V2.4 low-update controller direct/wrapper outputs bit-exact
+- all numerical acceptance gates passed
+
+Command:
+python -X utf8 -B validate_main_artifacts.py
+Result: PASS; inherited main reproduction remains complete
+
+Boundary:
+- The numerical and controller evidence is simulation-only, not OTA/FPGA data.
+- Full-pattern FP64/FP32 agreement proves formula implementation consistency,
+  not uncalibrated real-array accuracy.
+- The 64x64 renderer can remain host-side when FPGA control only needs 4 or 16
+  complex element weights.

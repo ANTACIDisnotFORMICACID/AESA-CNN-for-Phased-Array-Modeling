@@ -1,0 +1,13 @@
+topology,scenario,Q_profiles,P_commands_per_profile,M_far,R_far,M_near,R_near,total_far_complex_observations,total_near_complex_observations
+4x4,source_sparse_training,96,8,32,1,32,1,24576,3072
+1x4,source_sparse_training,96,8,8,1,12,1,6144,1152
+4x4,single_board_P8,1,8,32,1,32,1,256,32
+4x4,single_board_P16,1,16,32,1,32,1,512,32
+4x4,single_board_P32,1,32,32,1,32,1,1024,32
+4x4,single_board_P64,1,64,32,1,32,1,2048,32
+4x4,single_board_P128,1,128,32,1,32,1,4096,32
+1x4,single_board_P8,1,8,8,1,12,1,64,12
+1x4,single_board_P16,1,16,8,1,12,1,128,12
+1x4,single_board_P32,1,32,8,1,12,1,256,12
+1x4,single_board_P64,1,64,8,1,12,1,512,12
+1x4,single_board_P128,1,128,8,1,12,1,1024,12

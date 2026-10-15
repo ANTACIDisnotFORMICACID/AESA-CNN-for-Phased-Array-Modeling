@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.test_runtime/
+
+# Local environments and editor state
+.venv/
+venv/
+.idea/
+
+# Runtime logs and temporary files
+batch*.log
+*.tmp
+*.bak
+
+# HFSS/AEDT generated solver state (keep source .aedt projects separately)
+*.aedtresults/
+*.q3dresults/
+*.lock
+*.semaphore
+
+# Large, reproducible research payloads are kept outside ordinary Git history.
+# Compact reports, manifests, plots, source, configs, and tests remain tracked.
+algorithm_versions/v2.*/artifacts/**/*.pt
+algorithm_versions/v2.*/artifacts/**/*.pth
+algorithm_versions/v2.*/artifacts/**/*.npz
+algorithm_versions/v2.*/artifacts/**/*.npy
+algorithm_versions/v2.*/data/**/*.npz
+algorithm_versions/v2.*/data/**/*.npy
+algorithm_versions/v2.*/data/**/exports/complex_farfield/*.csv
+algorithm_versions/v2.*/data/**/exports/realized_gain/*.csv
+algorithm_versions/v2.*/runs/
+algorithm_versions/v2.17/hfss/cross_array_47ghz_v1/canonical/**/*.npz
+algorithm_versions/v2.17/hfss/cross_array_47ghz_v1/raw_exports/**/*.ffd
+algorithm_versions/v2.17/hfss/cross_array_47ghz_v1/raw_exports/**/raw_reports/
+algorithm_versions/v2.17/hfss/cross_array_47ghz_v1/projects/recovery_work/
+algorithm_versions/v2.17/hfss/cross_array_47ghz_v1/projects/native_solve_work/
+algorithm_versions/v2.17/hfss/cross_array_47ghz_v1/projects/manual_gui_work/
+algorithm_versions/v2.17/hfss/cross_array_47ghz_v1/projects/build_snapshots/
+algorithm_versions/v2.17/hfss/cross_array_47ghz_v1/projects/build_failures/

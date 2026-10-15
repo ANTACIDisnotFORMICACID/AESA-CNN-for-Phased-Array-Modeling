@@ -1,0 +1,42 @@
+V2.5 embedded V2.4 controller-training regression record
+Integration validation: 2026-08-24 (Asia/Shanghai)
+
+Package scope:
+- Mathematical/controller artifact version remains 2.4.0.
+- Code is located in algorithm_versions/v2.5/code.
+- Input is located in algorithm_versions/v2.5/input/controller_training.
+- Frozen output is located in algorithm_versions/v2.5/output/controller_training.
+- V2.5 is self-contained and does not require an algorithm_versions/v2.4 tree.
+
+Command:
+python -X utf8 -B -m unittest discover -s algorithm_versions/v2.5/code -p "test_*.py" -v
+Controller-side result: 22 tests, PASS
+Full package result: 35 tests, PASS, including 13 V2.5 full-pattern tests
+
+Command:
+python -X utf8 -B algorithm_versions/v2.5/code/export_v24_controller_bundle.py --check
+Result: PASS; one controller input JSON, one comparison output JSON and 3 PNG views match frozen data
+
+Command:
+python -X utf8 -B algorithm_versions/v2.5/code/validate_v24_controller_artifacts.py --version v2.4
+Result: PASS
+- 14 controller code dependencies present in the shared V2.5 code directory
+- 1 controller input JSON, 24 output files, 3 PNG views
+- CSV rows: aggregate 56, complexity 6, measurement budget/design 12/12,
+  paired comparisons 120, per-seed 282, training log 1350
+- 5 training seeds and 8 checkpoints strict-loaded with finite tensors
+- 4x4/1x4 FP32 and INT8 golden vectors independently replayed
+- integer-output, measurement-design and single-board validation gates passed
+- aggregate/paired statistics and derived release tables recomputed
+
+Frozen numerical-study provenance:
+- main experiment wall time: 428.7281467 s
+- training seeds: 24001, 24002, 24003, 24004, 24005
+- all aggregate groups: 5 seeds
+- all reported model amplitude violation rates: 0
+
+Boundary:
+- These are controlled nonideal simulations, not OTA or FPGA measurements.
+- Low-update checkpoints were selected on validation, never on test.
+- The two low-update checkpoints are stored only once under controller_training
+  and are consumed directly by the V2.5 full-pattern wrapper.

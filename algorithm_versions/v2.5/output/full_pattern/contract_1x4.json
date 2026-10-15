@@ -1,0 +1,44 @@
+{
+  "algorithm_version": "2.5.0",
+  "implementation": "deterministic_physics_renderer",
+  "renderer_dtype": "float32",
+  "array": {
+    "wavelength": 6.36502,
+    "x_spacing": 6.83,
+    "y_spacing": 15.0,
+    "x_num": 1,
+    "y_num": 4
+  },
+  "grid": {
+    "theta_min_deg": 60.0,
+    "theta_max_deg": 120.0,
+    "theta_points": 64,
+    "phi_min_deg": -30.0,
+    "phi_max_deg": 30.0,
+    "phi_points": 64
+  },
+  "input_shape": [
+    "B",
+    2,
+    1,
+    4
+  ],
+  "pattern_output_shape": [
+    "B",
+    2,
+    64,
+    64
+  ],
+  "row_axis": "phi",
+  "column_axis": "theta",
+  "phase_range_rad": {
+    "lower": 0.0,
+    "upper": 6.283185307179586,
+    "upper_inclusive": false
+  },
+  "magnitude_db": "absolute_20log10_with_legacy_zero_floor",
+  "trainable_parameters": 0,
+  "supports_position_errors": true,
+  "supports_element_response": true,
+  "supports_complex_coupling": true
+}

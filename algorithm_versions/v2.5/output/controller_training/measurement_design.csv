@@ -1,0 +1,13 @@
+﻿topology,measurement_count,dynamic_target_trials,full_column_rank_rate,minimum_rank,condition_number,selection
+4x4,8,2000,0.0,8,,nominal_geometry_greedy_d_optimal_plus_dynamic_target
+4x4,16,2000,0.9994999766349792,15,"{'median': 21.669448852539062, 'p90': 184.5537109375, 'max': 145750.84375}",nominal_geometry_greedy_d_optimal_plus_dynamic_target
+4x4,24,2000,1.0,16,"{'median': 1.6550650596618652, 'p90': 1.7407103776931763, 'max': 1.7868256568908691}",nominal_geometry_greedy_d_optimal_plus_dynamic_target
+4x4,32,2000,1.0,16,"{'median': 1.4652798175811768, 'p90': 1.5469512939453125, 'max': 1.6041827201843262}",nominal_geometry_greedy_d_optimal_plus_dynamic_target
+4x4,48,2000,1.0,16,"{'median': 1.2991294860839844, 'p90': 1.3459392786026, 'max': 1.3909164667129517}",nominal_geometry_greedy_d_optimal_plus_dynamic_target
+4x4,64,2000,1.0,16,"{'median': 1.2332597970962524, 'p90': 1.2695146799087524, 'max': 1.303808331489563}",nominal_geometry_greedy_d_optimal_plus_dynamic_target
+4x4,96,2000,1.0,16,"{'median': 1.1564550399780273, 'p90': 1.181248664855957, 'max': 1.1947259902954102}",nominal_geometry_greedy_d_optimal_plus_dynamic_target
+1x4,4,2000,1.0,4,"{'median': 8.73686695098877, 'p90': 38.55753707885742, 'max': 10213.97265625}",nominal_geometry_greedy_d_optimal_plus_dynamic_target
+1x4,6,2000,1.0,4,"{'median': 1.4816476106643677, 'p90': 1.6568552255630493, 'max': 1.685580849647522}",nominal_geometry_greedy_d_optimal_plus_dynamic_target
+1x4,8,2000,1.0,4,"{'median': 1.509041666984558, 'p90': 1.5637644529342651, 'max': 1.5913182497024536}",nominal_geometry_greedy_d_optimal_plus_dynamic_target
+1x4,12,2000,1.0,4,"{'median': 1.2867543697357178, 'p90': 1.3585004806518555, 'max': 1.3632533550262451}",nominal_geometry_greedy_d_optimal_plus_dynamic_target
+1x4,16,2000,1.0,4,"{'median': 1.2064847946166992, 'p90': 1.2466001510620117, 'max': 1.2504754066467285}",nominal_geometry_greedy_d_optimal_plus_dynamic_target

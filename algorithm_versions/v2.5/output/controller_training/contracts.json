@@ -1,0 +1,74 @@
+{
+  "4x4": {
+    "algorithm_version": "2.4.0",
+    "topology": "4x4",
+    "x_num": 4,
+    "y_num": 4,
+    "sparse_measurement_count": 32,
+    "measurement_mode": "coherent_iq",
+    "input_iq_bits": 16,
+    "output_iq_bits": 8,
+    "accumulator_bits": 32,
+    "complex_amplitude_limit": 1.0,
+    "target_feature_count": 7,
+    "state_feature_count": 4,
+    "controller_input_shape": [
+      "B",
+      10,
+      4,
+      4
+    ],
+    "controller_output_shape": [
+      "B",
+      2,
+      4,
+      4
+    ],
+    "sparse_label_shape": [
+      "B",
+      2,
+      32
+    ],
+    "total_measurement_count": 32,
+    "dynamic_target_measurement_count": 1,
+    "fixed_measurement_count": 31,
+    "measurement_order": "dynamic_target_then_fixed_angles",
+    "integer_output_constraint": "qI^2+qQ^2<=127^2"
+  },
+  "1x4": {
+    "algorithm_version": "2.4.0",
+    "topology": "1x4",
+    "x_num": 1,
+    "y_num": 4,
+    "sparse_measurement_count": 8,
+    "measurement_mode": "coherent_iq",
+    "input_iq_bits": 16,
+    "output_iq_bits": 8,
+    "accumulator_bits": 32,
+    "complex_amplitude_limit": 1.0,
+    "target_feature_count": 7,
+    "state_feature_count": 4,
+    "controller_input_shape": [
+      "B",
+      10,
+      1,
+      4
+    ],
+    "controller_output_shape": [
+      "B",
+      2,
+      1,
+      4
+    ],
+    "sparse_label_shape": [
+      "B",
+      2,
+      8
+    ],
+    "total_measurement_count": 8,
+    "dynamic_target_measurement_count": 1,
+    "fixed_measurement_count": 7,
+    "measurement_order": "dynamic_target_then_fixed_angles",
+    "integer_output_constraint": "qI^2+qQ^2<=127^2"
+  }
+}

@@ -1,0 +1,31 @@
+* text=auto
+
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+
+# Preserve machine-readable research receipts byte-for-byte. Some audit files
+# record hashes of other JSON/CSV payloads, so newline conversion would break
+# the sealed evidence chain.
+*.json -text
+*.csv -text
+*.txt -text
+*.s4p -text
+*.s8p -text
+
+# Dependency declaration is maintained as portable source text.
+requirements.txt text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.npz binary
+*.npy binary
+*.pt binary
+*.pth binary
+*.aedt binary
+*.ffd binary

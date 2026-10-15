@@ -1,0 +1,7 @@
+model,topology,input_elements,parameters,macs_per_sample,fp32_parameter_bytes,int8_parameter_bytes_approx,scope
+legacy_direction_map_cnn,4x4,16,2352770,31666176,9411080,2352770,Conv/Linear multiplication MACs; bias and nonlinear ops excluded
+legacy_direction_map_cnn,1x4,4,2352770,29297664,9411080,2352770,Conv/Linear multiplication MACs; bias and nonlinear ops excluded
+v24_topology_cnn,4x4,16,5538,67104,22152,5538,Conv/Linear multiplication MACs; bias and nonlinear ops excluded
+v24_topology_cnn,1x4,4,4962,15264,19848,4962,Conv/Linear multiplication MACs; bias and nonlinear ops excluded
+v23_physics_frontend_plus_v24_cnn,4x4,16,8002,69536,32008,8002,Conv/Linear multiplication MACs; bias and nonlinear ops excluded
+v23_physics_frontend_plus_v24_cnn,1x4,4,5290,15584,21160,5290,Conv/Linear multiplication MACs; bias and nonlinear ops excluded

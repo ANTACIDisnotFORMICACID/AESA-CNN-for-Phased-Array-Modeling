@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "algorithm_version": "2.5.0",
+  "study": "V2.5 full complex pattern compatibility",
+  "seed": 20260823,
+  "grid": {
+    "theta_deg": [
+      60.0,
+      120.0,
+      64
+    ],
+    "phi_deg": [
+      -30.0,
+      30.0,
+      64
+    ],
+    "matrix_semantics": "[phi_row, theta_column]"
+  },
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "torch": "2.12.1+cpu",
+    "numpy": "2.1.3",
+    "torch_num_threads": 1,
+    "device": "cpu"
+  },
+  "accuracy_summary": {
+    "4x4": {
+      "ideal": {
+        "float64": {
+          "case_count": 8,
+          "worst_max_abs_error": 2.6645352591003757e-15,
+          "worst_relative_l2": 2.0023988626807075e-16,
+          "worst_nmse_db": -313.9689882013929,
+          "mean_rmse": 3.5182477535443426e-16
+        },
+        "float32": {
+          "case_count": 8,
+          "worst_max_abs_error": 1.753034454932134e-05,
+          "worst_relative_l2": 1.6456126112187226e-06,
+          "worst_nmse_db": -115.67344786134547,
+          "mean_rmse": 2.7277665541857547e-06
+        }
+      },
+      "position_amp_phase_coupling": {
+        "float64": {
+          "case_count": 8,
+          "worst_max_abs_error": 2.6645352591003757e-15,
+          "worst_relative_l2": 2.978115093304221e-16,
+          "worst_nmse_db": -310.5211704471835,
+          "mean_rmse": 4.878549919946357e-16
+        },
+        "float32": {
+          "case_count": 8,
+          "worst_max_abs_error": 1.8961872092049248e-05,
+          "worst_relative_l2": 1.675862490388765e-06,
+          "worst_nmse_db": -115.51523238852285,
+          "mean_rmse": 2.805094159206263e-06
+        }
+      }
+    },
+    "1x4": {
+      "ideal": {
+        "float64": {
+          "case_count": 8,
+          "worst_max_abs_error": 4.440892098500626e-16,
+          "worst_relative_l2": 1.3377101077493928e-16,
+          "worst_nmse_db": -317.4727598277078,
+          "mean_rmse": 1.0878565974857748e-16
+        },
+        "float32": {
+          "case_count": 8,
+          "worst_max_abs_error": 6.292587991563181e-06,
+          "worst_relative_l2": 1.788891254325871e-06,
+          "worst_nmse_db": -114.94832118285764,
+          "mean_rmse": 1.3862858382426924e-06
+        }
+      },
+      "position_amp_phase_coupling": {
+        "float64": {
+          "case_count": 8,
+          "worst_max_abs_error": 8.881784197001252e-16,
+          "worst_relative_l2": 2.24818769952275e-16,
+          "worst_nmse_db": -312.96334865330505,
+          "mean_rmse": 1.5648706677569589e-16
+        },
+        "float32": {
+          "case_count": 8,
+          "worst_max_abs_error": 7.223982032344978e-06,
+          "worst_relative_l2": 1.730181101870437e-06,
+          "worst_nmse_db": -115.23816871862023,
+          "mean_rmse": 1.4016131333602647e-06
+        }
+      }
+    }
+  },
+  "legacy_visualization_formula_parity": {
+    "4x4": {
+      "max_abs_complex_error_vs_original_visualization_formula": 7.338397831473715e-15,
+      "rmse_complex_vs_original_visualization_formula": 1.364673322993231e-15,
+      "shape": [
+        64,
+        64
+      ],
+      "row_axis": "phi",
+      "column_axis": "theta"
+    },
+    "1x4": {
+      "max_abs_complex_error_vs_original_visualization_formula": 4.440892098500626e-16,
+      "rmse_complex_vs_original_visualization_formula": 1.6312858472218477e-16,
+      "shape": [
+        64,
+        64
+      ],
+      "row_axis": "phi",
+      "column_axis": "theta"
+    }
+  },
+  "untouched_historical_json_replay": {
+    "git_path": "output_json/output_20260425_202604_01be8f59.json",
+    "package_input": "input/full_pattern/historical_replay_input.json",
+    "source_commit": "bf352ac73ba2e2024081b98591e05409eac89317",
+    "source_blob": "6d11801fcc420937c381e475b7bfbe8345a2ddbf",
+    "git_text_line_endings_normalized": true,
+    "topology": "1x4",
+    "wavelength": 6.83,
+    "shape": [
+      64,
+      64
+    ],
+    "complex_field_max_abs_error": 1.932075168157056e-14,
+    "complex_field_relative_l2": 3.626298394179489e-15,
+    "magnitude_db_max_abs_error": 1.7408297026122455e-13,
+    "phase_unit_phasor_max_abs_error": 2.588343968081886e-14
+  },
+  "v24_controller_regression": {
+    "4x4": {
+      "checkpoint": "v24_4x4_low_update_controller.pt",
+      "package_path": "output/controller_training/v24_4x4_low_update_controller.pt",
+      "sha256": "71eaae9bbcb6318a73c6c5c99483b1595c98186a556597a497a24cfff5741341",
+      "algorithm_version": "2.4.0",
+      "training_regime": "single_board_low_update",
+      "selected_update": "zero_shot",
+      "selection_split": "single_board_validation",
+      "selected_seed": 24003,
+      "strict_load": true,
+      "max_abs_difference": 0.0,
+      "renderer_state_dict_keys": [],
+      "conclusion": "bit_exact_unchanged"
+    },
+    "1x4": {
+      "checkpoint": "v24_1x4_low_update_controller.pt",
+      "package_path": "output/controller_training/v24_1x4_low_update_controller.pt",
+      "sha256": "e94dd9f69d9761cc7ce1bf480e6a6a46f9475dc023720333c6c064a0b46ed809",
+      "algorithm_version": "2.4.0",
+      "training_regime": "single_board_low_update",
+      "selected_update": "zero_shot",
+      "selection_split": "single_board_validation",
+      "selected_seed": 24001,
+      "strict_load": true,
+      "max_abs_difference": 0.0,
+      "renderer_state_dict_keys": [],
+      "conclusion": "bit_exact_unchanged"
+    }
+  },
+  "complexity": [
+    {
+      "topology": "4x4",
+      "controller_parameters": 5538,
+      "full_pattern_parameters": 0,
+      "total_trainable_parameters": 5538,
+      "controller_macs": 67104,
+      "renderer_real_macs": 262144,
+      "optional_coupling_real_macs": 1024,
+      "optional_element_response_real_macs": 64,
+      "nonideal_contraction_real_macs": 263232,
+      "end_to_end_real_macs": 329248,
+      "end_to_end_nonideal_contraction_real_macs": 330336,
+      "cached_steering_bytes_fp32": 524288,
+      "legacy_forward_cnn_parameters": 2352770,
+      "legacy_forward_cnn_input_elements": 16,
+      "legacy_forward_cnn_macs": 31932928,
+      "legacy_cnn_training_evidence_for_topology": false,
+      "legacy_over_renderer_macs_ratio": 121.814453125,
+      "legacy_over_end_to_end_macs_ratio": 96.98746233841968
+    },
+    {
+      "topology": "1x4",
+      "controller_parameters": 4962,
+      "full_pattern_parameters": 0,
+      "total_trainable_parameters": 4962,
+      "controller_macs": 15264,
+      "renderer_real_macs": 65536,
+      "optional_coupling_real_macs": 64,
+      "optional_element_response_real_macs": 16,
+      "nonideal_contraction_real_macs": 65616,
+      "end_to_end_real_macs": 80800,
+      "end_to_end_nonideal_contraction_real_macs": 80880,
+      "cached_steering_bytes_fp32": 131072,
+      "legacy_forward_cnn_parameters": 2352770,
+      "legacy_forward_cnn_input_elements": 4,
+      "legacy_forward_cnn_macs": 29552128,
+      "legacy_cnn_training_evidence_for_topology": true,
+      "legacy_over_renderer_macs_ratio": 450.9296875,
+      "legacy_over_end_to_end_macs_ratio": 365.7441584158416
+    }
+  ],
+  "benchmark": [
+    {
+      "topology": "4x4",
+      "operation": "controller_only",
+      "warmup": 25,
+      "repeats": 200,
+      "median_ms": 0.7631,
+      "mean_ms": 0.775663,
+      "p95_ms": 0.895,
+      "min_ms": 0.6963,
+      "max_ms": 1.0564
+    },
+    {
+      "topology": "4x4",
+      "operation": "full_pattern_only_cached_ideal",
+      "warmup": 25,
+      "repeats": 200,
+      "median_ms": 0.2511,
+      "mean_ms": 0.258937,
+      "p95_ms": 0.3099,
+      "min_ms": 0.2348,
+      "max_ms": 0.5307
+    },
+    {
+      "topology": "4x4",
+      "operation": "controller_plus_full_pattern",
+      "warmup": 25,
+      "repeats": 200,
+      "median_ms": 1.0412499999999998,
+      "mean_ms": 1.064165,
+      "p95_ms": 1.1914,
+      "min_ms": 0.988,
+      "max_ms": 1.4607
+    },
+    {
+      "topology": "1x4",
+      "operation": "controller_only",
+      "warmup": 25,
+      "repeats": 200,
+      "median_ms": 0.7612,
+      "mean_ms": 0.782628,
+      "p95_ms": 0.8887,
+      "min_ms": 0.7028,
+      "max_ms": 1.6101
+    },
+    {
+      "topology": "1x4",
+      "operation": "full_pattern_only_cached_ideal",
+      "warmup": 25,
+      "repeats": 200,
+      "median_ms": 0.2362,
+      "mean_ms": 0.245118,
+      "p95_ms": 0.2965,
+      "min_ms": 0.2223,
+      "max_ms": 0.458
+    },
+    {
+      "topology": "1x4",
+      "operation": "controller_plus_full_pattern",
+      "warmup": 25,
+      "repeats": 200,
+      "median_ms": 1.02455,
+      "mean_ms": 1.0451575,
+      "p95_ms": 1.1842,
+      "min_ms": 0.9424,
+      "max_ms": 1.3179
+    }
+  ],
+  "legacy_learned_cnn_historical_baseline": {
+    "name": "original_learned_forward_cnn",
+    "parameters": 2352770,
+    "macs_per_sample_n4_historical_path": 29552128,
+    "macs_per_sample_n16_analysis_example": 31932928,
+    "standardized_complex_loss": 0.00282475,
+    "physical_complex_nmse_db": -28.592,
+    "mean_sample_relative_l2_percent": 3.416,
+    "magnitude_correlation": 0.99854,
+    "cpu_batch1_median_ms_historical": 3.99,
+    "scope_note": "历史验证集上的学习代理结果；不是浮点公式一致性误差。"
+  },
+  "acceptance_gates": {
+    "all_fp64_max_abs_le_1e-10": true,
+    "all_fp32_max_abs_le_5e-5": true,
+    "legacy_scalar_formula_parity_le_1e-10": true,
+    "untouched_historical_json_field_parity_le_1e-10": true,
+    "v24_controller_bit_exact": true
+  },
+  "controller_provenance": {
+    "origin_version": "v2.4",
+    "integration_version": "v2.5",
+    "storage_scope": "output/controller_training",
+    "checkpoints": {
+      "4x4": {
+        "package_path": "output/controller_training/v24_4x4_low_update_controller.pt",
+        "sha256": "71eaae9bbcb6318a73c6c5c99483b1595c98186a556597a497a24cfff5741341",
+        "algorithm_version": "2.4.0",
+        "selected_seed": 24003,
+        "selection_split": "single_board_validation"
+      },
+      "1x4": {
+        "package_path": "output/controller_training/v24_1x4_low_update_controller.pt",
+        "sha256": "e94dd9f69d9761cc7ce1bf480e6a6a46f9475dc023720333c6c064a0b46ed809",
+        "algorithm_version": "2.4.0",
+        "selected_seed": 24001,
+        "selection_split": "single_board_validation"
+      }
+    },
+    "statement": "V2.5 adds the full-pattern renderer and wrapper; the inherited V2.4 controllers remain algorithm_version 2.4.0 and are loaded strictly from this version package without numerical modification."
+  },
+  "numerical_generated_files": [
+    "benchmark.csv",
+    "complexity.csv",
+    "contract_4x4.json",
+    "contract_1x4.json",
+    "golden_full_pattern_4x4.npz",
+    "golden_full_pattern_1x4.npz",
+    "intermediate_values.json",
+    "legacy_full_pattern_1x4.json",
+    "metrics.json",
+    "numerical_cases.csv"
+  ],
+  "release_files": [
+    "KNOWN_LIMITATIONS.md",
+    "V2.5组会讲解与答辩手册.md",
+    "benchmark.csv",
+    "comparison_results.json",
+    "complexity.csv",
+    "contract_1x4.json",
+    "contract_4x4.json",
+    "golden_full_pattern_1x4.npz",
+    "golden_full_pattern_4x4.npz",
+    "intermediate_values.json",
+    "legacy_full_pattern_1x4.json",
+    "metrics.json",
+    "numerical_cases.csv",
+    "test_log.txt",
+    "报告.md"
+  ],
+  "release_picture_files": [
+    "golden_full_pattern_1x4.png",
+    "golden_full_pattern_4x4.png",
+    "performance_comparison.png"
+  ],
+  "interpretation_boundary": "公式一致性只证明理想/显式非理想阵列模型计算正确；不等于未经实测校准即可精确代表真实天线。"
+}

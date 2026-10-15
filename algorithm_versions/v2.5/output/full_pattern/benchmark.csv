@@ -1,0 +1,7 @@
+﻿topology,operation,warmup,repeats,median_ms,mean_ms,p95_ms,min_ms,max_ms
+4x4,controller_only,25,200,0.7631,0.775663,0.895,0.6963,1.0564
+4x4,full_pattern_only_cached_ideal,25,200,0.2511,0.258937,0.3099,0.2348,0.5307
+4x4,controller_plus_full_pattern,25,200,1.0412499999999998,1.064165,1.1914,0.988,1.4607
+1x4,controller_only,25,200,0.7612,0.782628,0.8887,0.7028,1.6101
+1x4,full_pattern_only_cached_ideal,25,200,0.2362,0.245118,0.2965,0.2223,0.458
+1x4,controller_plus_full_pattern,25,200,1.02455,1.0451575,1.1842,0.9424,1.3179
