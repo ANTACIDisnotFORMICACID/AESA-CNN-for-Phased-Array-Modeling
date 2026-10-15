@@ -1,0 +1,74 @@
+[
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 0.0,
+    "rank1_training_normalized_residual": 8.018072323982568e-15,
+    "minimum_jacobian_singular_value": 167912.46875,
+    "jacobian_condition": 9.779685974121094
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 4.76837158203125e-07,
+    "rank1_training_normalized_residual": 1.8381426412981787e-14,
+    "minimum_jacobian_singular_value": 170841.1875,
+    "jacobian_condition": 9.788114547729492
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 4.76837158203125e-07,
+    "rank1_training_normalized_residual": 4.701937911965508e-15,
+    "minimum_jacobian_singular_value": 173875.015625,
+    "jacobian_condition": 9.797143936157227
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 3.933892003260553e-07,
+    "rank1_training_normalized_residual": 1.1238209527471982e-14,
+    "minimum_jacobian_singular_value": 177018.734375,
+    "jacobian_condition": 9.806740760803223
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 3.099412424489856e-07,
+    "rank1_training_normalized_residual": 1.3735368535096066e-14,
+    "minimum_jacobian_singular_value": 179499.703125,
+    "jacobian_condition": 9.816864967346191
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 0.0,
+    "rank1_training_normalized_residual": 1.9137774318837147e-14,
+    "minimum_jacobian_singular_value": 182088.515625,
+    "jacobian_condition": 9.82748794555664
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 7.033304427750409e-07,
+    "rank1_training_normalized_residual": 1.1888403029212697e-14,
+    "minimum_jacobian_singular_value": 184827.921875,
+    "jacobian_condition": 9.838592529296875
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 0.0,
+    "rank1_training_normalized_residual": 1.2537908740200242e-14,
+    "minimum_jacobian_singular_value": 187726.734375,
+    "jacobian_condition": 9.850194931030273
+  }
+]

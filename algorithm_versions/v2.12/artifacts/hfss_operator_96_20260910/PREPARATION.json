@@ -1,0 +1,59 @@
+{
+  "schema": "v212-prepared-hfss-operator-data-1",
+  "query_count": 32400,
+  "command_count": 96,
+  "training_labels": "single-polarization amplitude only",
+  "complex_audit_written": true,
+  "repeat_measurements": {
+    "count": 3,
+    "kind": "synthetic_identical_zero_noise_baseline",
+    "represents_hardware_repeatability": false
+  },
+  "dataset_manifest": {
+    "schema_version": "v2.8-amplitude-1",
+    "source_type": "hfss_amplitude",
+    "frequency_hz": 47000000000.0,
+    "receiver_channel": "ephi",
+    "amplitude_unit": "V/m",
+    "reference_distance_m": 1.0,
+    "excitation_reference": "known unit-L2 4x4 complex command at HFSS port planes",
+    "inactive_port_termination": "50 ohm matched",
+    "calibration_reference_plane": "HFSS lumped-port reference planes",
+    "array_id": "hfss-47ghz-4x4",
+    "session_id": "v212-hfss-ephi-96-command",
+    "noise_floor_amplitude": 0.0,
+    "phase_available": false,
+    "rows": 4,
+    "cols": 4,
+    "command_axes": [
+      "command",
+      "iq",
+      "row",
+      "col"
+    ],
+    "amplitude_axes": [
+      "command",
+      "query"
+    ],
+    "direction_axes": [
+      "query",
+      "xyz"
+    ],
+    "provenance": {
+      "conversion": "HFSS complex Ephi was coherently synthesized, then only abs(.) entered training",
+      "source_files": [
+        "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\artifacts\\front_hemisphere_20260906\\datasets\\dev\\train.npz",
+        "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\artifacts\\front_hemisphere_20260906\\datasets\\dev\\validation.npz",
+        "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\artifacts\\front_hemisphere_20260906\\datasets\\reserved\\calibration.npz",
+        "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\artifacts\\front_hemisphere_20260906\\datasets\\reserved\\holdout.npz"
+      ],
+      "hemisphere": "strict q_x > 0",
+      "raw_complex_data_available_to_training": false,
+      "measured_phase_exported_to_training_dataset": false,
+      "operator_iq_used": false,
+      "s_parameters_used": false,
+      "command_protocol": "v212-measurement-codebook-1",
+      "repeat_artifact": "three identical synthetic HFSS repeats; zero-noise baseline only"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "v212-filtration-basis-audit-1",
+  "training_direction_count": 22600,
+  "measure": "equal empirical loss weights",
+  "degrees": {
+    "4": {
+      "raw_channels": 25,
+      "retained_channels": 25,
+      "ranks": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "discarded_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_gram_condition": 266464.9566285498,
+      "retained_condition": 286.4352093073413,
+      "transformed_condition": 1.0000000000134717
+    },
+    "5": {
+      "raw_channels": 36,
+      "retained_channels": 36,
+      "ranks": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "discarded_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_gram_condition": 9158147.18211243,
+      "retained_condition": 1205.8404415822415,
+      "transformed_condition": 1.000000000153519
+    }
+  }
+}

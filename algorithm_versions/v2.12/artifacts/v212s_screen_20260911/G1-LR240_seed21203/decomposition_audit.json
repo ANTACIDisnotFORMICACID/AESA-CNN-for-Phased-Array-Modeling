@@ -1,0 +1,12 @@
+{
+  "schema": "v212s-latent-decomposition-audit-1",
+  "recipe": "G1-LR240",
+  "measure": "empirical_equal_train_loss",
+  "query_count": 22600,
+  "test_status": "sealed",
+  "interpretation": "latent architecture decomposition, not identifiable physical truth",
+  "fourier_low_filtration_leakage": null,
+  "fourier_residual_rms": 5.91048526763916,
+  "ssh_degree_output_rms": {},
+  "input_projection": null
+}

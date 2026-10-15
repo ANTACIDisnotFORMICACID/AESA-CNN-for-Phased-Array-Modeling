@@ -1,0 +1,290 @@
+[
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 0.0,
+    "rank1_training_normalized_residual": 8.018072323982568e-15,
+    "minimum_jacobian_singular_value": 167912.46875,
+    "jacobian_condition": 9.779685974121094
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 4.76837158203125e-07,
+    "rank1_training_normalized_residual": 1.8381426412981787e-14,
+    "minimum_jacobian_singular_value": 170841.1875,
+    "jacobian_condition": 9.788114547729492
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 4.76837158203125e-07,
+    "rank1_training_normalized_residual": 4.701937911965508e-15,
+    "minimum_jacobian_singular_value": 173875.015625,
+    "jacobian_condition": 9.797143936157227
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 3.933892003260553e-07,
+    "rank1_training_normalized_residual": 1.1238209527471982e-14,
+    "minimum_jacobian_singular_value": 177018.734375,
+    "jacobian_condition": 9.806740760803223
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 3.099412424489856e-07,
+    "rank1_training_normalized_residual": 1.3735368535096066e-14,
+    "minimum_jacobian_singular_value": 179499.703125,
+    "jacobian_condition": 9.816864967346191
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 0.0,
+    "rank1_training_normalized_residual": 1.9137774318837147e-14,
+    "minimum_jacobian_singular_value": 182088.515625,
+    "jacobian_condition": 9.82748794555664
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 7.033304427750409e-07,
+    "rank1_training_normalized_residual": 1.1888403029212697e-14,
+    "minimum_jacobian_singular_value": 184827.921875,
+    "jacobian_condition": 9.838592529296875
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 0.0,
+    "rank1_training_normalized_residual": 1.2537908740200242e-14,
+    "minimum_jacobian_singular_value": 187726.734375,
+    "jacobian_condition": 9.850194931030273
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 3.159038897138089e-07,
+    "rank1_training_normalized_residual": 8.96867876596123e-15,
+    "minimum_jacobian_singular_value": 189369.359375,
+    "jacobian_condition": 9.862323760986328
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 3.933892003260553e-07,
+    "rank1_training_normalized_residual": 9.1010166525414e-15,
+    "minimum_jacobian_singular_value": 188167.796875,
+    "jacobian_condition": 9.87503433227539
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 1.549706212244928e-07,
+    "rank1_training_normalized_residual": 1.397515085696955e-14,
+    "minimum_jacobian_singular_value": 186986.625,
+    "jacobian_condition": 9.888447761535645
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 3.099412424489856e-07,
+    "rank1_training_normalized_residual": 1.507989696655776e-14,
+    "minimum_jacobian_singular_value": 185822.875,
+    "jacobian_condition": 9.902711868286133
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 9.5367431640625e-07,
+    "rank1_training_normalized_residual": 9.454858737026253e-15,
+    "minimum_jacobian_singular_value": 188145.34375,
+    "jacobian_condition": 9.918057441711426
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 4.76837158203125e-07,
+    "rank1_training_normalized_residual": 5.698484032871454e-15,
+    "minimum_jacobian_singular_value": 190922.453125,
+    "jacobian_condition": 9.934782028198242
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 4.76837158203125e-07,
+    "rank1_training_normalized_residual": 1.459418794581141e-14,
+    "minimum_jacobian_singular_value": 199040.53125,
+    "jacobian_condition": 9.95327091217041
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 0.0,
+    "rank1_training_normalized_residual": 9.087392127584814e-15,
+    "minimum_jacobian_singular_value": 209788.0,
+    "jacobian_condition": 9.97402286529541
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 2.384185791015625e-07,
+    "rank1_training_normalized_residual": 2.0349271990767817e-14,
+    "minimum_jacobian_singular_value": 221619.953125,
+    "jacobian_condition": 9.997639656066895
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 3.159038897138089e-07,
+    "rank1_training_normalized_residual": 1.3385737051392014e-14,
+    "minimum_jacobian_singular_value": 224116.84375,
+    "jacobian_condition": 10.024887084960938
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 0.0,
+    "rank1_training_normalized_residual": 1.5903170639641577e-14,
+    "minimum_jacobian_singular_value": 222658.421875,
+    "jacobian_condition": 10.056669235229492
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 0.0,
+    "rank1_training_normalized_residual": 2.362945451285514e-14,
+    "minimum_jacobian_singular_value": 230399.015625,
+    "jacobian_condition": 10.094048500061035
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 9.5367431640625e-07,
+    "rank1_training_normalized_residual": 1.5385830020512963e-14,
+    "minimum_jacobian_singular_value": 281712.8125,
+    "jacobian_condition": 11.222114562988281
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 3.5762786865234375e-07,
+    "rank1_training_normalized_residual": 2.0341553826552436e-14,
+    "minimum_jacobian_singular_value": 277947.28125,
+    "jacobian_condition": 11.390326499938965
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 1.549706212244928e-07,
+    "rank1_training_normalized_residual": 2.3640462553037658e-14,
+    "minimum_jacobian_singular_value": 267632.0625,
+    "jacobian_condition": 11.55575942993164
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 7.867784006521106e-07,
+    "rank1_training_normalized_residual": 1.1090896098384356e-14,
+    "minimum_jacobian_singular_value": 274633.0,
+    "jacobian_condition": 11.709878921508789
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 3.933892003260553e-07,
+    "rank1_training_normalized_residual": 1.7056063796017616e-14,
+    "minimum_jacobian_singular_value": 282918.46875,
+    "jacobian_condition": 11.84263801574707
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 7.867784006521106e-07,
+    "rank1_training_normalized_residual": 2.3431079396608184e-14,
+    "minimum_jacobian_singular_value": 286646.34375,
+    "jacobian_condition": 11.943620681762695
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 0.0,
+    "rank1_training_normalized_residual": 2.0134062941727128e-14,
+    "minimum_jacobian_singular_value": 287081.8125,
+    "jacobian_condition": 12.004362106323242
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 3.933892003260553e-07,
+    "rank1_training_normalized_residual": 1.4772227495060686e-14,
+    "minimum_jacobian_singular_value": 292102.53125,
+    "jacobian_condition": 12.021997451782227
+  },
+  {
+    "rank1_nmse_db": -117.25997924804688,
+    "rank2_nmse_db": -116.96853637695312,
+    "rank2_improvement_db": -0.29144287109375,
+    "repeatability_p95_power_error_db": 4.76837158203125e-07,
+    "rank1_training_normalized_residual": 1.0864073041790684e-13,
+    "minimum_jacobian_singular_value": 294747.25,
+    "jacobian_condition": 12.00391674041748
+  },
+  {
+    "rank1_nmse_db": -56.4910888671875,
+    "rank2_nmse_db": -69.2938003540039,
+    "rank2_improvement_db": 12.802711486816406,
+    "repeatability_p95_power_error_db": 4.76837158203125e-07,
+    "rank1_training_normalized_residual": 2.917973347393854e-07,
+    "minimum_jacobian_singular_value": 297231.65625,
+    "jacobian_condition": 11.964028358459473
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 0.0,
+    "rank1_training_normalized_residual": 8.95175758877393e-15,
+    "minimum_jacobian_singular_value": 174805.0,
+    "jacobian_condition": 15.315774917602539
+  },
+  {
+    "rank1_nmse_db": -120.0,
+    "rank2_nmse_db": -120.0,
+    "rank2_improvement_db": 0.0,
+    "repeatability_p95_power_error_db": 4.76837158203125e-07,
+    "rank1_training_normalized_residual": 1.952754669391158e-14,
+    "minimum_jacobian_singular_value": 156085.0,
+    "jacobian_condition": 15.23892879486084
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "schema": "v212-g3-paired-statistics-1",
+  "metric": "validation-D linear amplitude NMSE dB",
+  "lambda_q": 0.01,
+  "operator_targets": "train_commands_only",
+  "external_test_used": false,
+  "seeds": [
+    21201,
+    21202,
+    21203,
+    21204,
+    21205,
+    21206,
+    21207,
+    21208,
+    21209,
+    21210
+  ],
+  "mean_validation_nmse_db": {
+    "G2": -24.17278118133545,
+    "G3": -24.327197074890137
+  },
+  "G3_vs_G2": {
+    "mean_improvement_db": 0.1544158935546875,
+    "median_improvement_db": 0.03487968444824219,
+    "confidence_interval_95_db": [
+      -0.21578980922698976,
+      0.5497900342941281
+    ],
+    "two_sided_sign_flip_p": 0.48046875,
+    "wins": 5,
+    "count": 10,
+    "field_bins": {
+      "-3_to_0_db": {
+        "mean_linear_nmse_improvement_db": 0.43110179901123047,
+        "mean_mae_improvement_db": 0.018303081393241882,
+        "candidate_mean_bias_db": -0.0375462350435555,
+        "mean_p95_improvement_db": 0.06751242280006409
+      },
+      "-10_to_-3_db": {
+        "mean_linear_nmse_improvement_db": 0.2188108444213867,
+        "mean_mae_improvement_db": 0.003072717785835266,
+        "candidate_mean_bias_db": -0.037841601157560946,
+        "mean_p95_improvement_db": 0.03851489424705505
+      },
+      "-20_to_-10_db": {
+        "mean_linear_nmse_improvement_db": -0.015636634826660157,
+        "mean_mae_improvement_db": -0.0010285794734954834,
+        "candidate_mean_bias_db": -0.04703580532222986,
+        "mean_p95_improvement_db": -0.021877551078796388
+      },
+      "below_-20_db": {
+        "mean_linear_nmse_improvement_db": 0.14241275787353516,
+        "mean_mae_improvement_db": 0.027685320377349852,
+        "candidate_mean_bias_db": 0.08525431370362639,
+        "mean_p95_improvement_db": 0.01719970703125
+      }
+    }
+  },
+  "diagnostic_acceptance": {
+    "rule": "positive 95% CI and at least 8/10 paired wins",
+    "accepted": false,
+    "replaces_g2_main_model": false
+  }
+}

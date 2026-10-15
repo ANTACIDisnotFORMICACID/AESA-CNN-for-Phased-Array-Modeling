@@ -1,0 +1,100 @@
+{
+  "schema": "v212-frozen-protocol-1",
+  "physical_target": "free_space_single_polarization_rank1_operator",
+  "frequency_hz": 47000000000.0,
+  "hemisphere": "strict_q_x_gt_0",
+  "observation": "hfss_ephi",
+  "environment_operator": "identity",
+  "observation_interfaces": [
+    "hfss_ephi",
+    "calibrated_probe",
+    "environment_effective"
+  ],
+  "free_space_label_requires_environment_calibration": true,
+  "array_shape": [4, 4],
+  "direction_channels": 27,
+  "cnn_input_channels": 31,
+  "filtration": {
+    "degrees": [4, 5],
+    "truncation_ratio_on_squared_singular_values": 0.0001,
+    "training_measure": "actual_equal_loss_empirical_measure",
+    "physical_spectrum_measure": "solid_angle",
+    "audit_degree": 12
+  },
+  "stage1_recipes": [
+    "E0",
+    "E0-M4",
+    "E0-M5",
+    "E-S4",
+    "E1-R4",
+    "E2-F4",
+    "E2-F5",
+    "E3-I"
+  ],
+  "paired_seeds": [21201, 21202, 21203, 21204, 21205, 21206, 21207, 21208, 21209, 21210],
+  "stage1_statistics": {
+    "paired_seed_count": 10,
+    "bootstrap_confidence": 0.95,
+    "two_sided_paired_sign_flip": true,
+    "multiple_comparison_correction": "Holm",
+    "minimum_wins": 8,
+    "mainlobe_mae_max_degradation_db": 0.05,
+    "l5_over_l4_minimum_improvement_db": 0.2,
+    "field_bins_relative_peak_db": [[-3, 0], [-10, -3], [-20, -10], [null, -20]]
+  },
+  "amplitude_loss": {
+    "linear_nmse_weight": 1.0,
+    "power_nmse_weight": 0.1,
+    "db_huber_weight": 0.03,
+    "latent_ssh_spectral_weight": 0.0
+  },
+  "commands": {
+    "total": 96,
+    "train": 64,
+    "validation": 16,
+    "test": 16,
+    "repeats_minimum": 3,
+    "normalization": "unit_l2",
+    "random_seed": 21296
+  },
+  "rank_audit": {
+    "gauge_removed_real_dimension": 31,
+    "rank1_acceptance_improvement_ceiling_db": 0.2,
+    "contract_failure_improvement_floor_db": 0.5,
+    "contract_failure_direction_fraction": 0.2,
+    "default_heldout_commands": "validation",
+    "repeat_noise_covariance": "per_direction_diagonal_from_repeats"
+  },
+  "stage2": {
+    "main_model": "G2",
+    "diagnostic_model": "G3",
+    "latent_representation": "a(q)_dephased_element_envelope",
+    "identifiable_physical_operator": "Q_tilde=a_star_a_transpose",
+    "envelope_scale": "fixed_positive_median_of_train_direction_single_command_amplitudes",
+    "latent_a_used_for_structure_explanation": true,
+    "physical_claims_require_gauge_invariant_quantity": true,
+    "explicit_coupling_matrix": "identity_not_learned",
+    "latent_ssh_spectral_regularization": false,
+    "training_cell": "q_train_x_w_train",
+    "selection_cell": "q_validation_x_w_validation",
+    "primary_final_cell": "q_test_x_w_test"
+  },
+  "gauge_invariant_audit": {
+    "quantity": "Q_tilde=D_r_Q_D_r_H",
+    "raw_ssh_degree": 12,
+    "cumulative_cutoffs": [4, 5, 10],
+    "measure": "physical_solid_angle",
+    "used_as_training_loss": false
+  },
+  "g3_lambda_q": [0.01, 0.1, 1.0],
+  "o1": {
+    "status": "diagnostic_only",
+    "restarts": 5,
+    "steps": 2000,
+    "learning_rate": 0.01,
+    "snr_db": [20, 30, 40],
+    "minimum_p05_singular_value_gain": 0.2,
+    "median_singular_value_may_degrade": false,
+    "minimum_inversion_nmse_improvement_db": 0.2
+  }
+}

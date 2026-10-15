@@ -1,0 +1,28 @@
+{
+  "schema": "v212-rank-spectrum-audit-summary-1",
+  "status": "rank1_accepted",
+  "query_count": 256,
+  "batch_size": 128,
+  "optimization_steps": 100,
+  "limited_diagnostic": true,
+  "heldout_commands": "validation",
+  "test_split_opened": false,
+  "contract_failure_fraction": 0.00390625,
+  "rank1_acceptance_fraction": 0.9921875,
+  "rank2_improvement_db": {
+    "p05": 0.0,
+    "median": 0.0,
+    "p95": 0.0
+  },
+  "minimum_jacobian_singular_value": {
+    "p05": 87679.89453125,
+    "median": 111422.640625,
+    "p95": 250605.70703125
+  },
+  "jacobian_condition": {
+    "p05": 9.206260919570923,
+    "median": 12.013180255889893,
+    "p95": 15.393220663070679
+  },
+  "operator_target_written": false
+}

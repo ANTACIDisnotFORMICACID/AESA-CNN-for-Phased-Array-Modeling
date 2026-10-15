@@ -1,0 +1,30 @@
+{
+  "schema": "v212-trained-model-operator-audit-1",
+  "recipe": "G3",
+  "direction_split": "validation",
+  "test_split_opened": false,
+  "quantity": "gauge-invariant dephased Q_tilde",
+  "cumulative_energy_fraction": {
+    "4": 0.9225127130334015,
+    "5": 0.9766219283531068,
+    "10": 0.9999997986032556
+  },
+  "degree_energy": [
+    1.7541799630921212e+19,
+    4.36232850666307e+19,
+    4.977958649423093e+19,
+    3.912235799427988e+19,
+    2.2885069894303404e+19,
+    1.0144361413039645e+19,
+    3.3871211313822095e+18,
+    8.329406282631532e+17,
+    1.4494504209029875e+17,
+    1.6718064150441196e+16,
+    1143440065644416.0,
+    37418830894196.98,
+    338903169162.50275
+  ],
+  "normalized_gradient_energy": 9.699199761378242,
+  "fourier_residual_low_filtration_leakage": 0.8871098063462625,
+  "leakage_is_diagnostic_not_physical_truth": true
+}

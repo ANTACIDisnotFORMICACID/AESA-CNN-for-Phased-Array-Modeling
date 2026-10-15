@@ -1,0 +1,25 @@
+{
+  "schema": "v212-o1-codebook-optimization-1",
+  "diagnostic_only": true,
+  "selected_restart": 0,
+  "validation": {
+    "minimum_p05": 1.652169108390808,
+    "minimum_median": 4.251467704772949,
+    "mean_logdet": 172.59860229492188,
+    "condition_median": 10.423919677734375,
+    "condition_p95": 13.510262489318848
+  },
+  "test_split_opened": false,
+  "validation_baseline": {
+    "minimum_p05": 1.5151687860488892,
+    "minimum_median": 4.315644264221191,
+    "mean_logdet": 172.70834350585938,
+    "condition_median": 10.11166000366211,
+    "condition_p95": 12.882105827331543
+  },
+  "validation_conditioning_gate": {
+    "minimum_p05_relative_gain": 0.09041918207619304,
+    "minimum_median_relative_gain": -0.014870678749010269,
+    "passes_p05_20_percent_and_median_non_degradation": false
+  }
+}

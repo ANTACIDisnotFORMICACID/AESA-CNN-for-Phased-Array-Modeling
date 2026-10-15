@@ -1,0 +1,60 @@
+{
+  "schema": "v212-trained-model-operator-audit-1",
+  "recipe": "G2-I-LR240",
+  "direction_split": "validation",
+  "test_split_opened": false,
+  "quantity": "gauge-invariant dephased Q_tilde",
+  "cumulative_energy_fraction": {
+    "4": 1.0,
+    "5": 1.0,
+    "10": 1.0
+  },
+  "degree_energy": [
+    1078316994.7921371,
+    2118561495.3568153,
+    1123856158.9090652,
+    246226444.44703358,
+    14702770.693573352
+  ],
+  "normalized_gradient_energy": 3.1056474488646675,
+  "fourier_residual_low_filtration_leakage": 0.5004630724112534,
+  "leakage_is_diagnostic_not_physical_truth": true,
+  "ssh_degree_output_rms": {
+    "ssh_l1_iq": 0.0008382218074984848,
+    "ssh_l2_iq": 0.0011802875669673085,
+    "ssh_l3_iq": 0.0012356083607301116,
+    "ssh_l4_iq": 0.0015711509622633457,
+    "ssh_l5_iq": 0.0018719615181908011
+  },
+  "nested_filtration": {
+    "cumulative_fraction": [
+      0.8369965886235485,
+      0.8554116116495426,
+      0.8743526367336066,
+      0.8793550309811924,
+      0.891523450332076
+    ],
+    "shell_fraction": [
+      0.8369965886235485,
+      0.01841502302599407,
+      0.018941025084064034,
+      0.005002394247585751,
+      0.012168419350883641
+    ],
+    "normalized_gradient_energy": 0.5090985709641342,
+    "spectral_distance_to_truth": 0.2753996978339166,
+    "shell_error_fraction": [
+      0.6015738117440598,
+      0.25843154232244514,
+      0.0682893163714459,
+      0.016478279407812414,
+      0.015210034964479549
+    ],
+    "tail_error_fraction": 0.0837064572061286
+  },
+  "graph_roughness": {
+    "prediction": 9.896954508062406,
+    "truth": 50.852900385766404,
+    "relative_error": 0.8053807269008291
+  }
+}

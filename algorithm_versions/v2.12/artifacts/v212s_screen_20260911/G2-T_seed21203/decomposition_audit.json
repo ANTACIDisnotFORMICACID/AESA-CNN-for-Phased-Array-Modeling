@@ -1,0 +1,18 @@
+{
+  "schema": "v212s-latent-decomposition-audit-1",
+  "recipe": "G2-T",
+  "measure": "empirical_equal_train_loss",
+  "query_count": 22600,
+  "test_status": "sealed",
+  "interpretation": "latent architecture decomposition, not identifiable physical truth",
+  "fourier_low_filtration_leakage": 0.46082727732332757,
+  "fourier_residual_rms": 2.782858371734619,
+  "ssh_degree_output_rms": {
+    "ssh_l1_iq": 2.181467056274414,
+    "ssh_l2_iq": 2.7534103393554688,
+    "ssh_l3_iq": 1.7760944366455078,
+    "ssh_l4_iq": 1.358922004699707,
+    "ssh_l5_iq": 1.090043067932129
+  },
+  "input_projection": null
+}

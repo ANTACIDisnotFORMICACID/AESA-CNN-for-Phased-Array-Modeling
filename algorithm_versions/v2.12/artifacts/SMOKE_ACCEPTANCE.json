@@ -1,0 +1,31 @@
+{
+  "schema": "v212-real-data-smoke-acceptance-1",
+  "train_directions_used": 22600,
+  "test_split_opened": false,
+  "checks": {
+    "dataset_codebook_exact": true,
+    "e2_initial_equals_e0": true,
+    "e2_e0m_parameter_count_equal": true,
+    "g2_initial_equals_g1": true,
+    "q_hermitian": true
+  },
+  "l4_basis": {
+    "ranks": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "raw_gram_condition": 266464.9566285498,
+    "retained_condition": 286.4352093073413,
+    "transformed_condition": 1.0000000000134717
+  },
+  "parameter_counts": {
+    "E0": 34973,
+    "E0-M4": 36333,
+    "E2-F4": 36333,
+    "G1": 28017,
+    "G2": 28789
+  }
+}
