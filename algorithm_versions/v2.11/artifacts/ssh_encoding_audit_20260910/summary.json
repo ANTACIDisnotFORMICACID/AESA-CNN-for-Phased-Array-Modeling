@@ -1,0 +1,185 @@
+{
+  "schema": "v211-ssh-training-statistics-1",
+  "date": "2026-09-10",
+  "domain": "strict q_x > 0 (+X boresight)",
+  "statistics_scope": "query_train.npy only; validation/test excluded",
+  "train_query_count": 16300,
+  "source_query_count": 23300,
+  "ssh_degree": 8,
+  "ssh_channel_count": 81,
+  "constant_channel_count": 1,
+  "normalization_epsilon": 1e-06,
+  "ssh_raw": {
+    "global_min": -1.091383904920218,
+    "global_max": 1.1615128028442716,
+    "active_channel_std_min": 0.13691659143533427,
+    "active_channel_std_max": 0.405838834157157,
+    "max_abs_channel_mean": 0.2820947917738742
+  },
+  "ssh_standardized": {
+    "active_channel_mean_max_abs": 2.5631848382020794e-15,
+    "active_channel_std_min": 0.9999926963366075,
+    "active_channel_std_max": 0.9999975359737653,
+    "global_min": -3.467866522097864,
+    "global_max": 3.6277364449930505
+  },
+  "positive_hemisphere_correlation": {
+    "active_channel_count": 80,
+    "max_abs_off_diagonal": 0.8395606216671696,
+    "correlation_eigenvalue_min": 3.533908307807997e-11,
+    "correlation_eigenvalue_max": 3.7330415914803936,
+    "condition_number": 105634930686.58351,
+    "top_pairs": [
+      {
+        "abs_correlation": 0.8395606216671696,
+        "mode_a": "Y_1_-1",
+        "mode_b": "Y_2_-2",
+        "signed_correlation": -0.8395606216671696
+      },
+      {
+        "abs_correlation": 0.8023850571127221,
+        "mode_a": "Y_2_-1",
+        "mode_b": "Y_3_-2",
+        "signed_correlation": -0.8023850571127221
+      },
+      {
+        "abs_correlation": 0.7973647109000831,
+        "mode_a": "Y_3_-1",
+        "mode_b": "Y_4_-2",
+        "signed_correlation": -0.7973647109000831
+      },
+      {
+        "abs_correlation": 0.7853237540642721,
+        "mode_a": "Y_2_+2",
+        "mode_b": "Y_3_+3",
+        "signed_correlation": -0.7853237540642721
+      },
+      {
+        "abs_correlation": 0.7771358029360455,
+        "mode_a": "Y_4_-1",
+        "mode_b": "Y_5_-2",
+        "signed_correlation": -0.7771358029360455
+      },
+      {
+        "abs_correlation": 0.7765316254356408,
+        "mode_a": "Y_1_+0",
+        "mode_b": "Y_2_+1",
+        "signed_correlation": -0.7765316254356408
+      },
+      {
+        "abs_correlation": 0.7431825433496261,
+        "mode_a": "Y_3_+2",
+        "mode_b": "Y_4_+3",
+        "signed_correlation": -0.7431825433496261
+      },
+      {
+        "abs_correlation": 0.7428081618439845,
+        "mode_a": "Y_5_-1",
+        "mode_b": "Y_6_-2",
+        "signed_correlation": -0.7428081618439845
+      },
+      {
+        "abs_correlation": 0.7423005294537739,
+        "mode_a": "Y_4_+2",
+        "mode_b": "Y_5_+3",
+        "signed_correlation": -0.7423005294537739
+      },
+      {
+        "abs_correlation": 0.7295754374403094,
+        "mode_a": "Y_6_-1",
+        "mode_b": "Y_7_-2",
+        "signed_correlation": -0.7295754374403094
+      },
+      {
+        "abs_correlation": 0.725173161911784,
+        "mode_a": "Y_5_+2",
+        "mode_b": "Y_6_+3",
+        "signed_correlation": -0.725173161911784
+      },
+      {
+        "abs_correlation": 0.7193464585556075,
+        "mode_a": "Y_3_-3",
+        "mode_b": "Y_4_-4",
+        "signed_correlation": -0.7193464585556075
+      },
+      {
+        "abs_correlation": 0.7144684024230383,
+        "mode_a": "Y_7_-1",
+        "mode_b": "Y_8_-2",
+        "signed_correlation": -0.7144684024230383
+      },
+      {
+        "abs_correlation": 0.7140123700241411,
+        "mode_a": "Y_6_+2",
+        "mode_b": "Y_7_+3",
+        "signed_correlation": -0.7140123700241411
+      },
+      {
+        "abs_correlation": 0.7053433490649783,
+        "mode_a": "Y_5_-3",
+        "mode_b": "Y_6_-4",
+        "signed_correlation": -0.7053433490649783
+      },
+      {
+        "abs_correlation": 0.7024117817978263,
+        "mode_a": "Y_4_-3",
+        "mode_b": "Y_5_-4",
+        "signed_correlation": -0.7024117817978263
+      },
+      {
+        "abs_correlation": 0.6979512611204489,
+        "mode_a": "Y_7_+6",
+        "mode_b": "Y_8_+7",
+        "signed_correlation": -0.6979512611204489
+      },
+      {
+        "abs_correlation": 0.6971866574805565,
+        "mode_a": "Y_6_-3",
+        "mode_b": "Y_7_-4",
+        "signed_correlation": -0.6971866574805565
+      },
+      {
+        "abs_correlation": 0.6947686088681005,
+        "mode_a": "Y_7_+2",
+        "mode_b": "Y_8_+3",
+        "signed_correlation": -0.6947686088681005
+      },
+      {
+        "abs_correlation": 0.6931500716303323,
+        "mode_a": "Y_1_+1",
+        "mode_b": "Y_2_+2",
+        "signed_correlation": -0.6931500716303323
+      }
+    ],
+    "by_degree_prefix": {
+      "l4": {
+        "active_channel_count": 24,
+        "max_abs_off_diagonal": 0.8395606216671696,
+        "correlation_eigenvalue_min": 3.815637913029889e-05,
+        "correlation_eigenvalue_max": 2.6344372564314846,
+        "condition_number": 69043.1670006013
+      },
+      "l5": {
+        "active_channel_count": 35,
+        "max_abs_off_diagonal": 0.8395606216671696,
+        "correlation_eigenvalue_min": 1.1319367783207207e-06,
+        "correlation_eigenvalue_max": 2.836216875250903,
+        "condition_number": 2505631.877655357
+      },
+      "l8": {
+        "active_channel_count": 80,
+        "max_abs_off_diagonal": 0.8395606216671696,
+        "correlation_eigenvalue_min": 3.533908307807997e-11,
+        "correlation_eigenvalue_max": 3.7330415914803936,
+        "condition_number": 105634930686.58351
+      }
+    }
+  },
+  "v210_fourier_control": {
+    "channel_count": 27,
+    "global_min": -0.9999999999828608,
+    "global_max": 0.9999999999828608,
+    "channel_std_min": 0.28022080961923185,
+    "channel_std_max": 0.7284360360964838
+  }
+}

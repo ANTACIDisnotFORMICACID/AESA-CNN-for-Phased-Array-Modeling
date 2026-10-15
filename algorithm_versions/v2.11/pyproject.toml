@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aesa-cnn-v211-encoding"
+version = "0.1.0"
+description = "V2.11 controlled Fourier and real-SSH direction-encoding ablations"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "torch>=2.2"
+]
+
+[project.optional-dependencies]
+audit = ["matplotlib>=3.8"]
+test = ["pytest>=8"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

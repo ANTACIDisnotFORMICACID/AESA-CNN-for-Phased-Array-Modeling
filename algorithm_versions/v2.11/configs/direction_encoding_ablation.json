@@ -1,0 +1,44 @@
+{
+  "schema": "v211-direction-encoding-ablation-1",
+  "fixed_cnn_contract": {
+    "direction_channels": 27,
+    "geometry_channels": 4,
+    "cnn_input_channels": 31,
+    "aperture_shape": [4, 4]
+  },
+  "ssh_statistics": "artifacts/ssh_encoding_audit_20260910/ssh_train_stats_l8.npz",
+  "experiments": [
+    {
+      "name": "fourier_v210_control",
+      "kind": "fourier",
+      "fourier_bands": 4,
+      "output_channels": 27
+    },
+    {
+      "name": "ssh_l4_standardized",
+      "kind": "ssh",
+      "ssh_degree": 4,
+      "raw_channels": 25,
+      "projection": "Linear(25,27)",
+      "normalization": "training_split_mu_sigma"
+    },
+    {
+      "name": "ssh_l5_standardized",
+      "kind": "ssh",
+      "ssh_degree": 5,
+      "raw_channels": 36,
+      "projection": "Linear(36,27)",
+      "normalization": "training_split_mu_sigma"
+    },
+    {
+      "name": "fourier_plus_ssh_l4_zero_start",
+      "kind": "fourier_plus_ssh",
+      "fourier_bands": 4,
+      "ssh_degree": 4,
+      "raw_ssh_channels": 25,
+      "projection": "Linear(25,27)",
+      "alpha_initial": 0.0,
+      "initial_equivalence": "exact_v210_fourier_output"
+    }
+  ]
+}

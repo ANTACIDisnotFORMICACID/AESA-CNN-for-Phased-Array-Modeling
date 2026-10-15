@@ -1,0 +1,161 @@
+{
+  "schema": "v211-vsh-order-audit-1",
+  "date": "2026-09-10",
+  "l_max": 40,
+  "input_grid": {
+    "theta_count": 180,
+    "phi_count": 360,
+    "direction_count": 64800,
+    "theta_deg": [
+      0.5,
+      179.5,
+      1.0
+    ],
+    "phi_deg": [
+      -179.5,
+      179.5,
+      1.0
+    ],
+    "port_count": 16
+  },
+  "physics": {
+    "frequency_hz": 47000000000.0,
+    "wavelength_mm": 6.378562936170212,
+    "center_radius_mm": 24.704048251248214,
+    "center_kR": 24.334652578233378,
+    "structure_center_mm": [
+      2.2500000000000004,
+      10.200000000000001,
+      22.246000000000002
+    ],
+    "structure_radius_mm": 26.897998977619135,
+    "structure_kR": 26.49579751112111,
+    "paper_minus40_continuous_order": 31.86197257905862,
+    "phase_convention": "project convention exp(+j k q dot r); center/dephase use exp(-j k q dot r)"
+  },
+  "basis": {
+    "definition": "X_lm=-j/sqrt(l(l+1))*r_cross_grad(Y_lm); companion=r_cross_X_lm",
+    "normalization": "orthonormal complex VSH with SciPy sph_harm_y Condon-Shortley phase",
+    "quadrature": "1-degree cell-centred equiangular grid with sin(theta) dtheta dphi"
+  },
+  "basis_validation": {
+    "sphere_weight": 12.56653011308429,
+    "sphere_weight_error": 0.00015949872511811236,
+    "selected_mode_max_norm_error": 0.0005378723333855362,
+    "selected_mode_max_x_rx_inner_product": 6.127910678888071e-16,
+    "synthetic_mode_max_coefficient_error": 4.311780415660363e-09
+  },
+  "threshold_orders": {
+    "H_centered": {
+      "field_nmse_-20_db": 26,
+      "field_nmse_-30_db": 28,
+      "field_nmse_-40_db": 30
+    },
+    "A_dephased": {
+      "field_nmse_-20_db": 18,
+      "field_nmse_-30_db": 30,
+      "field_nmse_-40_db": null
+    }
+  },
+  "best_field_nmse": {
+    "H_centered": {
+      "l_max": 35,
+      "field_nmse_db": -69.09246733556422
+    },
+    "A_dephased": {
+      "l_max": 40,
+      "field_nmse_db": -39.050785668834656
+    }
+  },
+  "source_files": [
+    {
+      "relative_path": "dev/train.npz",
+      "bytes": 15472442,
+      "sha256": "b6ac6d4bac535007e7e650d45ae7cab067c38e5e45d8cf75c00cdd353e94c504"
+    },
+    {
+      "relative_path": "dev/validation.npz",
+      "bytes": 4669882,
+      "sha256": "b9eaa924e67e9e4ca106f592589403f0338d39a0f42a506c9ad9f5badd4662e5"
+    },
+    {
+      "relative_path": "reserved/calibration.npz",
+      "bytes": 3354682,
+      "sha256": "4c4d216db6a961b70c9a0ff5bbdbd46d2cd5293c9fd4034c1c0ea9b6df0a954f"
+    },
+    {
+      "relative_path": "reserved/holdout.npz",
+      "bytes": 5142202,
+      "sha256": "7ebc1168208bf6ff3031c9eb9d7431203805942be32178080d8349e2477bb82a"
+    }
+  ],
+  "final_metrics": {
+    "H_centered": {
+      "field": "H_centered",
+      "l_max": 40,
+      "order_power": 8.23528584437253e-05,
+      "order_power_db_relative_total": -81.32627796398906,
+      "cumulative_coefficient_energy_fraction": 1.0000138092817403,
+      "coefficient_energy_closure_error_db": -48.598289097141915,
+      "field_nmse_db": -68.21153500510727,
+      "amplitude_nmse_db": -68.90177318691339,
+      "strong_field_mae_db": 0.0006473364606030702,
+      "per_port_nmse_db": [
+        -69.11372700094827,
+        -67.19516792111817,
+        -69.3480823251196,
+        -68.17454977966455,
+        -69.0665240945375,
+        -66.43259836402382,
+        -69.01433193198281,
+        -68.03767024462014,
+        -68.50150712958592,
+        -66.6836253604659,
+        -69.2139032491827,
+        -67.82084794650343,
+        -68.59606705776226,
+        -67.45566582060323,
+        -70.19649671119129,
+        -68.34520132318575
+      ],
+      "worst_port_nmse_db": -66.43259836402382
+    },
+    "A_dephased": {
+      "field": "A_dephased",
+      "l_max": 40,
+      "order_power": 0.2528843514052048,
+      "order_power_db_relative_total": -46.45384518558767,
+      "cumulative_coefficient_energy_fraction": 0.9998894869450553,
+      "coefficient_energy_closure_error_db": -39.56586415593822,
+      "field_nmse_db": -39.050785668834656,
+      "amplitude_nmse_db": -44.298621855773064,
+      "strong_field_mae_db": 0.027366786155085393,
+      "per_port_nmse_db": [
+        -37.09926454676961,
+        -37.03695231377416,
+        -36.428113438079244,
+        -36.20555355935904,
+        -59.80032135760909,
+        -66.1483382624893,
+        -68.41324984383493,
+        -61.12069496756107,
+        -58.145211660597155,
+        -65.88424744603684,
+        -67.53585583272526,
+        -55.57658976002359,
+        -35.17969455042312,
+        -35.620348660696294,
+        -36.26317790735095,
+        -35.022183225673906
+      ],
+      "worst_port_nmse_db": -35.022183225673906
+    }
+  },
+  "interpretation_boundary": {
+    "physical_order_field": "H_centered",
+    "complexity_diagnostic_field": "A_dephased",
+    "not_used_for_amplitude_training": true,
+    "does_not_select_ssh_encoding_order": true
+  },
+  "reconstruction_example_order": 28
+}

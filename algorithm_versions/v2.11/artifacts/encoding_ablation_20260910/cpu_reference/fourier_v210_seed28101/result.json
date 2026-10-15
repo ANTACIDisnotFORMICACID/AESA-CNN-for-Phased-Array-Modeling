@@ -1,0 +1,48 @@
+{
+  "variant": "fourier_v210",
+  "encoding_config": {
+    "kind": "fourier",
+    "fourier_bands": 4,
+    "output_channels": 27,
+    "normalization_epsilon": 1e-06
+  },
+  "seed": 28101,
+  "sampling_seed": 28101,
+  "requested_epochs": 120,
+  "executed_epochs": 120,
+  "best_epoch": 120,
+  "best_validation_loss": 0.08353040367364883,
+  "validation": {
+    "loss": 0.08353040367364883,
+    "linear_nmse": 0.025702394545078278,
+    "linear_nmse_db": -15.900263786315918,
+    "global_linear_nmse": 0.020419947803020477,
+    "global_linear_nmse_db": -16.89945411682129,
+    "power_nmse": 0.04253537580370903,
+    "power_nmse_db": -13.712496757507324,
+    "global_power_nmse": 0.029728766530752182,
+    "global_power_nmse_db": -15.268231391906738,
+    "amplitude_db_mae": 2.2073471546173096,
+    "mean_command_amplitude_correlation": 0.9714027047157288,
+    "absolute_error_p50": 0.6706415414810181,
+    "absolute_error_p95": 2.3395488262176514
+  },
+  "test_reused_benchmark": {
+    "loss": 0.029201708734035492,
+    "linear_nmse": 0.029201708734035492,
+    "linear_nmse_db": -15.345917701721191,
+    "global_linear_nmse": 0.031465694308280945,
+    "global_linear_nmse_db": -15.021627426147461,
+    "power_nmse": 0.051434315741062164,
+    "power_nmse_db": -12.887470245361328,
+    "global_power_nmse": 0.05584719777107239,
+    "global_power_nmse_db": -12.529985427856445,
+    "amplitude_db_mae": 2.460996150970459,
+    "mean_command_amplitude_correlation": 0.9512392282485962,
+    "absolute_error_p50": 0.7444038391113281,
+    "absolute_error_p95": 2.75974702835083
+  },
+  "parameter_count": 34973,
+  "elapsed_seconds": 76.47316990000036,
+  "test_blind_status": "not blind: V2.10 previously opened this split"
+}
