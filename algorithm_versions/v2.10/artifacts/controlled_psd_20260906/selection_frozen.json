@@ -1,0 +1,40 @@
+{
+  "selected_recipe": "A10",
+  "representative_seed": 21011,
+  "selection_rule": "lowest mean validation phase-only regret P95 within A10+0.3 dB amplitude-NMSE guard",
+  "aggregate": {
+    "A10": {
+      "mean_validation_nmse_db": -24.50696309407552,
+      "mean_validation_p95_regret": 0.18045630057652792,
+      "mean_validation_bottleneck_over_p95_db": 1.1596851150194805
+    },
+    "B10": {
+      "mean_validation_nmse_db": -24.361052831013996,
+      "mean_validation_p95_regret": 0.18417854607105255,
+      "mean_validation_bottleneck_over_p95_db": 1.2200722297032673
+    },
+    "C10": {
+      "mean_validation_nmse_db": -21.971615473429363,
+      "mean_validation_p95_regret": 0.2744276275237401,
+      "mean_validation_bottleneck_over_p95_db": 1.5315380891164143
+    }
+  },
+  "seeds": [
+    21011,
+    21012,
+    21013
+  ],
+  "all_runs_equal_updates": true,
+  "checkpoint_hashes": {
+    "A10_21011": "7a9e909999323b5b0a1d8c3d2306d2652b2818afe3061038c1436ff3c94319bc",
+    "A10_21012": "bd934977927bbf5742fd1da882f16b021689be848877a63b62589e846b317f91",
+    "A10_21013": "64964ce6f7387cbf6f95ba0244b43b57773e2898343b2e8e2860d274919924c6",
+    "B10_21011": "0e86ef48a300a0d1f4f7ab119d2c4c612cbf02e7a2cd6f3bc98329b27bb6cf69",
+    "B10_21012": "4557e4f07b1acbb19e8254df42150a3f96d2a7eccd5ea154d5d6f8aaa9f07df3",
+    "B10_21013": "0a8ff10abad334ae198a13b4d23cf26a22d600792c9adcd1a0354e7444e1afa6",
+    "C10_21011": "ada09d2562097c881368b6b08f8418a42e825df2e9a6e08f6f32ffb7b9c7852a",
+    "C10_21012": "0977712ae86432312e03095176f17e2af9337df0302b7baec8a02a880d589969",
+    "C10_21013": "1d7a19e21ecddc12b0b6977772185a63fe7d6817a59ac647dc6208f14f98704b"
+  },
+  "holdout_opened": false
+}

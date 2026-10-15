@@ -1,0 +1,50 @@
+{
+  "schema": "aesa-v210-mission-contract-1",
+  "status": "research_surrogate_only",
+  "array": {
+    "rows": 4,
+    "columns": 4,
+    "ports": 16,
+    "frequency_hz": 47000000000.0,
+    "port_order": "row_major_inherited_from_v29"
+  },
+  "research_surrogate": {
+    "control": "phase_only",
+    "magnitude_per_port": 0.25,
+    "total_normalized_power": 1.0,
+    "objective": "maximize_minimum_four_point_realized_gain",
+    "model_starts": 8,
+    "reference_starts": 32,
+    "optimizer_steps": 160,
+    "external_physical_state_validation": false
+  },
+  "operational_fields": {
+    "orbit_epoch": null,
+    "orbit_definition": null,
+    "spacecraft_attitude_definition": null,
+    "array_to_spacecraft_rotation": null,
+    "ground_stations_wgs84": null,
+    "minimum_elevation_deg": null,
+    "bandwidth_hz": null,
+    "transmit_power_dbw": null,
+    "feed_and_power_amplifier_limits": null,
+    "receiver_gain_dbi": null,
+    "receiver_jones_vectors": null,
+    "receiver_noise_temperature_k": null,
+    "receiver_noise_figure_db": null,
+    "required_snr_db": null,
+    "modulation_and_coding": null,
+    "phase_bits": null,
+    "phase_codebook": null,
+    "channel_amplitude_phase_error_model": null,
+    "update_period_s": null,
+    "command_latency_s": null,
+    "maximum_phase_step_deg": null
+  },
+  "prohibitions": [
+    "do_not_claim_link_margin_without_operational_fields",
+    "do_not_claim_external_generalization_from_single_hfss_state",
+    "do_not_claim_fpga_or_ota_validation_from_host_training"
+  ]
+}
+

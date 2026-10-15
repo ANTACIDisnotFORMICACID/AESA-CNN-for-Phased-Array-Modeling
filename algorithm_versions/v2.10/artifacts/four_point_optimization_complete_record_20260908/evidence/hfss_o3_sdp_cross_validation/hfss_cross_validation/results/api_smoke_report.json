@@ -1,0 +1,124 @@
+{
+  "aedt_process_id": null,
+  "attached_to_existing_desktop": false,
+  "available_far_field_displays": [
+    "Rectangular Plot",
+    "Rectangular Stacked Plot",
+    "Radiation Pattern",
+    "Data Table",
+    "3D Rectangular Plot",
+    "3D Rectangular Bar Plot",
+    "3D Polar Plot",
+    "3D Spherical Plot",
+    "Rectangular Contour Plot"
+  ],
+  "available_far_field_quantities": [
+    "GainTotal",
+    "GainPhi",
+    "GainTheta",
+    "GainX",
+    "GainY",
+    "GainZ",
+    "GainLHCP",
+    "GainRHCP",
+    "GainL3X",
+    "GainL3Y",
+    "GainCoPolar",
+    "GainCrossPolar"
+  ],
+  "available_report_types": [
+    "Modal Solution Data",
+    "Fields",
+    "Emission Test",
+    "Far Fields",
+    "Antenna Parameters"
+  ],
+  "design": "HFSSDesign1",
+  "exported_bytes": 5819259,
+  "exported_csv": "D:\\Desktop\\wireless\\BigChuang\\相控阵算法\\AESA-CNN\\hfss_cross_validation_20260906\\api_smoke\\V29_API_SMOKE_case_median_sources.csv",
+  "exported_line_count": 182,
+  "passed": true,
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\projects\\v2_8_array_4x4.aedt",
+  "pyaedt_version": "0.9.6",
+  "report_api_ok": true,
+  "requested_expressions": [
+    "re(rETheta)",
+    "im(rETheta)",
+    "re(rEPhi)",
+    "im(rEPhi)",
+    "RealizedGainTotal"
+  ],
+  "restored_environment": {
+    "ANSYSEM_ROOT252": "machine",
+    "ANSYSLMD_LICENSE_FILE": "machine"
+  },
+  "schema_version": 1,
+  "source_api_ok": true,
+  "source_csv": "D:\\Desktop\\wireless\\BigChuang\\相控阵算法\\AESA-CNN\\hfss_cross_validation_20260906\\inputs\\case_median_sources.csv",
+  "sources": {
+    "10:1": [
+      "0.0625W",
+      "126.223709106deg"
+    ],
+    "11:1": [
+      "0.0625W",
+      "60.7612724304deg"
+    ],
+    "12:1": [
+      "0.0625W",
+      "-127.303993225deg"
+    ],
+    "13:1": [
+      "0.0625W",
+      "60.8986473083deg"
+    ],
+    "14:1": [
+      "0.0625W",
+      "155.884643555deg"
+    ],
+    "15:1": [
+      "0.0625W",
+      "95.7598342896deg"
+    ],
+    "16:1": [
+      "0.0625W",
+      "-103.270278931deg"
+    ],
+    "1:1": [
+      "0.0625W",
+      "-37.144317627deg"
+    ],
+    "2:1": [
+      "0.0625W",
+      "20.2015304565deg"
+    ],
+    "3:1": [
+      "0.0625W",
+      "-16.8063869476deg"
+    ],
+    "4:1": [
+      "0.0625W",
+      "166.854949951deg"
+    ],
+    "5:1": [
+      "0.0625W",
+      "-9.18962860107deg"
+    ],
+    "6:1": [
+      "0.0625W",
+      "82.3703994751deg"
+    ],
+    "7:1": [
+      "0.0625W",
+      "18.8225002289deg"
+    ],
+    "8:1": [
+      "0.0625W",
+      "-148.087509155deg"
+    ],
+    "9:1": [
+      "0.0625W",
+      "26.3428192139deg"
+    ]
+  }
+}

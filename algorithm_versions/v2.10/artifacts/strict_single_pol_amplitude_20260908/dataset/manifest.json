@@ -1,0 +1,45 @@
+{
+  "schema_version": "v2.8-amplitude-1",
+  "source_type": "hfss_amplitude",
+  "frequency_hz": 47000000000.0,
+  "receiver_channel": "ephi",
+  "amplitude_unit": "V/m",
+  "reference_distance_m": 1.0,
+  "excitation_reference": "known unit-power 4x4 complex command at HFSS port planes",
+  "inactive_port_termination": "50 ohm matched",
+  "calibration_reference_plane": "HFSS lumped-port reference planes",
+  "array_id": "hfss-47ghz-4x4",
+  "session_id": "strict-ephi-positive-hemisphere-20260908",
+  "noise_floor_amplitude": 0.0,
+  "phase_available": false,
+  "rows": 4,
+  "cols": 4,
+  "command_axes": [
+    "command",
+    "iq",
+    "row",
+    "col"
+  ],
+  "amplitude_axes": [
+    "command",
+    "query"
+  ],
+  "direction_axes": [
+    "query",
+    "xyz"
+  ],
+  "provenance": {
+    "conversion": "coherent HFSS field projected once, then abs(.) retained",
+    "source_files": [
+      "D:\\Desktop\\wireless\\BigChuang\\相控阵算法\\AESA-CNN\\_staging\\v2.10\\artifacts\\front_hemisphere_20260906\\datasets\\dev\\train.npz",
+      "D:\\Desktop\\wireless\\BigChuang\\相控阵算法\\AESA-CNN\\_staging\\v2.10\\artifacts\\front_hemisphere_20260906\\datasets\\dev\\validation.npz"
+    ],
+    "hemisphere": "strict q_x > 0 (+X boresight)",
+    "receiver_channel": "ephi",
+    "raw_complex_data_available_to_training": false,
+    "measured_phase_exported_to_training_dataset": false,
+    "s_parameters_exported_to_training_dataset": false,
+    "command_seed": 28101,
+    "random_command_count": 192
+  }
+}

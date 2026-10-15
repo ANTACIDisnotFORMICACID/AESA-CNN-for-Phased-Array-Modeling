@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "checks": {
+    "hfss_o3_sdp": true,
+    "ideal_array_control": true,
+    "spectral_direction_count": true,
+    "full_dataset_front_count": true,
+    "hfss_geometry_baseline": true
+  },
+  "splits": [
+    {
+      "split": "validation",
+      "cases": 240,
+      "groups": {
+        "clustered": 60,
+        "grazing": 60,
+        "moderate": 60,
+        "wide": 60
+      },
+      "method": [
+        "H0_O3_32x320_Adam_phase_only"
+      ],
+      "cnn_files_loaded_size": 0,
+      "maximum_modulus_error": 2.9802322387695312e-08,
+      "maximum_hfss_gain_recompute_error": 7.62939453125e-06,
+      "maximum_o3_minus_sdp_linear": -2.958716687628815e-05,
+      "passed": true
+    },
+    {
+      "split": "holdout",
+      "cases": 600,
+      "groups": {
+        "clustered": 150,
+        "grazing": 150,
+        "moderate": 150,
+        "wide": 150
+      },
+      "method": [
+        "H0_O3_32x320_Adam_phase_only"
+      ],
+      "cnn_files_loaded_size": 0,
+      "maximum_modulus_error": 2.9802322387695312e-08,
+      "maximum_hfss_gain_recompute_error": 1.1444091796875e-05,
+      "maximum_o3_minus_sdp_linear": 0.0,
+      "passed": true
+    }
+  ],
+  "ideal_array_verification": {
+    "rows": 1680,
+    "expected_rows": 1680,
+    "models": [
+      "common_element_envelope",
+      "isotropic_boresight_calibrated"
+    ],
+    "splits": [
+      "holdout",
+      "validation"
+    ],
+    "checks": {
+      "paired_row_count": true,
+      "constant_modulus": true,
+      "gain_recomputation": true,
+      "same_target_rows": true
+    },
+    "max_weight_magnitude_error": 2.9802322387695312e-08,
+    "max_recomputed_linear_gain_error": 1.1444091796875e-05,
+    "all_checks_passed": true
+  },
+  "full_direction_counts": {
+    "train": {
+      "total": 36000,
+      "front": 18000
+    },
+    "validation": {
+      "total": 10800,
+      "front": 5300
+    },
+    "calibration": {
+      "total": 7200,
+      "front": 3600
+    },
+    "holdout": {
+      "total": 10800,
+      "front": 5500
+    }
+  },
+  "spectral_summary": {
+    "front_direction_count": 32400,
+    "unique_direction_count": 32400,
+    "spectral_upper_db": {
+      "minimum": -0.5207998289351243,
+      "p1": 1.9614715560861247,
+      "p5": 4.887169467277537,
+      "median": 11.890256503703398,
+      "p95": 16.480537484579706,
+      "maximum": 18.51723964472892
+    },
+    "weakest_direction": {
+      "global_front_index": 2493,
+      "source_split": "train",
+      "source_row": 5263,
+      "q_x": 0.3720780313014984,
+      "q_y": 0.24627307057380676,
+      "q_z": 0.894934356212616,
+      "theta_deg": 26.5,
+      "phi_deg": 33.5,
+      "arbitrary_amplitude_unit_power_upper_linear": 0.8869926418497925,
+      "arbitrary_amplitude_unit_power_upper_db": -0.5207998289351243
+    },
+    "probability_rows": [
+      {
+        "threshold_db": 0.0,
+        "weak_direction_count": 24,
+        "front_direction_count": 32400,
+        "total_four_point_combinations": 45907999825131900,
+        "guaranteed_low_four_point_combinations": 135878924221650,
+        "uniform_without_replacement_probability_lower_bound": 0.0029598092868176836
+      },
+      {
+        "threshold_db": 1.0,
+        "weak_direction_count": 137,
+        "front_direction_count": 32400,
+        "total_four_point_combinations": 45907999825131900,
+        "guaranteed_low_four_point_combinations": 771593178932185,
+        "uniform_without_replacement_probability_lower_bound": 0.016807379582453156
+      },
+      {
+        "threshold_db": 3.0,
+        "weak_direction_count": 635,
+        "front_direction_count": 32400,
+        "total_four_point_combinations": 45907999825131900,
+        "guaranteed_low_four_point_combinations": 3494690359755035,
+        "uniform_without_replacement_probability_lower_bound": 0.07612377740408328
+      },
+      {
+        "threshold_db": 5.0,
+        "weak_direction_count": 1714,
+        "front_direction_count": 32400,
+        "total_four_point_combinations": 45907999825131900,
+        "guaranteed_low_four_point_combinations": 8970715640871295,
+        "uniform_without_replacement_probability_lower_bound": 0.19540637089486879
+      }
+    ],
+    "proof_contract": "For Q=H^H H/60 and every |w_n|=1/4, ||w||_2=1, hence w^H Q w <= lambda_max(Q). Any four-set containing a direction whose bound is below tau has optimized Gmin below tau."
+  },
+  "ground_connectivity_status": "NOT_PROVEN_BY_EXISTING_GEOMETRY_AUDIT",
+  "known_failed_record": "hfss_geometry_baseline/artifacts/solve_export_report.json records a failed Touchstone export and is retained as provenance, not counted as a passed check."
+}

@@ -1,0 +1,14 @@
+{
+  "front_train_count": 18000,
+  "validation_cases": 240,
+  "holdout_cases": 600,
+  "reverse_samples_used": 0,
+  "model_finite": true,
+  "q_hermitian": true,
+  "q_psd_min_eigenvalue": -8.601022116749846e-09,
+  "phase_constraint_max_error": 1.4901161193847656e-08,
+  "coordinate_refine_finite": true,
+  "coordinate_phase_constraint_max_error": 1.4901161193847656e-08,
+  "parameter_count": 28854,
+  "passed": true
+}

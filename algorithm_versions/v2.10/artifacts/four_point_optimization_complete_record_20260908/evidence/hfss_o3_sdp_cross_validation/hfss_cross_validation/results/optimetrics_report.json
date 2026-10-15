@@ -1,0 +1,6 @@
+{
+  "passed": false,
+  "error_type": "RuntimeError",
+  "error": "HFSS returned no target gain",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\Desktop\\wireless\\BigChuang\\相控阵算法\\AESA-CNN\\hfss_cross_validation_20260906\\automation\\hfss_optimetrics_cross_validate.py\", line 131, in main\n    initial_gain = read_target_gains(hfss, case)\n  File \"D:\\Desktop\\wireless\\BigChuang\\相控阵算法\\AESA-CNN\\hfss_cross_validation_20260906\\automation\\hfss_optimetrics_cross_validate.py\", line 65, in read_target_gains\n    raise RuntimeError(\"HFSS returned no target gain\")\nRuntimeError: HFSS returned no target gain\n"
+}

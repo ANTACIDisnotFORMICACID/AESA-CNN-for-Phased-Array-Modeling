@@ -1,0 +1,14 @@
+evidence_level,dataset_or_case,sample_size,method,metric,value,unit,interpretation
+broad_test,validation,240,H0_O3_32x320_Adam_phase_only,gmin_median,5.1551,dB,independent validation distribution
+broad_test,validation,240,H0_O3_32x320_Adam_phase_only,pass_8db,20.4167,percent,cases with all four targets at least 8 dB
+broad_test,holdout,600,H0_O3_32x320_Adam_phase_only,gmin_median,4.4971,dB,primary external statistic
+broad_test,holdout,600,H0_O3_32x320_Adam_phase_only,pass_5db,39.6667,percent,cases with all four targets at least 5 dB
+broad_test,holdout,600,H0_O3_32x320_Adam_phase_only,pass_8db,13.8333,percent,cases with all four targets at least 8 dB
+broad_test,holdout,600,H0_O3_32x320_Adam_phase_only,pass_10db,9.0000,percent,cases with all four targets at least 10 dB
+upper_bound,validation,240,constant_modulus_SDP,sdp_gap_median,0.2611,dB,upper bound minus O3
+upper_bound,holdout,600,constant_modulus_SDP,sdp_gap_median,0.2613,dB,upper bound minus O3
+hfss_direct,holdout_case_189,1,HFSS_2025R2_RealizedGainTotal,offline_o3_gmin,4.4969,dB,case is holdout 50th percentile
+hfss_direct,holdout_case_189,1,HFSS_2025R2_RealizedGainTotal,hfss_o3_gmin,4.3965,dB,same O3 phases evaluated in HFSS
+hfss_direct,holdout_case_189,1,HFSS_2025R2_RealizedGainTotal,gmin_difference,-0.1004,dB,HFSS minus offline
+hfss_local_check,holdout_case_189,25,HFSS_API_numeric_phase_search,best_gmin,4.4265,dB,one O3 baseline plus 24 candidates
+hfss_local_check,holdout_case_189,25,HFSS_API_numeric_phase_search,gmin_improvement,0.0300,dB,local improvement over HFSS O3 baseline

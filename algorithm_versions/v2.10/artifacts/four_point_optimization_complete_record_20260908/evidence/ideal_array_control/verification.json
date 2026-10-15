@@ -1,0 +1,21 @@
+{
+  "rows": 1680,
+  "expected_rows": 1680,
+  "models": [
+    "common_element_envelope",
+    "isotropic_boresight_calibrated"
+  ],
+  "splits": [
+    "holdout",
+    "validation"
+  ],
+  "checks": {
+    "paired_row_count": true,
+    "constant_modulus": true,
+    "gain_recomputation": true,
+    "same_target_rows": true
+  },
+  "max_weight_magnitude_error": 2.9802322387695312e-08,
+  "max_recomputed_linear_gain_error": 1.1444091796875e-05,
+  "all_checks_passed": true
+}

@@ -1,0 +1,767 @@
+{
+  "protocol": {
+    "purpose": "exact-HFSS four-strong-point baseline with CNN influence excluded",
+    "suite": "validation",
+    "cases": 240,
+    "source_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239
+    ],
+    "forward_grid_directions": 32400,
+    "reverse_directions_used": 0,
+    "continuous_hemisphere_certificate": false,
+    "array_and_weight_control": "fixed 4x4, 47 GHz, phase-only |w_n|=1/4",
+    "control": "existing exact-HFSS O3 target-only high-budget max-min weights",
+    "cnn_files_loaded": [],
+    "definitions": {
+      "spatial_strength": "rho=min_i G(q_i,w)/max_{q_x>0} G(q,w)",
+      "solo_utilization": "u=min_i G(q_i,w)/G_i_solo",
+      "strict_four_strong": "rho>=0.5 and u>=0.5 (both within 3.01 dB)"
+    },
+    "methods": {
+      "H1_ratio_only": {
+        "preserve_db": null
+      },
+      "H2_preserve_0p5db": {
+        "preserve_db": 0.5
+      },
+      "H3_preserve_1db": {
+        "preserve_db": 1.0
+      }
+    },
+    "optimizer": {
+      "starts": 12,
+      "outer_steps": 6,
+      "inner_steps": 300,
+      "active_topk": 48,
+      "case_batch": 6
+    },
+    "source_hashes": {
+      "validation_front_suite.npz": "febe967f2a5747e63f1db73d827d304da3fe71de52465d6b90c781c766071446",
+      "validation_optimizer_arrays.npz": "db1adaf3a557f38317c0973249f784c1e53d5e01d00914906bf09debdb642bf6",
+      "script": "78e25d79198973196b8261a89f3213b35f1cb81324ddcfc40aac2733e1ec58ca"
+    }
+  },
+  "methods": {
+    "H0_target_maxmin": {
+      "name": "H0_target_maxmin",
+      "cases": 240,
+      "minimum_gain_db_p5_median_p95": [
+        0.3761296272277832,
+        5.155125617980957,
+        11.92773151397705
+      ],
+      "minimum_rho_p5_median_p95": [
+        0.028472840785980225,
+        0.1378067284822464,
+        0.4622120261192322
+      ],
+      "solo_utilization_p5_median_p95": [
+        0.0423489473760128,
+        0.15053434669971466,
+        0.5505920648574829
+      ],
+      "target_loss_vs_H0_db_p5_median_p95": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fraction_spatial_strong": {
+        "rho_ge_0_1": 0.612500011920929,
+        "rho_ge_0_2": 0.3583333194255829,
+        "rho_ge_0_5": 0.03333333507180214
+      },
+      "fraction_solo_utilization_ge_0_5": 0.07083333283662796,
+      "fraction_strict_four_strong": 0.008333333767950535,
+      "nearest_target_to_peak_deg_median": 43.530174255371094,
+      "farthest_target_to_peak_deg_median": 89.31385803222656,
+      "constant_modulus_max_error": 2.9802322387695312e-08,
+      "by_stratum": {
+        "clustered": {
+          "cases": 60,
+          "minimum_rho_median": 0.2693469524383545,
+          "minimum_gain_db_median": 9.773601531982422,
+          "target_loss_db_median": 0.0,
+          "fraction_rho_ge_0_5": 0.13333333333333333,
+          "fraction_solo_utilization_ge_0_5": 0.2833333333333333,
+          "fraction_strict_four_strong": 0.03333333333333333
+        },
+        "grazing": {
+          "cases": 60,
+          "minimum_rho_median": 0.0918300524353981,
+          "minimum_gain_db_median": 3.5639543533325195,
+          "target_loss_db_median": 0.0,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "moderate": {
+          "cases": 60,
+          "minimum_rho_median": 0.14038679003715515,
+          "minimum_gain_db_median": 5.6746506690979,
+          "target_loss_db_median": 0.0,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "wide": {
+          "cases": 60,
+          "minimum_rho_median": 0.10672011971473694,
+          "minimum_gain_db_median": 4.738080024719238,
+          "target_loss_db_median": 0.0,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        }
+      }
+    },
+    "H1_ratio_only": {
+      "name": "H1_ratio_only",
+      "cases": 240,
+      "minimum_gain_db_p5_median_p95": [
+        -2.309194326400757,
+        3.7043116092681885,
+        9.853291511535645
+      ],
+      "minimum_rho_p5_median_p95": [
+        0.03871399536728859,
+        0.15446722507476807,
+        0.529320240020752
+      ],
+      "solo_utilization_p5_median_p95": [
+        0.029642175883054733,
+        0.123223215341568,
+        0.3308519423007965
+      ],
+      "target_loss_vs_H0_db_p5_median_p95": [
+        0.0,
+        2.0559513568878174,
+        3.8620641231536865
+      ],
+      "fraction_spatial_strong": {
+        "rho_ge_0_1": 0.6583333611488342,
+        "rho_ge_0_2": 0.3916666805744171,
+        "rho_ge_0_5": 0.05416666716337204
+      },
+      "fraction_solo_utilization_ge_0_5": 0.012500000186264515,
+      "fraction_strict_four_strong": 0.004166666883975267,
+      "nearest_target_to_peak_deg_median": 44.17742919921875,
+      "farthest_target_to_peak_deg_median": 89.37327575683594,
+      "constant_modulus_max_error": 2.9802322387695312e-08,
+      "by_stratum": {
+        "clustered": {
+          "cases": 60,
+          "minimum_rho_median": 0.32790014147758484,
+          "minimum_gain_db_median": 7.481210708618164,
+          "target_loss_db_median": 2.663750648498535,
+          "fraction_rho_ge_0_5": 0.21666666666666667,
+          "fraction_solo_utilization_ge_0_5": 0.05,
+          "fraction_strict_four_strong": 0.016666666666666666
+        },
+        "grazing": {
+          "cases": 60,
+          "minimum_rho_median": 0.09566366672515869,
+          "minimum_gain_db_median": 1.844046711921692,
+          "target_loss_db_median": 1.6824699640274048,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "moderate": {
+          "cases": 60,
+          "minimum_rho_median": 0.15846000611782074,
+          "minimum_gain_db_median": 3.415437698364258,
+          "target_loss_db_median": 1.9060933589935303,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "wide": {
+          "cases": 60,
+          "minimum_rho_median": 0.11716686189174652,
+          "minimum_gain_db_median": 3.2562217712402344,
+          "target_loss_db_median": 1.8674230575561523,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        }
+      },
+      "runtime_seconds": 71.5433514000033,
+      "optimizer_diagnostic": {
+        "history": [
+          {
+            "outer": 1,
+            "best_margin_db_median": -8.559710502624512,
+            "best_target_min_db_median": 4.93431282043457
+          },
+          {
+            "outer": 2,
+            "best_margin_db_median": -8.367820739746094,
+            "best_target_min_db_median": 4.512182235717773
+          },
+          {
+            "outer": 3,
+            "best_margin_db_median": -8.367820739746094,
+            "best_target_min_db_median": 4.262640953063965
+          },
+          {
+            "outer": 4,
+            "best_margin_db_median": -8.216967582702637,
+            "best_target_min_db_median": 3.984694480895996
+          },
+          {
+            "outer": 5,
+            "best_margin_db_median": -8.216967582702637,
+            "best_target_min_db_median": 3.7713189125061035
+          },
+          {
+            "outer": 6,
+            "best_margin_db_median": -8.216967582702637,
+            "best_target_min_db_median": 3.6990108489990234
+          }
+        ]
+      }
+    },
+    "H2_preserve_0p5db": {
+      "name": "H2_preserve_0p5db",
+      "cases": 240,
+      "minimum_gain_db_p5_median_p95": [
+        0.11198343336582184,
+        4.812953948974609,
+        11.500231742858887
+      ],
+      "minimum_rho_p5_median_p95": [
+        0.028472840785980225,
+        0.1587403118610382,
+        0.5421780943870544
+      ],
+      "solo_utilization_p5_median_p95": [
+        0.04039726033806801,
+        0.14076033234596252,
+        0.48618465662002563
+      ],
+      "target_loss_vs_H0_db_p5_median_p95": [
+        0.0,
+        0.44841456413269043,
+        0.4986536204814911
+      ],
+      "fraction_spatial_strong": {
+        "rho_ge_0_1": 0.6541666388511658,
+        "rho_ge_0_2": 0.4416666626930237,
+        "rho_ge_0_5": 0.05833333358168602
+      },
+      "fraction_solo_utilization_ge_0_5": 0.04583333432674408,
+      "fraction_strict_four_strong": 0.012500000186264515,
+      "nearest_target_to_peak_deg_median": 44.169891357421875,
+      "farthest_target_to_peak_deg_median": 89.90316009521484,
+      "constant_modulus_max_error": 2.9802322387695312e-08,
+      "by_stratum": {
+        "clustered": {
+          "cases": 60,
+          "minimum_rho_median": 0.3255840539932251,
+          "minimum_gain_db_median": 9.5014009475708,
+          "target_loss_db_median": 0.4493985176086426,
+          "fraction_rho_ge_0_5": 0.23333333333333334,
+          "fraction_solo_utilization_ge_0_5": 0.18333333333333332,
+          "fraction_strict_four_strong": 0.05
+        },
+        "grazing": {
+          "cases": 60,
+          "minimum_rho_median": 0.10410067439079285,
+          "minimum_gain_db_median": 3.2142858505249023,
+          "target_loss_db_median": 0.4574871063232422,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "moderate": {
+          "cases": 60,
+          "minimum_rho_median": 0.16659346222877502,
+          "minimum_gain_db_median": 5.226038932800293,
+          "target_loss_db_median": 0.4457533359527588,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "wide": {
+          "cases": 60,
+          "minimum_rho_median": 0.12310971319675446,
+          "minimum_gain_db_median": 4.451725959777832,
+          "target_loss_db_median": 0.4455435276031494,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        }
+      },
+      "runtime_seconds": 65.043871700007,
+      "optimizer_diagnostic": {
+        "history": [
+          {
+            "outer": 1,
+            "best_margin_db_median": -8.492399215698242,
+            "best_target_min_db_median": 4.834049224853516
+          },
+          {
+            "outer": 2,
+            "best_margin_db_median": -8.286880493164062,
+            "best_target_min_db_median": 4.813660144805908
+          },
+          {
+            "outer": 3,
+            "best_margin_db_median": -8.182485580444336,
+            "best_target_min_db_median": 4.813660144805908
+          },
+          {
+            "outer": 4,
+            "best_margin_db_median": -8.105792999267578,
+            "best_target_min_db_median": 4.812246322631836
+          },
+          {
+            "outer": 5,
+            "best_margin_db_median": -8.059388160705566,
+            "best_target_min_db_median": 4.812246322631836
+          },
+          {
+            "outer": 6,
+            "best_margin_db_median": -8.059388160705566,
+            "best_target_min_db_median": 4.812246322631836
+          }
+        ]
+      }
+    },
+    "H3_preserve_1db": {
+      "name": "H3_preserve_1db",
+      "cases": 240,
+      "minimum_gain_db_p5_median_p95": [
+        -0.29238513112068176,
+        4.370358467102051,
+        11.030296325683594
+      ],
+      "minimum_rho_p5_median_p95": [
+        0.031200405210256577,
+        0.17498959600925446,
+        0.5635461807250977
+      ],
+      "solo_utilization_p5_median_p95": [
+        0.04068663343787193,
+        0.13312453031539917,
+        0.4332171678543091
+      ],
+      "target_loss_vs_H0_db_p5_median_p95": [
+        0.0,
+        0.9411492347717285,
+        0.998500406742096
+      ],
+      "fraction_spatial_strong": {
+        "rho_ge_0_1": 0.7083333134651184,
+        "rho_ge_0_2": 0.4749999940395355,
+        "rho_ge_0_5": 0.07083333283662796
+      },
+      "fraction_solo_utilization_ge_0_5": 0.03750000149011612,
+      "fraction_strict_four_strong": 0.008333333767950535,
+      "nearest_target_to_peak_deg_median": 43.01049041748047,
+      "farthest_target_to_peak_deg_median": 89.11571502685547,
+      "constant_modulus_max_error": 2.9802322387695312e-08,
+      "by_stratum": {
+        "clustered": {
+          "cases": 60,
+          "minimum_rho_median": 0.369065523147583,
+          "minimum_gain_db_median": 8.878480911254883,
+          "target_loss_db_median": 0.9429526329040527,
+          "fraction_rho_ge_0_5": 0.26666666666666666,
+          "fraction_solo_utilization_ge_0_5": 0.15,
+          "fraction_strict_four_strong": 0.03333333333333333
+        },
+        "grazing": {
+          "cases": 60,
+          "minimum_rho_median": 0.109406016767025,
+          "minimum_gain_db_median": 2.6515002250671387,
+          "target_loss_db_median": 0.9565261602401733,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "moderate": {
+          "cases": 60,
+          "minimum_rho_median": 0.18941465020179749,
+          "minimum_gain_db_median": 4.808276176452637,
+          "target_loss_db_median": 0.9344983100891113,
+          "fraction_rho_ge_0_5": 0.016666666666666666,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "wide": {
+          "cases": 60,
+          "minimum_rho_median": 0.1273382008075714,
+          "minimum_gain_db_median": 3.966784954071045,
+          "target_loss_db_median": 0.9392013549804688,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        }
+      },
+      "runtime_seconds": 57.45025409999653,
+      "optimizer_diagnostic": {
+        "history": [
+          {
+            "outer": 1,
+            "best_margin_db_median": -8.161859512329102,
+            "best_target_min_db_median": 4.369751930236816
+          },
+          {
+            "outer": 2,
+            "best_margin_db_median": -8.14470386505127,
+            "best_target_min_db_median": 4.374587535858154
+          },
+          {
+            "outer": 3,
+            "best_margin_db_median": -8.076106071472168,
+            "best_target_min_db_median": 4.369751930236816
+          },
+          {
+            "outer": 4,
+            "best_margin_db_median": -7.966174602508545,
+            "best_target_min_db_median": 4.369751930236816
+          },
+          {
+            "outer": 5,
+            "best_margin_db_median": -7.575741767883301,
+            "best_target_min_db_median": 4.369751930236816
+          },
+          {
+            "outer": 6,
+            "best_margin_db_median": -7.575741767883301,
+            "best_target_min_db_median": 4.369751930236816
+          }
+        ]
+      }
+    }
+  },
+  "comparisons": {
+    "H1_ratio_only": {
+      "spatial_strong_vs_H0": {
+        "paired_fraction_difference": 0.020833333333333332,
+        "bootstrap_95ci": [
+          0.004166666666666667,
+          0.041666666666666664
+        ]
+      },
+      "strict_four_strong_vs_H0": {
+        "paired_fraction_difference": -0.004166666666666667,
+        "bootstrap_95ci": [
+          -0.0125,
+          0.0
+        ]
+      }
+    },
+    "H2_preserve_0p5db": {
+      "spatial_strong_vs_H0": {
+        "paired_fraction_difference": 0.025,
+        "bootstrap_95ci": [
+          0.008333333333333333,
+          0.04583333333333333
+        ]
+      },
+      "strict_four_strong_vs_H0": {
+        "paired_fraction_difference": 0.004166666666666667,
+        "bootstrap_95ci": [
+          0.0,
+          0.0125
+        ]
+      }
+    },
+    "H3_preserve_1db": {
+      "spatial_strong_vs_H0": {
+        "paired_fraction_difference": 0.0375,
+        "bootstrap_95ci": [
+          0.016666666666666666,
+          0.0625
+        ]
+      },
+      "strict_four_strong_vs_H0": {
+        "paired_fraction_difference": 0.0,
+        "bootstrap_95ci": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "spectral_solo_upper_bound": {
+    "p5_median_p95": [
+      0.3066955894953714,
+      0.36996370381972987,
+      0.6823096493977201
+    ],
+    "fraction_certified_below_0_5": 0.8375,
+    "statement": "valid for arbitrary unit-norm complex weights, so also for phase-only weights"
+  },
+  "cause_breakdown": {
+    "definitions": {
+      "certified_physical_high_value_limit": "spectral upper bound on min_i G_i/G_i_solo is below 0.5; impossible even with arbitrary complex amplitudes",
+      "old_objective_mismatch_resolved": "1 dB-preserving spatial optimizer attains rho>=0.5 and solo utilization>=0.5",
+      "spatial_balance_requires_sacrifice": "ratio-only attains rho>=0.5 but loses more than 1 dB target minimum",
+      "unresolved_phase_only_or_nonconvex_gap": "not certified and not attained; needs SDP/amplitude relaxation or more global phase search"
+    },
+    "fractions": {
+      "certified_physical_high_value_limit": 0.8375,
+      "old_objective_mismatch_resolved": 0.008333333333333333,
+      "spatial_balance_requires_sacrifice": 0.016666666666666666,
+      "unresolved_phase_only_or_nonconvex_gap": 0.1375
+    },
+    "counts": {
+      "certified_physical_high_value_limit": 201,
+      "old_objective_mismatch_resolved": 2,
+      "spatial_balance_requires_sacrifice": 4,
+      "unresolved_phase_only_or_nonconvex_gap": 33
+    }
+  },
+  "position_relationship": {
+    "method": "H3_preserve_1db",
+    "spearman_with_minimum_rho": {
+      "minimum_pair_angle_deg": -0.33433219326724417,
+      "mean_pair_angle_deg": -0.4927012621746905,
+      "maximum_pair_angle_deg": -0.47348304658066975,
+      "mean_boresight_angle_deg": -0.325411031441518,
+      "farthest_target_to_peak_deg": -0.6762585681380482
+    }
+  }
+}

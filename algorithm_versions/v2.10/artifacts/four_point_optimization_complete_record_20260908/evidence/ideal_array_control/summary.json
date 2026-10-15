@@ -1,0 +1,377 @@
+{
+  "contract": {
+    "frequency_hz": 47000000000.0,
+    "wavelength_mm": 6.378562936170212,
+    "array": "4x4 rectangular, boresight +x, columns +y, rows +z",
+    "dy_mm": 6.8,
+    "dz_mm": 15.0,
+    "dy_lambda": 1.066070848253294,
+    "dz_lambda": 2.351626871146972,
+    "element_amplitude": 0.25,
+    "total_weight_norm_squared": 1.0,
+    "gain_formula": "sum_r |H_r w|^2 / 60",
+    "optimizer": "O3: q-eigen O1 8x160 Adam + 40 coordinate sweeps + 32x320 Adam soft-min, O2 included as final start",
+    "cnn_used": false
+  },
+  "boresight_calibration": {
+    "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\artifacts\\front_hemisphere_20260906\\datasets\\dev\\train.npz",
+    "q": [
+      0.999923825263977,
+      -0.008726202882826328,
+      -0.008726535364985466
+    ],
+    "mean_embedded_element_field_norm": 12.545862197875977
+  },
+  "inputs": {
+    "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\four_point_optimization_limit_evidence_20260906\\raw\\hfss_input\\validation_front_suite.npz": "febe967f2a5747e63f1db73d827d304da3fe71de52465d6b90c781c766071446",
+    "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\four_point_optimization_limit_evidence_20260906\\raw\\o3_results\\validation_o3_results.npz": "f02176f836c34cc6ccdb67c304e46ae1ca29a17b81feb34c9ba3966c30728e89",
+    "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\four_point_optimization_limit_evidence_20260906\\raw\\hfss_input\\holdout_front_suite.npz": "04cda062b6349493bca41ba6ee7a1e9d234a4a67597dbf0fd9af5366da966329",
+    "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\four_point_optimization_limit_evidence_20260906\\raw\\o3_results\\holdout_o3_results.npz": "ee4c601d1cad587e99c17f568465a158d26b08664dad8e67b44c9c725a65d6e6"
+  },
+  "results": {
+    "validation": {
+      "common_element_envelope": {
+        "cases": 240,
+        "hfss_gmin_db": {
+          "minimum": -1.4073419570922852,
+          "p5": 0.3761296302080155,
+          "median": 5.155125856399536,
+          "mean": 5.498560075849915,
+          "p95": 11.927730894088743,
+          "maximum": 15.456265449523926
+        },
+        "ideal_gmin_db": {
+          "minimum": 0.006895721890032291,
+          "p5": 1.1395620048046113,
+          "median": 5.485175371170044,
+          "mean": 5.805664652155246,
+          "p95": 11.935021591186521,
+          "maximum": 15.461097717285156
+        },
+        "paired_delta_db": {
+          "minimum": -0.5643353462219238,
+          "p5": -0.2608982801437378,
+          "median": 0.2406919002532959,
+          "mean": 0.30710457630533106,
+          "p95": 1.1076923131942746,
+          "maximum": 2.303143560886383
+        },
+        "paired_median_delta_95pct_bootstrap_ci_db": [
+          0.17026316523551943,
+          0.30761295557022095
+        ],
+        "fraction_ideal_higher": 0.7458333333333333,
+        "fraction_ideal_higher_by_at_least_1db": 0.075,
+        "fraction_ideal_higher_by_at_least_3db": 0.0,
+        "wilcoxon_two_sided_p": 5.15932496810076e-21,
+        "by_stratum": {
+          "clustered": {
+            "cases": 60,
+            "paired_delta_db": {
+              "minimum": -0.5032668113708496,
+              "p5": -0.19247984886169434,
+              "median": 0.11970067024230957,
+              "mean": 0.23575201531251272,
+              "p95": 0.9051392316818236,
+              "maximum": 2.303143560886383
+            },
+            "fraction_ideal_higher": 0.7166666666666667
+          },
+          "moderate": {
+            "cases": 60,
+            "paired_delta_db": {
+              "minimum": -0.4526205062866211,
+              "p5": -0.21598098278045655,
+              "median": 0.22677135467529297,
+              "mean": 0.3045261820157369,
+              "p95": 1.1387107223272317,
+              "maximum": 1.9558953642845154
+            },
+            "fraction_ideal_higher": 0.7166666666666667
+          },
+          "wide": {
+            "cases": 60,
+            "paired_delta_db": {
+              "minimum": -0.47154903411865234,
+              "p5": -0.2539035797119141,
+              "median": 0.31890153884887695,
+              "mean": 0.3893706429749727,
+              "p95": 1.3196528941392898,
+              "maximum": 1.7881956100463867
+            },
+            "fraction_ideal_higher": 0.7833333333333333
+          },
+          "grazing": {
+            "cases": 60,
+            "paired_delta_db": {
+              "minimum": -0.5643353462219238,
+              "p5": -0.3419154405593872,
+              "median": 0.3387516736984253,
+              "mean": 0.2987694649181018,
+              "p95": 0.9281979799270629,
+              "maximum": 1.120504379272461
+            },
+            "fraction_ideal_higher": 0.7666666666666667
+          }
+        }
+      },
+      "isotropic_boresight_calibrated": {
+        "cases": 240,
+        "hfss_gmin_db": {
+          "minimum": -1.4073419570922852,
+          "p5": 0.3761296302080155,
+          "median": 5.155125856399536,
+          "mean": 5.498560075849915,
+          "p95": 11.927730894088743,
+          "maximum": 15.456265449523926
+        },
+        "ideal_gmin_db": {
+          "minimum": 9.724458694458008,
+          "p5": 10.116139698028565,
+          "median": 10.940014839172363,
+          "mean": 11.328922688961029,
+          "p95": 14.483543968200681,
+          "maximum": 15.950368881225586
+        },
+        "paired_delta_db": {
+          "minimum": -1.370966911315918,
+          "p5": 0.9682746410369873,
+          "median": 5.985649108886719,
+          "mean": 5.830362613111114,
+          "p95": 10.507107391953467,
+          "maximum": 15.273289978504181
+        },
+        "paired_median_delta_95pct_bootstrap_ci_db": [
+          5.452281475067139,
+          6.31448221206665
+        ],
+        "fraction_ideal_higher": 0.9791666666666666,
+        "fraction_ideal_higher_by_at_least_1db": 0.9416666666666667,
+        "fraction_ideal_higher_by_at_least_3db": 0.8375,
+        "wilcoxon_two_sided_p": 7.054329063328512e-41,
+        "by_stratum": {
+          "clustered": {
+            "cases": 60,
+            "paired_delta_db": {
+              "minimum": -1.370966911315918,
+              "p5": -0.5192605018615721,
+              "median": 4.005023002624512,
+              "mean": 3.9783697456121443,
+              "p95": 9.417804539203644,
+              "maximum": 15.273289978504181
+            },
+            "fraction_ideal_higher": 0.9166666666666666
+          },
+          "moderate": {
+            "cases": 60,
+            "paired_delta_db": {
+              "minimum": 1.1161260604858398,
+              "p5": 2.3357362270355226,
+              "median": 5.046817302703857,
+              "mean": 5.604411495725314,
+              "p95": 10.375858332216739,
+              "maximum": 11.569588661193848
+            },
+            "fraction_ideal_higher": 1.0
+          },
+          "wide": {
+            "cases": 60,
+            "paired_delta_db": {
+              "minimum": 2.3419313430786133,
+              "p5": 2.8595760583877565,
+              "median": 6.146698832511902,
+              "mean": 6.076844079171618,
+              "p95": 9.68822965323925,
+              "maximum": 10.96801357716322
+            },
+            "fraction_ideal_higher": 1.0
+          },
+          "grazing": {
+            "cases": 60,
+            "paired_delta_db": {
+              "minimum": 3.971506118774414,
+              "p5": 5.0622413635253904,
+              "median": 7.587085485458374,
+              "mean": 7.661825131935378,
+              "p95": 10.98898575361818,
+              "maximum": 11.572055786848068
+            },
+            "fraction_ideal_higher": 1.0
+          }
+        }
+      }
+    },
+    "holdout": {
+      "common_element_envelope": {
+        "cases": 600,
+        "hfss_gmin_db": {
+          "minimum": -1.5056531429290771,
+          "p5": 1.1456031203269958,
+          "median": 4.497104167938232,
+          "mean": 4.980503885491441,
+          "p95": 11.215957593917846,
+          "maximum": 15.738621711730957
+        },
+        "ideal_gmin_db": {
+          "minimum": -0.7588162422180176,
+          "p5": 1.7391597270965575,
+          "median": 4.675607442855835,
+          "mean": 5.2384868778536715,
+          "p95": 11.274918603897094,
+          "maximum": 15.779211044311523
+        },
+        "paired_delta_db": {
+          "minimum": -1.1367689073085785,
+          "p5": -0.3896217942237854,
+          "median": 0.216530442237854,
+          "mean": 0.257982992362231,
+          "p95": 1.0053521811962123,
+          "maximum": 2.179333172738552
+        },
+        "paired_median_delta_95pct_bootstrap_ci_db": [
+          0.17318333983421327,
+          0.2700061798095703
+        ],
+        "fraction_ideal_higher": 0.7483333333333333,
+        "fraction_ideal_higher_by_at_least_1db": 0.05333333333333334,
+        "fraction_ideal_higher_by_at_least_3db": 0.0,
+        "wilcoxon_two_sided_p": 2.436946205873145e-39,
+        "by_stratum": {
+          "clustered": {
+            "cases": 150,
+            "paired_delta_db": {
+              "minimum": -1.1367689073085785,
+              "p5": -0.6298923015594482,
+              "median": 0.2166193723678589,
+              "mean": 0.2696236262222131,
+              "p95": 1.2427787542343138,
+              "maximum": 2.179333172738552
+            },
+            "fraction_ideal_higher": 0.7333333333333333
+          },
+          "moderate": {
+            "cases": 150,
+            "paired_delta_db": {
+              "minimum": -1.0088715553283691,
+              "p5": -0.3887176513671875,
+              "median": 0.20458650588989258,
+              "mean": 0.22153748979171117,
+              "p95": 0.7863677322864513,
+              "maximum": 1.6517313718795776
+            },
+            "fraction_ideal_higher": 0.7666666666666667
+          },
+          "wide": {
+            "cases": 150,
+            "paired_delta_db": {
+              "minimum": -0.696580171585083,
+              "p5": -0.4037051200866699,
+              "median": 0.19857478141784668,
+              "mean": 0.26256191382805505,
+              "p95": 0.9881698489189144,
+              "maximum": 1.7964706420898438
+            },
+            "fraction_ideal_higher": 0.7333333333333333
+          },
+          "grazing": {
+            "cases": 150,
+            "paired_delta_db": {
+              "minimum": -0.5933899879455566,
+              "p5": -0.318297278881073,
+              "median": 0.2759774923324585,
+              "mean": 0.2782089396069447,
+              "p95": 0.989258450269699,
+              "maximum": 1.2540103159844875
+            },
+            "fraction_ideal_higher": 0.76
+          }
+        }
+      },
+      "isotropic_boresight_calibrated": {
+        "cases": 600,
+        "hfss_gmin_db": {
+          "minimum": -1.5056531429290771,
+          "p5": 1.1456031203269958,
+          "median": 4.497104167938232,
+          "mean": 4.980503885491441,
+          "p95": 11.215957593917846,
+          "maximum": 15.738621711730957
+        },
+        "ideal_gmin_db": {
+          "minimum": 9.711681365966797,
+          "p5": 10.070780706405639,
+          "median": 10.997713565826416,
+          "mean": 11.333850431442261,
+          "p95": 14.557173299789428,
+          "maximum": 15.864762306213379
+        },
+        "paired_delta_db": {
+          "minimum": -1.4499320983886719,
+          "p5": 1.4793035984039307,
+          "median": 6.5887367725372314,
+          "mean": 6.35334654595082,
+          "p95": 9.941025635600088,
+          "maximum": 13.991076193749905
+        },
+        "paired_median_delta_95pct_bootstrap_ci_db": [
+          6.379400134086609,
+          6.745252326130867
+        ],
+        "fraction_ideal_higher": 0.98,
+        "fraction_ideal_higher_by_at_least_1db": 0.965,
+        "fraction_ideal_higher_by_at_least_3db": 0.8933333333333333,
+        "wilcoxon_two_sided_p": 1.291681413094368e-99,
+        "by_stratum": {
+          "clustered": {
+            "cases": 150,
+            "paired_delta_db": {
+              "minimum": -1.4499320983886719,
+              "p5": -0.5930729866027832,
+              "median": 4.898552417755127,
+              "mean": 5.180350294063489,
+              "p95": 11.464731836318967,
+              "maximum": 13.991076193749905
+            },
+            "fraction_ideal_higher": 0.92
+          },
+          "moderate": {
+            "cases": 150,
+            "paired_delta_db": {
+              "minimum": 0.6053857803344727,
+              "p5": 2.29596951007843,
+              "median": 6.202690839767456,
+              "mean": 5.980644585490227,
+              "p95": 9.705321049690246,
+              "maximum": 11.793153524398804
+            },
+            "fraction_ideal_higher": 1.0
+          },
+          "wide": {
+            "cases": 150,
+            "paired_delta_db": {
+              "minimum": 2.7164764404296875,
+              "p5": 3.6149012804031373,
+              "median": 6.230627536773682,
+              "mean": 6.54825562765201,
+              "p95": 9.289575511217116,
+              "maximum": 11.038826584815979
+            },
+            "fraction_ideal_higher": 1.0
+          },
+          "grazing": {
+            "cases": 150,
+            "paired_delta_db": {
+              "minimum": 5.1786932945251465,
+              "p5": 6.020801103115081,
+              "median": 7.801908016204834,
+              "mean": 7.704135676597556,
+              "p95": 9.52867357432842,
+              "maximum": 11.732944842427969
+            },
+            "fraction_ideal_higher": 1.0
+          }
+        }
+      }
+    }
+  }
+}

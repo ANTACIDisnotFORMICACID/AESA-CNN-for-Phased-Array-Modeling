@@ -1,0 +1,9 @@
+{
+  "purpose": "paired control isolating ideal array geometry from the stored HFSS active-element operator",
+  "models": {
+    "common_element_envelope": "At each target direction, use RMS HFSS per-port field norm as one common element envelope, then apply only the ideal geometric phase. Removes port-dependent embedded-pattern/coupling structure while retaining direction-dependent element strength.",
+    "isotropic_boresight_calibrated": "Use a direction-independent element field norm equal to the nearest-boresight RMS HFSS per-port field norm, then apply ideal geometric phase. Removes element scan loss as well as coupling/asymmetry."
+  },
+  "causal_boundary": "A difference between HFSS and common-element-envelope models measures all port-dependent full-wave nonidealities together; it cannot identify mutual coupling alone without a no-coupling full-wave model or network de-embedding.",
+  "source_code_sha256": "c504b8f73ff8f266d5036b5ecc8d76659aa7003d0bb0f349f6f3c99138cf9142"
+}

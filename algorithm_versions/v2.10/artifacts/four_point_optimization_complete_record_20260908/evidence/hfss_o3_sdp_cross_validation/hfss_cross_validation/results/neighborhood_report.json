@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "method": "HFSS API numeric phase neighborhood search",
+  "method_scope": "Independent local check around O3; not HFSS Optimetrics and not a global-optimality proof.",
+  "aedt_version": "2025.2",
+  "pyaedt_version": "0.9.6",
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\projects\\v2_8_array_4x4.aedt",
+  "restored_environment": {
+    "ANSYSEM_ROOT252": "machine",
+    "ANSYSLMD_LICENSE_FILE": "machine"
+  },
+  "seed": 20260906,
+  "scales_deg": [
+    20.0,
+    10.0,
+    5.0,
+    2.0,
+    1.0,
+    0.5
+  ],
+  "attempts_per_scale": 4,
+  "evaluations": 25,
+  "initial_phase_deg": [
+    -37.144317626953125,
+    20.20153045654297,
+    -16.806386947631836,
+    166.85494995117188,
+    -9.189628601074219,
+    82.37039947509766,
+    18.822500228881836,
+    -148.08750915527344,
+    26.342819213867188,
+    126.22370910644531,
+    60.76127243041992,
+    -127.30399322509766,
+    60.89864730834961,
+    155.8846435546875,
+    95.75983428955078,
+    -103.27027893066406
+  ],
+  "initial_target_gain_db": [
+    4.4555608911993705,
+    4.451505423940245,
+    4.396468787222001,
+    4.475912517099241
+  ],
+  "initial_gmin_db": 4.396468787222001,
+  "best_phase_deg": [
+    -37.144317626953125,
+    22.314806952965597,
+    -17.377907627308048,
+    169.71292632252909,
+    -8.681716924439684,
+    81.87808005133564,
+    20.92465350456723,
+    -148.26757969083545,
+    28.62930014688692,
+    127.43887209424884,
+    62.57052295330459,
+    -130.1085266087504,
+    58.69747180292043,
+    153.11378795893734,
+    94.33267827886124,
+    -102.19305413986065
+  ],
+  "best_target_gain_db": [
+    4.426502955359676,
+    4.597689044086124,
+    4.445466642584954,
+    4.447421289308695
+  ],
+  "best_gmin_db": 4.426502955359676,
+  "gmin_improvement_db": 0.03003416813767501,
+  "accepted_moves": 3,
+  "elapsed_seconds": 621.668375492096,
+  "history_csv": "D:\\Desktop\\wireless\\BigChuang\\相控阵算法\\AESA-CNN\\hfss_cross_validation_20260906\\results\\neighborhood_case189\\neighborhood_history.csv"
+}

@@ -1,0 +1,307 @@
+{
+  "aedt_version": "2025.2",
+  "array_axes": {
+    "boresight": "+X",
+    "column": "+Y",
+    "row": "+Z"
+  },
+  "column_pitch_mm": 6.8,
+  "design": "HFSSDesign1",
+  "duplicated_source_object_count": 45,
+  "far_field_sphere": {
+    "available_field_setups": [
+      "Infinite Sphere1"
+    ],
+    "coordinate_system": "False",
+    "name": "Infinite Sphere1",
+    "sampling": {
+      "PhiStart": "-180deg",
+      "PhiStep": "1deg",
+      "PhiStop": "180deg",
+      "ThetaStart": "0deg",
+      "ThetaStep": "1deg",
+      "ThetaStop": "180deg"
+    },
+    "selected_name_is_unique": true
+  },
+  "frequency_hz": 47000000000.0,
+  "identity": "formic-acid\\asus",
+  "logical_shape": [
+    4,
+    4
+  ],
+  "new_object_count": 135,
+  "passed": true,
+  "ports": [
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        0.0,
+        0.12700000000000014
+      ],
+      "col_y": 0,
+      "hfss_port": "1",
+      "mode_name": "1:1",
+      "row_z": 0,
+      "sheet": "Rectangle1"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        6.8,
+        0.12700000000000014
+      ],
+      "col_y": 1,
+      "hfss_port": "2",
+      "mode_name": "2:1",
+      "row_z": 0,
+      "sheet": "Rectangle1_1"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        13.600000000000001,
+        0.12700000000000014
+      ],
+      "col_y": 2,
+      "hfss_port": "3",
+      "mode_name": "3:1",
+      "row_z": 0,
+      "sheet": "Rectangle1_2"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        20.4,
+        0.12700000000000014
+      ],
+      "col_y": 3,
+      "hfss_port": "4",
+      "mode_name": "4:1",
+      "row_z": 0,
+      "sheet": "Rectangle1_3"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        0.0,
+        15.126999999999999
+      ],
+      "col_y": 0,
+      "hfss_port": "5",
+      "mode_name": "5:1",
+      "row_z": 1,
+      "sheet": "Rectangle1_4"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        6.8,
+        15.126999999999999
+      ],
+      "col_y": 1,
+      "hfss_port": "6",
+      "mode_name": "6:1",
+      "row_z": 1,
+      "sheet": "Rectangle1_1_1"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        13.600000000000001,
+        15.126999999999999
+      ],
+      "col_y": 2,
+      "hfss_port": "7",
+      "mode_name": "7:1",
+      "row_z": 1,
+      "sheet": "Rectangle1_2_1"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        20.4,
+        15.126999999999999
+      ],
+      "col_y": 3,
+      "hfss_port": "8",
+      "mode_name": "8:1",
+      "row_z": 1,
+      "sheet": "Rectangle1_3_1"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        0.0,
+        30.127000000000002
+      ],
+      "col_y": 0,
+      "hfss_port": "9",
+      "mode_name": "9:1",
+      "row_z": 2,
+      "sheet": "Rectangle1_5"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        6.8,
+        30.127000000000002
+      ],
+      "col_y": 1,
+      "hfss_port": "10",
+      "mode_name": "10:1",
+      "row_z": 2,
+      "sheet": "Rectangle1_1_2"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        13.600000000000001,
+        30.127000000000002
+      ],
+      "col_y": 2,
+      "hfss_port": "11",
+      "mode_name": "11:1",
+      "row_z": 2,
+      "sheet": "Rectangle1_2_2"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        20.4,
+        30.127000000000002
+      ],
+      "col_y": 3,
+      "hfss_port": "12",
+      "mode_name": "12:1",
+      "row_z": 2,
+      "sheet": "Rectangle1_3_2"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        0.0,
+        45.127
+      ],
+      "col_y": 0,
+      "hfss_port": "13",
+      "mode_name": "13:1",
+      "row_z": 3,
+      "sheet": "Rectangle1_6"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        6.8,
+        45.127
+      ],
+      "col_y": 1,
+      "hfss_port": "14",
+      "mode_name": "14:1",
+      "row_z": 3,
+      "sheet": "Rectangle1_1_3"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        13.600000000000001,
+        45.127
+      ],
+      "col_y": 2,
+      "hfss_port": "15",
+      "mode_name": "15:1",
+      "row_z": 3,
+      "sheet": "Rectangle1_2_3"
+    },
+    {
+      "center_mm": [
+        8.62151346599737e-17,
+        20.4,
+        45.127
+      ],
+      "col_y": 3,
+      "hfss_port": "16",
+      "mode_name": "16:1",
+      "row_z": 3,
+      "sheet": "Rectangle1_3_3"
+    }
+  ],
+  "pyaedt_version": "0.9.6",
+  "radiation_box": {
+    "array_bounding_box_mm": [
+      -0.5,
+      -3.4,
+      -0.797,
+      5.0,
+      23.8,
+      45.289
+    ],
+    "array_object_count": 180,
+    "boundary_name": "Open1",
+    "face_count": 6,
+    "is_six_face_cuboid": true,
+    "margins_mm": {
+      "x_max": 2.1276595744680797,
+      "x_min": 2.12765957446809,
+      "y_max": 2.127659574468101,
+      "y_min": 2.12765957446809,
+      "z_max": 2.1276595744680975,
+      "z_min": 2.12765957446809
+    },
+    "material": "vacuum",
+    "minimum_required_margin_mm": 1.594640734042553,
+    "object_name": "RadiatingSurface",
+    "object_type": "Solid",
+    "old_box9_absent": true,
+    "radiation_bounding_box_mm": [
+      -2.62765957446809,
+      -5.52765957446809,
+      -2.92465957446809,
+      7.12765957446808,
+      25.9276595744681,
+      47.4166595744681
+    ],
+    "radiation_box_size_mm": [
+      9.75531914893617,
+      31.45531914893619,
+      50.341319148936186
+    ],
+    "single_radiation_boundary": true,
+    "single_radiation_object": true
+  },
+  "restored_environment": {
+    "ANSYSEM_ROOT252": "machine",
+    "ANSYSLMD_LICENSE_FILE": "machine"
+  },
+  "row_pitch_mm": 15.0,
+  "schema_version": 1,
+  "solve_performed": false,
+  "source_project": "V:\\projects\\source_1x4_20250326.aedt",
+  "source_sha256": "D647839C759D84C58D9A0251EFB814C29790F0D5D03287462284B3A2B683D350",
+  "target_project": "V:\\projects\\v2_8_array_4x4.aedt",
+  "target_sha256": "197FDDFFAF1AD89595B584CAA26373E557198B8DF3D5C9F82C2BF1EE73142293",
+  "validation": [
+    [
+      "Desktop messages:",
+      "(Modal Network), [warning]  The computation of radiated fields requires a radiation boundary, a PML, or a free standing hybrid region. Therefore, setup Infinite Sphere1 has been deleted.  You may undo to recover. (11:28:30 PM  Sep 02, 2026)",
+      "(Modal Network), [warning]  The computation of radiated fields requires a radiation boundary, a PML, or a free standing hybrid region. Therefore, setup TestSphere has been deleted.  You may undo to recover. (11:28:30 PM  Sep 02, 2026)",
+      "(Modal Network), [warning]  The computation of radiated fields requires a radiation boundary, a PML, or a free standing hybrid region. Therefore, setup FF_Sphere_F60 has been deleted.  You may undo to recover. (11:28:30 PM  Sep 02, 2026)",
+      "(Modal Network), [warning]  Trace definition for 'dB(GainTotal)' was invalid. It has been deleted as a result. (11:28:30 PM  Sep 02, 2026)",
+      "(Modal Network), [warning]  The report 'Gain Plot 1' was deleted because its traces were invalidated due to the edit. (11:28:30 PM  Sep 02, 2026)",
+      "Design validation check PASSED.",
+      "Design validation messages:",
+      "** End of design validation messages. **",
+      "Excitations check:",
+      "Solution type: Modal",
+      "Ports Requested: 16",
+      "Defined excitations number: 16",
+      "Defined excitations names: ['4:1', '5:1', '16:1', '1:1', '14:1', '2:1', '6:1', '3:1', '8:1', '12:1', '15:1', '11:1', '9:1', '7:1', '13:1', '10:1']",
+      "Analysis setup messages:",
+      "Detected setup and sweep: ",
+      "Setup1",
+      " |__ Sweep",
+      "Setup2"
+    ],
+    true
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "protocol": {
+    "purpose": "exact-HFSS four-strong-point baseline with CNN influence excluded",
+    "suite": "validation",
+    "cases": 8,
+    "source_indices": [
+      0,
+      1,
+      60,
+      61,
+      120,
+      121,
+      180,
+      181
+    ],
+    "forward_grid_directions": 32400,
+    "reverse_directions_used": 0,
+    "continuous_hemisphere_certificate": false,
+    "array_and_weight_control": "fixed 4x4, 47 GHz, phase-only |w_n|=1/4",
+    "control": "existing exact-HFSS O3 target-only high-budget max-min weights",
+    "cnn_files_loaded": [],
+    "definitions": {
+      "spatial_strength": "rho=min_i G(q_i,w)/max_{q_x>0} G(q,w)",
+      "solo_utilization": "u=min_i G(q_i,w)/G_i_solo",
+      "strict_four_strong": "rho>=0.5 and u>=0.5 (both within 3.01 dB)"
+    },
+    "methods": {
+      "H1_ratio_only": {
+        "preserve_db": null
+      },
+      "H3_preserve_1db": {
+        "preserve_db": 1.0
+      }
+    },
+    "optimizer": {
+      "starts": 4,
+      "outer_steps": 1,
+      "inner_steps": 10,
+      "active_topk": 8,
+      "case_batch": 4
+    },
+    "source_hashes": {
+      "validation_front_suite.npz": "febe967f2a5747e63f1db73d827d304da3fe71de52465d6b90c781c766071446",
+      "validation_optimizer_arrays.npz": "db1adaf3a557f38317c0973249f784c1e53d5e01d00914906bf09debdb642bf6",
+      "script": "fe1cd7d155c046232a83df3321fdd2e0bcac0a6fbd4c573966b91308690ddf2d"
+    }
+  },
+  "methods": {
+    "H0_target_maxmin": {
+      "name": "H0_target_maxmin",
+      "cases": 8,
+      "minimum_gain_db_p5_median_p95": [
+        2.3726935386657715,
+        6.703722953796387,
+        9.702540397644043
+      ],
+      "minimum_rho_p5_median_p95": [
+        0.07929623872041702,
+        0.23299196362495422,
+        0.3681083619594574
+      ],
+      "solo_utilization_p5_median_p95": [
+        0.05718294531106949,
+        0.16330847144126892,
+        0.4144861102104187
+      ],
+      "target_loss_vs_H0_db_p5_median_p95": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fraction_spatial_strong": {
+        "rho_ge_0_1": 0.625,
+        "rho_ge_0_2": 0.5,
+        "rho_ge_0_5": 0.0
+      },
+      "fraction_solo_utilization_ge_0_5": 0.0,
+      "fraction_strict_four_strong": 0.0,
+      "nearest_target_to_peak_deg_median": 37.234169006347656,
+      "farthest_target_to_peak_deg_median": 80.40362548828125,
+      "constant_modulus_max_error": 0.0,
+      "by_stratum": {
+        "clustered": {
+          "cases": 2,
+          "minimum_rho_median": 0.27358734607696533,
+          "minimum_gain_db_median": 9.432114601135254,
+          "target_loss_db_median": 0.0,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "grazing": {
+          "cases": 2,
+          "minimum_rho_median": 0.1772569715976715,
+          "minimum_gain_db_median": 4.21994686126709,
+          "target_loss_db_median": 0.0,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "moderate": {
+          "cases": 2,
+          "minimum_rho_median": 0.22840793430805206,
+          "minimum_gain_db_median": 4.868340969085693,
+          "target_loss_db_median": 0.0,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "wide": {
+          "cases": 2,
+          "minimum_rho_median": 0.21421734988689423,
+          "minimum_gain_db_median": 6.050636291503906,
+          "target_loss_db_median": 0.0,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        }
+      }
+    },
+    "H1_ratio_only": {
+      "name": "H1_ratio_only",
+      "cases": 8,
+      "minimum_gain_db_p5_median_p95": [
+        0.8695001602172852,
+        6.329587936401367,
+        8.3290376663208
+      ],
+      "minimum_rho_p5_median_p95": [
+        0.0825963094830513,
+        0.25787463784217834,
+        0.39444461464881897
+      ],
+      "solo_utilization_p5_median_p95": [
+        0.07693085074424744,
+        0.17452844977378845,
+        0.3273651599884033
+      ],
+      "target_loss_vs_H0_db_p5_median_p95": [
+        0.0,
+        1.305383563041687,
+        2.013197183609009
+      ],
+      "fraction_spatial_strong": {
+        "rho_ge_0_1": 0.75,
+        "rho_ge_0_2": 0.625,
+        "rho_ge_0_5": 0.0
+      },
+      "fraction_solo_utilization_ge_0_5": 0.0,
+      "fraction_strict_four_strong": 0.0,
+      "nearest_target_to_peak_deg_median": 30.1838321685791,
+      "farthest_target_to_peak_deg_median": 82.90962982177734,
+      "constant_modulus_max_error": 1.4901161193847656e-08,
+      "by_stratum": {
+        "clustered": {
+          "cases": 2,
+          "minimum_rho_median": 0.3220447897911072,
+          "minimum_gain_db_median": 7.983150005340576,
+          "target_loss_db_median": 1.4489645957946777,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "grazing": {
+          "cases": 2,
+          "minimum_rho_median": 0.17979548871517181,
+          "minimum_gain_db_median": 3.0636444091796875,
+          "target_loss_db_median": 1.156302571296692,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "moderate": {
+          "cases": 2,
+          "minimum_rho_median": 0.22840793430805206,
+          "minimum_gain_db_median": 4.868340969085693,
+          "target_loss_db_median": 0.0,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "wide": {
+          "cases": 2,
+          "minimum_rho_median": 0.23266232013702393,
+          "minimum_gain_db_median": 4.745253086090088,
+          "target_loss_db_median": 1.305383563041687,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        }
+      },
+      "runtime_seconds": 4.541546699998435,
+      "optimizer_diagnostic": {
+        "history": [
+          {
+            "outer": 1,
+            "best_margin_db_median": -6.2310919761657715,
+            "best_target_min_db_median": 6.094900131225586
+          }
+        ]
+      }
+    },
+    "H3_preserve_1db": {
+      "name": "H3_preserve_1db",
+      "cases": 8,
+      "minimum_gain_db_p5_median_p95": [
+        1.9423706531524658,
+        6.510995388031006,
+        9.31301212310791
+      ],
+      "minimum_rho_p5_median_p95": [
+        0.08002617210149765,
+        0.2514491379261017,
+        0.3732728362083435
+      ],
+      "solo_utilization_p5_median_p95": [
+        0.08379361033439636,
+        0.1914094090461731,
+        0.36098378896713257
+      ],
+      "target_loss_vs_H0_db_p5_median_p95": [
+        0.0,
+        0.44083595275878906,
+        0.9546119570732117
+      ],
+      "fraction_spatial_strong": {
+        "rho_ge_0_1": 0.75,
+        "rho_ge_0_2": 0.625,
+        "rho_ge_0_5": 0.0
+      },
+      "fraction_solo_utilization_ge_0_5": 0.0,
+      "fraction_strict_four_strong": 0.0,
+      "nearest_target_to_peak_deg_median": 30.1838321685791,
+      "farthest_target_to_peak_deg_median": 87.31763458251953,
+      "constant_modulus_max_error": 0.0,
+      "by_stratum": {
+        "clustered": {
+          "cases": 2,
+          "minimum_rho_median": 0.2993333339691162,
+          "minimum_gain_db_median": 8.954121589660645,
+          "target_loss_db_median": 0.4779927730560303,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "grazing": {
+          "cases": 2,
+          "minimum_rho_median": 0.1772569715976715,
+          "minimum_gain_db_median": 4.21994686126709,
+          "target_loss_db_median": 0.0,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "moderate": {
+          "cases": 2,
+          "minimum_rho_median": 0.22945070266723633,
+          "minimum_gain_db_median": 4.519059658050537,
+          "target_loss_db_median": 0.34928131103515625,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        },
+        "wide": {
+          "cases": 2,
+          "minimum_rho_median": 0.23009219765663147,
+          "minimum_gain_db_median": 5.100008964538574,
+          "target_loss_db_median": 0.9506276845932007,
+          "fraction_rho_ge_0_5": 0.0,
+          "fraction_solo_utilization_ge_0_5": 0.0,
+          "fraction_strict_four_strong": 0.0
+        }
+      },
+      "runtime_seconds": 0.09359110001241788,
+      "optimizer_diagnostic": {
+        "history": [
+          {
+            "outer": 1,
+            "best_margin_db_median": -6.471980571746826,
+            "best_target_min_db_median": 6.094900131225586
+          }
+        ]
+      }
+    }
+  },
+  "comparisons": {
+    "H1_ratio_only": {
+      "spatial_strong_vs_H0": {
+        "paired_fraction_difference": 0.0,
+        "bootstrap_95ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "strict_four_strong_vs_H0": {
+        "paired_fraction_difference": 0.0,
+        "bootstrap_95ci": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "H3_preserve_1db": {
+      "spatial_strong_vs_H0": {
+        "paired_fraction_difference": 0.0,
+        "bootstrap_95ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "strict_four_strong_vs_H0": {
+        "paired_fraction_difference": 0.0,
+        "bootstrap_95ci": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "spectral_solo_upper_bound": {
+    "p5_median_p95": [
+      0.3355902941328972,
+      0.3672960975733192,
+      0.5792018414090233
+    ],
+    "fraction_certified_below_0_5": 0.875,
+    "statement": "valid for arbitrary unit-norm complex weights, so also for phase-only weights"
+  },
+  "cause_breakdown": {
+    "definitions": {
+      "certified_physical_high_value_limit": "spectral upper bound on min_i G_i/G_i_solo is below 0.5; impossible even with arbitrary complex amplitudes",
+      "old_objective_mismatch_resolved": "1 dB-preserving spatial optimizer attains rho>=0.5 and solo utilization>=0.5",
+      "spatial_balance_requires_sacrifice": "ratio-only attains rho>=0.5 but loses more than 1 dB target minimum",
+      "unresolved_phase_only_or_nonconvex_gap": "not certified and not attained; needs SDP/amplitude relaxation or more global phase search"
+    },
+    "fractions": {
+      "certified_physical_high_value_limit": 0.875,
+      "old_objective_mismatch_resolved": 0.0,
+      "spatial_balance_requires_sacrifice": 0.0,
+      "unresolved_phase_only_or_nonconvex_gap": 0.125
+    },
+    "counts": {
+      "certified_physical_high_value_limit": 7,
+      "old_objective_mismatch_resolved": 0,
+      "spatial_balance_requires_sacrifice": 0,
+      "unresolved_phase_only_or_nonconvex_gap": 1
+    }
+  },
+  "position_relationship": {
+    "method": "H3_preserve_1db",
+    "spearman_with_minimum_rho": {
+      "minimum_pair_angle_deg": -0.2142857142857143,
+      "mean_pair_angle_deg": -0.6666666666666669,
+      "maximum_pair_angle_deg": -0.6190476190476191,
+      "mean_boresight_angle_deg": -0.523809523809524,
+      "farthest_target_to_peak_deg": -0.6190476190476191
+    }
+  }
+}

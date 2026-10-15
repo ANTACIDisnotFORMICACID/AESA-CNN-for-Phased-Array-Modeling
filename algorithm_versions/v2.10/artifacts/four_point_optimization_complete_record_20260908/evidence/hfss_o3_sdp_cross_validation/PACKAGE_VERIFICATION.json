@@ -1,0 +1,27 @@
+{
+  "status": "CONSISTENT_O3_ONLY_PACKAGE_OK",
+  "comparison_method_count": 1,
+  "refinement_files": [],
+  "splits": [
+    {
+      "split": "validation",
+      "cases": 240,
+      "cases_per_group": 60,
+      "method": "H0_O3_32x320_Adam_phase_only",
+      "cnn_files_loaded": [],
+      "maximum_modulus_error": 2.9802322387695312e-08,
+      "maximum_hfss_gain_recompute_error": 8.674762057125918e-06,
+      "status": "PASS"
+    },
+    {
+      "split": "holdout",
+      "cases": 600,
+      "cases_per_group": 150,
+      "method": "H0_O3_32x320_Adam_phase_only",
+      "cnn_files_loaded": [],
+      "maximum_modulus_error": 2.9802322387695312e-08,
+      "maximum_hfss_gain_recompute_error": 1.3003527467247977e-05,
+      "status": "PASS"
+    }
+  ]
+}

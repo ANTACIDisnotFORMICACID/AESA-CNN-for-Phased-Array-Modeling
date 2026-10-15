@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aesa-cnn-v210"
+version = "0.2.0"
+description = "V2.10 staged physics-layered 4x4 far-field model trained from amplitude only"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.12",
+  "torch>=2.2",
+]
+
+[project.scripts]
+v210-prepare-hfss-amplitude = "v210.cli.prepare_hfss_amplitude:main"
+v210-prepare-measured-amplitude = "v210.cli.prepare_measured_amplitude:main"
+v210-prepare-amplitude-split = "v210.cli.prepare_amplitude_split:main"
+v210-train-forward = "v210.cli.train_forward:main"
+v210-evaluate-forward = "v210.cli.evaluate_forward:main"
+v210-optimize-targets = "v210.cli.optimize_targets:main"
+v210-verify-hfss-basis = "v210.cli.verify_hfss_basis:main"
+v210-diagnose-structure = "v210.cli.diagnose_structure:main"
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+hfss = ["scikit-rf>=1.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+

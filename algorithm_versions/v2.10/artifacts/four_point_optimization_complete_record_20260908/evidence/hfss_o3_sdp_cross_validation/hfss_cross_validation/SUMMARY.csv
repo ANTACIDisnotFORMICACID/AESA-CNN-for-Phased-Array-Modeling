@@ -1,0 +1,13 @@
+metric,value,unit,note
+case_index,189,,holdout moderate representative case
+total_input_power,1,W,16 ports times 0.0625 W
+offline_o3_gmin,4.4968974793,dB,complete far-field model
+hfss_o3_gmin,4.3964687872,dB,RealizedGainTotal
+hfss_minus_offline_gmin,-0.1004286920,dB,
+maximum_point_difference,0.3233099906,dB,HFSS RealizedGainTotal versus offline O3
+field_recompute_max_difference,0.0000114303,dB,field formula versus HFSS RealizedGainTotal
+neighborhood_evaluations,25,,one baseline plus 24 candidates
+neighborhood_best_gmin,4.4265029554,dB,HFSS RealizedGainTotal
+neighborhood_improvement,0.0300341681,dB,best versus HFSS O3 baseline
+accepted_moves,3,,fixed seed 20260906
+native_optimetrics_valid_result,0,boolean,no valid variable excitation to far-field data chain

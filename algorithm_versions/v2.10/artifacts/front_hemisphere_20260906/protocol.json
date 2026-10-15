@@ -1,0 +1,128 @@
+{
+  "config": {
+    "schema": "v210-front-hemisphere-factorial-1",
+    "front_condition": "q_x > 0",
+    "seeds": [
+      21111,
+      21112,
+      21113
+    ],
+    "cnn_recipes": [
+      "F0",
+      "FS",
+      "FM",
+      "FSM"
+    ],
+    "epochs": 2600,
+    "steps_per_epoch": 4,
+    "batch_size": 512,
+    "commands_per_step": 64,
+    "validation_directions": 2048,
+    "validation_every": 40,
+    "learning_rate": 0.001,
+    "minimum_learning_rate": 1e-05,
+    "weight_decay": 1e-05,
+    "gradient_clip_norm": 5.0,
+    "spectral_loss_weight": 0.05,
+    "mined_command_loss_weight": 0.03,
+    "optimizer_starts": 8,
+    "optimizer_steps": 160,
+    "high_budget_starts": 32,
+    "high_budget_steps": 320,
+    "coordinate_sweeps": 40,
+    "validation_cases": 240,
+    "holdout_cases": 600,
+    "suite_strata": [
+      "clustered",
+      "moderate",
+      "wide",
+      "grazing"
+    ],
+    "suite_seed": 2112026,
+    "parameter_budget": 34973,
+    "selection_nmse_guard_db": 0.3,
+    "selection_strong_mae_guard_db": 0.02
+  },
+  "source_code_hashes": {
+    "tools\\research\\front_hemisphere_campaign.py": "d3d868db2a1b47119a3fef731cda30440569f0357cb16b08a70c6317fcdf88e9",
+    "src\\v210\\models\\quadratic_psd.py": "4116f7f88aef6d22e745cc97b5b8396418dac710cc7b1f00d3643613fa9b8cc6",
+    "src\\v210\\models\\blocks_2d.py": "3dbfe7e6394333d36d605d3f929294c390c49d81d453101a23ae96d38a296c10",
+    "src\\v210\\models\\nominal_pattern.py": "cdb4280a601b2d9723c15505e4844a1e3b3dc7c0176936da308e033bff2e4243",
+    "src\\v210\\contracts.py": "1f69ce7b89da7ef992d3ce06e60177a2fffc4310023f2365d049232c56a764a0"
+  },
+  "dataset_files": {
+    "datasets\\dev\\train.npz": {
+      "sha256": "b6ac6d4bac535007e7e650d45ae7cab067c38e5e45d8cf75c00cdd353e94c504",
+      "bytes": 15472442,
+      "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\artifacts\\controlled_psd_20260906\\datasets\\dev\\train.npz"
+    },
+    "datasets\\dev\\validation.npz": {
+      "sha256": "b9eaa924e67e9e4ca106f592589403f0338d39a0f42a506c9ad9f5badd4662e5",
+      "bytes": 4669882,
+      "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\artifacts\\controlled_psd_20260906\\datasets\\dev\\validation.npz"
+    },
+    "datasets\\reserved\\calibration.npz": {
+      "sha256": "4c4d216db6a961b70c9a0ff5bbdbd46d2cd5293c9fd4034c1c0ea9b6df0a954f",
+      "bytes": 3354682,
+      "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\artifacts\\controlled_psd_20260906\\datasets\\reserved\\calibration.npz"
+    },
+    "datasets\\reserved\\holdout.npz": {
+      "sha256": "7ebc1168208bf6ff3031c9eb9d7431203805942be32178080d8349e2477bb82a",
+      "bytes": 5142202,
+      "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\artifacts\\controlled_psd_20260906\\datasets\\reserved\\holdout.npz"
+    }
+  },
+  "front_counts": {
+    "train": {
+      "total_directions": 36000,
+      "front_directions": 18000,
+      "reverse_directions_used": 0
+    },
+    "validation": {
+      "total_directions": 10800,
+      "front_directions": 5300,
+      "reverse_directions_used": 0
+    },
+    "calibration": {
+      "total_directions": 7200,
+      "front_directions": 3600,
+      "reverse_directions_used": 0
+    },
+    "holdout": {
+      "total_directions": 10800,
+      "front_directions": 5500,
+      "reverse_directions_used": 0
+    }
+  },
+  "front_scale": 4.86035680770874,
+  "parameter_count": 28854,
+  "legacy_checkpoint": {
+    "path": "reference\\legacy_A10_21011.pt",
+    "sha256": "7a9e909999323b5b0a1d8c3d2306d2652b2818afe3061038c1436ff3c94319bc",
+    "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\artifacts\\controlled_psd_20260906\\runs\\A10_seed21011\\best.pt"
+  },
+  "suite_files": {
+    "validation_front_suite.npz": "febe967f2a5747e63f1db73d827d304da3fe71de52465d6b90c781c766071446",
+    "holdout_front_suite.npz": "04cda062b6349493bca41ba6ee7a1e9d234a4a67597dbf0fd9af5366da966329"
+  },
+  "factorial": {
+    "F0": {
+      "spectral": false,
+      "mined": false
+    },
+    "FS": {
+      "spectral": true,
+      "mined": false
+    },
+    "FM": {
+      "spectral": false,
+      "mined": true
+    },
+    "FSM": {
+      "spectral": true,
+      "mined": true
+    }
+  },
+  "isolation": "CNN recipes share architecture, initialization by paired seed, data, updates, optimizer, and validation subset. Beam solvers use exact HFSS factors only. All q_x<=0 samples are excluded from training, suites, neighbours, selection, and reporting.",
+  "historical_boundary": "The underlying HFSS state and source splits have been opened in earlier V2.9/V2.10 work; this is a controlled front-domain comparison, not an unseen physical-state blind test."
+}

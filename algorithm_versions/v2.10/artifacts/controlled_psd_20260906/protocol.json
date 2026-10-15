@@ -1,0 +1,129 @@
+{
+  "config": {
+    "schema": "v210-controlled-psd-1",
+    "seeds": [
+      21011,
+      21012,
+      21013
+    ],
+    "recipes": [
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "epochs": 3600,
+    "steps_per_epoch": 4,
+    "batch_size": 512,
+    "commands_per_step": 64,
+    "validation_directions": 2048,
+    "validation_every": 20,
+    "learning_rate": 0.001,
+    "minimum_learning_rate": 1e-05,
+    "weight_decay": 1e-05,
+    "gradient_clip_norm": 5.0,
+    "q_loss_weight": 0.25,
+    "trajectory_huber_weight": 0.08,
+    "trajectory_cvar_weight": 0.04,
+    "trajectory_cvar_fraction": 0.25,
+    "gain_floor_db": -50.0,
+    "optimizer_steps": 160,
+    "model_starts": 8,
+    "reference_starts": 32,
+    "selection_nmse_guard_db": 0.3,
+    "parameter_budget": 34973
+  },
+  "dataset_files": {
+    "datasets\\dev\\train.npz": {
+      "sha256": "b6ac6d4bac535007e7e650d45ae7cab067c38e5e45d8cf75c00cdd353e94c504",
+      "bytes": 15472442,
+      "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.9\\artifacts\\vector_beam_20260905\\dev\\train.npz"
+    },
+    "datasets\\dev\\validation.npz": {
+      "sha256": "b9eaa924e67e9e4ca106f592589403f0338d39a0f42a506c9ad9f5badd4662e5",
+      "bytes": 4669882,
+      "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.9\\artifacts\\vector_beam_20260905\\dev\\validation.npz"
+    },
+    "datasets\\reserved\\calibration.npz": {
+      "sha256": "4c4d216db6a961b70c9a0ff5bbdbd46d2cd5293c9fd4034c1c0ea9b6df0a954f",
+      "bytes": 3354682,
+      "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.9\\artifacts\\vector_beam_20260905\\reserved\\calibration.npz"
+    },
+    "datasets\\reserved\\holdout.npz": {
+      "sha256": "7ebc1168208bf6ff3031c9eb9d7431203805942be32178080d8349e2477bb82a",
+      "bytes": 5142202,
+      "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.9\\artifacts\\vector_beam_20260905\\reserved\\holdout.npz"
+    }
+  },
+  "source_code_hashes": {
+    "__init__.py": "2596a9bba339f66d8ace4d9ef86dbe5898bb81ca49a77d953e2466db4f6d58f4",
+    "cli\\__init__.py": "3ba414d79ba1cc50ba4bcc05bc6bd5879fe013c5d028c84f2abf880ced560346",
+    "cli\\diagnose_structure.py": "92c7ca5278314f1b6d9144b77cfa74704496794a536ac0ab2cf895f2a55df02d",
+    "cli\\evaluate_forward.py": "11d20564e10f877f5752ef4d8720f96590bc68260d4a5d2b04655d5249b19617",
+    "cli\\optimize_targets.py": "cb45709cab3b70a9efc0dcecb450f06200e6d117f59d5a773558723deee77714",
+    "cli\\prepare_amplitude_split.py": "918e1a424f398ed0941be29fabc27818708f5630cd69ceab7d36fee72b9207e4",
+    "cli\\prepare_hfss_amplitude.py": "db10397400c6b9a2292ed9ca09e7d5c9220c39e6c2a9fed5574fcd88df97b8bc",
+    "cli\\prepare_hfss_data.py": "87953a9dc93d0e280e67ac373d57f631160fe974cc5b4e57b13f61ad12b1ea2a",
+    "cli\\prepare_measured_amplitude.py": "5e934ef1670d5a5e5840a29bb1cc0c87a98f0e6ef4c3c07e534e4a31062f5b37",
+    "cli\\research_campaign.py": "6e316b28f6c4050e14dae8a1c34d41af251ee48e87f814192f1b1ba2c401efb2",
+    "cli\\train_forward.py": "57f1f75af63777a13f15dbb73ec947a55b1450c2b5f45e2e80ac20c9e5d9557e",
+    "cli\\v210_campaign.py": "61ce6088cd599e71a98f90f76c442e720d448cc76999dc954dfc672e4bd944a5",
+    "cli\\verify_hfss_basis.py": "69f8c1261011d3f7a63cff2fea3b1c57bd30d19d59f53534c9a23683acb574af",
+    "complex_ops.py": "2fa0405827a402fb3523b0052e0e7018e0188a510528c9881b17679b31ab97e9",
+    "contracts.py": "1f69ce7b89da7ef992d3ce06e60177a2fffc4310023f2365d049232c56a764a0",
+    "coordinates.py": "ba433dc37fa750b9d7a980aaed5949b24744d50edad4af3bb74bfb5d554ad5ca",
+    "io\\__init__.py": "e65d5dc9f5581d3776e6849a0266c4e283b7386ae82e47ef0df82de8c1382907",
+    "io\\amplitude_dataset.py": "91db2a78f42d32ef0ade139e9251747b08edb440625256cd123f99d42e746b9c",
+    "io\\amplitude_split.py": "d3389a6924d6450a983180e4afc4d0241b5c8f05680ac5e5b33048bb6be4c803",
+    "io\\amplitude_synthesis.py": "f6abd41e94da41cf87dd7f362f1b236f790a7e4061d0a69648c9f28070d24d9d",
+    "io\\dataset_store.py": "4608db8a8788c44d068fb4f0df2627ba4e69a98e7efecb140dc6c629caee2dbe",
+    "io\\hfss_ffd.py": "70e6da8a5d1d2f982bef4d51b2b71052731dd8ae3760949e08ebfcc64bb9ac03",
+    "io\\touchstone.py": "1f606ae8870651ad2dcfce03d39a25cdb977ef4c9455f2bf9f73aed9b0c274fd",
+    "models\\__init__.py": "047e71e6c091ae10cfe020123c9d661e5dc77718467f47b2201a901754877308",
+    "models\\amplitude_forward.py": "08becc8cebc8fe2e379cc249c75514c388ff6a7815887f89c587b30415dbac77",
+    "models\\angular_residual.py": "c458665536d1f9deb89bb4fbcda478eac1d47c68c9f17ef8be2044254747ae92",
+    "models\\blocks_2d.py": "3dbfe7e6394333d36d605d3f929294c390c49d81d453101a23ae96d38a296c10",
+    "models\\contraction.py": "ff6d3fd8e11f689c0462275ac15ff90b6b2c4e7be450b32a788faa1a211b4de7",
+    "models\\device.py": "6e837685da1aa7857dc6d6d7514749aad5be91770c62df71c60b14be98625f49",
+    "models\\forward_model.py": "b6f7e409b31c90d0db39c9f09ae64a5b64021746fa2af18cd84081a771d6b219",
+    "models\\nominal_pattern.py": "cdb4280a601b2d9723c15505e4844a1e3b3dc7c0176936da308e033bff2e4243",
+    "models\\operator_residual.py": "6af1434181d5f3256ff4af8fb726a35e91b9b2150f2beab57a3eeed49d20e926",
+    "models\\port_coupling.py": "f2a05d90720799866cf4de21a6dac6881170457790cdc0b1d2e563979ae2048d",
+    "models\\prediction.py": "db6524d41a984882971cbce6200496a5137c1037298dacd1ea74695a6cb1f60d",
+    "models\\quadratic_psd.py": "4116f7f88aef6d22e745cc97b5b8396418dac710cc7b1f00d3643613fa9b8cc6",
+    "optimization\\__init__.py": "fc71857ad7810b83e32a03580c95d6f42e5d741bea3bd77aa825299277851c50",
+    "optimization\\basis_verification.py": "f9abd63ef76b79045a8b4fe3da3d445751733e1c285d28be7f9c088ceca8cb52",
+    "optimization\\problem.py": "9a0d44dc227f599e2643441627a436a9b6b62610724d4909ea54f22b57b0d872",
+    "optimization\\projected_gradient.py": "748dd13e7ca3971391f0df3a9e5fba9b0d8ea8bb2d17c3621a3bf95cd7953b35",
+    "physics\\__init__.py": "442dac7c47e0befba5fe2a97efb14c467fbd6a3aef0fa71fb3f4a500ef68db5a",
+    "physics\\basis_policy.py": "f9f1b3411e650963c2516867cf8e378f4f62830716e7e0661fbe391c7c9bb2a7",
+    "physics\\ideal_far_field.py": "ba8bdb5cbe6f4860dba64508a01feaa599a0646e06ea60fc4cac5fb1c6383d02",
+    "physics\\ideal_operator.py": "1417d0afd8d45383c19c64c14ca4f3bf0cfbdc006e2acfe2b9f72a898862ddfe",
+    "physics\\phase_alignment.py": "dfccea26683be0a4f8a77cbb9efdf1ed0e20a7e6e0f501c4ce2b4d4c52324bce",
+    "research\\__init__.py": "69f53e237ecc16bbe07b492ad6d731f3146f400a612e83c4001d92885ce8fceb",
+    "research\\evaluate.py": "9156a7995e5e8af9eb5c69b89fabdc7a18f81fa3930cffadd0a1af507635d494",
+    "research\\protocol.py": "9959a32dfffbc5f3cf9c2dcb4cc56388277615dcce279af3bb6c3a43b484db17",
+    "research\\train.py": "53bd1791ebaef76a8d495cf9fa5d6d5a00f88c74ce4cd0c4edc80fa131aabcc9",
+    "research\\v210_experiment.py": "21b99aed6d4b341dc821911977400ea0c3c590b0a4dda9f62c8431c266b14bd3",
+    "training\\__init__.py": "e00868c0a4baa5508a57e2ea72dae4c1ee3eabaa2028c1eddc2d31038129a1a4",
+    "training\\amplitude.py": "f98a60d117f1986fde3653db934681b3bd0e1bcffb84aa9445c1c83dce0982c2",
+    "training\\datasets.py": "bb6e137117b1a26e7fc18797c395f2af033c21089bc9f559c7a4566166b5fb20",
+    "training\\engine.py": "e911cea3e71195d5b4e3fb9e49b1ae75b19fbce77ba4aaa63799f2cbdb1e6a14",
+    "training\\losses.py": "8e4271735c1ff117a2642010a5429eff4696c572e31b86cf88aecad44165a229",
+    "training\\metrics.py": "e47fcc8d7df26729300070698b34083b6f5aec91817e52d868ef48a2353c507c",
+    "training\\stages.py": "503ab2daa2fbf19b2a38c73670ecde69597fd0287fb6708a802a04f8435859fc"
+  },
+  "parameter_counts": {
+    "A10": 28854,
+    "B10": 28420,
+    "C10": 28420
+  },
+  "v29_scale": 4.2592339515686035,
+  "v29_protocol_source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.9\\artifacts\\vector_beam_20260905\\protocol.json",
+  "v29_protocol_sha256": "6e229e5b660dc66910b143a762aad22c7bbe9c19a363b1d6a091e337a655c9be",
+  "data_policy": "Exact byte copies of the already-opened V2.9 fixed-state splits. Training reads train/validation only; calibration/holdout are opened after checkpoint freeze. This is controlled retrospective comparison, not a new physical-state blind test.",
+  "model_contract": {
+    "A10": "migrated V2.9 Cartesian transverse equivalent-field model",
+    "B10": "rank-2 L(q), Q=L^H L/60, command loss plus Q loss",
+    "C10": "B10 plus training-trajectory Huber and optimistic-tail CVaR surrogate"
+  }
+}

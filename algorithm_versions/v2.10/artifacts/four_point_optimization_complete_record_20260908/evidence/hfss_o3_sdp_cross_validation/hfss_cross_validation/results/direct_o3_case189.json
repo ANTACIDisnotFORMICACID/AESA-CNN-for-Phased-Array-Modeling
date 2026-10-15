@@ -1,0 +1,138 @@
+{
+  "passed": true,
+  "aedt_version": "2025.2",
+  "pyaedt_version": "0.9.6",
+  "restored_environment": {
+    "ANSYSEM_ROOT252": "machine",
+    "ANSYSLMD_LICENSE_FILE": "machine"
+  },
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\projects\\v2_8_array_4x4.aedt",
+  "case": {
+    "split": "holdout",
+    "case_index": 189,
+    "stratum": "moderate",
+    "o3_gmin_db": 4.4968976974487305,
+    "q": [
+      [
+        0.5454882383346558,
+        0.2371850311756134,
+        0.8038568496704102
+      ],
+      [
+        0.9025509357452393,
+        -0.00787644274532795,
+        -0.43051108717918396
+      ],
+      [
+        0.7370246648788452,
+        0.6753587126731873,
+        -0.026176948100328445
+      ],
+      [
+        0.04353803023695946,
+        0.9971848130226135,
+        -0.061048541218042374
+      ]
+    ],
+    "hfss_theta_deg": [
+      36.50000105444152,
+      115.49999938874761,
+      91.49999998810449,
+      93.50000009661964
+    ],
+    "hfss_phi_deg": [
+      23.499999536423744,
+      -0.5000000034692591,
+      42.50000153077107,
+      87.49999993999405
+    ],
+    "target_gain_db": [
+      4.496897479269305,
+      4.774815414559467,
+      4.678121029505475,
+      4.73214872478535
+    ],
+    "total_power_w": 1.0
+  },
+  "points": [
+    {
+      "target": 1,
+      "theta_deg": 36.50000105444152,
+      "phi_deg": 23.499999536423744,
+      "field_component_source_unit": "mV",
+      "rETheta_real_v": 6.210935133462376,
+      "rETheta_imag_v": 0.49006591019000756,
+      "rEPhi_real_v": 11.02913931143449,
+      "rEPhi_imag_v": 2.631285089861506,
+      "field_gain_linear": 2.7896909167260806,
+      "field_gain_db": 4.4555608836456315,
+      "GainTotal_linear": 3.0662059190013733,
+      "GainTotal_db": 4.866013176687197,
+      "RealizedGainTotal_linear": 2.789690921578225,
+      "RealizedGainTotal_db": 4.4555608911993705,
+      "offline_o3_gain_db": 4.496897479269305
+    },
+    {
+      "target": 2,
+      "theta_deg": 115.49999938874761,
+      "phi_deg": -0.5000000034692591,
+      "field_component_source_unit": "mV",
+      "rETheta_real_v": 2.3887066784790942,
+      "rETheta_imag_v": 3.9008072744840074,
+      "rEPhi_real_v": -11.522811862781214,
+      "rEPhi_imag_v": 3.677999942840579,
+      "field_gain_linear": 2.7870848965510793,
+      "field_gain_db": 4.451501978278058,
+      "GainTotal_linear": 3.0633440144299726,
+      "GainTotal_db": 4.86195770942807,
+      "RealizedGainTotal_linear": 2.787087107805711,
+      "RealizedGainTotal_db": 4.451505423940245,
+      "offline_o3_gain_db": 4.774815414559467
+    },
+    {
+      "target": 3,
+      "theta_deg": 91.49999998810449,
+      "phi_deg": 42.50000153077107,
+      "field_component_source_unit": "mV",
+      "rETheta_real_v": 2.035529618394182,
+      "rETheta_imag_v": 2.136305493813729,
+      "rEPhi_real_v": -11.836901461168758,
+      "rEPhi_imag_v": -4.037306157416839,
+      "field_gain_linear": 2.751987653339895,
+      "field_gain_db": 4.396464811265616,
+      "GainTotal_linear": 3.024768260720743,
+      "GainTotal_db": 4.806921072709827,
+      "RealizedGainTotal_linear": 2.751990172779663,
+      "RealizedGainTotal_db": 4.396468787222001,
+      "offline_o3_gain_db": 4.678121029505475
+    },
+    {
+      "target": 4,
+      "theta_deg": 93.50000009661964,
+      "phi_deg": 87.49999993999405,
+      "field_component_source_unit": "mV",
+      "rETheta_real_v": -11.421653006149462,
+      "rETheta_imag_v": 5.248579959226401,
+      "rEPhi_real_v": -2.666731617430153,
+      "rEPhi_imag_v": -1.7475751778091184,
+      "field_gain_linear": 2.8027870917128705,
+      "field_gain_db": 4.475901086749771,
+      "GainTotal_linear": 3.080608293382397,
+      "GainTotal_db": 4.886364802587067,
+      "RealizedGainTotal_linear": 2.802794468476666,
+      "RealizedGainTotal_db": 4.475912517099241,
+      "offline_o3_gain_db": 4.73214872478535
+    }
+  ],
+  "minimum_db": {
+    "offline_o3": 4.496897479269305,
+    "hfss_field_recompute": 4.396464811265616,
+    "hfss_GainTotal": 4.806921072709827,
+    "hfss_RealizedGainTotal": 4.396468787222001
+  },
+  "maximum_absolute_point_error_db": {
+    "field_recompute_vs_offline": 0.32331343628140896,
+    "GainTotal_vs_offline": 0.3691156974178922,
+    "RealizedGainTotal_vs_offline": 0.3233099906192223
+  }
+}

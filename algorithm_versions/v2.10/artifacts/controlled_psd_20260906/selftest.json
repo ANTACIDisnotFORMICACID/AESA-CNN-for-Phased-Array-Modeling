@@ -1,0 +1,31 @@
+{
+  "A10": {
+    "finite": true,
+    "common_phase_invariance": true,
+    "quadratic_equivalence": true,
+    "nonzero_gradient": true,
+    "q_is_hermitian": true,
+    "q_min_eigenvalue": -1.1450127068712845e-08,
+    "parameter_count": 28854
+  },
+  "B10": {
+    "finite": true,
+    "common_phase_invariance": true,
+    "quadratic_equivalence": true,
+    "nonzero_gradient": true,
+    "q_is_hermitian": true,
+    "q_min_eigenvalue": -2.0433541081388285e-08,
+    "parameter_count": 28420
+  },
+  "C10": {
+    "finite": true,
+    "common_phase_invariance": true,
+    "quadratic_equivalence": true,
+    "nonzero_gradient": true,
+    "q_is_hermitian": true,
+    "q_min_eigenvalue": -2.0433541081388285e-08,
+    "parameter_count": 28420
+  },
+  "phase_constraint_max_error": 1.4901161193847656e-08,
+  "passed": true
+}

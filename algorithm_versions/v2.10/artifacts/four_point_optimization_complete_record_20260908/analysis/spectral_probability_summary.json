@@ -1,0 +1,59 @@
+{
+  "front_direction_count": 32400,
+  "unique_direction_count": 32400,
+  "spectral_upper_db": {
+    "minimum": -0.5207998289351243,
+    "p1": 1.9614715560861247,
+    "p5": 4.887169467277537,
+    "median": 11.890256503703398,
+    "p95": 16.480537484579706,
+    "maximum": 18.51723964472892
+  },
+  "weakest_direction": {
+    "global_front_index": 2493,
+    "source_split": "train",
+    "source_row": 5263,
+    "q_x": 0.3720780313014984,
+    "q_y": 0.24627307057380676,
+    "q_z": 0.894934356212616,
+    "theta_deg": 26.5,
+    "phi_deg": 33.5,
+    "arbitrary_amplitude_unit_power_upper_linear": 0.8869926418497925,
+    "arbitrary_amplitude_unit_power_upper_db": -0.5207998289351243
+  },
+  "probability_rows": [
+    {
+      "threshold_db": 0.0,
+      "weak_direction_count": 24,
+      "front_direction_count": 32400,
+      "total_four_point_combinations": 45907999825131900,
+      "guaranteed_low_four_point_combinations": 135878924221650,
+      "uniform_without_replacement_probability_lower_bound": 0.0029598092868176836
+    },
+    {
+      "threshold_db": 1.0,
+      "weak_direction_count": 137,
+      "front_direction_count": 32400,
+      "total_four_point_combinations": 45907999825131900,
+      "guaranteed_low_four_point_combinations": 771593178932185,
+      "uniform_without_replacement_probability_lower_bound": 0.016807379582453156
+    },
+    {
+      "threshold_db": 3.0,
+      "weak_direction_count": 635,
+      "front_direction_count": 32400,
+      "total_four_point_combinations": 45907999825131900,
+      "guaranteed_low_four_point_combinations": 3494690359755035,
+      "uniform_without_replacement_probability_lower_bound": 0.07612377740408328
+    },
+    {
+      "threshold_db": 5.0,
+      "weak_direction_count": 1714,
+      "front_direction_count": 32400,
+      "total_four_point_combinations": 45907999825131900,
+      "guaranteed_low_four_point_combinations": 8970715640871295,
+      "uniform_without_replacement_probability_lower_bound": 0.19540637089486879
+    }
+  ],
+  "proof_contract": "For Q=H^H H/60 and every |w_n|=1/4, ||w||_2=1, hence w^H Q w <= lambda_max(Q). Any four-set containing a direction whose bound is below tau has optimized Gmin below tau."
+}

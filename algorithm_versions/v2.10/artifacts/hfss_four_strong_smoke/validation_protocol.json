@@ -1,0 +1,46 @@
+{
+  "purpose": "exact-HFSS four-strong-point baseline with CNN influence excluded",
+  "suite": "validation",
+  "cases": 8,
+  "source_indices": [
+    0,
+    1,
+    60,
+    61,
+    120,
+    121,
+    180,
+    181
+  ],
+  "forward_grid_directions": 32400,
+  "reverse_directions_used": 0,
+  "continuous_hemisphere_certificate": false,
+  "array_and_weight_control": "fixed 4x4, 47 GHz, phase-only |w_n|=1/4",
+  "control": "existing exact-HFSS O3 target-only high-budget max-min weights",
+  "cnn_files_loaded": [],
+  "definitions": {
+    "spatial_strength": "rho=min_i G(q_i,w)/max_{q_x>0} G(q,w)",
+    "solo_utilization": "u=min_i G(q_i,w)/G_i_solo",
+    "strict_four_strong": "rho>=0.5 and u>=0.5 (both within 3.01 dB)"
+  },
+  "methods": {
+    "H1_ratio_only": {
+      "preserve_db": null
+    },
+    "H3_preserve_1db": {
+      "preserve_db": 1.0
+    }
+  },
+  "optimizer": {
+    "starts": 4,
+    "outer_steps": 1,
+    "inner_steps": 10,
+    "active_topk": 8,
+    "case_batch": 4
+  },
+  "source_hashes": {
+    "validation_front_suite.npz": "febe967f2a5747e63f1db73d827d304da3fe71de52465d6b90c781c766071446",
+    "validation_optimizer_arrays.npz": "db1adaf3a557f38317c0973249f784c1e53d5e01d00914906bf09debdb642bf6",
+    "script": "fe1cd7d155c046232a83df3321fdd2e0bcac0a6fbd4c573966b91308690ddf2d"
+  }
+}
