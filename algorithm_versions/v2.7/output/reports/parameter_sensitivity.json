@@ -1,0 +1,1693 @@
+{
+  "schema_version": 1,
+  "rows": [
+    {
+      "state_class": "amplitude",
+      "method": "phase_reference_fp32",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.1591796875,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.76368541717529,
+      "strict_margin_db_p05": -3.510126805305481,
+      "calibration_nmse_db_worst": -46.80659103393555
+    },
+    {
+      "state_class": "amplitude",
+      "method": "phase_reference_int8",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.1591796875,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 0.027224445715546608,
+      "pointing_error_deg_p95": 57.93527660369871,
+      "strict_margin_db_p05": -3.5102067828178405,
+      "calibration_nmse_db_worst": -46.80659103393555
+    },
+    {
+      "state_class": "amplitude",
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.009765625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 6.319889783859253,
+      "pointing_error_deg_p95": 58.56933956146239,
+      "strict_margin_db_p05": -10.159375476837159,
+      "calibration_nmse_db_worst": -46.80659103393555
+    },
+    {
+      "state_class": "amplitude",
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.009765625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 6.351823806762695,
+      "pointing_error_deg_p95": 58.70827713012694,
+      "strict_margin_db_p05": -10.184197616577148,
+      "calibration_nmse_db_worst": -46.80659103393555
+    },
+    {
+      "state_class": "amplitude",
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.1591796875,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 1.4754973108210834e-05,
+      "pointing_error_deg_p95": 57.76368541717529,
+      "strict_margin_db_p05": -3.510206365585327,
+      "calibration_nmse_db_worst": -46.80659103393555
+    },
+    {
+      "state_class": "amplitude",
+      "method": "v2.6_zero_residual_int8",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.158203125,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 0.022015773691236973,
+      "pointing_error_deg_p95": 57.93527660369871,
+      "strict_margin_db_p05": -3.5106330275535584,
+      "calibration_nmse_db_worst": -46.80659103393555
+    },
+    {
+      "state_class": "baseline",
+      "method": "phase_reference_fp32",
+      "samples": 256,
+      "pointing_reachable_fraction": 0.15625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.014306362729039374
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.95602321624756,
+      "strict_margin_db_p05": -3.441498816013336,
+      "calibration_nmse_db_worst": -49.337711334228516
+    },
+    {
+      "state_class": "baseline",
+      "method": "phase_reference_int8",
+      "samples": 256,
+      "pointing_reachable_fraction": 0.16015625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.014306362729039374
+      ],
+      "target_power_regret_db_median": 0.02753235399723053,
+      "pointing_error_deg_p95": 57.95602321624756,
+      "strict_margin_db_p05": -3.4413968324661255,
+      "calibration_nmse_db_worst": -49.337711334228516
+    },
+    {
+      "state_class": "baseline",
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 256,
+      "pointing_reachable_fraction": 0.0078125,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.014306362729039374
+      ],
+      "target_power_regret_db_median": 6.4556190967559814,
+      "pointing_error_deg_p95": 57.93100929260254,
+      "strict_margin_db_p05": -9.89024806022644,
+      "calibration_nmse_db_worst": -49.337711334228516
+    },
+    {
+      "state_class": "baseline",
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 256,
+      "pointing_reachable_fraction": 0.0078125,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.014306362729039374
+      ],
+      "target_power_regret_db_median": 6.4981560707092285,
+      "pointing_error_deg_p95": 57.93100929260254,
+      "strict_margin_db_p05": -9.959951162338257,
+      "calibration_nmse_db_worst": -49.337711334228516
+    },
+    {
+      "state_class": "baseline",
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 256,
+      "pointing_reachable_fraction": 0.16015625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.014306362729039374
+      ],
+      "target_power_regret_db_median": 3.3651627745712176e-05,
+      "pointing_error_deg_p95": 57.95602321624756,
+      "strict_margin_db_p05": -3.441728949546814,
+      "calibration_nmse_db_worst": -49.337711334228516
+    },
+    {
+      "state_class": "baseline",
+      "method": "v2.6_zero_residual_int8",
+      "samples": 256,
+      "pointing_reachable_fraction": 0.15625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.014306362729039374
+      ],
+      "target_power_regret_db_median": 0.022014228627085686,
+      "pointing_error_deg_p95": 57.95602321624756,
+      "strict_margin_db_p05": -3.4418166279792786,
+      "calibration_nmse_db_worst": -49.337711334228516
+    },
+    {
+      "state_class": "failed_port",
+      "method": "phase_reference_fp32",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.1533203125,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.6012128829956,
+      "strict_margin_db_p05": -3.482409453392029,
+      "calibration_nmse_db_worst": -48.26277542114258
+    },
+    {
+      "state_class": "failed_port",
+      "method": "phase_reference_int8",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.1513671875,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 0.025521170347929,
+      "pointing_error_deg_p95": 57.6012128829956,
+      "strict_margin_db_p05": -3.482599151134491,
+      "calibration_nmse_db_worst": -48.26277542114258
+    },
+    {
+      "state_class": "failed_port",
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.009765625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 6.62151312828064,
+      "pointing_error_deg_p95": 57.72364559173582,
+      "strict_margin_db_p05": -18.492677783966062,
+      "calibration_nmse_db_worst": -48.26277542114258
+    },
+    {
+      "state_class": "failed_port",
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.009765625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 6.671799898147583,
+      "pointing_error_deg_p95": 57.330150413513174,
+      "strict_margin_db_p05": -18.320804500579833,
+      "calibration_nmse_db_worst": -48.26277542114258
+    },
+    {
+      "state_class": "failed_port",
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.1533203125,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 2.0191007934045047e-05,
+      "pointing_error_deg_p95": 57.6012128829956,
+      "strict_margin_db_p05": -3.4819839239120483,
+      "calibration_nmse_db_worst": -48.26277542114258
+    },
+    {
+      "state_class": "failed_port",
+      "method": "v2.6_zero_residual_int8",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.1533203125,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 0.019162205047905445,
+      "pointing_error_deg_p95": 57.6012128829956,
+      "strict_margin_db_p05": -3.482176458835602,
+      "calibration_nmse_db_worst": -48.26277542114258
+    },
+    {
+      "state_class": "global_phase",
+      "method": "phase_reference_fp32",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.15755208333333334,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 58.58112125396728,
+      "strict_margin_db_p05": -3.4975844621658325,
+      "calibration_nmse_db_worst": -51.465675354003906
+    },
+    {
+      "state_class": "global_phase",
+      "method": "phase_reference_int8",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.15755208333333334,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 0.026985976845026016,
+      "pointing_error_deg_p95": 58.68316173553467,
+      "strict_margin_db_p05": -3.496994698047638,
+      "calibration_nmse_db_worst": -51.465675354003906
+    },
+    {
+      "state_class": "global_phase",
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.006510416666666667,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 6.460257053375244,
+      "pointing_error_deg_p95": 58.4579454421997,
+      "strict_margin_db_p05": -9.819985055923462,
+      "calibration_nmse_db_worst": -51.465675354003906
+    },
+    {
+      "state_class": "global_phase",
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.0078125,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 6.492109775543213,
+      "pointing_error_deg_p95": 58.48545475006103,
+      "strict_margin_db_p05": -9.892794942855835,
+      "calibration_nmse_db_worst": -51.465675354003906
+    },
+    {
+      "state_class": "global_phase",
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.15625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 1.50138366734609e-05,
+      "pointing_error_deg_p95": 58.58112125396728,
+      "strict_margin_db_p05": -3.49716454744339,
+      "calibration_nmse_db_worst": -51.465675354003906
+    },
+    {
+      "state_class": "global_phase",
+      "method": "v2.6_zero_residual_int8",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.15625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 0.022414444014430046,
+      "pointing_error_deg_p95": 58.58112125396728,
+      "strict_margin_db_p05": -3.4983866572380067,
+      "calibration_nmse_db_worst": -51.465675354003906
+    },
+    {
+      "state_class": "mixed",
+      "method": "phase_reference_fp32",
+      "samples": 16384,
+      "pointing_reachable_fraction": 0.15185546875,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.00022512598920985084
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.90355758666992,
+      "strict_margin_db_p05": -3.509073686599731,
+      "calibration_nmse_db_worst": -36.10626983642578
+    },
+    {
+      "state_class": "mixed",
+      "method": "phase_reference_int8",
+      "samples": 16384,
+      "pointing_reachable_fraction": 0.15228271484375,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.00022512598920985084
+      ],
+      "target_power_regret_db_median": 0.027208496816456318,
+      "pointing_error_deg_p95": 57.930048179626446,
+      "strict_margin_db_p05": -3.5079941749572754,
+      "calibration_nmse_db_worst": -36.10626983642578
+    },
+    {
+      "state_class": "mixed",
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 16384,
+      "pointing_reachable_fraction": 0.00909423828125,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.00022512598920985084
+      ],
+      "target_power_regret_db_median": 6.43990159034729,
+      "pointing_error_deg_p95": 57.9932954788208,
+      "strict_margin_db_p05": -11.489697885513305,
+      "calibration_nmse_db_worst": -36.10626983642578
+    },
+    {
+      "state_class": "mixed",
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 16384,
+      "pointing_reachable_fraction": 0.0091552734375,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.00022512598920985084
+      ],
+      "target_power_regret_db_median": 6.4684436321258545,
+      "pointing_error_deg_p95": 57.96871128082275,
+      "strict_margin_db_p05": -11.518975257873535,
+      "calibration_nmse_db_worst": -36.10626983642578
+    },
+    {
+      "state_class": "mixed",
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 16384,
+      "pointing_reachable_fraction": 0.1519775390625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.00022512598920985084
+      ],
+      "target_power_regret_db_median": 8.49051502882503e-05,
+      "pointing_error_deg_p95": 57.91707439422606,
+      "strict_margin_db_p05": -3.5091059327125547,
+      "calibration_nmse_db_worst": -36.10626983642578
+    },
+    {
+      "state_class": "mixed",
+      "method": "v2.6_zero_residual_int8",
+      "samples": 16384,
+      "pointing_reachable_fraction": 0.1514892578125,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.00022512598920985084
+      ],
+      "target_power_regret_db_median": 0.021828271448612213,
+      "pointing_error_deg_p95": 57.93252792358398,
+      "strict_margin_db_p05": -3.5094809532165527,
+      "calibration_nmse_db_worst": -36.10626983642578
+    },
+    {
+      "state_class": "phase",
+      "method": "phase_reference_fp32",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.15234375,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.53730964660644,
+      "strict_margin_db_p05": -3.4896851539611817,
+      "calibration_nmse_db_worst": -48.82917785644531
+    },
+    {
+      "state_class": "phase",
+      "method": "phase_reference_int8",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.1533203125,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 0.027599232271313667,
+      "pointing_error_deg_p95": 57.53730964660644,
+      "strict_margin_db_p05": -3.4898016333580015,
+      "calibration_nmse_db_worst": -48.82917785644531
+    },
+    {
+      "state_class": "phase",
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.0068359375,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 6.470495700836182,
+      "pointing_error_deg_p95": 58.06104660034179,
+      "strict_margin_db_p05": -10.1052836894989,
+      "calibration_nmse_db_worst": -48.82917785644531
+    },
+    {
+      "state_class": "phase",
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.0068359375,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 6.500759601593018,
+      "pointing_error_deg_p95": 57.8729990005493,
+      "strict_margin_db_p05": -10.153334426879882,
+      "calibration_nmse_db_worst": -48.82917785644531
+    },
+    {
+      "state_class": "phase",
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.15234375,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 1.4237255072657717e-05,
+      "pointing_error_deg_p95": 57.53730964660644,
+      "strict_margin_db_p05": -3.4893651962280274,
+      "calibration_nmse_db_worst": -48.82917785644531
+    },
+    {
+      "state_class": "phase",
+      "method": "v2.6_zero_residual_int8",
+      "samples": 1024,
+      "pointing_reachable_fraction": 0.1533203125,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0035959404068344786
+      ],
+      "target_power_regret_db_median": 0.022113642655313015,
+      "pointing_error_deg_p95": 57.53730964660644,
+      "strict_margin_db_p05": -3.48980917930603,
+      "calibration_nmse_db_worst": -48.82917785644531
+    },
+    {
+      "state_class": "snr",
+      "method": "phase_reference_fp32",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.14973958333333334,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.92230510711669,
+      "strict_margin_db_p05": -3.500693452358246,
+      "calibration_nmse_db_worst": -44.19700622558594
+    },
+    {
+      "state_class": "snr",
+      "method": "phase_reference_int8",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.14973958333333334,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 0.026229320093989372,
+      "pointing_error_deg_p95": 57.82729606628418,
+      "strict_margin_db_p05": -3.5001378297805785,
+      "calibration_nmse_db_worst": -44.19700622558594
+    },
+    {
+      "state_class": "snr",
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.00390625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 6.4969494342803955,
+      "pointing_error_deg_p95": 58.62811050415039,
+      "strict_margin_db_p05": -9.925468587875367,
+      "calibration_nmse_db_worst": -44.19700622558594
+    },
+    {
+      "state_class": "snr",
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.00390625,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 6.546010971069336,
+      "pointing_error_deg_p95": 58.72231731414794,
+      "strict_margin_db_p05": -10.030476713180542,
+      "calibration_nmse_db_worst": -44.19700622558594
+    },
+    {
+      "state_class": "snr",
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.1484375,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 3.675791958812624e-05,
+      "pointing_error_deg_p95": 57.92230510711669,
+      "strict_margin_db_p05": -3.501094710826874,
+      "calibration_nmse_db_worst": -44.19700622558594
+    },
+    {
+      "state_class": "snr",
+      "method": "v2.6_zero_residual_int8",
+      "samples": 768,
+      "pointing_reachable_fraction": 0.1484375,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0047917114011379975
+      ],
+      "target_power_regret_db_median": 0.022426806390285492,
+      "pointing_error_deg_p95": 57.92230510711669,
+      "strict_margin_db_p05": -3.5010759592056275,
+      "calibration_nmse_db_worst": -44.19700622558594
+    }
+  ],
+  "binned_sensitivity": [
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.0,
+        0.03
+      ],
+      "method": "phase_reference_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.53164463043211
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.03,
+        0.06
+      ],
+      "method": "phase_reference_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 58.05254974365234
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.06,
+        0.09
+      ],
+      "method": "phase_reference_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 58.31333656311032
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.09,
+        0.1300001
+      ],
+      "method": "phase_reference_fp32",
+      "samples": 4864,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0007581169770348346
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.75683097839354
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.0,
+        0.03
+      ],
+      "method": "phase_reference_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.027065210044384003,
+      "pointing_error_deg_p95": 57.53164463043211
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.03,
+        0.06
+      ],
+      "method": "phase_reference_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.027294158935546875,
+      "pointing_error_deg_p95": 58.0449234008789
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.06,
+        0.09
+      ],
+      "method": "phase_reference_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.027171453461050987,
+      "pointing_error_deg_p95": 58.425745201110836
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.09,
+        0.1300001
+      ],
+      "method": "phase_reference_int8",
+      "samples": 4864,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0007581169770348346
+      ],
+      "target_power_regret_db_median": 0.027319624088704586,
+      "pointing_error_deg_p95": 57.77790355682372
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.0,
+        0.03
+      ],
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.398813724517822,
+      "pointing_error_deg_p95": 57.8820987701416
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.03,
+        0.06
+      ],
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.3851306438446045,
+      "pointing_error_deg_p95": 58.01438064575194
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.06,
+        0.09
+      ],
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.49594783782959,
+      "pointing_error_deg_p95": 58.12550106048584
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.09,
+        0.1300001
+      ],
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 4864,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0007581169770348346
+      ],
+      "target_power_regret_db_median": 6.502422571182251,
+      "pointing_error_deg_p95": 57.966772842407224
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.0,
+        0.03
+      ],
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.432389974594116,
+      "pointing_error_deg_p95": 57.83193950653076
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.03,
+        0.06
+      ],
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.416482448577881,
+      "pointing_error_deg_p95": 58.01438064575194
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.06,
+        0.09
+      ],
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.524829387664795,
+      "pointing_error_deg_p95": 58.01830387115477
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.09,
+        0.1300001
+      ],
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 4864,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0007581169770348346
+      ],
+      "target_power_regret_db_median": 6.531713008880615,
+      "pointing_error_deg_p95": 57.958500289916984
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.0,
+        0.03
+      ],
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.0001242508733412251,
+      "pointing_error_deg_p95": 57.60276508331299
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.03,
+        0.06
+      ],
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.782070704502985e-05,
+      "pointing_error_deg_p95": 58.05254974365234
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.06,
+        0.09
+      ],
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.367902096826583e-05,
+      "pointing_error_deg_p95": 58.425745201110836
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.09,
+        0.1300001
+      ],
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 4864,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0007581169770348346
+      ],
+      "target_power_regret_db_median": 6.574986036866903e-05,
+      "pointing_error_deg_p95": 57.84006195068359
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.0,
+        0.03
+      ],
+      "method": "v2.6_zero_residual_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.02223932184278965,
+      "pointing_error_deg_p95": 57.57865180969238
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.03,
+        0.06
+      ],
+      "method": "v2.6_zero_residual_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.021541082300245762,
+      "pointing_error_deg_p95": 58.0559673309326
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.06,
+        0.09
+      ],
+      "method": "v2.6_zero_residual_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.021968899294734,
+      "pointing_error_deg_p95": 58.43079776763916
+    },
+    {
+      "parameter": "amplitude_rms_fraction",
+      "bin": [
+        0.09,
+        0.1300001
+      ],
+      "method": "v2.6_zero_residual_int8",
+      "samples": 4864,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0007581169770348346
+      ],
+      "target_power_regret_db_median": 0.02169459592550993,
+      "pointing_error_deg_p95": 57.83310146331786
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        0.0,
+        5.0
+      ],
+      "method": "phase_reference_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 58.112133216857906
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        5.0,
+        10.0
+      ],
+      "method": "phase_reference_fp32",
+      "samples": 3584,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0010287337308198935
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.15221767425537
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        10.0,
+        15.0
+      ],
+      "method": "phase_reference_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 58.44240550994871
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        15.0,
+        22.0001
+      ],
+      "method": "phase_reference_fp32",
+      "samples": 5120,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000720224781913516
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.90274658203125
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        0.0,
+        5.0
+      ],
+      "method": "phase_reference_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.02719177585095167,
+      "pointing_error_deg_p95": 58.112133216857906
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        5.0,
+        10.0
+      ],
+      "method": "phase_reference_int8",
+      "samples": 3584,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0010287337308198935
+      ],
+      "target_power_regret_db_median": 0.027255315333604813,
+      "pointing_error_deg_p95": 57.25223789215087
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        10.0,
+        15.0
+      ],
+      "method": "phase_reference_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.027196665294468403,
+      "pointing_error_deg_p95": 58.441150283813464
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        15.0,
+        22.0001
+      ],
+      "method": "phase_reference_int8",
+      "samples": 5120,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000720224781913516
+      ],
+      "target_power_regret_db_median": 0.027192290872335434,
+      "pointing_error_deg_p95": 57.91920070648194
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        0.0,
+        5.0
+      ],
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.468029260635376,
+      "pointing_error_deg_p95": 57.88728275299071
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        5.0,
+        10.0
+      ],
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 3584,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0010287337308198935
+      ],
+      "target_power_regret_db_median": 6.317994117736816,
+      "pointing_error_deg_p95": 58.06207904815673
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        10.0,
+        15.0
+      ],
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.446840524673462,
+      "pointing_error_deg_p95": 58.140012168884276
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        15.0,
+        22.0001
+      ],
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 5120,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000720224781913516
+      ],
+      "target_power_regret_db_median": 6.499077796936035,
+      "pointing_error_deg_p95": 57.92370090484619
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        0.0,
+        5.0
+      ],
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.493915557861328,
+      "pointing_error_deg_p95": 57.834057998657215
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        5.0,
+        10.0
+      ],
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 3584,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0010287337308198935
+      ],
+      "target_power_regret_db_median": 6.348552227020264,
+      "pointing_error_deg_p95": 57.972469329833984
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        10.0,
+        15.0
+      ],
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 6.47715425491333,
+      "pointing_error_deg_p95": 58.09395904541015
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        15.0,
+        22.0001
+      ],
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 5120,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000720224781913516
+      ],
+      "target_power_regret_db_median": 6.530568361282349,
+      "pointing_error_deg_p95": 57.92370090484619
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        0.0,
+        5.0
+      ],
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.0001180384133476764,
+      "pointing_error_deg_p95": 58.137877655029286
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        5.0,
+        10.0
+      ],
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 3584,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0010287337308198935
+      ],
+      "target_power_regret_db_median": 0.00010431918417452835,
+      "pointing_error_deg_p95": 57.320193672180174
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        10.0,
+        15.0
+      ],
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 7.066812031553127e-05,
+      "pointing_error_deg_p95": 58.499128341674805
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        15.0,
+        22.0001
+      ],
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 5120,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000720224781913516
+      ],
+      "target_power_regret_db_median": 7.196238038886804e-05,
+      "pointing_error_deg_p95": 57.90274658203125
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        0.0,
+        5.0
+      ],
+      "method": "v2.6_zero_residual_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.022100506350398064,
+      "pointing_error_deg_p95": 58.112133216857906
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        5.0,
+        10.0
+      ],
+      "method": "v2.6_zero_residual_int8",
+      "samples": 3584,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0010287337308198935
+      ],
+      "target_power_regret_db_median": 0.021769548766314983,
+      "pointing_error_deg_p95": 57.30597782135009
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        10.0,
+        15.0
+      ],
+      "method": "v2.6_zero_residual_int8",
+      "samples": 3840,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.0009601844188217736
+      ],
+      "target_power_regret_db_median": 0.022028394043445587,
+      "pointing_error_deg_p95": 58.44240550994871
+    },
+    {
+      "parameter": "phase_rms_deg",
+      "bin": [
+        15.0,
+        22.0001
+      ],
+      "method": "v2.6_zero_residual_int8",
+      "samples": 5120,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000720224781913516
+      ],
+      "target_power_regret_db_median": 0.021616293117403984,
+      "pointing_error_deg_p95": 57.91920070648194
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        25.0,
+        30.0
+      ],
+      "method": "phase_reference_fp32",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 58.147132873535156
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        30.0,
+        35.0
+      ],
+      "method": "phase_reference_fp32",
+      "samples": 5632,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000654771242220608
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 58.11549053192139
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        35.0,
+        40.0001
+      ],
+      "method": "phase_reference_fp32",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.378891944885254
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        25.0,
+        30.0
+      ],
+      "method": "phase_reference_int8",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 0.027026881463825703,
+      "pointing_error_deg_p95": 58.14136219024658
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        30.0,
+        35.0
+      ],
+      "method": "phase_reference_int8",
+      "samples": 5632,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000654771242220608
+      ],
+      "target_power_regret_db_median": 0.027196407318115234,
+      "pointing_error_deg_p95": 58.11549053192139
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        35.0,
+        40.0001
+      ],
+      "method": "phase_reference_int8",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 0.027442067861557007,
+      "pointing_error_deg_p95": 57.442423820495605
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        25.0,
+        30.0
+      ],
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 6.470071792602539,
+      "pointing_error_deg_p95": 57.97487545013428
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        30.0,
+        35.0
+      ],
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 5632,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000654771242220608
+      ],
+      "target_power_regret_db_median": 6.518476486206055,
+      "pointing_error_deg_p95": 57.92451419830322
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        35.0,
+        40.0001
+      ],
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 6.33814263343811,
+      "pointing_error_deg_p95": 58.07405376434326
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        25.0,
+        30.0
+      ],
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 6.499664783477783,
+      "pointing_error_deg_p95": 57.889479637145996
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        30.0,
+        35.0
+      ],
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 5632,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000654771242220608
+      ],
+      "target_power_regret_db_median": 6.538886308670044,
+      "pointing_error_deg_p95": 57.97093715667724
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        35.0,
+        40.0001
+      ],
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 6.366039991378784,
+      "pointing_error_deg_p95": 57.99494743347168
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        25.0,
+        30.0
+      ],
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 0.00038102472899481654,
+      "pointing_error_deg_p95": 58.161234855651855
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        30.0,
+        35.0
+      ],
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 5632,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000654771242220608
+      ],
+      "target_power_regret_db_median": 0.00010768428910523653,
+      "pointing_error_deg_p95": 58.074777030944816
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        35.0,
+        40.0001
+      ],
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 3.5204771847929806e-05,
+      "pointing_error_deg_p95": 57.46787357330322
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        25.0,
+        30.0
+      ],
+      "method": "v2.6_zero_residual_int8",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 0.022255289368331432,
+      "pointing_error_deg_p95": 58.161234855651855
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        30.0,
+        35.0
+      ],
+      "method": "v2.6_zero_residual_int8",
+      "samples": 5632,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000654771242220608
+      ],
+      "target_power_regret_db_median": 0.02156323380768299,
+      "pointing_error_deg_p95": 58.17099571228025
+    },
+    {
+      "parameter": "measurement_snr_db",
+      "bin": [
+        35.0,
+        40.0001
+      ],
+      "method": "v2.6_zero_residual_int8",
+      "samples": 5376,
+      "strict_unambiguous_fraction": 0.0,
+      "strict_fraction_95ci": [
+        0.0,
+        0.000685940129129591
+      ],
+      "target_power_regret_db_median": 0.02171365637332201,
+      "pointing_error_deg_p95": 57.422945976257324
+    }
+  ]
+}

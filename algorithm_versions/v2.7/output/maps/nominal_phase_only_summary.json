@@ -1,0 +1,8 @@
+{
+  "source": "algorithm_versions/v2.6/output/reports/phase_only_map.npz",
+  "unique_targets": 4096,
+  "gain_reachable": 1742,
+  "pointing_reachable": 584,
+  "strict_unambiguous": 0,
+  "continuous_tracking_fraction": 0.986328125
+}

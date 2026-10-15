@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "states": 16,
+  "targets_per_state": 64,
+  "cases": 1024,
+  "phase_pointing_reachable_fraction": 0.3974609375,
+  "continuous_pointing_reachable_fraction": 0.421875,
+  "continuous_margin_improvement_db_p05_median_p95": [
+    0.002103494200855494,
+    0.0148237906396389,
+    0.24647056460380543
+  ],
+  "continuous_strict_unambiguous_fraction": 0.0,
+  "rechecked": 257
+}

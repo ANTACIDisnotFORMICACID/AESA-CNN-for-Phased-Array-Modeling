@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "complete": true,
+  "unique_targets": 4096,
+  "missing_targets": 0,
+  "rechecked_targets": 1068,
+  "methods": {
+    "phase_only": {
+      "gain_reachable_count": 1742,
+      "pointing_reachable_count": 583,
+      "strict_unambiguous_count": 0,
+      "hpbw_aware_diagnostic_count": 2,
+      "target_to_peak_db_p05_median_p95": [
+        -3.581387819494091,
+        -0.7462500742794906,
+        -0.033157961088415025
+      ],
+      "pointing_error_deg_p05_median_p95": [
+        1.5398836799400963,
+        25.952402393016605,
+        58.304124753293316
+      ],
+      "strict_margin_db_p05_median_p95_max": [
+        -3.581387819494091,
+        -0.7462500742794906,
+        0.02935095324840896,
+        0.08793233495997746
+      ]
+    },
+    "continuous_disk": {
+      "gain_reachable_count": 1799,
+      "pointing_reachable_count": 665,
+      "strict_unambiguous_count": 0,
+      "hpbw_aware_diagnostic_count": 6,
+      "target_to_peak_db_p05_median_p95": [
+        -3.4967836859457404,
+        -0.6967001122798656,
+        -0.029405543170417277
+      ],
+      "pointing_error_deg_p05_median_p95": [
+        1.545752159418026,
+        25.066269760417605,
+        56.921199915384605
+      ],
+      "strict_margin_db_p05_median_p95_max": [
+        -3.4967836859457404,
+        -0.6967001122798656,
+        0.03944354005908084,
+        0.10221794231404366
+      ]
+    },
+    "int8_disk": {
+      "gain_reachable_count": 1800,
+      "pointing_reachable_count": 671,
+      "strict_unambiguous_count": 0,
+      "hpbw_aware_diagnostic_count": 2,
+      "target_to_peak_db_p05_median_p95": [
+        -3.4968488938062445,
+        -0.6949896316086536,
+        -0.03123363413772305
+      ],
+      "pointing_error_deg_p05_median_p95": [
+        1.539883679940333,
+        24.799121552581056,
+        56.921199915384605
+      ],
+      "strict_margin_db_p05_median_p95_max": [
+        -3.4968488938062445,
+        -0.6949896316086536,
+        0.04176347640554605,
+        0.10409973515441177
+      ]
+    }
+  }
+}

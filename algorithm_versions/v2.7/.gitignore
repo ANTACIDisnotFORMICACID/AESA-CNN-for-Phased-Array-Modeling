@@ -1,0 +1,5 @@
+output/cache/
+output/oracle_shards/
+output/training/
+**/__pycache__/
+*.pyc

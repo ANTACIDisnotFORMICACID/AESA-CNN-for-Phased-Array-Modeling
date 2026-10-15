@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "base_commit": "9290f9ef8fd14a65a2a003b3cbaa9a39638625ee",
+  "frozen_v2.5_v2.6_hfss_unchanged": true,
+  "suites": {
+    "v2.5_35_tests": {
+      "command": [
+        "<python>",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "algorithm_versions/v2.5/code",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_complex_projection_is_radial_and_bounded (test_beamforming_common.TestBeamformingCommon.test_complex_projection_is_radial_and_bounded) ... ok\ntest_direction_vectors_follow_project_convention (test_beamforming_common.TestBeamformingCommon.test_direction_vectors_follow_project_convention) ... ok\ntest_qconv2d_preserves_parameter_keys_and_shape (test_beamforming_common.TestBeamformingCommon.test_qconv2d_preserves_parameter_keys_and_shape) ... ok\ntest_symmetric_int8_quantizer_has_255_levels (test_beamforming_common.TestBeamformingCommon.test_symmetric_int8_quantizer_has_255_levels) ... ok\ntest_complex_real_block_is_exact (test_beamforming_pre_fpga.TestPhysicsInitialisedFrontend.test_complex_real_block_is_exact) ... ok\ntest_near_weights_converge_to_far_weights (test_beamforming_pre_fpga.TestPhysicsInitialisedFrontend.test_near_weights_converge_to_far_weights) ... ok\ntest_physics_fc_and_near_to_far_transform (test_beamforming_pre_fpga.TestPhysicsInitialisedFrontend.test_physics_fc_and_near_to_far_transform) ... ok\ntest_calibrated_surrogate_gradient_coefficients_ignore_true_tensors (test_beamforming_pre_fpga.TestSparseAndIntegerReference.test_calibrated_surrogate_gradient_coefficients_ignore_true_tensors) ... ok\ntest_int8_codes_are_nearest_feasible_lattice_points (test_beamforming_pre_fpga.TestSparseAndIntegerReference.test_int8_codes_are_nearest_feasible_lattice_points) ... ok\ntest_int8_codes_strictly_obey_complex_disk (test_beamforming_pre_fpga.TestSparseAndIntegerReference.test_int8_codes_strictly_obey_complex_disk) ... ok\ntest_prefpga_contract_covers_both_topologies (test_beamforming_pre_fpga.TestSparseAndIntegerReference.test_prefpga_contract_covers_both_topologies) ... ok\ntest_sparse_losses_handle_phase_reference_explicitly (test_beamforming_pre_fpga.TestSparseAndIntegerReference.test_sparse_losses_handle_phase_reference_explicitly) ... ok\ntest_1x4_uses_anisotropic_kernel_without_wasted_rows (test_beamforming_pre_fpga.TestTopologyController.test_1x4_uses_anisotropic_kernel_without_wasted_rows) ... ok\ntest_4x4_uses_2d_kernel_without_destructive_gap (test_beamforming_pre_fpga.TestTopologyController.test_4x4_uses_2d_kernel_without_destructive_gap) ... ok\ntest_export_contract_is_explicit_and_versioned (test_beamforming_pre_fpga.TestTopologyController.test_export_contract_is_explicit_and_versioned) ... ok\ntest_profiles_are_more_than_one_order_below_legacy (test_beamforming_pre_fpga.TestTopologyController.test_profiles_are_more_than_one_order_below_legacy) ... ok\ntest_analytic_gain_equals_element_count_for_both_topologies (test_beamforming_pre_fpga.TestTopologyPhysics.test_analytic_gain_equals_element_count_for_both_topologies) ... ok\ntest_certified_geometries_and_numbering (test_beamforming_pre_fpga.TestTopologyPhysics.test_certified_geometries_and_numbering) ... ok\ntest_sample_dependent_position_and_response_match_complex_sum (test_beamforming_pre_fpga.TestTopologyPhysics.test_sample_dependent_position_and_response_match_complex_sum) ... ok\ntest_domain_rms_is_renormalised_after_smoothing (test_experiment_common.TestExperimentCommon.test_domain_rms_is_renormalised_after_smoothing) ... ok\ntest_samples_are_bit_exact_for_same_local_seed (test_experiment_common.TestExperimentCommon.test_samples_are_bit_exact_for_same_local_seed) ... ok\ntest_short_training_and_evaluation_are_finite (test_experiment_common.TestExperimentCommon.test_short_training_and_evaluation_are_finite) ... ok\ntest_explicit_iq_coupling_equals_complex_coupling (test_full_pattern_v25.TestFullPatternPhysics.test_explicit_iq_coupling_equals_complex_coupling) ... ok\ntest_fp64_ideal_matches_independent_reference_for_both_topologies (test_full_pattern_v25.TestFullPatternPhysics.test_fp64_ideal_matches_independent_reference_for_both_topologies) ... ok\ntest_fp64_nonideal_path_matches_independent_reference (test_full_pattern_v25.TestFullPatternPhysics.test_fp64_nonideal_path_matches_independent_reference) ... ok\ntest_gradient_reaches_weights_and_position_errors (test_full_pattern_v25.TestFullPatternPhysics.test_gradient_reaches_weights_and_position_errors) ... ok\ntest_legacy_grid_contract_and_zero_floor (test_full_pattern_v25.TestFullPatternPhysics.test_legacy_grid_contract_and_zero_floor) ... ok\ntest_legacy_payload_is_json_compatible_and_axis_explicit (test_full_pattern_v25.TestFullPatternPhysics.test_legacy_payload_is_json_compatible_and_axis_explicit) ... ok\ntest_mixed_precision_is_rejected_instead_of_silent_upcast (test_full_pattern_v25.TestFullPatternPhysics.test_mixed_precision_is_rejected_instead_of_silent_upcast) ... ok\ntest_nan_and_bad_shapes_are_rejected (test_full_pattern_v25.TestFullPatternPhysics.test_nan_and_bad_shapes_are_rejected) ... ok\ntest_normalized_db_handles_tiny_pattern_and_deep_null (test_full_pattern_v25.TestFullPatternPhysics.test_normalized_db_handles_tiny_pattern_and_deep_null) ... ok\ntest_old_amplitude_phase_adapter_and_historical_geometry (test_full_pattern_v25.TestFullPatternPhysics.test_old_amplitude_phase_adapter_and_historical_geometry) ... ok\ntest_payload_rejects_grid_mismatch (test_full_pattern_v25.TestFullPatternPhysics.test_payload_rejects_grid_mismatch) ... ok\ntest_static_profiles_have_exact_expected_counts (test_full_pattern_v25.TestV25SystemAndComplexity.test_static_profiles_have_exact_expected_counts) ... ok\ntest_wrapper_does_not_change_v24_controller_output (test_full_pattern_v25.TestV25SystemAndComplexity.test_wrapper_does_not_change_v24_controller_output) ... ok\n\n----------------------------------------------------------------------\nRan 35 tests in 3.680s\n\nOK\n",
+      "passed": true
+    },
+    "v2.6_16_tests": {
+      "command": [
+        "<python>",
+        "-X",
+        "utf8",
+        "-B",
+        "algorithm_versions/v2.6/tests/run_tests.py"
+      ],
+      "returncode": 0,
+      "stdout": "PASS test_calibration_v26.test_calibration_design_and_phase_invariance\nPASS test_calibration_v26.test_calibration_noisy_holdout_nmse_gate\nPASS test_calibration_v26.test_single_failed_port_remains_finite\nPASS test_controller_v26.test_model_fixed_shapes_and_parameter_budget\nPASS test_controller_v26.test_public_result_reason_bits_for_domain_confidence_and_health\nPASS test_controller_v26.test_untrained_zero_head_is_exact_analytic_baseline_and_reports_ambiguity\nPASS test_dataset_v26.test_release_profile_counts_ranges_and_determinism\nPASS test_dataset_v26.test_target_blocks_do_not_overlap_and_each_state_has_64_targets\nPASS test_deployment_v26.test_deployment_contract_preserves_all_reason_bits\nPASS test_deployment_v26.test_static_core_audit_has_no_non_dpu_math\nPASS test_oracle_v26.test_phase_only_oracle_is_deterministic_and_target_optimal_against_random\nPASS test_physics_v26.test_equal_phase_electrical_boresight_and_positive_ramp_sign\nPASS test_physics_v26.test_geometry_and_hfss_coordinate_contract\nPASS test_physics_v26.test_integer_quantizer_never_leaves_disk\nPASS test_physics_v26.test_linearity_and_recorded_direct_recomposition_gate\nPASS test_training_v26.test_exact_hfss_loss_is_finite_and_backpropagates\n\n16 passed, 0 failed in 7.21s\n",
+      "stderr": "",
+      "passed": true
+    },
+    "v2.7_tests": {
+      "command": [
+        "<python>",
+        "-X",
+        "utf8",
+        "-B",
+        "algorithm_versions/v2.7/tests/run_tests.py"
+      ],
+      "returncode": 0,
+      "stdout": "PASS test_artifacts_v27.test_multi_parameter_artifact_has_21248_cases_and_integer_disk_codes\nPASS test_artifacts_v27.test_phase_map_has_4096_finite_unique_records\nPASS test_boundary_v27.test_four_levels_are_nested\nPASS test_boundary_v27.test_global_phase_is_not_a_weight_jump\nPASS test_boundary_v27.test_hpbw_diagnostic_removes_connected_main_lobe\nPASS test_boundary_v27.test_query_contract_and_nearest_reachable\nPASS test_contracts_v27.test_frozen_v25_checkpoint_loads_strictly\nPASS test_contracts_v27.test_hfss_geometry_contract_is_fixed\nPASS test_contracts_v27.test_nominal_grid_has_4096_unique_targets\nPASS test_contracts_v27.test_repeatability_sample_is_exactly_five_percent_rounded_up\nPASS test_contracts_v27.test_state_oracle_selection_is_exact_and_disjoint\nPASS test_contracts_v27.test_v25_rotation_maps_its_z_axis_to_hfss_y\nPASS test_contracts_v27.test_v26_public_input_is_unchanged\nPASS test_states_v27.test_exact_state_counts_and_ranges\nPASS test_states_v27.test_one_factor_contract\nPASS test_states_v27.test_stratified_targets_cover_domain_deterministically\nRESULT 16/16 passed\n",
+      "stderr": "",
+      "passed": true
+    }
+  },
+  "passed": true
+}

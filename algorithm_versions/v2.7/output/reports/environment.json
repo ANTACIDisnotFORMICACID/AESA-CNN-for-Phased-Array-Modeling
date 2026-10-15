@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "base_head_at_run": "9290f9ef8fd14a65a2a003b3cbaa9a39638625ee",
+  "python": "3.13.13",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.0",
+  "scipy": "1.18.0",
+  "torch": "2.13.0+cpu",
+  "hfss_npz": "HFSS/vitis_hfss_lab/artifacts/hfss_active_element_patterns_47ghz.npz",
+  "hfss_npz_sha256": "BDC5013767DA6D1AAD51FE6E559A2C55ED43E3E90FD1B5E312DB6CD2DB067B8E",
+  "hfss_source_project_sha256": "D647839C759D84C58D9A0251EFB814C29790F0D5D03287462284B3A2B683D350",
+  "hfss_expected_project_sha256": "D647839C759D84C58D9A0251EFB814C29790F0D5D03287462284B3A2B683D350",
+  "hfss_project_hash_contract_passed": true,
+  "frequency_hz": 47000000000.0,
+  "vitis_ptq_fpga_run": false,
+  "scope": "host HFSS saved-field characterization only; no new solve, PTQ, FPGA, VART or OTA"
+}

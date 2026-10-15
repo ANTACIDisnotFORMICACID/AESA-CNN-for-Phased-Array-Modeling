@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "requested": 205,
+  "completed": 205,
+  "missing": [],
+  "maximum_absolute_difference": {
+    "target_gain_db": 5.9670592335091665e-09,
+    "pointing_error_deg": 51.96186354929402,
+    "strict_margin_db": 0.017337210001206273
+  },
+  "p95_absolute_difference": {
+    "target_gain_db": 2.3417438899502157e-11,
+    "pointing_error_deg": 3.0154374250631086,
+    "strict_margin_db": 0.006054941752093865
+  },
+  "failed_sample_count": {
+    "target_gain_db": 0,
+    "pointing_error_deg": 31,
+    "strict_margin_db": 0
+  },
+  "limits": {
+    "target_gain_db": 0.02,
+    "pointing_error_deg": 1.0,
+    "strict_margin_db": 0.05
+  },
+  "passed": false,
+  "interpretation": "target gain and strict margin are repeatable, but the raw global-peak location can jump between nearly equal lobes; this failure is retained rather than replaced by an HPBW-aware or tie-tolerant criterion"
+}

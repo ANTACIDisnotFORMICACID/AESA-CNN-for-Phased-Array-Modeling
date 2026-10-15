@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "release_kind": "two-dimensional-boundary-characterization",
+  "release_status": "complete_with_failed_raw_pointing_repeatability_gate",
+  "paper_reference": {
+    "task": "forward prediction: excitation/error to 64x64 complex radiation pattern",
+    "best_validation_loss_approx": 0.0028,
+    "not_ranked_as_inverse_control": true,
+    "source": "情况说明与任务书/毛馨瑶毕业论文-终稿.pdf"
+  },
+  "project_goal_source": "大创立项-李新然.docx",
+  "v2.5": "frozen low-update checkpoint evaluated with its original 15 mm interface; geometry-mismatch ablation only",
+  "v2.6": "untrained zero-residual/analytic controller baseline",
+  "fixed_physics": "47 GHz, HFSS four-port embedded fields, +Y 6.8 mm array, full 1-degree sphere search",
+  "oracle_summary": {
+    "schema_version": 1,
+    "complete": true,
+    "unique_targets": 4096,
+    "missing_targets": 0,
+    "rechecked_targets": 1068,
+    "methods": {
+      "phase_only": {
+        "gain_reachable_count": 1742,
+        "pointing_reachable_count": 583,
+        "strict_unambiguous_count": 0,
+        "hpbw_aware_diagnostic_count": 2,
+        "target_to_peak_db_p05_median_p95": [
+          -3.581387819494091,
+          -0.7462500742794906,
+          -0.033157961088415025
+        ],
+        "pointing_error_deg_p05_median_p95": [
+          1.5398836799400963,
+          25.952402393016605,
+          58.304124753293316
+        ],
+        "strict_margin_db_p05_median_p95_max": [
+          -3.581387819494091,
+          -0.7462500742794906,
+          0.02935095324840896,
+          0.08793233495997746
+        ]
+      },
+      "continuous_disk": {
+        "gain_reachable_count": 1799,
+        "pointing_reachable_count": 665,
+        "strict_unambiguous_count": 0,
+        "hpbw_aware_diagnostic_count": 6,
+        "target_to_peak_db_p05_median_p95": [
+          -3.4967836859457404,
+          -0.6967001122798656,
+          -0.029405543170417277
+        ],
+        "pointing_error_deg_p05_median_p95": [
+          1.545752159418026,
+          25.066269760417605,
+          56.921199915384605
+        ],
+        "strict_margin_db_p05_median_p95_max": [
+          -3.4967836859457404,
+          -0.6967001122798656,
+          0.03944354005908084,
+          0.10221794231404366
+        ]
+      },
+      "int8_disk": {
+        "gain_reachable_count": 1800,
+        "pointing_reachable_count": 671,
+        "strict_unambiguous_count": 0,
+        "hpbw_aware_diagnostic_count": 2,
+        "target_to_peak_db_p05_median_p95": [
+          -3.4968488938062445,
+          -0.6949896316086536,
+          -0.03123363413772305
+        ],
+        "pointing_error_deg_p05_median_p95": [
+          1.539883679940333,
+          24.799121552581056,
+          56.921199915384605
+        ],
+        "strict_margin_db_p05_median_p95_max": [
+          -3.4968488938062445,
+          -0.6949896316086536,
+          0.04176347640554605,
+          0.10409973515441177
+        ]
+      }
+    }
+  },
+  "parameter_summary_rows": 42,
+  "overall_method_results": [
+    {
+      "method": "phase_reference_fp32",
+      "samples": 21248,
+      "target_power_regret_db_median": 0.0,
+      "pointing_error_deg_p95": 57.91518001556394,
+      "strict_margin_db_median": -0.7417748272418976,
+      "strict_unambiguous_count": 0
+    },
+    {
+      "method": "phase_reference_int8",
+      "samples": 21248,
+      "target_power_regret_db_median": 0.027139298617839813,
+      "pointing_error_deg_p95": 57.93242416381836,
+      "strict_margin_db_median": -0.742033988237381,
+      "strict_unambiguous_count": 0
+    },
+    {
+      "method": "v2.5_low_update_15mm_fp32",
+      "samples": 21248,
+      "target_power_regret_db_median": 6.4475297927856445,
+      "pointing_error_deg_p95": 58.06166629791256,
+      "strict_margin_db_median": -4.668611288070679,
+      "strict_unambiguous_count": 0
+    },
+    {
+      "method": "v2.5_low_update_15mm_int8",
+      "samples": 21248,
+      "target_power_regret_db_median": 6.476926326751709,
+      "pointing_error_deg_p95": 58.009557723999,
+      "strict_margin_db_median": -4.667997360229492,
+      "strict_unambiguous_count": 0
+    },
+    {
+      "method": "v2.6_zero_residual_fp32",
+      "samples": 21248,
+      "target_power_regret_db_median": 5.487790622282773e-05,
+      "pointing_error_deg_p95": 57.92732982635495,
+      "strict_margin_db_median": -0.7421708106994629,
+      "strict_unambiguous_count": 0
+    },
+    {
+      "method": "v2.6_zero_residual_int8",
+      "samples": 21248,
+      "target_power_regret_db_median": 0.02176336757838726,
+      "pointing_error_deg_p95": 57.93277435302734,
+      "strict_margin_db_median": -0.7417432963848114,
+      "strict_unambiguous_count": 0
+    }
+  ],
+  "state_continuous_reference": {
+    "schema_version": 1,
+    "states": 16,
+    "targets_per_state": 64,
+    "cases": 1024,
+    "phase_pointing_reachable_fraction": 0.3974609375,
+    "continuous_pointing_reachable_fraction": 0.421875,
+    "continuous_margin_improvement_db_p05_median_p95": [
+      0.002103494200855494,
+      0.0148237906396389,
+      0.24647056460380543
+    ],
+    "continuous_strict_unambiguous_fraction": 0.0,
+    "rechecked": 257
+  },
+  "oracle_repeatability": {
+    "schema_version": 1,
+    "requested": 205,
+    "completed": 205,
+    "missing": [],
+    "maximum_absolute_difference": {
+      "target_gain_db": 5.9670592335091665e-09,
+      "pointing_error_deg": 51.96186354929402,
+      "strict_margin_db": 0.017337210001206273
+    },
+    "p95_absolute_difference": {
+      "target_gain_db": 2.3417438899502157e-11,
+      "pointing_error_deg": 3.0154374250631086,
+      "strict_margin_db": 0.006054941752093865
+    },
+    "failed_sample_count": {
+      "target_gain_db": 0,
+      "pointing_error_deg": 31,
+      "strict_margin_db": 0
+    },
+    "limits": {
+      "target_gain_db": 0.02,
+      "pointing_error_deg": 1.0,
+      "strict_margin_db": 0.05
+    },
+    "passed": false,
+    "interpretation": "target gain and strict margin are repeatable, but the raw global-peak location can jump between nearly equal lobes; this failure is retained rather than replaced by an HPBW-aware or tie-tolerant criterion"
+  },
+  "training_gate": {
+    "status": "not_met",
+    "train_v2.7": false,
+    "pointing_reachable_area_increase_percentage_points": 1.9775390625,
+    "margin_improved_at_least_0p25db_fraction": 0.025634765625,
+    "criteria": {
+      "area_increase_percentage_points": 2.0,
+      "improved_fraction": 0.05
+    },
+    "checkpoint_policy": "train unchanged V2.6 CNN only when train_v2.7 is true; otherwise release characterization without checkpoint"
+  },
+  "boundary_query_map": "algorithm_versions/v2.7/output/maps/boundary_maps.npz",
+  "boundary_polygons": "algorithm_versions/v2.7/output/maps/boundary_polygons.json",
+  "figures": [
+    "algorithm_versions/v2.7/output/reports/pictures/boundary_layers_continuous.png",
+    "algorithm_versions/v2.7/output/reports/pictures/hpbw_aware_margin_continuous.png",
+    "algorithm_versions/v2.7/output/reports/pictures/continuous_tracking.png",
+    "algorithm_versions/v2.7/output/reports/pictures/peak_jump_map.png",
+    "algorithm_versions/v2.7/output/reports/pictures/failed_port_comparison.png",
+    "algorithm_versions/v2.7/output/reports/pictures/parameter_sensitivity_heatmap.png",
+    "algorithm_versions/v2.7/output/reports/pictures/method_pareto.png"
+  ],
+  "strict_policy": "3 dB outside a fixed 8-degree exclusion is unchanged; HPBW-aware values are diagnostic only",
+  "vitis_fpga_scope": "not run in V2.7"
+}

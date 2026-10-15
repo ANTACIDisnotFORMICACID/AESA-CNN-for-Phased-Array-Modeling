@@ -1,0 +1,3005 @@
+{
+  "schema_version": 1,
+  "seeds": {
+    "mixed_latin_hypercube": 27001,
+    "stratified_targets": 27002
+  },
+  "counts": {
+    "one_factor": 19,
+    "mixed": 64,
+    "total": 83,
+    "targets_per_state": 256,
+    "cases": 21248
+  },
+  "state_policy": "fixed HFSS embedded patterns; only feed-chain calibration, measurement noise, global measurement phase and health change",
+  "states": [
+    {
+      "state_id": "baseline",
+      "state_class": "baseline",
+      "state_index": 0,
+      "seed": 27010,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "3191D058AD44126F61A52906E09465EBD8EAE7F3BDD579E54C7CC923E236D755"
+    },
+    {
+      "state_id": "amp_rms_03pct",
+      "state_class": "amplitude",
+      "state_index": 1,
+      "seed": 27011,
+      "amplitude_rms_fraction": 0.03,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          1.0073580048327626,
+          0.0
+        ],
+        [
+          0.9716829090846801,
+          0.0
+        ],
+        [
+          0.974952366948416,
+          0.0
+        ],
+        [
+          1.0460067191341411,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "A3EF4700B2B14804DCE7F80EBA52C1B8E25998ACF20624318C4841CCD737C87D"
+    },
+    {
+      "state_id": "amp_rms_06pct",
+      "state_class": "amplitude",
+      "state_index": 2,
+      "seed": 27012,
+      "amplitude_rms_fraction": 0.06,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          1.1006026327754705,
+          0.0
+        ],
+        [
+          0.9420017841788455,
+          0.0
+        ],
+        [
+          0.9806661751488146,
+          0.0
+        ],
+        [
+          0.9767294078968695,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "9AC22DBADF67E57F5D8A56358B622B62945FF0024C247D0B6FF45BA0C2CB9002"
+    },
+    {
+      "state_id": "amp_rms_09pct",
+      "state_class": "amplitude",
+      "state_index": 3,
+      "seed": 27013,
+      "amplitude_rms_fraction": 0.09,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          0.9602030121270363,
+          0.0
+        ],
+        [
+          1.1037427930940398,
+          0.0
+        ],
+        [
+          0.8731347909716061,
+          0.0
+        ],
+        [
+          1.0629194038073178,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "E54B9D0422011FE9AA1C8A007C27195377D07666DB83C1AA94249ECCD455EAA1"
+    },
+    {
+      "state_id": "amp_rms_13pct",
+      "state_class": "amplitude",
+      "state_index": 4,
+      "seed": 27014,
+      "amplitude_rms_fraction": 0.13,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          0.9252472676465501,
+          0.0
+        ],
+        [
+          1.0031514438624345,
+          0.0
+        ],
+        [
+          1.2081936910172506,
+          0.0
+        ],
+        [
+          0.8634075974737649,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "1AE61135F9FFD7FD820956AB18BBDE504FFCE41C12989A3906DEC1388651E47E"
+    },
+    {
+      "state_id": "phase_rms_05deg",
+      "state_class": "phase",
+      "state_index": 5,
+      "seed": 27015,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 5.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          0.9979003788022385,
+          -0.06476753805996466
+        ],
+        [
+          0.9986929560559965,
+          -0.051111442203634165
+        ],
+        [
+          0.9994214660074149,
+          -0.03401078187265878
+        ],
+        [
+          0.9887764616093507,
+          0.14940250656294968
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "BC52D049BB16689EEB16FC2092C52C7010FE6D2AEECFA4D25393B69DE9BC3CFB"
+    },
+    {
+      "state_id": "phase_rms_10deg",
+      "state_class": "phase",
+      "state_index": 6,
+      "seed": 27016,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 10.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          0.9962665135324381,
+          -0.08633095628985232
+        ],
+        [
+          0.985724857659436,
+          0.16836420341713018
+        ],
+        [
+          0.9869821125713465,
+          0.16083006393147384
+        ],
+        [
+          0.9703158256831812,
+          -0.2418412670095125
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "C567C9C2A52B70716BABFE891E4BAB97E830F8B2A69201CF0D6CF425D7F2B5E9"
+    },
+    {
+      "state_id": "phase_rms_15deg",
+      "state_class": "phase",
+      "state_index": 7,
+      "seed": 27017,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 15.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          0.9916445346640859,
+          0.12900045298699003
+        ],
+        [
+          0.9737128780315828,
+          0.2277789084956111
+        ],
+        [
+          0.9963804607723193,
+          0.08500574916522143
+        ],
+        [
+          0.9029266271889529,
+          -0.42979472532033436
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "97F5E6DBBB505FA6CD25F9431FAB94E9ACFDD61A1622661798DE5F2464D7A7D3"
+    },
+    {
+      "state_id": "phase_rms_22deg",
+      "state_class": "phase",
+      "state_index": 8,
+      "seed": 27018,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 22.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          0.9409799633003549,
+          -0.33846227067025164
+        ],
+        [
+          0.8315814027290966,
+          0.5554028903733829
+        ],
+        [
+          0.9954770029406086,
+          0.09500282425477387
+        ],
+        [
+          0.9431835963624473,
+          -0.33227203245654
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "CB07B24A7D5C6F8CAF4C1A54C7617DADC3C0554F61887F91AF47E2A7CD008891"
+    },
+    {
+      "state_id": "snr_25db",
+      "state_class": "snr",
+      "state_index": 9,
+      "seed": 27019,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 25.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "113F3C018083236015A8F759816D12F6859E74E79A95EC7007D926FBAF9073A3"
+    },
+    {
+      "state_id": "snr_30db",
+      "state_class": "snr",
+      "state_index": 10,
+      "seed": 27020,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 30.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "8C5632408C9B548268598BA262C3B4A0906210FC59F0426F1ED355943DFA07A3"
+    },
+    {
+      "state_id": "snr_35db",
+      "state_class": "snr",
+      "state_index": 11,
+      "seed": 27021,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 35.0,
+      "failed_port": null,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "8790E05ACFB80E226AF3A73E72D09E02B5DA57DAD7666BAA10FEA9418B495B9D"
+    },
+    {
+      "state_id": "failed_port_1",
+      "state_class": "failed_port",
+      "state_index": 12,
+      "seed": 27022,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": 0,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "32CE83D1591B8F74A8C5C9AFA5941A54D4654C49E1698F9D392F470E551161A6"
+    },
+    {
+      "state_id": "failed_port_2",
+      "state_class": "failed_port",
+      "state_index": 13,
+      "seed": 27023,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": 1,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "77018AFE51A616B05731DC1E30C3839BEFC05C638155829A689CA581DCDCC567"
+    },
+    {
+      "state_id": "failed_port_3",
+      "state_class": "failed_port",
+      "state_index": 14,
+      "seed": 27024,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": 2,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "targets_sha256": "11BAC03A3052705CEA7FEA25258218C0F39C08FC8D914D0D4C2B636544E3ACF9"
+    },
+    {
+      "state_id": "failed_port_4",
+      "state_class": "failed_port",
+      "state_index": 15,
+      "seed": 27025,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": 3,
+      "global_phase_deg": 0.0,
+      "calibration_iq": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "targets_sha256": "BB6717B3DF556E2EDF733537EC96A9A34C0DD49EDEB4DC123DF585D5DEBE84B8"
+    },
+    {
+      "state_id": "global_phase_+90deg",
+      "state_class": "global_phase",
+      "state_index": 16,
+      "seed": 27026,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": 90.0,
+      "calibration_iq": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "8CC52CCF3FC0A562827B31AC584F4F9A1B4418E846E37E79B97BA7F874325C04"
+    },
+    {
+      "state_id": "global_phase_+180deg",
+      "state_class": "global_phase",
+      "state_index": 17,
+      "seed": 27027,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": 180.0,
+      "calibration_iq": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "454707B4E0BD8B0D52AADD7DBE5321B21B1B5AED62101CAA24FAFA2E94C9553D"
+    },
+    {
+      "state_id": "global_phase_-90deg",
+      "state_class": "global_phase",
+      "state_index": 18,
+      "seed": 27028,
+      "amplitude_rms_fraction": 0.0,
+      "phase_rms_deg": 0.0,
+      "measurement_snr_db": 40.0,
+      "failed_port": null,
+      "global_phase_deg": -90.0,
+      "calibration_iq": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "AFB410C4EC0B0CDA66DFA1AE811AC12FD8FB795BE6C7A7B9E36E817EA3051441"
+    },
+    {
+      "state_id": "mixed_00",
+      "state_class": "mixed",
+      "state_index": 19,
+      "seed": 2700100,
+      "amplitude_rms_fraction": 0.09420306538137305,
+      "phase_rms_deg": 14.792629933001436,
+      "measurement_snr_db": 25.26928696701293,
+      "failed_port": null,
+      "global_phase_deg": 53.44754227162696,
+      "calibration_iq": [
+        [
+          1.1173262090345997,
+          -0.26835964685761426
+        ],
+        [
+          0.9422834937327313,
+          -0.2628219385187726
+        ],
+        [
+          0.9670158452193195,
+          0.18585628300427523
+        ],
+        [
+          0.8434588981900122,
+          0.2774949422072025
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "5855ED16610A2A65D9751775F7856350739A286B57A3C178F9D16DB878D88ACC"
+    },
+    {
+      "state_id": "mixed_01",
+      "state_class": "mixed",
+      "state_index": 20,
+      "seed": 2700101,
+      "amplitude_rms_fraction": 0.02284954636832749,
+      "phase_rms_deg": 8.797932616336304,
+      "measurement_snr_db": 32.57583625522713,
+      "failed_port": null,
+      "global_phase_deg": -140.15290781919333,
+      "calibration_iq": [
+        [
+          0.9601986308546803,
+          0.20973283435369058
+        ],
+        [
+          0.9793686798057794,
+          -0.13194555426352977
+        ],
+        [
+          1.0266451335880515,
+          -0.16190573717990944
+        ],
+        [
+          0.9868092734523678,
+          0.07443288304173652
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "D339835B9725E68AFADA863721F227C8AB54E66F0613E6B559807110B81F0ECE"
+    },
+    {
+      "state_id": "mixed_02",
+      "state_class": "mixed",
+      "state_index": 21,
+      "seed": 2700102,
+      "amplitude_rms_fraction": 0.009707585188690578,
+      "phase_rms_deg": 1.0183911406470716,
+      "measurement_snr_db": 26.48733216621538,
+      "failed_port": null,
+      "global_phase_deg": -22.201536444291918,
+      "calibration_iq": [
+        [
+          1.0026168503010586,
+          0.0046443376484320825
+        ],
+        [
+          0.9892355274516198,
+          0.020030010575330714
+        ],
+        [
+          0.9929064865343832,
+          -0.028413425678005325
+        ],
+        [
+          1.0146140914420874,
+          0.0037857695621618124
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "ECC8C3EC914A72A6C829DDD44496BDA3F69B0701441E205E6FA17CE5C989BF4B"
+    },
+    {
+      "state_id": "mixed_03",
+      "state_class": "mixed",
+      "state_index": 22,
+      "seed": 2700103,
+      "amplitude_rms_fraction": 0.01867570387839353,
+      "phase_rms_deg": 20.595722266456576,
+      "measurement_snr_db": 36.695809716971254,
+      "failed_port": null,
+      "global_phase_deg": -178.43386455476386,
+      "calibration_iq": [
+        [
+          0.9855114006611186,
+          -0.1190127382273525
+        ],
+        [
+          0.8427085754417056,
+          0.5646943555299919
+        ],
+        [
+          0.9691578170336176,
+          -0.08540988448578705
+        ],
+        [
+          0.9463684381721433,
+          -0.3805075205879058
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "7A1060E13FF837101C6C5477C46D8A3CB1F5744A7AD1E233D29C729D347FDEF6"
+    },
+    {
+      "state_id": "mixed_04",
+      "state_class": "mixed",
+      "state_index": 23,
+      "seed": 2700104,
+      "amplitude_rms_fraction": 0.1182039425860538,
+      "phase_rms_deg": 1.2866591634356976,
+      "measurement_snr_db": 37.62353440957544,
+      "failed_port": null,
+      "global_phase_deg": -154.7546049334532,
+      "calibration_iq": [
+        [
+          1.1016411940430815,
+          -0.018731734969933394
+        ],
+        [
+          0.9025225448498431,
+          -0.0195865087399939
+        ],
+        [
+          1.1319914782943075,
+          0.003855908943492144
+        ],
+        [
+          0.8629287240263489,
+          0.030468949154587973
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "85B35F8748D5D8925CF5FA86DDB79653A71968B2919F7463260A4537E1F5A51F"
+    },
+    {
+      "state_id": "mixed_05",
+      "state_class": "mixed",
+      "state_index": 24,
+      "seed": 2700105,
+      "amplitude_rms_fraction": 0.051202842912333825,
+      "phase_rms_deg": 12.033102548951922,
+      "measurement_snr_db": 27.704256938603464,
+      "failed_port": null,
+      "global_phase_deg": 117.79194625245134,
+      "calibration_iq": [
+        [
+          0.9393894469788525,
+          0.21113919097932454
+        ],
+        [
+          0.8837772325045747,
+          -0.311942412656061
+        ],
+        [
+          1.0408220217693998,
+          0.007310510383611249
+        ],
+        [
+          1.0525713477467487,
+          0.11753297945613492
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "A1CA47FD704F0FFE2614FEF8C6F71CE46EDF54656C69E33BF95F124EC710890C"
+    },
+    {
+      "state_id": "mixed_06",
+      "state_class": "mixed",
+      "state_index": 25,
+      "seed": 2700106,
+      "amplitude_rms_fraction": 0.006438507585653495,
+      "phase_rms_deg": 9.15599998987577,
+      "measurement_snr_db": 25.657191380402644,
+      "failed_port": null,
+      "global_phase_deg": -31.481903505009456,
+      "calibration_iq": [
+        [
+          1.0024497173314013,
+          -0.05659381121003345
+        ],
+        [
+          1.0006298634603905,
+          -0.1251975664321062
+        ],
+        [
+          0.9899906656209654,
+          -0.09209169357666644
+        ],
+        [
+          0.9563064756939502,
+          0.26839987795957126
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "C0731878949FB1443771FA857B63A4D408CD27B498010246526DD3F84E662658"
+    },
+    {
+      "state_id": "mixed_07",
+      "state_class": "mixed",
+      "state_index": 26,
+      "seed": 2700107,
+      "amplitude_rms_fraction": 0.033186126199643486,
+      "phase_rms_deg": 20.945942028554093,
+      "measurement_snr_db": 37.13093838961518,
+      "failed_port": null,
+      "global_phase_deg": 119.47796748359531,
+      "calibration_iq": [
+        [
+          0.9373878969247692,
+          0.4481097796899989
+        ],
+        [
+          0.9314758297227546,
+          -0.26462750006111047
+        ],
+        [
+          0.9320838360784874,
+          0.2532541023958147
+        ],
+        [
+          0.9314199429862805,
+          -0.4321699535318743
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "15EEDA36C387D4690EFDC3DA05371BCF38ED92802101B2E1BE768990EA473A7A"
+    },
+    {
+      "state_id": "mixed_08",
+      "state_class": "mixed",
+      "state_index": 27,
+      "seed": 2700108,
+      "amplitude_rms_fraction": 0.09825251259741637,
+      "phase_rms_deg": 16.327909921678273,
+      "measurement_snr_db": 27.071175254745107,
+      "failed_port": null,
+      "global_phase_deg": -134.97738556595365,
+      "calibration_iq": [
+        [
+          0.9696745222041576,
+          0.3118267308466601
+        ],
+        [
+          0.9927264674807895,
+          0.058305242491079906
+        ],
+        [
+          1.1265518617652124,
+          0.10687316242727629
+        ],
+        [
+          0.7647872016551595,
+          -0.38309771781650154
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "45690A972BDFAD502905A432A6CDCF60A437B42AF6CD71BE6107BCDB0507E05B"
+    },
+    {
+      "state_id": "mixed_09",
+      "state_class": "mixed",
+      "state_index": 28,
+      "seed": 2700109,
+      "amplitude_rms_fraction": 0.05001631578270093,
+      "phase_rms_deg": 12.7541040693789,
+      "measurement_snr_db": 33.75110107419284,
+      "failed_port": 0,
+      "global_phase_deg": -110.67183208452317,
+      "calibration_iq": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0565435409937902,
+          -0.13293010140662403
+        ],
+        [
+          1.0067097600636778,
+          0.1813188389229647
+        ],
+        [
+          0.8879974096444619,
+          -0.2745089059855137
+        ]
+      ],
+      "health_mask": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "B9AA70EEB10E95BAD7C394F141684D519B03326864AD0B958B1CBBDD4045AE52"
+    },
+    {
+      "state_id": "mixed_10",
+      "state_class": "mixed",
+      "state_index": 29,
+      "seed": 2700110,
+      "amplitude_rms_fraction": 0.04841769779634004,
+      "phase_rms_deg": 2.2150622163784686,
+      "measurement_snr_db": 25.98845817981124,
+      "failed_port": null,
+      "global_phase_deg": -142.61659069320424,
+      "calibration_iq": [
+        [
+          0.9408538354907949,
+          0.003999131639302017
+        ],
+        [
+          0.9639508560659596,
+          -0.005603877979607863
+        ],
+        [
+          1.0511167853391397,
+          0.05809313850754403
+        ],
+        [
+          1.0409497771469622,
+          -0.05589952561177333
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "227237ECA7A5656ADB4E032E58816256BCB96A5FE12ABE97B7B7600D5A3770F5"
+    },
+    {
+      "state_id": "mixed_11",
+      "state_class": "mixed",
+      "state_index": 30,
+      "seed": 2700111,
+      "amplitude_rms_fraction": 0.05463970443224214,
+      "phase_rms_deg": 20.078680858515135,
+      "measurement_snr_db": 35.30280921917847,
+      "failed_port": null,
+      "global_phase_deg": -106.20794288549865,
+      "calibration_iq": [
+        [
+          0.9498311299603829,
+          -0.2490381914225414
+        ],
+        [
+          0.9387200236228117,
+          0.4941477096949798
+        ],
+        [
+          0.9554445074719096,
+          -0.4050880988656619
+        ],
+        [
+          0.9057482019806633,
+          0.15816185106939162
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "DC1FF7B53443C0BCA0E317F1418863CE56D00C3853CF4FD625DEE0857C1B1021"
+    },
+    {
+      "state_id": "mixed_12",
+      "state_class": "mixed",
+      "state_index": 31,
+      "seed": 2700112,
+      "amplitude_rms_fraction": 0.04322234076908529,
+      "phase_rms_deg": 4.822973771851861,
+      "measurement_snr_db": 34.7970017054337,
+      "failed_port": null,
+      "global_phase_deg": -169.22692614611577,
+      "calibration_iq": [
+        [
+          1.0024657434199102,
+          0.04911577222063482
+        ],
+        [
+          0.962886937613304,
+          -0.016483696239368382
+        ],
+        [
+          0.9595734956337262,
+          0.09260749012059998
+        ],
+        [
+          1.0605175985051096,
+          -0.13654586335266258
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "78EBD3B3EDCE92E5E432E7C215375F8E240B229958E200B815BE8114C244560C"
+    },
+    {
+      "state_id": "mixed_13",
+      "state_class": "mixed",
+      "state_index": 32,
+      "seed": 2700113,
+      "amplitude_rms_fraction": 0.0751999934053988,
+      "phase_rms_deg": 13.867906470848505,
+      "measurement_snr_db": 26.217384889802627,
+      "failed_port": null,
+      "global_phase_deg": 27.218907585416787,
+      "calibration_iq": [
+        [
+          0.8450461774419226,
+          0.3129216059314947
+        ],
+        [
+          1.0069997389368361,
+          -0.0013545058947235186
+        ],
+        [
+          0.9801630828120503,
+          -0.024260080079442033
+        ],
+        [
+          1.0519634463496128,
+          -0.35862454016815887
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "B7D1DCC96FEC0A03D14F519064D1D78A1844BE9C6EA4DBBFD7672BE1B469524B"
+    },
+    {
+      "state_id": "mixed_14",
+      "state_class": "mixed",
+      "state_index": 33,
+      "seed": 2700114,
+      "amplitude_rms_fraction": 0.08826144752841797,
+      "phase_rms_deg": 4.316650276569917,
+      "measurement_snr_db": 25.214960159578474,
+      "failed_port": null,
+      "global_phase_deg": -16.248792157133806,
+      "calibration_iq": [
+        [
+          0.9149119430025606,
+          0.008099735164134808
+        ],
+        [
+          0.9783156241852516,
+          0.06211592153302317
+        ],
+        [
+          0.9498473224693398,
+          -0.11989154976956698
+        ],
+        [
+          1.1457534578304576,
+          0.06112372083855457
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "650B94A5ECB5B38D69B61520BFF991EB16BE49C974A150FFFEEC90CBAD955888"
+    },
+    {
+      "state_id": "mixed_15",
+      "state_class": "mixed",
+      "state_index": 34,
+      "seed": 2700115,
+      "amplitude_rms_fraction": 0.017417205956612957,
+      "phase_rms_deg": 3.6942600001610666,
+      "measurement_snr_db": 31.243471974114684,
+      "failed_port": null,
+      "global_phase_deg": 92.85752399348712,
+      "calibration_iq": [
+        [
+          1.0134051337745202,
+          -0.01994955073587655
+        ],
+        [
+          0.969517142723355,
+          0.056059045901552564
+        ],
+        [
+          0.9966364838577688,
+          -0.09705725158481186
+        ],
+        [
+          1.0121462710267228,
+          0.059790591747358526
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "56DB6C704B28B72D6DDA99B518AC9C7BF74E4E464A4155148EE5CD6DD63784D1"
+    },
+    {
+      "state_id": "mixed_16",
+      "state_class": "mixed",
+      "state_index": 35,
+      "seed": 2700116,
+      "amplitude_rms_fraction": 0.10793414408633639,
+      "phase_rms_deg": 8.419617849153468,
+      "measurement_snr_db": 37.809951157702514,
+      "failed_port": null,
+      "global_phase_deg": -40.93073355616676,
+      "calibration_iq": [
+        [
+          0.9043176101571603,
+          0.0233590035051514
+        ],
+        [
+          0.8690396181413177,
+          -0.14682188719891376
+        ],
+        [
+          1.094805651800946,
+          0.2507765119936024
+        ],
+        [
+          1.0870530084581105,
+          -0.09112679580030691
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "47E7834261DD9841BC72736EFED8CBA3A1A81194B1DA037D0E5FDE967106AAF6"
+    },
+    {
+      "state_id": "mixed_17",
+      "state_class": "mixed",
+      "state_index": 36,
+      "seed": 2700117,
+      "amplitude_rms_fraction": 0.059016108722581506,
+      "phase_rms_deg": 7.522741552461774,
+      "measurement_snr_db": 38.459308824798654,
+      "failed_port": 2,
+      "global_phase_deg": 2.4484980394502145,
+      "calibration_iq": [
+        [
+          0.9416311728106531,
+          0.07572364762738985
+        ],
+        [
+          1.0903135843081442,
+          0.11588779101736492
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.959782176608331,
+          0.03579480981026491
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "targets_sha256": "21A8C36AD84356274822D0BABBA1030A17E8A9B2B77D5334DA5BD643C1AEA78B"
+    },
+    {
+      "state_id": "mixed_18",
+      "state_class": "mixed",
+      "state_index": 37,
+      "seed": 2700118,
+      "amplitude_rms_fraction": 0.12031241979470353,
+      "phase_rms_deg": 1.826087219169218,
+      "measurement_snr_db": 39.23008453059564,
+      "failed_port": null,
+      "global_phase_deg": 179.9656995861821,
+      "calibration_iq": [
+        [
+          0.922067786077757,
+          0.02037960634615494
+        ],
+        [
+          0.8645347008746062,
+          0.008441299316347115
+        ],
+        [
+          1.0327833001548319,
+          0.02336194181715418
+        ],
+        [
+          1.1783328550643224,
+          -0.06425757287326758
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "7FF151A259C7F8CFE224524E4FB1A12E457AF6A02958A72FC14626ACBA11265D"
+    },
+    {
+      "state_id": "mixed_19",
+      "state_class": "mixed",
+      "state_index": 38,
+      "seed": 2700119,
+      "amplitude_rms_fraction": 0.10185121963953611,
+      "phase_rms_deg": 2.889681423542148,
+      "measurement_snr_db": 36.10181124785458,
+      "failed_port": null,
+      "global_phase_deg": -148.48049662997707,
+      "calibration_iq": [
+        [
+          1.0287045547299876,
+          0.04160538391229982
+        ],
+        [
+          0.9571518569589753,
+          -0.0017464605185088758
+        ],
+        [
+          0.8667443583781085,
+          0.03739757158950912
+        ],
+        [
+          1.1419267484113698,
+          -0.09352447590197685
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "552B3F86CD89895A0A188E581E0558F7EF434467AAC5CE607C8AF0D70303DF9F"
+    },
+    {
+      "state_id": "mixed_20",
+      "state_class": "mixed",
+      "state_index": 39,
+      "seed": 2700120,
+      "amplitude_rms_fraction": 0.005450295331086331,
+      "phase_rms_deg": 0.17901490485159163,
+      "measurement_snr_db": 27.922165854527915,
+      "failed_port": null,
+      "global_phase_deg": 169.78798048873114,
+      "calibration_iq": [
+        [
+          1.0073455654216,
+          0.004092927861226514
+        ],
+        [
+          0.9960265834612689,
+          0.0015484150801971534
+        ],
+        [
+          1.0029583802715432,
+          -0.0013391274572854615
+        ],
+        [
+          0.9936499467335548,
+          -0.00425530611058196
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "91F1D31512E53C803F3468CFDD46F93CE9BAC38C6CA2BD0D7BA1B2A6DABC707D"
+    },
+    {
+      "state_id": "mixed_21",
+      "state_class": "mixed",
+      "state_index": 40,
+      "seed": 2700121,
+      "amplitude_rms_fraction": 0.1011351539478101,
+      "phase_rms_deg": 3.985399783236624,
+      "measurement_snr_db": 26.707666645097536,
+      "failed_port": null,
+      "global_phase_deg": -74.97574873350356,
+      "calibration_iq": [
+        [
+          1.1330302539461345,
+          0.028894593908312335
+        ],
+        [
+          1.0150662590221402,
+          0.0741273248802692
+        ],
+        [
+          0.999705501075623,
+          0.016177684336124102
+        ],
+        [
+          0.8434291738749408,
+          -0.09706119383154942
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "035E262B81A39F95B74BC41D3B1CAE1D8A06C40E991250D0D4F93ACFBB2971FF"
+    },
+    {
+      "state_id": "mixed_22",
+      "state_class": "mixed",
+      "state_index": 41,
+      "seed": 2700122,
+      "amplitude_rms_fraction": 0.06836153915005755,
+      "phase_rms_deg": 17.11943170625143,
+      "measurement_snr_db": 39.89617593788347,
+      "failed_port": null,
+      "global_phase_deg": -64.88978970608572,
+      "calibration_iq": [
+        [
+          1.063552753487642,
+          -0.3457584518449767
+        ],
+        [
+          0.9414852441236091,
+          -0.1942636659472283
+        ],
+        [
+          0.8565994312676055,
+          0.4269880436342691
+        ],
+        [
+          0.9617395974343316,
+          0.05331574372523748
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "0973423D0374DA17CF2FA87A815A3FAA7DE0FB28C19CC38D99359E1B2420464B"
+    },
+    {
+      "state_id": "mixed_23",
+      "state_class": "mixed",
+      "state_index": 42,
+      "seed": 2700123,
+      "amplitude_rms_fraction": 0.03225885080580881,
+      "phase_rms_deg": 21.28566271535903,
+      "measurement_snr_db": 27.292993084005246,
+      "failed_port": null,
+      "global_phase_deg": 16.744138935817006,
+      "calibration_iq": [
+        [
+          0.9568828614099756,
+          0.3872955539768991
+        ],
+        [
+          0.943703675558095,
+          0.07904641900782776
+        ],
+        [
+          0.9928217772426917,
+          0.14509725396892825
+        ],
+        [
+          0.8319402966331246,
+          -0.5855270804773582
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "A52012AE9AD6CA8984F2DEDBD88F3741F3531E97B6915779BABE02FFB9BF4908"
+    },
+    {
+      "state_id": "mixed_24",
+      "state_class": "mixed",
+      "state_index": 43,
+      "seed": 2700124,
+      "amplitude_rms_fraction": 0.11681165286484373,
+      "phase_rms_deg": 5.9181478132435,
+      "measurement_snr_db": 28.078886083452502,
+      "failed_port": null,
+      "global_phase_deg": 37.38638501982467,
+      "calibration_iq": [
+        [
+          1.1539136987787104,
+          -0.08348356573204746
+        ],
+        [
+          0.8375558563405066,
+          0.12709950887271526
+        ],
+        [
+          0.9399498812622384,
+          0.03509620216109555
+        ],
+        [
+          1.0482650926780024,
+          -0.1218285440254091
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "D85826CD8F1EC7251EC5B1E1E377C6F729D5B57F74F000E12A4225EFA0D4A153"
+    },
+    {
+      "state_id": "mixed_25",
+      "state_class": "mixed",
+      "state_index": 44,
+      "seed": 2700125,
+      "amplitude_rms_fraction": 0.027370378083428255,
+      "phase_rms_deg": 18.994923628646763,
+      "measurement_snr_db": 30.52631708191027,
+      "failed_port": null,
+      "global_phase_deg": -92.85413490748776,
+      "calibration_iq": [
+        [
+          0.9699248035435399,
+          -0.23366357591382278
+        ],
+        [
+          0.9564942376755962,
+          -0.4161239544795953
+        ],
+        [
+          0.9215059101436185,
+          0.3670926550555266
+        ],
+        [
+          0.9328576624536854,
+          0.2558316022810029
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "D826E908BD33CCAE5B54FD2E6291DC8D830D48AE8A44730A8190E3176CBFCE56"
+    },
+    {
+      "state_id": "mixed_26",
+      "state_class": "mixed",
+      "state_index": 45,
+      "seed": 2700126,
+      "amplitude_rms_fraction": 0.1294806554602153,
+      "phase_rms_deg": 6.52876714792287,
+      "measurement_snr_db": 36.28787577146891,
+      "failed_port": null,
+      "global_phase_deg": -34.654554461616556,
+      "calibration_iq": [
+        [
+          1.2125617912982374,
+          -0.0937441765796031
+        ],
+        [
+          0.8669157193396592,
+          -0.11499313156844314
+        ],
+        [
+          0.9269873148498201,
+          0.15206055803522764
+        ],
+        [
+          0.9688884586768052,
+          0.045031843055270075
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "7AE4484ED3304EA5B25E37C368D714BBA5DC18E0AABBC5027D0389B16CD748B5"
+    },
+    {
+      "state_id": "mixed_27",
+      "state_class": "mixed",
+      "state_index": 46,
+      "seed": 2700127,
+      "amplitude_rms_fraction": 0.08253163335049027,
+      "phase_rms_deg": 14.633965212429839,
+      "measurement_snr_db": 29.800581341266764,
+      "failed_port": null,
+      "global_phase_deg": 44.35015016489007,
+      "calibration_iq": [
+        [
+          1.017137033383293,
+          -0.1721029891443953
+        ],
+        [
+          1.0196035828739103,
+          0.10108386541088568
+        ],
+        [
+          1.009721361796657,
+          0.3876872367326271
+        ],
+        [
+          0.8242618271474753,
+          -0.25298834502740697
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "7CA13D19A187125DA3988318B27C0396D002148F111EEEBCF100A391AE24DCB7"
+    },
+    {
+      "state_id": "mixed_28",
+      "state_class": "mixed",
+      "state_index": 47,
+      "seed": 2700128,
+      "amplitude_rms_fraction": 0.11035198021601002,
+      "phase_rms_deg": 6.859097266812307,
+      "measurement_snr_db": 30.174599694570375,
+      "failed_port": null,
+      "global_phase_deg": 6.988205238826936,
+      "calibration_iq": [
+        [
+          1.1179126877003938,
+          -0.2204512066320149
+        ],
+        [
+          1.0728421806052901,
+          0.07231616221974187
+        ],
+        [
+          0.8760798612800905,
+          0.004824753878569751
+        ],
+        [
+          0.9024428540298979,
+          0.11054613579444635
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "7B0C70E465228A2F9FD08C3E6EC5F6F2E2FF1B74B23B04E0A5FBC4C9F9028E10"
+    },
+    {
+      "state_id": "mixed_29",
+      "state_class": "mixed",
+      "state_index": 48,
+      "seed": 2700129,
+      "amplitude_rms_fraction": 0.09632996675847444,
+      "phase_rms_deg": 14.381308250925501,
+      "measurement_snr_db": 39.45572332202332,
+      "failed_port": null,
+      "global_phase_deg": -84.90367836571752,
+      "calibration_iq": [
+        [
+          0.9928863125990002,
+          -0.10667582343756211
+        ],
+        [
+          1.1212982339684974,
+          -0.2602599287121797
+        ],
+        [
+          0.882359303294827,
+          -0.07939305994928796
+        ],
+        [
+          0.8786442111862576,
+          0.3974834348824235
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "567E91C29F5FA7E3089660C46A9F5489B75AEBBD8A96E1FBD5EC684368536B65"
+    },
+    {
+      "state_id": "mixed_30",
+      "state_class": "mixed",
+      "state_index": 49,
+      "seed": 2700130,
+      "amplitude_rms_fraction": 0.1142256369711478,
+      "phase_rms_deg": 3.399743658416769,
+      "measurement_snr_db": 31.765605494023685,
+      "failed_port": 0,
+      "global_phase_deg": 77.91431771605113,
+      "calibration_iq": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.9626773638009822,
+          0.0918078359234726
+        ],
+        [
+          1.179212606652197,
+          -0.012911828756815458
+        ],
+        [
+          0.988767333472634,
+          -0.06771240027028746
+        ]
+      ],
+      "health_mask": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "09C40C63779F11191EC3D7DCABBA2A68B48FAB3ECA5A526C5692C361B1ACF405"
+    },
+    {
+      "state_id": "mixed_31",
+      "state_class": "mixed",
+      "state_index": 50,
+      "seed": 2700131,
+      "amplitude_rms_fraction": 0.058637431074369334,
+      "phase_rms_deg": 12.551203253898457,
+      "measurement_snr_db": 33.33506921897889,
+      "failed_port": null,
+      "global_phase_deg": -45.003856961593186,
+      "calibration_iq": [
+        [
+          0.8536233696081508,
+          -0.30878680301092465
+        ],
+        [
+          1.062612364718117,
+          -0.01919459587673844
+        ],
+        [
+          0.9677359574323983,
+          0.22649829287366485
+        ],
+        [
+          1.026112994874265,
+          0.139626423152304
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "7C5E53221ACC11FC1C88DF6B1826391F0F48157394C41F0A7B75E86B57E70F23"
+    },
+    {
+      "state_id": "mixed_32",
+      "state_class": "mixed",
+      "state_index": 51,
+      "seed": 2700132,
+      "amplitude_rms_fraction": 0.11357429134017027,
+      "phase_rms_deg": 11.046394256896509,
+      "measurement_snr_db": 39.7609813875702,
+      "failed_port": null,
+      "global_phase_deg": 61.176341540453166,
+      "calibration_iq": [
+        [
+          1.1469415755105101,
+          -0.2890235732734461
+        ],
+        [
+          0.9202018431059675,
+          -0.08471345053323123
+        ],
+        [
+          0.9669550766122265,
+          0.27192995793855296
+        ],
+        [
+          0.8867969752491535,
+          0.057290285327199555
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "A65D38E21605CC66FB0799ABCF6FC19DD043FAF9AD6F72D78057435078327929"
+    },
+    {
+      "state_id": "mixed_33",
+      "state_class": "mixed",
+      "state_index": 52,
+      "seed": 2700133,
+      "amplitude_rms_fraction": 0.0033284889005408096,
+      "phase_rms_deg": 18.104424130872744,
+      "measurement_snr_db": 32.39220309459145,
+      "failed_port": null,
+      "global_phase_deg": 156.7261706460356,
+      "calibration_iq": [
+        [
+          0.9326218092097078,
+          0.3542094213211683
+        ],
+        [
+          0.8813745752498829,
+          -0.47803176307098033
+        ],
+        [
+          0.9958435765385713,
+          -0.009370267977927258
+        ],
+        [
+          0.9935230422312402,
+          0.14346005536729348
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "0EE028D73E192CF92B5CBFBF7D68554A8C4DBC4DF974FDF68A2016F1370A319B"
+    },
+    {
+      "state_id": "mixed_34",
+      "state_class": "mixed",
+      "state_index": 53,
+      "seed": 2700134,
+      "amplitude_rms_fraction": 0.055783199779957694,
+      "phase_rms_deg": 17.476674832819285,
+      "measurement_snr_db": 38.058960665448396,
+      "failed_port": null,
+      "global_phase_deg": -1.2730400906279442,
+      "calibration_iq": [
+        [
+          0.9217603984436279,
+          -0.087940086129361
+        ],
+        [
+          0.9236107968890354,
+          -0.40267254381757556
+        ],
+        [
+          1.078928869338462,
+          0.07732175087788902
+        ],
+        [
+          0.8931953345103268,
+          0.41473512644462884
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "C11B37024568491B1B6C7FD4A57BC32B752D0B2DBD0E4D886DCC6938BB48A095"
+    },
+    {
+      "state_id": "mixed_35",
+      "state_class": "mixed",
+      "state_index": 54,
+      "seed": 2700135,
+      "amplitude_rms_fraction": 0.12714816724007297,
+      "phase_rms_deg": 15.84362889824266,
+      "measurement_snr_db": 37.249133016575676,
+      "failed_port": null,
+      "global_phase_deg": -51.78561099640814,
+      "calibration_iq": [
+        [
+          0.9365486746387331,
+          -0.41442433933402173
+        ],
+        [
+          0.8494250416329279,
+          0.0034448442316259635
+        ],
+        [
+          1.1160898171047702,
+          0.41994858046125505
+        ],
+        [
+          0.9326471467474395,
+          0.04916211969216099
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "65E34D6362FF4CDC9476DC113F0D9EC1EC199CCA710B7AFC62485BFD4B543905"
+    },
+    {
+      "state_id": "mixed_36",
+      "state_class": "mixed",
+      "state_index": 55,
+      "seed": 2700136,
+      "amplitude_rms_fraction": 0.06994523906039955,
+      "phase_rms_deg": 19.826920202923255,
+      "measurement_snr_db": 29.1542204530721,
+      "failed_port": null,
+      "global_phase_deg": -59.171340453960454,
+      "calibration_iq": [
+        [
+          0.9913401151352913,
+          0.26996224071874053
+        ],
+        [
+          0.7320764322138326,
+          -0.4879543009276619
+        ],
+        [
+          1.0480037628968142,
+          0.09194869188038556
+        ],
+        [
+          1.012246326926482,
+          0.24184733370711717
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "192D6E12E48F54219AD2DAF1AFC194181CEA3DD74FA0A6854239B5B34E346E94"
+    },
+    {
+      "state_id": "mixed_37",
+      "state_class": "mixed",
+      "state_index": 56,
+      "seed": 2700137,
+      "amplitude_rms_fraction": 0.0013518102853243195,
+      "phase_rms_deg": 15.626498304964915,
+      "measurement_snr_db": 39.00796731762973,
+      "failed_port": null,
+      "global_phase_deg": 31.472930292482516,
+      "calibration_iq": [
+        [
+          0.9681657878458705,
+          -0.2438253031901937
+        ],
+        [
+          0.9625201009910215,
+          0.27366608874354315
+        ],
+        [
+          0.963618658339068,
+          0.26381425074348114
+        ],
+        [
+          0.9578384581922756,
+          -0.29370065680305163
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "8111ED4CA30283221815A86599C29147A8621ADEA76464445B27D7122CB22181"
+    },
+    {
+      "state_id": "mixed_38",
+      "state_class": "mixed",
+      "state_index": 57,
+      "seed": 2700138,
+      "amplitude_rms_fraction": 0.03951945845758955,
+      "phase_rms_deg": 9.957855058904466,
+      "measurement_snr_db": 36.87709094781195,
+      "failed_port": null,
+      "global_phase_deg": 81.14611790595012,
+      "calibration_iq": [
+        [
+          0.9960191522616137,
+          0.09867619747531607
+        ],
+        [
+          1.0613423303580676,
+          -0.0636459278402616
+        ],
+        [
+          0.9471434857781602,
+          -0.2422828228683692
+        ],
+        [
+          0.9368469224859906,
+          0.20123060240905408
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "46596A7F33B74BDFEFA3541114FDFAED77FADFAFBF45FC8612DD5EE35742F292"
+    },
+    {
+      "state_id": "mixed_39",
+      "state_class": "mixed",
+      "state_index": 58,
+      "seed": 2700139,
+      "amplitude_rms_fraction": 0.12493598567143231,
+      "phase_rms_deg": 11.56021814597781,
+      "measurement_snr_db": 32.74852860793938,
+      "failed_port": null,
+      "global_phase_deg": 105.26894214340302,
+      "calibration_iq": [
+        [
+          0.9902198906806979,
+          -0.3014255869407735
+        ],
+        [
+          0.8017104656197908,
+          0.20366451387318374
+        ],
+        [
+          0.9592831456788612,
+          0.09871078603828878
+        ],
+        [
+          1.1715673651710516,
+          -0.06546920503042561
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "38436F572F1B2B1822265B266157851E00A52E1657BC9E6CEEEBABD77C926592"
+    },
+    {
+      "state_id": "mixed_40",
+      "state_class": "mixed",
+      "state_index": 59,
+      "seed": 2700140,
+      "amplitude_rms_fraction": 0.06265332666332236,
+      "phase_rms_deg": 10.82681646409578,
+      "measurement_snr_db": 29.542582503874456,
+      "failed_port": null,
+      "global_phase_deg": 22.017626819886658,
+      "calibration_iq": [
+        [
+          0.8774178636609655,
+          0.237458761367878
+        ],
+        [
+          0.9684349093289151,
+          -0.24460677740550382
+        ],
+        [
+          1.0819974043079035,
+          -0.0918391471049767
+        ],
+        [
+          1.0039705023228511,
+          0.068152446633753
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "B62F5BF5274EBADE556B57768D97141DFD26A98DA7BFD558C7ADBB703E135A07"
+    },
+    {
+      "state_id": "mixed_41",
+      "state_class": "mixed",
+      "state_index": 60,
+      "seed": 2700141,
+      "amplitude_rms_fraction": 0.01097657783560926,
+      "phase_rms_deg": 13.740294502325673,
+      "measurement_snr_db": 34.417378502415936,
+      "failed_port": null,
+      "global_phase_deg": 46.80515585800467,
+      "calibration_iq": [
+        [
+          1.0117148367534323,
+          0.009147489336679356
+        ],
+        [
+          0.9788443899856382,
+          0.2155609045509667
+        ],
+        [
+          0.9271893174217073,
+          -0.3849344680377266
+        ],
+        [
+          0.9682475966321261,
+          0.16392231937793247
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "7A4F416F753599609C0DCA3175088DFCBE59313E19B004FE69B5FC673DDEA44B"
+    },
+    {
+      "state_id": "mixed_42",
+      "state_class": "mixed",
+      "state_index": 61,
+      "seed": 2700142,
+      "amplitude_rms_fraction": 0.034937774151737024,
+      "phase_rms_deg": 7.644501408622778,
+      "measurement_snr_db": 32.07674917248859,
+      "failed_port": null,
+      "global_phase_deg": 166.38869042567364,
+      "calibration_iq": [
+        [
+          0.9665546659321247,
+          -0.0375805841107497
+        ],
+        [
+          0.9757459929493473,
+          0.2257927326804467
+        ],
+        [
+          1.0505955812268981,
+          -0.11019092182485746
+        ],
+        [
+          0.9713861128995482,
+          -0.08182709786643914
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "34B36A24170135BF06DB40F40A97705E093279B240D5BCA6619C2F8526FB98CC"
+    },
+    {
+      "state_id": "mixed_43",
+      "state_class": "mixed",
+      "state_index": 62,
+      "seed": 2700143,
+      "amplitude_rms_fraction": 0.04090433597260674,
+      "phase_rms_deg": 18.559101713823555,
+      "measurement_snr_db": 30.090755700945735,
+      "failed_port": 3,
+      "global_phase_deg": 146.256179174571,
+      "calibration_iq": [
+        [
+          0.9780440235091528,
+          0.06401507630962136
+        ],
+        [
+          0.9575293245182649,
+          0.012195065298726066
+        ],
+        [
+          0.9398568042735749,
+          -0.5049761991694655
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "targets_sha256": "69CED2BF68B3FB1C20780C06C516EB894C122FD26FD58A701C70AA25F0E44E7C"
+    },
+    {
+      "state_id": "mixed_44",
+      "state_class": "mixed",
+      "state_index": 63,
+      "seed": 2700144,
+      "amplitude_rms_fraction": 0.10638939383299476,
+      "phase_rms_deg": 1.5486505242173827,
+      "measurement_snr_db": 31.46947508102739,
+      "failed_port": null,
+      "global_phase_deg": -119.5062976730054,
+      "calibration_iq": [
+        [
+          1.1227475606058406,
+          -0.03302075236144008
+        ],
+        [
+          0.9514292531040831,
+          -0.003968835458986059
+        ],
+        [
+          1.0733010381036905,
+          0.04721302821912241
+        ],
+        [
+          0.8509445748711014,
+          -0.008838795166446851
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "7763C6DC6E82962AF725C1F9507A835651F731C39FF02F97EE7D200018F3EDA7"
+    },
+    {
+      "state_id": "mixed_45",
+      "state_class": "mixed",
+      "state_index": 64,
+      "seed": 2700145,
+      "amplitude_rms_fraction": 0.07751167922637577,
+      "phase_rms_deg": 13.28940784210498,
+      "measurement_snr_db": 35.82129063866388,
+      "failed_port": null,
+      "global_phase_deg": -166.90580111043192,
+      "calibration_iq": [
+        [
+          0.8675900972326884,
+          -0.08933512963222393
+        ],
+        [
+          1.0012392213029007,
+          0.23100169930366368
+        ],
+        [
+          0.9636583823000985,
+          -0.3320513843466885
+        ],
+        [
+          1.0577870134198841,
+          0.2229084357384578
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "617B3F847019610DA7B33168D88E6BA43C24910A8DC9B29D9B213B364210F4EF"
+    },
+    {
+      "state_id": "mixed_46",
+      "state_class": "mixed",
+      "state_index": 65,
+      "seed": 2700146,
+      "amplitude_rms_fraction": 0.09276685027814786,
+      "phase_rms_deg": 10.452236675790674,
+      "measurement_snr_db": 28.67693373692429,
+      "failed_port": null,
+      "global_phase_deg": -97.64012861629298,
+      "calibration_iq": [
+        [
+          0.8559839174476708,
+          0.22294241341792675
+        ],
+        [
+          0.9858829214677762,
+          -0.2121743942016995
+        ],
+        [
+          1.1369015974308279,
+          0.09606659851253732
+        ],
+        [
+          0.9582569081853883,
+          -0.12246437580043465
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "693D320058DA2C4F6845B4CFC5785219F801C80698E22CF984602270609E0BE5"
+    },
+    {
+      "state_id": "mixed_47",
+      "state_class": "mixed",
+      "state_index": 66,
+      "seed": 2700147,
+      "amplitude_rms_fraction": 0.01390287063011718,
+      "phase_rms_deg": 4.5743405887523085,
+      "measurement_snr_db": 33.51941259664751,
+      "failed_port": null,
+      "global_phase_deg": -128.65028377316523,
+      "calibration_iq": [
+        [
+          1.0024663145393722,
+          -0.07008022069702007
+        ],
+        [
+          0.9837024396827443,
+          -0.08502059423247765
+        ],
+        [
+          0.9856154364895788,
+          0.05465509042615369
+        ],
+        [
+          1.0154263458055912,
+          0.10251140197255902
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "C3A01D2999946358B411058DFDC6726F367972A650F0CBD780FC186DAD27BD5A"
+    },
+    {
+      "state_id": "mixed_48",
+      "state_class": "mixed",
+      "state_index": 67,
+      "seed": 2700148,
+      "amplitude_rms_fraction": 0.12298587361766015,
+      "phase_rms_deg": 9.32427283082235,
+      "measurement_snr_db": 28.852245571873514,
+      "failed_port": null,
+      "global_phase_deg": -158.01909203639815,
+      "calibration_iq": [
+        [
+          1.0838808455052495,
+          -0.19044630526185666
+        ],
+        [
+          0.9493295801324699,
+          -0.05752149750861568
+        ],
+        [
+          0.821024270092351,
+          -0.026284204061045497
+        ],
+        [
+          1.0872285746543666,
+          0.296751678340726
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "0091621E53C0534130849C1BEEDF001E8E0B29880C4A6509ED0D452169287426"
+    },
+    {
+      "state_id": "mixed_49",
+      "state_class": "mixed",
+      "state_index": 68,
+      "seed": 2700149,
+      "amplitude_rms_fraction": 0.07952664045708602,
+      "phase_rms_deg": 2.4957690483336115,
+      "measurement_snr_db": 29.354509785530716,
+      "failed_port": null,
+      "global_phase_deg": 109.85879100932834,
+      "calibration_iq": [
+        [
+          1.0006181826452616,
+          0.03275028667255491
+        ],
+        [
+          1.122997692826667,
+          -0.04193184984419963
+        ],
+        [
+          0.9033233616580554,
+          0.04780941112567956
+        ],
+        [
+          0.9693475314126982,
+          -0.04682998143777659
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "007099094D95A526A051C5B7E84A61E3088439FB8AE29D617C0FE4D5B6062A1A"
+    },
+    {
+      "state_id": "mixed_50",
+      "state_class": "mixed",
+      "state_index": 69,
+      "seed": 2700150,
+      "amplitude_rms_fraction": 0.08545755436570672,
+      "phase_rms_deg": 18.904773281898798,
+      "measurement_snr_db": 31.88294364635996,
+      "failed_port": null,
+      "global_phase_deg": 159.37172071270265,
+      "calibration_iq": [
+        [
+          1.111239206241168,
+          -0.06892623622688955
+        ],
+        [
+          0.8000445028288908,
+          0.3508908601895559
+        ],
+        [
+          0.8983025394253872,
+          -0.480499406139723
+        ],
+        [
+          0.9845767063269054,
+          0.13854439834655244
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "58D80D102CE4C1C891BFF1D9915F160B0E46E7D951DA3A9833112FDD0426051D"
+    },
+    {
+      "state_id": "mixed_51",
+      "state_class": "mixed",
+      "state_index": 70,
+      "seed": 2700151,
+      "amplitude_rms_fraction": 0.06566114782262344,
+      "phase_rms_deg": 21.71646658870523,
+      "measurement_snr_db": 31.000702541803513,
+      "failed_port": null,
+      "global_phase_deg": -81.91918886644429,
+      "calibration_iq": [
+        [
+          1.0051357607594178,
+          -0.32530638642460513
+        ],
+        [
+          0.9886179238167131,
+          0.027251191866818052
+        ],
+        [
+          0.7356039453710921,
+          0.5132309748191731
+        ],
+        [
+          1.002652607686227,
+          -0.33642818894722903
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "FEB5392163DBB2E1355B43C6ABDD67F0044FAC1BE1A63E43EBF882D7BA1CE5D7"
+    },
+    {
+      "state_id": "mixed_52",
+      "state_class": "mixed",
+      "state_index": 71,
+      "seed": 2700152,
+      "amplitude_rms_fraction": 0.04545237326257085,
+      "phase_rms_deg": 8.005172428690784,
+      "measurement_snr_db": 35.330044947411686,
+      "failed_port": null,
+      "global_phase_deg": 86.79822948870651,
+      "calibration_iq": [
+        [
+          1.035985163803584,
+          0.17880144914430626
+        ],
+        [
+          0.9343981519670717,
+          -0.060829504438533764
+        ],
+        [
+          0.960594788524179,
+          -0.1873963986545528
+        ],
+        [
+          1.0297309389694276,
+          0.08956983562826012
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "44B8CEAB1A7A7277EA3A6F6D00B484DA7F4F8F809BF6E29E3EC55D1DB4A8C01E"
+    },
+    {
+      "state_id": "mixed_53",
+      "state_class": "mixed",
+      "state_index": 72,
+      "seed": 2700153,
+      "amplitude_rms_fraction": 0.10481463332007732,
+      "phase_rms_deg": 11.939352785003782,
+      "measurement_snr_db": 35.64772349558984,
+      "failed_port": null,
+      "global_phase_deg": -5.6942729836596016,
+      "calibration_iq": [
+        [
+          1.1320196078752525,
+          0.09944981628057166
+        ],
+        [
+          1.061588504870909,
+          -0.07092786427198314
+        ],
+        [
+          0.8429070778744132,
+          0.23652483478351558
+        ],
+        [
+          0.8844166912870906,
+          -0.26824546972543006
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "F0DF51980B5EA6B617AE2569EFA911FA9BBAC54034CDC3A97D23E6AD15AF4B63"
+    },
+    {
+      "state_id": "mixed_54",
+      "state_class": "mixed",
+      "state_index": 73,
+      "seed": 2700154,
+      "amplitude_rms_fraction": 0.06350326225698327,
+      "phase_rms_deg": 16.756224726582293,
+      "measurement_snr_db": 34.92382538077499,
+      "failed_port": null,
+      "global_phase_deg": 145.0979902727584,
+      "calibration_iq": [
+        [
+          1.0232430415602882,
+          -0.006605324769462384
+        ],
+        [
+          0.9046123284186662,
+          0.4309580309011946
+        ],
+        [
+          1.0725594111622472,
+          -0.06815671027689343
+        ],
+        [
+          0.8375553910886127,
+          -0.3293696327181779
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "55DF5CB075E7AF437D6EB5426B99395404CB1EDD749183B6B0BE113F9095EE59"
+    },
+    {
+      "state_id": "mixed_55",
+      "state_class": "mixed",
+      "state_index": 74,
+      "seed": 2700155,
+      "amplitude_rms_fraction": 0.07232723804825314,
+      "phase_rms_deg": 10.233388527576803,
+      "measurement_snr_db": 38.31842635940056,
+      "failed_port": null,
+      "global_phase_deg": 125.29324514953504,
+      "calibration_iq": [
+        [
+          0.92110556428649,
+          0.022225572701039746
+        ],
+        [
+          1.0070326550838,
+          -0.0005039197710956244
+        ],
+        [
+          0.9304789684202982,
+          0.22762632293872412
+        ],
+        [
+          1.0752240227242054,
+          -0.2901187788867509
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "32A7C4C058F343DBC4A41BEABB5EAEF1C2B2F656DDDA73DFC7638C1C455266E4"
+    },
+    {
+      "state_id": "mixed_56",
+      "state_class": "mixed",
+      "state_index": 75,
+      "seed": 2700156,
+      "amplitude_rms_fraction": 0.0894410535174543,
+      "phase_rms_deg": 5.34533914354353,
+      "measurement_snr_db": 32.97658392081236,
+      "failed_port": null,
+      "global_phase_deg": 63.0580784727575,
+      "calibration_iq": [
+        [
+          1.0778910219925715,
+          0.09036740116432569
+        ],
+        [
+          0.9758145975460767,
+          0.07115927747869016
+        ],
+        [
+          0.8529127673358696,
+          -0.12884006057033096
+        ],
+        [
+          1.0773098771374,
+          -0.0070137654983261554
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "2631642F82EDBBFDB6B472C3656FAD320B3B16D0364BF457383F2586FF233808"
+    },
+    {
+      "state_id": "mixed_57",
+      "state_class": "mixed",
+      "state_index": 76,
+      "seed": 2700157,
+      "amplitude_rms_fraction": 0.03767625826812886,
+      "phase_rms_deg": 5.5957550185513325,
+      "measurement_snr_db": 30.750121984702584,
+      "failed_port": null,
+      "global_phase_deg": 96.60599523290318,
+      "calibration_iq": [
+        [
+          1.006749275474997,
+          -0.09820428383456584
+        ],
+        [
+          0.9630834146653222,
+          0.041418047868306426
+        ],
+        [
+          0.9642877791568426,
+          -0.08266523757787259
+        ],
+        [
+          1.046368528552848,
+          0.14721799598528587
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "1DC22B6020AAB99B170C235331B32D0FF92783FE93CF93549448D8723CC26B2A"
+    },
+    {
+      "state_id": "mixed_58",
+      "state_class": "mixed",
+      "state_index": 77,
+      "seed": 2700158,
+      "amplitude_rms_fraction": 0.015310260774006313,
+      "phase_rms_deg": 7.116129975739902,
+      "measurement_snr_db": 34.00992654450588,
+      "failed_port": null,
+      "global_phase_deg": -27.485584210935798,
+      "calibration_iq": [
+        [
+          0.9958665950240891,
+          -0.21609893575638175
+        ],
+        [
+          0.9765791164872408,
+          0.0815391665841451
+        ],
+        [
+          1.0063666512663287,
+          0.08327222981308573
+        ],
+        [
+          0.9900403195015618,
+          0.047384063733694234
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "5938B722117697E10BBB23E6D29D47A71BA3661878DBEF310804090B3F966EC3"
+    },
+    {
+      "state_id": "mixed_59",
+      "state_class": "mixed",
+      "state_index": 78,
+      "seed": 2700159,
+      "amplitude_rms_fraction": 0.025541521608906135,
+      "phase_rms_deg": 15.202122959051621,
+      "measurement_snr_db": 25.770236908554836,
+      "failed_port": null,
+      "global_phase_deg": 69.37080975219257,
+      "calibration_iq": [
+        [
+          1.027811500695376,
+          0.03374388199653782
+        ],
+        [
+          1.0140939318384437,
+          0.11884636243082712
+        ],
+        [
+          0.8932252039610867,
+          -0.41216908760744664
+        ],
+        [
+          0.9284474983726013,
+          0.2698407072906173
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "EA2F003F60413D6BB258C781A040D6B22D48A240486BF507AFAA9691E2521165"
+    },
+    {
+      "state_id": "mixed_60",
+      "state_class": "mixed",
+      "state_index": 79,
+      "seed": 2700160,
+      "amplitude_rms_fraction": 0.07483869335676463,
+      "phase_rms_deg": 17.719804359190707,
+      "measurement_snr_db": 27.54033591953937,
+      "failed_port": 0,
+      "global_phase_deg": 131.0932092962351,
+      "calibration_iq": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.9958103358114839,
+          -0.5123278964283927
+        ],
+        [
+          0.9142492105669432,
+          0.3677474319997534
+        ],
+        [
+          0.9810336850333975,
+          -0.009349582831520301
+        ]
+      ],
+      "health_mask": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "03CB2EDC948EFDBD86554ED2551B5BC6A31AFD923BDEED67C79520C392DC94A7"
+    },
+    {
+      "state_id": "mixed_61",
+      "state_class": "mixed",
+      "state_index": 80,
+      "seed": 2700161,
+      "amplitude_rms_fraction": 0.02973646473366128,
+      "phase_rms_deg": 0.5794926057083807,
+      "measurement_snr_db": 28.319301642063998,
+      "failed_port": null,
+      "global_phase_deg": 138.98726840220257,
+      "calibration_iq": [
+        [
+          1.0023411451676056,
+          -0.005775632807926758
+        ],
+        [
+          1.0421160616565126,
+          -0.006978703224915716
+        ],
+        [
+          0.9580378383193695,
+          0.016756006771758324
+        ],
+        [
+          0.9973058148440792,
+          -0.005015985606579635
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "048643A79E7020A3F1E7DDB37553BF6600D93277D8C91750CD4DC5C8976EAD21"
+    },
+    {
+      "state_id": "mixed_62",
+      "state_class": "mixed",
+      "state_index": 81,
+      "seed": 2700162,
+      "amplitude_rms_fraction": 0.020451363922454887,
+      "phase_rms_deg": 21.422557534917924,
+      "measurement_snr_db": 38.69416250810476,
+      "failed_port": null,
+      "global_phase_deg": -70.39875513863409,
+      "calibration_iq": [
+        [
+          0.9950055661169596,
+          0.011755156732660322
+        ],
+        [
+          0.9939295224067007,
+          -0.146779878069817
+        ],
+        [
+          0.8119324334890315,
+          0.5336219350657094
+        ],
+        [
+          0.9277241642580896,
+          -0.4442969430805801
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "03FA503960E6362CC60B8A153F8DF76B6C61F2C856764290E18110E3C971C93D"
+    },
+    {
+      "state_id": "mixed_63",
+      "state_class": "mixed",
+      "state_index": 82,
+      "seed": 2700163,
+      "amplitude_rms_fraction": 0.08388999036296048,
+      "phase_rms_deg": 19.491403896078648,
+      "measurement_snr_db": 34.31901151457787,
+      "failed_port": 1,
+      "global_phase_deg": -113.9344191125317,
+      "calibration_iq": [
+        [
+          0.9686235104293157,
+          0.17685440609179245
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.8753924953291425,
+          0.14593963606560914
+        ],
+        [
+          0.9753534352212007,
+          0.24010033866097044
+        ]
+      ],
+      "health_mask": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "targets_sha256": "9E3351C49780CF224DD4C7A3E871CDA0E587172042066B465F29F31032F1B990"
+    }
+  ]
+}

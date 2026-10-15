@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "base_version": "v2.6@9290f9ef8fd14a65a2a003b3cbaa9a39638625ee",
+  "frequency_hz": 47000000000.0,
+  "target_grid": {
+    "theta_deg": [60.0, 120.0, 64],
+    "phi_deg": [-30.0, 30.0, 64],
+    "full_sphere_step_deg": 1.0
+  },
+  "boundary": {
+    "gain_reachable_target_to_peak_db": -0.5,
+    "pointing_reachable_deg": 5.0,
+    "strict_unambiguous_margin_db": 3.0,
+    "fixed_exclusion_deg": 8.0,
+    "robust_pass_fraction": 0.95,
+    "hpbw_drop_db": 3.0,
+    "tracking_peak_jump_deg": 3.0,
+    "tracking_weight_change": 0.25
+  },
+  "oracle": {
+    "starts": 32,
+    "max_steps": 300,
+    "target_slack_db": 0.5,
+    "recheck_starts": 64,
+    "recheck_max_steps": 600,
+    "boundary_recheck_margin_db": 0.25,
+    "boundary_recheck_pointing_deg": 1.0,
+    "seed": 27000
+  },
+  "audit": {
+    "one_factor_states": 19,
+    "mixed_states": 64,
+    "mixed_seed": 27001,
+    "target_seed": 27002,
+    "targets_per_state": 256,
+    "continuous_reference_states": 16,
+    "continuous_targets_per_state": 64
+  },
+  "training_gate": {
+    "pointing_area_increase_percentage_points": 2.0,
+    "margin_improvement_db": 0.25,
+    "minimum_improved_fraction": 0.05,
+    "training_seeds": [27101, 27102, 27103]
+  }
+}
