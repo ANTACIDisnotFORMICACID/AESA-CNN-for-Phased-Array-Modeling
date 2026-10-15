@@ -1,0 +1,449 @@
+{
+  "schema": "v216-stage0-statistical-analysis-1",
+  "status": "v216_stage0_stop",
+  "paired_improvement_convention": "positive means the second named model is better",
+  "paired_comparisons": {
+    "axial_gated_vs_control_validation": {
+      "values_db": [
+        -1.9358882904052734,
+        -2.063549041748047,
+        -2.6494598388671875
+      ],
+      "mean_db": -2.216299057006836,
+      "sample_standard_deviation_db": 0.3805200573751056,
+      "ci95_student_t_db": [
+        -3.161563281598021,
+        -1.2710348324156509
+      ],
+      "paired_effect_size_dz": -5.824394835571238,
+      "positive_count": 0
+    },
+    "axial_gated_vs_control_coverage": {
+      "values_db": [
+        -1.8583030700683594,
+        -1.8601360321044922,
+        -2.590852737426758
+      ],
+      "mean_db": -2.1030972798665366,
+      "sample_standard_deviation_db": 0.4224096113043501,
+      "ci95_student_t_db": [
+        -3.1524209251004676,
+        -1.0537736346326056
+      ],
+      "paired_effect_size_dz": -4.97881019651145,
+      "positive_count": 0
+    },
+    "axial_static_vs_control_validation": {
+      "values_db": [
+        -2.9386425018310547,
+        -2.2195053100585938,
+        -1.7654781341552734
+      ],
+      "mean_db": -2.307875315348307,
+      "sample_standard_deviation_db": 0.5915535493699678,
+      "ci95_student_t_db": [
+        -3.777375795839794,
+        -0.8383748348568199
+      ],
+      "paired_effect_size_dz": -3.901380217913158,
+      "positive_count": 0
+    },
+    "axial_gated_vs_static_validation": {
+      "values_db": [
+        1.0027542114257812,
+        0.15595626831054688,
+        -0.8839817047119141
+      ],
+      "mean_db": 0.09157625834147136,
+      "sample_standard_deviation_db": 0.9450141234784276,
+      "ci95_student_t_db": [
+        -2.2559689638988822,
+        2.4391214805818247
+      ],
+      "paired_effect_size_dz": 0.09690464519661945,
+      "positive_count": 2
+    },
+    "axial_gated_vs_iso_validation": {
+      "values_db": [
+        0.45519447326660156,
+        0.9357585906982422,
+        -0.38437652587890625
+      ],
+      "mean_db": 0.3355255126953125,
+      "sample_standard_deviation_db": 0.6681539318137699,
+      "ci95_student_t_db": [
+        -1.3242608665569633,
+        1.9953118919475883
+      ],
+      "paired_effect_size_dz": 0.5021679836328963,
+      "positive_count": 2
+    },
+    "iso_vs_control_validation": {
+      "values_db": [
+        -2.391082763671875,
+        -2.999307632446289,
+        -2.2650833129882812
+      ],
+      "mean_db": -2.5518245697021484,
+      "sample_standard_deviation_db": 0.3926191334809082,
+      "ci95_student_t_db": [
+        -3.5271445655247224,
+        -1.5765045738795744
+      ],
+      "paired_effect_size_dz": -6.499491115162973,
+      "positive_count": 0
+    },
+    "axial_gated_vs_control_complex_operator": {
+      "values_db": [
+        -2.0017971688661618,
+        -1.7566689323506104,
+        -1.6503563294687424
+      ],
+      "mean_db": -1.802940810228505,
+      "sample_standard_deviation_db": 0.18023174223995828,
+      "ci95_student_t_db": [
+        -2.250661277975702,
+        -1.3552203424813078
+      ],
+      "paired_effect_size_dz": -10.00345881264407,
+      "positive_count": 0
+    }
+  },
+  "field_strength_bin_improvements_gated_vs_control": {
+    "validation_metrics": {
+      "-3_to_0_db": {
+        "values_db": [
+          -0.6931610107421875,
+          -2.425617218017578,
+          -0.7979850769042969
+        ],
+        "mean_db": -1.3055877685546875,
+        "sample_standard_deviation_db": 0.9713889524592088,
+        "ci95_student_t_db": [
+          -3.718651698106353,
+          1.107476160996978
+        ],
+        "paired_effect_size_dz": -1.3440422245377683,
+        "positive_count": 0
+      },
+      "-10_to_-3_db": {
+        "values_db": [
+          -1.1717281341552734,
+          -1.4262218475341797,
+          -1.8485584259033203
+        ],
+        "mean_db": -1.482169469197591,
+        "sample_standard_deviation_db": 0.3418660749976235,
+        "ci95_student_t_db": [
+          -2.33141187845673,
+          -0.632927059938452
+        ],
+        "paired_effect_size_dz": -4.335526621668717,
+        "positive_count": 0
+      },
+      "-20_to_-10_db": {
+        "values_db": [
+          -2.023113250732422,
+          -1.9409122467041016,
+          -2.795734405517578
+        ],
+        "mean_db": -2.2532533009847007,
+        "sample_standard_deviation_db": 0.4715968223464023,
+        "ci95_student_t_db": [
+          -3.4247647521025018,
+          -1.0817418498668998
+        ],
+        "paired_effect_size_dz": -4.7779229931486205,
+        "positive_count": 0
+      },
+      "below_-20_db": {
+        "values_db": [
+          -4.703094482421875,
+          -4.142217636108398,
+          -5.086371421813965
+        ],
+        "mean_db": -4.643894513448079,
+        "sample_standard_deviation_db": 0.4748526824294161,
+        "ci95_student_t_db": [
+          -5.823493969382177,
+          -3.464295057513981
+        ],
+        "paired_effect_size_dz": -9.77965311196987,
+        "positive_count": 0
+      }
+    },
+    "coverage_probe_metrics": {
+      "-3_to_0_db": {
+        "values_db": [
+          -1.0815715789794922,
+          -2.2045974731445312,
+          -0.7659816741943359
+        ],
+        "mean_db": -1.3507169087727864,
+        "sample_standard_deviation_db": 0.7561304521439624,
+        "ci95_student_t_db": [
+          -3.2290490799231546,
+          0.5276152623775818
+        ],
+        "paired_effect_size_dz": -1.7863543320374282,
+        "positive_count": 0
+      },
+      "-10_to_-3_db": {
+        "values_db": [
+          -1.2638912200927734,
+          -1.382894515991211,
+          -1.9823932647705078
+        ],
+        "mean_db": -1.5430596669514973,
+        "sample_standard_deviation_db": 0.3850986285850934,
+        "ci95_student_t_db": [
+          -2.4996976929512065,
+          -0.5864216409517882
+        ],
+        "paired_effect_size_dz": -4.006920701382178,
+        "positive_count": 0
+      },
+      "-20_to_-10_db": {
+        "values_db": [
+          -1.9412345886230469,
+          -1.834615707397461,
+          -2.745065689086914
+        ],
+        "mean_db": -2.173638661702474,
+        "sample_standard_deviation_db": 0.4977333946778256,
+        "ci95_student_t_db": [
+          -3.4100769578038497,
+          -0.9372003656010988
+        ],
+        "paired_effect_size_dz": -4.367074190610484,
+        "positive_count": 0
+      },
+      "below_-20_db": {
+        "values_db": [
+          -4.1093597412109375,
+          -3.403103828430176,
+          -4.808257102966309
+        ],
+        "mean_db": -4.106906890869141,
+        "sample_standard_deviation_db": 0.7025798485517526,
+        "ci95_student_t_db": [
+          -5.852211988150756,
+          -2.361601793587525
+        ],
+        "paired_effect_size_dz": -5.845466389812947,
+        "positive_count": 0
+      }
+    }
+  },
+  "arm_metrics": {
+    "control_v212": {
+      "validation_nmse_db": {
+        "mean": -26.468834559122723,
+        "sample_standard_deviation": 0.14286399376323092,
+        "minimum": -26.57150650024414,
+        "maximum": -26.30567741394043
+      },
+      "validation_mae_db": {
+        "mean": 0.63332200050354,
+        "sample_standard_deviation": 0.021155822257703315,
+        "minimum": 0.6150246262550354,
+        "maximum": 0.6564875841140747
+      },
+      "coverage_nmse_db": {
+        "mean": -26.589775721232098,
+        "sample_standard_deviation": 0.15431349958379742,
+        "minimum": -26.699970245361328,
+        "maximum": -26.41341209411621
+      },
+      "coverage_mae_db": {
+        "mean": 0.6185395916302999,
+        "sample_standard_deviation": 0.020884489052783936,
+        "minimum": 0.6009169816970825,
+        "maximum": 0.6416072845458984
+      },
+      "complex_operator_nmse_db": {
+        "mean": -20.49255069024411,
+        "sample_standard_deviation": 0.18331933181732896,
+        "minimum": -20.70172757558977,
+        "maximum": -20.359859749536987
+      },
+      "latency_microseconds_per_direction": {
+        "mean": 20.846484375169894,
+        "sample_standard_deviation": 0.4998581883781142,
+        "minimum": 20.315039062523965,
+        "maximum": 21.307226564459825
+      },
+      "parameter_count": 28789
+    },
+    "axial_static": {
+      "validation_nmse_db": {
+        "mean": -24.160959243774414,
+        "sample_standard_deviation": 0.5027631498414571,
+        "minimum": -24.540199279785156,
+        "maximum": -23.59067726135254
+      },
+      "validation_mae_db": {
+        "mean": 0.9140826861063639,
+        "sample_standard_deviation": 0.04450860090844066,
+        "minimum": 0.883720874786377,
+        "maximum": 0.9651750922203064
+      },
+      "coverage_nmse_db": {
+        "mean": -24.421517690022785,
+        "sample_standard_deviation": 0.513144305229425,
+        "minimum": -24.77983283996582,
+        "maximum": -23.83367347717285
+      },
+      "coverage_mae_db": {
+        "mean": 0.8948942422866821,
+        "sample_standard_deviation": 0.03823323473648475,
+        "minimum": 0.8715643882751465,
+        "maximum": 0.9390178918838501
+      },
+      "complex_operator_nmse_db": {
+        "mean": -18.41063039053707,
+        "sample_standard_deviation": 0.2233181237950156,
+        "minimum": -18.56090591837114,
+        "maximum": -18.15401553793948
+      },
+      "latency_microseconds_per_direction": {
+        "mean": 22.30585937468277,
+        "sample_standard_deviation": 0.4202774641066097,
+        "minimum": 21.998437500059254,
+        "maximum": 22.784765622674286
+      },
+      "parameter_count": 30861
+    },
+    "axial_gated": {
+      "validation_nmse_db": {
+        "mean": -24.252535502115887,
+        "sample_standard_deviation": 0.5181918123279312,
+        "minimum": -24.59343147277832,
+        "maximum": -23.656217575073242
+      },
+      "validation_mae_db": {
+        "mean": 0.9482313990592957,
+        "sample_standard_deviation": 0.07674927731290454,
+        "minimum": 0.8987841010093689,
+        "maximum": 1.036647081375122
+      },
+      "coverage_nmse_db": {
+        "mean": -24.48667844136556,
+        "sample_standard_deviation": 0.5756008745651919,
+        "minimum": -24.84166717529297,
+        "maximum": -23.822559356689453
+      },
+      "coverage_mae_db": {
+        "mean": 0.9217033386230469,
+        "sample_standard_deviation": 0.0804561324246094,
+        "minimum": 0.8683517575263977,
+        "maximum": 1.014245629310608
+      },
+      "complex_operator_nmse_db": {
+        "mean": -18.689609880015603,
+        "sample_standard_deviation": 0.02660033869684512,
+        "minimum": -18.709503420068245,
+        "maximum": -18.659395813254953
+      },
+      "latency_microseconds_per_direction": {
+        "mean": 21.561197916260728,
+        "sample_standard_deviation": 1.5529103349484448,
+        "minimum": 19.781640624216834,
+        "maximum": 22.641796874722786
+      },
+      "parameter_count": 30917
+    },
+    "iso_control": {
+      "validation_nmse_db": {
+        "mean": -23.917009989420574,
+        "sample_standard_deviation": 0.3025798507928411,
+        "minimum": -24.13823699951172,
+        "maximum": -23.57219886779785
+      },
+      "validation_mae_db": {
+        "mean": 0.9301076928774515,
+        "sample_standard_deviation": 0.03523734582630963,
+        "minimum": 0.902334988117218,
+        "maximum": 0.9697462916374207
+      },
+      "coverage_nmse_db": {
+        "mean": -24.198945999145508,
+        "sample_standard_deviation": 0.27153423062551174,
+        "minimum": -24.402206420898438,
+        "maximum": -23.890567779541016
+      },
+      "coverage_mae_db": {
+        "mean": 0.9036948084831238,
+        "sample_standard_deviation": 0.030379948662879668,
+        "minimum": 0.8820420503616333,
+        "maximum": 0.9384232759475708
+      },
+      "complex_operator_nmse_db": {
+        "mean": -18.40878391550447,
+        "sample_standard_deviation": 0.33804783878081135,
+        "minimum": -18.670446818254376,
+        "maximum": -18.02710243862075
+      },
+      "latency_microseconds_per_direction": {
+        "mean": 18.810351562592587,
+        "sample_standard_deviation": 0.8169828017844306,
+        "minimum": 17.986523438651147,
+        "maximum": 19.62031250002383
+      },
+      "parameter_count": 30877
+    }
+  },
+  "raw_gate_correlations": {
+    "row_z": {
+      "pearson_with_qx": {
+        "mean": -0.48777205627219117,
+        "sample_standard_deviation": 0.27538869036535124,
+        "minimum": -0.6526952030521405,
+        "maximum": -0.16985518452753354
+      },
+      "pearson_with_qy": {
+        "mean": -0.2696519655111315,
+        "sample_standard_deviation": 0.4756295758636361,
+        "minimum": -0.6961534318457616,
+        "maximum": 0.24325835426577314
+      },
+      "pearson_with_qz": {
+        "mean": 0.05023715536191836,
+        "sample_standard_deviation": 0.2710103710578589,
+        "minimum": -0.2473496140051979,
+        "maximum": 0.28286494374795684
+      }
+    },
+    "column_y": {
+      "pearson_with_qx": {
+        "mean": -0.11418834985480862,
+        "sample_standard_deviation": 0.629706206587604,
+        "minimum": -0.660048025849274,
+        "maximum": 0.5747436722801558
+      },
+      "pearson_with_qy": {
+        "mean": -0.1480085682378412,
+        "sample_standard_deviation": 0.18254450768731806,
+        "minimum": -0.3579727886653915,
+        "maximum": -0.02694022502831384
+      },
+      "pearson_with_qz": {
+        "mean": -0.41245511358214476,
+        "sample_standard_deviation": 0.22975476526844218,
+        "minimum": -0.5924206053956893,
+        "maximum": -0.15366310110274398
+      }
+    }
+  },
+  "gate_identifiability_warning": "A gate sign/scale can trade against its convolution weights; raw gate values are descriptive, not a gauge-invariant physical attribution.",
+  "training": {
+    "runs": 12,
+    "epochs_per_run": 240,
+    "total_seconds": 4036.069828200002,
+    "best_epoch_minimum": 233,
+    "best_epoch_maximum": 240
+  },
+  "interpretation_boundary": "The single-spatial-layer 29-map arms differ from V2.12 in both spatial depth and removal of edge/corner maps; this audit cannot uniquely assign the loss to axial factorization.",
+  "old_v215_external_test_used": false,
+  "new_confirmatory_test_defined_or_opened": false
+}

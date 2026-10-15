@@ -1,0 +1,136 @@
+{
+  "arm": "dcar_gated_pm",
+  "seed": 21601,
+  "parameter_count": 28755,
+  "validation_metrics": {
+    "nmse": 0.001837967080064118,
+    "nmse_db": -27.35662269592285,
+    "mae_db": 0.6067493557929993,
+    "bias_db": -0.016848308965563774,
+    "p95_abs_db": 2.155465841293335,
+    "field_strength_bins": {
+      "-3_to_0_db": {
+        "count": 2888,
+        "linear_nmse": 0.0004964572726748884,
+        "linear_nmse_db": -33.04118347167969,
+        "mae_db": 0.15542428195476532,
+        "bias_db": -0.019026465713977814,
+        "p95_abs_db": 0.39859503507614136
+      },
+      "-10_to_-3_db": {
+        "count": 24518,
+        "linear_nmse": 0.001318918657489121,
+        "linear_nmse_db": -28.797819137573242,
+        "mae_db": 0.2544362246990204,
+        "bias_db": -0.025299333035945892,
+        "p95_abs_db": 0.6982554793357849
+      },
+      "-20_to_-10_db": {
+        "count": 31040,
+        "linear_nmse": 0.004232117440551519,
+        "linear_nmse_db": -23.734420776367188,
+        "mae_db": 0.4760880470275879,
+        "bias_db": -0.04893176630139351,
+        "p95_abs_db": 1.4159791469573975
+      },
+      "below_-20_db": {
+        "count": 19954,
+        "linear_nmse": 0.022696729749441147,
+        "linear_nmse_db": -16.44036865234375,
+        "mae_db": 1.3082211017608643,
+        "bias_db": 0.04375923424959183,
+        "p95_abs_db": 4.54964017868042
+      }
+    }
+  },
+  "coverage_probe_metrics": {
+    "nmse": 0.0017689734231680632,
+    "nmse_db": -27.522789001464844,
+    "mae_db": 0.5916121602058411,
+    "bias_db": -0.015862789005041122,
+    "p95_abs_db": 2.0854268074035645,
+    "field_strength_bins": {
+      "-3_to_0_db": {
+        "count": 2640,
+        "linear_nmse": 0.0005059877876192331,
+        "linear_nmse_db": -32.95859909057617,
+        "mae_db": 0.15674306452274323,
+        "bias_db": -0.021361611783504486,
+        "p95_abs_db": 0.40206122398376465
+      },
+      "-10_to_-3_db": {
+        "count": 22039,
+        "linear_nmse": 0.001286944025196135,
+        "linear_nmse_db": -28.904401779174805,
+        "mae_db": 0.25111764669418335,
+        "bias_db": -0.02522018365561962,
+        "p95_abs_db": 0.6901185512542725
+      },
+      "-20_to_-10_db": {
+        "count": 27741,
+        "linear_nmse": 0.004102451726794243,
+        "linear_nmse_db": -23.869564056396484,
+        "mae_db": 0.4656287133693695,
+        "bias_db": -0.04355520382523537,
+        "p95_abs_db": 1.3862581253051758
+      },
+      "below_-20_db": {
+        "count": 17660,
+        "linear_nmse": 0.020566876977682114,
+        "linear_nmse_db": -16.868316650390625,
+        "mae_db": 1.2794445753097534,
+        "bias_db": 0.04013719782233238,
+        "p95_abs_db": 4.333053112030029
+      }
+    }
+  },
+  "operator_metrics": {
+    "nmse_db": -21.498909860492095,
+    "per_direction_relative_error_p50": 0.007122477286843065,
+    "per_direction_relative_error_p95": 0.03921054854143095,
+    "per_direction_relative_error_max": 0.7793331387943054
+  },
+  "validation_gate_diagnostics": {
+    "block_1": {
+      "row_z": {
+        "mean": 0.19836536049842834,
+        "standard_deviation": 0.5463058948516846,
+        "p05": -0.7642248868942261,
+        "p50": 0.2617979347705841,
+        "p95": 0.9283894896507263,
+        "absolute_saturation_fraction_gt_0p95": 0.016122448979591836
+      },
+      "column_y": {
+        "mean": 0.23220513761043549,
+        "standard_deviation": 0.4752873182296753,
+        "p05": -0.6708268523216248,
+        "p50": 0.3899115324020386,
+        "p95": 0.8543382883071899,
+        "absolute_saturation_fraction_gt_0p95": 0.0
+      }
+    },
+    "block_2": {
+      "row_z": {
+        "mean": -0.3330981433391571,
+        "standard_deviation": 0.4327186644077301,
+        "p05": -0.9130629301071167,
+        "p50": -0.4337850511074066,
+        "p95": 0.49574774503707886,
+        "absolute_saturation_fraction_gt_0p95": 0.010612244897959184
+      },
+      "column_y": {
+        "mean": -0.4594572186470032,
+        "standard_deviation": 0.3674945533275604,
+        "p05": -0.8799244165420532,
+        "p50": -0.5799064636230469,
+        "p95": 0.20239804685115814,
+        "absolute_saturation_fraction_gt_0p95": 0.0
+      }
+    }
+  },
+  "latency_microseconds_per_direction": 23.198046875450018,
+  "all_predictions_finite_nonnegative": true,
+  "coverage_used_for_selection": false,
+  "old_v215_test_used": false,
+  "new_confirmatory_test_status": "not_defined_or_opened"
+}

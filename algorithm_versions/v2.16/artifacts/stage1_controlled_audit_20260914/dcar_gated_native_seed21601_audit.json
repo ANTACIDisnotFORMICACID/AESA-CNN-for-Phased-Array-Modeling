@@ -1,0 +1,136 @@
+{
+  "arm": "dcar_gated_native",
+  "seed": 21601,
+  "parameter_count": 22085,
+  "validation_metrics": {
+    "nmse": 0.002588679315522313,
+    "nmse_db": -25.869216918945312,
+    "mae_db": 0.6967145800590515,
+    "bias_db": -0.006380352191627026,
+    "p95_abs_db": 2.400146007537842,
+    "field_strength_bins": {
+      "-3_to_0_db": {
+        "count": 2888,
+        "linear_nmse": 0.0008879366214387119,
+        "linear_nmse_db": -30.51618194580078,
+        "mae_db": 0.20649608969688416,
+        "bias_db": -0.04452844336628914,
+        "p95_abs_db": 0.5315214991569519
+      },
+      "-10_to_-3_db": {
+        "count": 24518,
+        "linear_nmse": 0.001775065902620554,
+        "linear_nmse_db": -27.507856369018555,
+        "mae_db": 0.2970159351825714,
+        "bias_db": -0.041267476975917816,
+        "p95_abs_db": 0.8031924962997437
+      },
+      "-20_to_-10_db": {
+        "count": 31040,
+        "linear_nmse": 0.005976532120257616,
+        "linear_nmse_db": -22.23550796508789,
+        "mae_db": 0.5572445392608643,
+        "bias_db": -0.042005836963653564,
+        "p95_abs_db": 1.6523544788360596
+      },
+      "below_-20_db": {
+        "count": 19954,
+        "linear_nmse": 0.0330284908413887,
+        "linear_nmse_db": -14.811113357543945,
+        "mae_db": 1.475742220878601,
+        "bias_db": 0.09742587059736252,
+        "p95_abs_db": 5.029089450836182
+      }
+    }
+  },
+  "coverage_probe_metrics": {
+    "nmse": 0.0025004525668919086,
+    "nmse_db": -26.019813537597656,
+    "mae_db": 0.6930909156799316,
+    "bias_db": -0.015367215499281883,
+    "p95_abs_db": 2.3408985137939453,
+    "field_strength_bins": {
+      "-3_to_0_db": {
+        "count": 2640,
+        "linear_nmse": 0.0008602005545981228,
+        "linear_nmse_db": -30.654003143310547,
+        "mae_db": 0.203726664185524,
+        "bias_db": -0.04033366218209267,
+        "p95_abs_db": 0.5180391669273376
+      },
+      "-10_to_-3_db": {
+        "count": 22039,
+        "linear_nmse": 0.0017813520971685648,
+        "linear_nmse_db": -27.492502212524414,
+        "mae_db": 0.2974541485309601,
+        "bias_db": -0.045091938227415085,
+        "p95_abs_db": 0.8103616237640381
+      },
+      "-20_to_-10_db": {
+        "count": 27741,
+        "linear_nmse": 0.005795590579509735,
+        "linear_nmse_db": -22.369022369384766,
+        "mae_db": 0.5464289784431458,
+        "bias_db": -0.03960387781262398,
+        "p95_abs_db": 1.609290599822998
+      },
+      "below_-20_db": {
+        "count": 17660,
+        "linear_nmse": 0.028439244255423546,
+        "linear_nmse_db": -15.460819244384766,
+        "mae_db": 1.4903677701950073,
+        "bias_db": 0.06353220343589783,
+        "p95_abs_db": 5.143653392791748
+      }
+    }
+  },
+  "operator_metrics": {
+    "nmse_db": -20.22785702439428,
+    "per_direction_relative_error_p50": 0.009512381030362616,
+    "per_direction_relative_error_p95": 0.05207170030294946,
+    "per_direction_relative_error_max": 4.348172486023265
+  },
+  "validation_gate_diagnostics": {
+    "block_1": {
+      "row_z": {
+        "mean": -0.40206727385520935,
+        "standard_deviation": 0.5353639721870422,
+        "p05": -0.9371123313903809,
+        "p50": -0.5930200219154358,
+        "p95": 0.7873693704605103,
+        "absolute_saturation_fraction_gt_0p95": 0.013469387755102041
+      },
+      "column_y": {
+        "mean": -0.1933445930480957,
+        "standard_deviation": 0.5210134983062744,
+        "p05": -0.9498649835586548,
+        "p50": -0.19736509025096893,
+        "p95": 0.6317397356033325,
+        "absolute_saturation_fraction_gt_0p95": 0.04979591836734694
+      }
+    },
+    "block_2": {
+      "row_z": {
+        "mean": -0.023683279752731323,
+        "standard_deviation": 0.6944618225097656,
+        "p05": -0.9291127324104309,
+        "p50": 0.040784046053886414,
+        "p95": 0.8858901858329773,
+        "absolute_saturation_fraction_gt_0p95": 0.05489795918367347
+      },
+      "column_y": {
+        "mean": -0.19798392057418823,
+        "standard_deviation": 0.46038463711738586,
+        "p05": -0.8397461771965027,
+        "p50": -0.27128463983535767,
+        "p95": 0.5906515121459961,
+        "absolute_saturation_fraction_gt_0p95": 0.007346938775510204
+      }
+    }
+  },
+  "latency_microseconds_per_direction": 22.8816406249166,
+  "all_predictions_finite_nonnegative": true,
+  "coverage_used_for_selection": false,
+  "old_v215_test_used": false,
+  "new_confirmatory_test_status": "not_defined_or_opened"
+}

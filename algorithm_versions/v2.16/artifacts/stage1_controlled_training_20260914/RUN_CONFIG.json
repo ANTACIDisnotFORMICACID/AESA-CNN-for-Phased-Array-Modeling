@@ -1,0 +1,28 @@
+{
+  "schema": "v216-stage1-controlled-training-config-1",
+  "arms": [
+    "dcar_static_native",
+    "dcar_gated_native",
+    "dcar_static_pm",
+    "dcar_gated_pm"
+  ],
+  "seeds": [
+    21601,
+    21602,
+    21603
+  ],
+  "epochs": 240,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "late_learning_rate": 0.0003,
+  "learning_rate_drop_epoch": 181,
+  "lambda_separation": 0.001,
+  "prepared_dir": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.16\\artifacts\\prepared_20260914",
+  "control_dir": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.16\\artifacts\\training_20260914",
+  "control_checkpoint_reused_not_retrained": true,
+  "ssh_degree": 4,
+  "checkpoint_selection": "validation_linear_nmse_only",
+  "coverage_probe_used": false,
+  "old_v215_test_used": false,
+  "new_confirmatory_test_defined_or_opened": false
+}

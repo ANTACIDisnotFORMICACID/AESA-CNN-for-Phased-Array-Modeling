@@ -1,0 +1,136 @@
+{
+  "arm": "dcar_gated_native",
+  "seed": 21602,
+  "parameter_count": 22085,
+  "validation_metrics": {
+    "nmse": 0.0022312456276267767,
+    "nmse_db": -26.5145263671875,
+    "mae_db": 0.6629486680030823,
+    "bias_db": -0.01955883949995041,
+    "p95_abs_db": 2.3415470123291016,
+    "field_strength_bins": {
+      "-3_to_0_db": {
+        "count": 2888,
+        "linear_nmse": 0.0007839626632630825,
+        "linear_nmse_db": -31.057044982910156,
+        "mae_db": 0.18964557349681854,
+        "bias_db": -0.0292538832873106,
+        "p95_abs_db": 0.5199578404426575
+      },
+      "-10_to_-3_db": {
+        "count": 24518,
+        "linear_nmse": 0.001478782156482339,
+        "linear_nmse_db": -28.30095672607422,
+        "mae_db": 0.26056569814682007,
+        "bias_db": -0.03782544285058975,
+        "p95_abs_db": 0.7618035674095154
+      },
+      "-20_to_-10_db": {
+        "count": 31040,
+        "linear_nmse": 0.005164492409676313,
+        "linear_nmse_db": -22.869722366333008,
+        "mae_db": 0.5179980993270874,
+        "bias_db": -0.05293915793299675,
+        "p95_abs_db": 1.5625089406967163
+      },
+      "below_-20_db": {
+        "count": 19954,
+        "linear_nmse": 0.03112442046403885,
+        "linear_nmse_db": -15.068987846374512,
+        "mae_db": 1.4513516426086426,
+        "bias_db": 0.05621470510959625,
+        "p95_abs_db": 5.1555352210998535
+      }
+    }
+  },
+  "coverage_probe_metrics": {
+    "nmse": 0.002138516865670681,
+    "nmse_db": -26.69887351989746,
+    "mae_db": 0.6406028270721436,
+    "bias_db": -0.02310861088335514,
+    "p95_abs_db": 2.2406296730041504,
+    "field_strength_bins": {
+      "-3_to_0_db": {
+        "count": 2640,
+        "linear_nmse": 0.0008033194462768734,
+        "linear_nmse_db": -30.95111656188965,
+        "mae_db": 0.19189848005771637,
+        "bias_db": -0.02731717750430107,
+        "p95_abs_db": 0.5207331776618958
+      },
+      "-10_to_-3_db": {
+        "count": 22039,
+        "linear_nmse": 0.0014747973764315248,
+        "linear_nmse_db": -28.31267547607422,
+        "mae_db": 0.2593548893928528,
+        "bias_db": -0.03372756764292717,
+        "p95_abs_db": 0.7575080394744873
+      },
+      "-20_to_-10_db": {
+        "count": 27741,
+        "linear_nmse": 0.004903374705463648,
+        "linear_nmse_db": -23.095050811767578,
+        "mae_db": 0.502970814704895,
+        "bias_db": -0.05360907316207886,
+        "p95_abs_db": 1.5043230056762695
+      },
+      "below_-20_db": {
+        "count": 17660,
+        "linear_nmse": 0.026889711618423462,
+        "linear_nmse_db": -15.704137802124023,
+        "mae_db": 1.3996601104736328,
+        "bias_db": 0.03868386521935463,
+        "p95_abs_db": 4.946992874145508
+      }
+    }
+  },
+  "operator_metrics": {
+    "nmse_db": -20.728621375963733,
+    "per_direction_relative_error_p50": 0.008375679498464883,
+    "per_direction_relative_error_p95": 0.04879665380353586,
+    "per_direction_relative_error_max": 4.095202133122906
+  },
+  "validation_gate_diagnostics": {
+    "block_1": {
+      "row_z": {
+        "mean": -0.4685741662979126,
+        "standard_deviation": 0.449537456035614,
+        "p05": -0.924738883972168,
+        "p50": -0.6038379669189453,
+        "p95": 0.5744026303291321,
+        "absolute_saturation_fraction_gt_0p95": 0.00020408163265306123
+      },
+      "column_y": {
+        "mean": 0.02023906819522381,
+        "standard_deviation": 0.5374969244003296,
+        "p05": -0.7625160813331604,
+        "p50": -0.08408662676811218,
+        "p95": 0.8574811816215515,
+        "absolute_saturation_fraction_gt_0p95": 0.0006122448979591836
+      }
+    },
+    "block_2": {
+      "row_z": {
+        "mean": -0.3797184228897095,
+        "standard_deviation": 0.48936235904693604,
+        "p05": -0.9171022772789001,
+        "p50": -0.4965044856071472,
+        "p95": 0.6862086057662964,
+        "absolute_saturation_fraction_gt_0p95": 0.0
+      },
+      "column_y": {
+        "mean": 0.5687133073806763,
+        "standard_deviation": 0.2942984998226166,
+        "p05": 0.02749568782746792,
+        "p50": 0.6298246383666992,
+        "p95": 0.9025480151176453,
+        "absolute_saturation_fraction_gt_0p95": 0.0016326530612244899
+      }
+    }
+  },
+  "latency_microseconds_per_direction": 23.712500002659453,
+  "all_predictions_finite_nonnegative": true,
+  "coverage_used_for_selection": false,
+  "old_v215_test_used": false,
+  "new_confirmatory_test_status": "not_defined_or_opened"
+}
