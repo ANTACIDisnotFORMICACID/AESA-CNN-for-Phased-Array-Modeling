@@ -1,0 +1,26 @@
+{
+  "schema": "v215-no-leakage-data-1",
+  "train": {
+    "file": "train_exchange.npz",
+    "directions": 22600,
+    "commands": 64
+  },
+  "validation": {
+    "file": "validation.npz",
+    "directions": 4900,
+    "commands": 16
+  },
+  "exchange": {
+    "removal_seed": 21470,
+    "retained_original": 22110,
+    "acquisition_added": 490
+  },
+  "source_dataset": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.12\\artifacts\\hfss_operator_96_20260910\\amplitude_dataset",
+  "source_split": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.12\\artifacts\\hfss_operator_96_20260910\\split",
+  "source_acquisition": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.14\\artifacts\\angular_labels_integer_grid_20260913\\acquisition_train.npz",
+  "test_indices_saved": false,
+  "test_directions_saved": false,
+  "test_commands_saved": false,
+  "test_amplitudes_saved": false,
+  "external_test_used_for_preparation_decisions": false
+}

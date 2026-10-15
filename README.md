@@ -3,7 +3,7 @@
 本仓库整理 47 GHz 有源相控阵项目中由本人完成的算法版本。提交历史从 V2.5 开始，
 每个版本对应一个独立提交和同名 Git 标签；接手项目前的原始主线代码不在本仓库中。
 
-当前已纳入：**V2.5–V2.14**。
+当前已纳入：**V2.5–V2.15**。
 
 ## 研究主线
 
@@ -25,6 +25,7 @@
 | [V2.12](algorithm_versions/v2.12/README.md) | 物理约束 rank-1 算子与 CNN 主干 | 受控主干和评估协议完成 |
 | [V2.13](algorithm_versions/v2.13/README.md) | HFSS 闭环与测量可辨识性审计 | Gate-A 完成，Gate-B 保留证据边界 |
 | [V2.14](algorithm_versions/v2.14/README.md) | 结构筛选与覆盖因果实验 | 冻结结果保留；完整复跑 `BLOCKED` |
+| [V2.15](algorithm_versions/v2.15/README.md) | 方向条件化局部图消息结构 | 冻结结果保留；完整复跑 `BLOCKED` |
 
 ## 环境与检查
 

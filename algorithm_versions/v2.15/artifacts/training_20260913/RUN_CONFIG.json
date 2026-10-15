@@ -1,0 +1,26 @@
+{
+  "schema": "v215-complete-training-config-1",
+  "prepared_dir": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.15\\artifacts\\prepared_20260913",
+  "physics_data": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.14\\artifacts\\physics_sources_20260913\\physics_train_validation.npz",
+  "arms": [
+    "control",
+    "graph_geometry",
+    "graph_s_true",
+    "graph_s_shuffled"
+  ],
+  "seeds": [
+    21501,
+    21502,
+    21503
+  ],
+  "epochs": 240,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "late_learning_rate": 0.0003,
+  "learning_rate_drop_epoch": 181,
+  "lambda_separation": 0.001,
+  "ssh_degree": 4,
+  "checkpoint_selection": "validation_linear_nmse_only",
+  "coverage_probe_used": false,
+  "test_split_opened": false
+}

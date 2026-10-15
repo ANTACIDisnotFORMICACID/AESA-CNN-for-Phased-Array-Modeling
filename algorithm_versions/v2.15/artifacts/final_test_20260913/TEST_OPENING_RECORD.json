@@ -1,0 +1,16 @@
+{
+  "schema": "v215-one-time-test-opening-1",
+  "predeclared_candidate": "graph_s_true",
+  "evaluated_arms": [
+    "control",
+    "graph_s_true"
+  ],
+  "seeds": [
+    21501,
+    21502,
+    21503
+  ],
+  "forward_summary_sha256": "29892f620cd727f99f25adfa8b84d1360b5a108c18d32173558f04fe163b3c0c",
+  "selection_and_checkpoints_frozen_before_test_read": true,
+  "test_will_not_be_used_for_further_v215_tuning": true
+}
