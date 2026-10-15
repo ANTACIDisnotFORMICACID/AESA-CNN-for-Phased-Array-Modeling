@@ -1,0 +1,19 @@
+{
+  "schema": "v214-new-label-coverage-config-1",
+  "dataset": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.12\\artifacts\\hfss_operator_96_20260910\\amplitude_dataset",
+  "split_dir": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.12\\artifacts\\hfss_operator_96_20260910\\split",
+  "codebook": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.12\\artifacts\\hfss_operator_96_20260910\\codebook.json",
+  "checkpoint_root": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.12\\artifacts\\v212s_softsep_20260911",
+  "label_dir": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.14\\artifacts\\angular_labels_integer_grid_20260913",
+  "seeds": [
+    21201,
+    21202,
+    21203
+  ],
+  "epochs": 30,
+  "batch_size": 512,
+  "learning_rate": 0.0001,
+  "db_floor": 1e-08,
+  "removal_seed": 21470,
+  "external_test_used": false
+}

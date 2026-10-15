@@ -1,0 +1,41 @@
+{
+  "schema": "v214-physics-source-manifest-1",
+  "frequency_hz": 47000000000.0,
+  "train_count": 22600,
+  "validation_count": 4900,
+  "test_values_exported": false,
+  "external_test_used": false,
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\projects\\v2_8_array_4x4.aedt",
+  "project_sha256_before": "9577a2d1a356b0d03b65928f04d17afaf37c30872e4c8243df5a8b88ea097708",
+  "project_sha256_after": "9577a2d1a356b0d03b65928f04d17afaf37c30872e4c8243df5a8b88ea097708",
+  "project_unchanged_on_disk": true,
+  "geometry": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.10\\configs\\geometry_4x4_47ghz.toml",
+  "touchstone": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\v2_8_array_4x4_HFSSDesign1.s16p",
+  "half_grid_ffd_prefix": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new",
+  "integer_grid_ffd_prefix": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement",
+  "prepared_dataset": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.14\\artifacts\\physics_sources_20260913\\physics_train_validation.npz",
+  "diagnostics": {
+    "ephi_audit_complex_nmse_db": -149.43243128082324,
+    "gate_a_direct_complex_nmse_db": -229.33813080495028,
+    "transverse_train": {
+      "mean": 1.0608556836144311e-16,
+      "p95": 4.7016758090879e-16,
+      "maximum": 1.9367249232790667e-15
+    },
+    "transverse_validation": {
+      "mean": 1.2352969232985166e-16,
+      "p95": 5.316863292473967e-16,
+      "maximum": 1.7144893961255506e-15
+    },
+    "polarization_train": {
+      "etheta_over_ephi_db_median": -4.338311021544515,
+      "etheta_over_ephi_db_p05": -12.694556776444397,
+      "etheta_over_ephi_db_p95": 7.747059043373466
+    },
+    "polarization_validation": {
+      "etheta_over_ephi_db_median": -5.258606612457077,
+      "etheta_over_ephi_db_p05": -12.290256731496253,
+      "etheta_over_ephi_db_p95": 7.642709956479338
+    }
+  }
+}

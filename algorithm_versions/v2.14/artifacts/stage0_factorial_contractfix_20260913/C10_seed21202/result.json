@@ -1,0 +1,52 @@
+{
+  "cell": "C10",
+  "seed": 21202,
+  "cross_branch_access": true,
+  "jitter_regularization": false,
+  "parameter_count": 29188,
+  "best_epoch": 30,
+  "validation_metrics": {
+    "nmse": 0.0032863111700862646,
+    "nmse_db": -24.832914352416992,
+    "mae_db": 0.7441495656967163,
+    "bias_db": -0.030401069670915604,
+    "p95_abs_db": 2.688777208328247,
+    "field_strength_bins": {
+      "-3_to_0_db": {
+        "count": 2888,
+        "linear_nmse": 0.0012079364387318492,
+        "linear_nmse_db": -29.17955780029297,
+        "mae_db": 0.23526322841644287,
+        "bias_db": -0.02874019928276539,
+        "p95_abs_db": 0.6456224322319031
+      },
+      "-10_to_-3_db": {
+        "count": 24518,
+        "linear_nmse": 0.002340921899303794,
+        "linear_nmse_db": -26.30613136291504,
+        "mae_db": 0.32943612337112427,
+        "bias_db": -0.06970368325710297,
+        "p95_abs_db": 0.9651324152946472
+      },
+      "-20_to_-10_db": {
+        "count": 31040,
+        "linear_nmse": 0.007428640965372324,
+        "linear_nmse_db": -21.290904998779297,
+        "mae_db": 0.5953083038330078,
+        "bias_db": -0.07643698900938034,
+        "p95_abs_db": 1.8414537906646729
+      },
+      "below_-20_db": {
+        "count": 19954,
+        "linear_nmse": 0.03732766956090927,
+        "linear_nmse_db": -14.279690742492676,
+        "mae_db": 1.5589056015014648,
+        "bias_db": 0.08926315605640411,
+        "p95_abs_db": 5.585994243621826
+      }
+    }
+  },
+  "envelope_self_change_0p5deg_nmse_db": -29.402202606201172,
+  "fusion_delta_energy_fraction": 0.00011819543451125474,
+  "external_test_used": false
+}

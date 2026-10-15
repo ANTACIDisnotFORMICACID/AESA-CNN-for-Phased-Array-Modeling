@@ -1,0 +1,25 @@
+{
+  "schema": "v214-new-angular-labels-1",
+  "frequency_hz": 47000000000.0,
+  "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_*.ffd",
+  "source_grid": "integer theta/phi degrees",
+  "current_grid": "half-degree offset theta/phi",
+  "acquisition": {
+    "directions": 490,
+    "commands": 64,
+    "file": "acquisition_train.npz"
+  },
+  "coverage_probe": {
+    "directions": 4380,
+    "commands": 16,
+    "file": "coverage_probe.npz"
+  },
+  "complex_audit": {
+    "file": "complex_audit_only.npz",
+    "training_allowed": false
+  },
+  "external_test_blocks_excluded": true,
+  "external_test_labels_used": false,
+  "test_command_indices_included": false,
+  "geometry_selection_frozen_before_label_read": true
+}

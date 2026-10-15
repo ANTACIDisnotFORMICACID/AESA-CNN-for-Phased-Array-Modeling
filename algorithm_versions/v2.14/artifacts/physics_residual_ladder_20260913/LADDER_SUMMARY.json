@@ -1,0 +1,360 @@
+{
+  "schema": "v214-physics-residual-ladder-1",
+  "status": "physics_ladder_complete",
+  "external_test_used": false,
+  "complex_labels_used_for_cnn_training": false,
+  "selection": {
+    "folds": 3,
+    "threshold_db": 0.5,
+    "accepted_stages": [],
+    "decisions": {
+      "P0_common_pattern": {
+        "selected_degree": 5,
+        "trials": {
+          "1": {
+            "fold_nmse_db": [
+              -0.0025451331114635326,
+              -0.0010720564937167017,
+              -0.0014846335569379545
+            ],
+            "mean_nmse_db": -0.001700607720706063
+          },
+          "3": {
+            "fold_nmse_db": [
+              -0.007443320341963563,
+              -0.008356334475734552,
+              -0.008841580552574745
+            ],
+            "mean_nmse_db": -0.008213745123424286
+          },
+          "5": {
+            "fold_nmse_db": [
+              -0.014317776911239907,
+              -0.02588001088810823,
+              -0.03447672351088205
+            ],
+            "mean_nmse_db": -0.024891503770076734
+          },
+          "8": {
+            "fold_nmse_db": [
+              0.21336503473290597,
+              -0.0953610157023989,
+              -0.13455891409752302
+            ],
+            "mean_nmse_db": -0.005518298355671983
+          },
+          "12": {
+            "fold_nmse_db": [
+              6.356079891239562,
+              0.29961387177783455,
+              6.058606878019677
+            ],
+            "mean_nmse_db": 4.238100213679025
+          }
+        },
+        "passed": true
+      },
+      "P1_element_gain": {
+        "folds": [
+          {
+            "baseline_nmse_db": -0.014317776911239907,
+            "candidate_nmse_db": -0.17424508102245062,
+            "improvement_db": 0.1599273041112107
+          },
+          {
+            "baseline_nmse_db": -0.02588001088810823,
+            "candidate_nmse_db": -0.29354838706694314,
+            "improvement_db": 0.26766837617883493
+          },
+          {
+            "baseline_nmse_db": -0.03447672351088205,
+            "candidate_nmse_db": -0.4360121572367138,
+            "improvement_db": 0.4015354337258318
+          }
+        ],
+        "mean_improvement_db": 0.2763770380052925,
+        "minimum_improvement_db": 0.1599273041112107,
+        "three_of_three_positive": true,
+        "passed": false
+      },
+      "P2_phase_center": {
+        "folds": [
+          {
+            "baseline_nmse_db": -0.014317776911239907,
+            "candidate_nmse_db": -0.05629173657780175,
+            "improvement_db": 0.041973959666561846
+          },
+          {
+            "baseline_nmse_db": -0.02588001088810823,
+            "candidate_nmse_db": -0.07572680658888839,
+            "improvement_db": 0.049846795700780155
+          },
+          {
+            "baseline_nmse_db": -0.03447672351088205,
+            "candidate_nmse_db": -0.11204994686416155,
+            "improvement_db": 0.07757322335327949
+          }
+        ],
+        "mean_improvement_db": 0.05646465957354049,
+        "minimum_improvement_db": 0.041973959666561846,
+        "three_of_three_positive": true,
+        "passed": false
+      },
+      "P3_s_coupling": {
+        "folds": [
+          {
+            "baseline_nmse_db": -0.014317776911239907,
+            "candidate_nmse_db": -0.014051113163738898,
+            "improvement_db": -0.0002666637475010093
+          },
+          {
+            "baseline_nmse_db": -0.02588001088810823,
+            "candidate_nmse_db": -0.026829272889189973,
+            "improvement_db": 0.0009492620010817417
+          },
+          {
+            "baseline_nmse_db": -0.03447672351088205,
+            "candidate_nmse_db": -0.06614807330896036,
+            "improvement_db": 0.031671349798078306
+          }
+        ],
+        "mean_improvement_db": 0.010784649350553012,
+        "minimum_improvement_db": -0.0002666637475010093,
+        "three_of_three_positive": false,
+        "passed": false
+      },
+      "P4_element_class": {
+        "folds": [
+          {
+            "baseline_nmse_db": -0.014317776911239907,
+            "candidate_nmse_db": -0.022305728047294325,
+            "improvement_db": 0.007987951136054418
+          },
+          {
+            "baseline_nmse_db": -0.02588001088810823,
+            "candidate_nmse_db": -0.03851598419844481,
+            "improvement_db": 0.012635973310336581
+          },
+          {
+            "baseline_nmse_db": -0.03447672351088205,
+            "candidate_nmse_db": -0.038636224502657954,
+            "improvement_db": 0.004159500991775901
+          }
+        ],
+        "mean_improvement_db": 0.0082611418127223,
+        "minimum_improvement_db": 0.004159500991775901,
+        "three_of_three_positive": true,
+        "passed": false
+      },
+      "P5_low_rank": {
+        "selected_rank": 1,
+        "trials": {
+          "1": {
+            "folds": [
+              {
+                "baseline_nmse_db": -0.014317776911239907,
+                "candidate_nmse_db": 1.4576839921593039,
+                "improvement_db": -1.4720017690705438
+              },
+              {
+                "baseline_nmse_db": -0.02588001088810823,
+                "candidate_nmse_db": -0.0327060195322599,
+                "improvement_db": 0.0068260086441516675
+              },
+              {
+                "baseline_nmse_db": -0.03447672351088205,
+                "candidate_nmse_db": 0.41213995161989264,
+                "improvement_db": -0.4466166751307747
+              }
+            ],
+            "mean_improvement_db": -0.6372641451857223,
+            "minimum_improvement_db": -1.4720017690705438,
+            "three_of_three_positive": false,
+            "passed": false
+          },
+          "2": {
+            "folds": [
+              {
+                "baseline_nmse_db": -0.014317776911239907,
+                "candidate_nmse_db": 4.587802688926351,
+                "improvement_db": -4.60212046583759
+              },
+              {
+                "baseline_nmse_db": -0.02588001088810823,
+                "candidate_nmse_db": -0.054731770666210225,
+                "improvement_db": 0.028851759778101994
+              },
+              {
+                "baseline_nmse_db": -0.03447672351088205,
+                "candidate_nmse_db": 1.567173096013221,
+                "improvement_db": -1.6016498195241031
+              }
+            ],
+            "mean_improvement_db": -2.0583061751945304,
+            "minimum_improvement_db": -4.60212046583759,
+            "three_of_three_positive": false,
+            "passed": false
+          },
+          "4": {
+            "folds": [
+              {
+                "baseline_nmse_db": -0.014317776911239907,
+                "candidate_nmse_db": 6.5070340221295355,
+                "improvement_db": -6.521351799040775
+              },
+              {
+                "baseline_nmse_db": -0.02588001088810823,
+                "candidate_nmse_db": 0.06945513399600609,
+                "improvement_db": -0.09533514488411432
+              },
+              {
+                "baseline_nmse_db": -0.03447672351088205,
+                "candidate_nmse_db": 3.5274405477546065,
+                "improvement_db": -3.5619172712654885
+              }
+            ],
+            "mean_improvement_db": -3.392868071730126,
+            "minimum_improvement_db": -6.521351799040775,
+            "three_of_three_positive": false,
+            "passed": false
+          },
+          "8": {
+            "folds": [
+              {
+                "baseline_nmse_db": -0.014317776911239907,
+                "candidate_nmse_db": 10.524654005494853,
+                "improvement_db": -10.538971782406092
+              },
+              {
+                "baseline_nmse_db": -0.02588001088810823,
+                "candidate_nmse_db": 0.39786975253294776,
+                "improvement_db": -0.42374976342105597
+              },
+              {
+                "baseline_nmse_db": -0.03447672351088205,
+                "candidate_nmse_db": 7.531296771105004,
+                "improvement_db": -7.565773494615886
+              }
+            ],
+            "mean_improvement_db": -6.176165013481011,
+            "minimum_improvement_db": -10.538971782406092,
+            "three_of_three_positive": false,
+            "passed": false
+          }
+        },
+        "mean_improvement_db": -0.6372641451857223,
+        "minimum_improvement_db": -1.4720017690705438,
+        "three_of_three_positive": false,
+        "passed": false
+      }
+    }
+  },
+  "outer_validation": {
+    "P0_common_pattern": {
+      "operator_solid_angle": {
+        "nmse_db": -0.009475730047376252,
+        "per_direction_relative_error_p50": 0.9971446449131884,
+        "per_direction_relative_error_p95": 0.9999170063669977,
+        "per_direction_relative_error_max": 1.0181623847866814
+      },
+      "operator_equal_direction": {
+        "nmse_db": -0.013056631951318502,
+        "per_direction_relative_error_p50": 0.9971446449131884,
+        "per_direction_relative_error_p95": 0.9999170063669977,
+        "per_direction_relative_error_max": 1.0181623847866814
+      },
+      "validation_command_amplitude_nmse_db": -0.5793770889884371
+    }
+  },
+  "final_parameter_count_real": 72,
+  "final_residual_diagnostics": {
+    "nearest_train_angle_error_spearman": -0.052628175351768176,
+    "nearest_train_angle_deg": {
+      "median": 1.9999985978242307,
+      "p95": 5.241297836844658,
+      "maximum": 9.999620056100792
+    },
+    "class_residual_energy": {
+      "corner": 55.10086249277717,
+      "edge": 53.89227030551921,
+      "interior": 52.05052980933847
+    },
+    "residual_covariance_adjacency_correlation": 0.6377183976048658,
+    "residual_covariance_s_parameter_correlation": 0.6312480253087315,
+    "ssh_spectrum": {
+      "cumulative_fraction": {
+        "0": 0.030447227892720426,
+        "1": 0.07495622977303187,
+        "2": 0.103132328910949,
+        "3": 0.1441326967607653,
+        "4": 0.2104855507537431,
+        "5": 0.2721575570267805,
+        "6": 0.3301899952988369,
+        "7": 0.3845546696130921,
+        "8": 0.42557664121915045,
+        "9": 0.4753097730979553,
+        "10": 0.5201959056721037,
+        "11": 0.5545838876510525,
+        "12": 0.594754807054316
+      },
+      "shell_fraction": [
+        0.030447227892720426,
+        0.04450900188031145,
+        0.028176099137917132,
+        0.04100036784981628,
+        0.0663528539929778,
+        0.06167200627303743,
+        0.0580324382720564,
+        0.05436467431425518,
+        0.04102197160605836,
+        0.04973313187880485,
+        0.04488613257414842,
+        0.03438798197894877,
+        0.04017091940326356
+      ],
+      "retained_ranks": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        10,
+        11,
+        13,
+        13,
+        14,
+        16,
+        14,
+        19
+      ],
+      "projected_fraction_l12": 0.594754807054316,
+      "tail_fraction": 0.40524519294568395,
+      "normalized_filtration_gradient": 32.581995905876575
+    },
+    "graph_roughness": 401.10307989097817
+  },
+  "vector_diagnostics": {
+    "etheta_final_operator": {
+      "nmse_db": -0.03819487611099094,
+      "per_direction_relative_error_p50": 0.9959101137688642,
+      "per_direction_relative_error_p95": 0.9996410576378871,
+      "per_direction_relative_error_max": 1.0034266367402043
+    },
+    "transverse_validation": {
+      "mean": 1.2352969232985166e-16,
+      "p95": 5.316863292473967e-16,
+      "maximum": 1.7144893961255506e-15
+    },
+    "polarization_validation": {
+      "etheta_over_ephi_db_median": -5.258606612457077,
+      "etheta_over_ephi_db_p05": -12.290256731496253,
+      "etheta_over_ephi_db_p95": 7.642709956479338
+    }
+  },
+  "cnn_benchmark": {
+    "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.13\\artifacts\\cnn_structure_stress_20260913\\CNN_STRUCTURE_STRESS_AUDIT.json",
+    "ten_seed_amplitude_nmse_db_mean": -24.156046676635743,
+    "ten_seed_amplitude_nmse_db_standard_deviation": 0.4175924832804873,
+    "note": "Frozen amplitude-only CNN benchmark; no complex labels were exposed to CNN training."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "v214-coverage-causal-config-1",
+  "dataset": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.12\\artifacts\\hfss_operator_96_20260910\\amplitude_dataset",
+  "split_dir": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.12\\artifacts\\hfss_operator_96_20260910\\split",
+  "codebook": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.12\\artifacts\\hfss_operator_96_20260910\\codebook.json",
+  "gap_root": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.12\\artifacts\\v212s_spatial_gap_20260911",
+  "seeds": [
+    21201,
+    21202,
+    21203
+  ],
+  "per_cell": 10,
+  "epochs": 30,
+  "batch_size": 512,
+  "learning_rate": 0.0001,
+  "db_floor": 1e-08,
+  "external_test_used": false
+}
