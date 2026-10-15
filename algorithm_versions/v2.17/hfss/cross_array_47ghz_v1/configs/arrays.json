@@ -1,0 +1,12 @@
+{
+  "schema": "cross-array-build-config-v1",
+  "frequency_hz": 47000000000.0,
+  "row_pitch_mm": 15.0,
+  "col_pitch_mm": 6.8,
+  "arrays": {
+    "a1x4": {"rows": 1, "cols": 4, "construction": "frozen_source_revalidated"},
+    "a2x4": {"rows": 2, "cols": 4, "construction": "source_module_duplicated_along_+Z"},
+    "a4x4": {"rows": 4, "cols": 4, "construction": "frozen_v2.8_exports_recanonicalized"},
+    "a1x8": {"rows": 1, "cols": 8, "construction": "two_1x4_modules_duplicated_along_+Y"}
+  }
+}

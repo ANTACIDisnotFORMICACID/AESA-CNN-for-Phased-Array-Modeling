@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "stage": "direct_audit",
+  "array_id": "a1x4",
+  "command_count": 16,
+  "aggregate_complex_nmse_db": -286.3237174817055,
+  "worst_per_command_complex_nmse_db": -282.1114231959741,
+  "amplitude_max_relative_error": 8.58045125465055e-15,
+  "thresholds": {
+    "aggregate_complex_nmse_db_max": -100.0,
+    "per_command_complex_nmse_db_max": -80.0,
+    "amplitude_max_relative_error_max": 1e-06
+  },
+  "phase_reference_correction": "exp(+j*k*q_dot_r_port) from HFSS EEP mapping XYZ",
+  "audit_summary": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x4\\recovery_gate_20261013_2110\\direct_audit_phase_reference_corrected\\AUDIT_SUMMARY.json",
+  "raw_reports": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x4\\recovery_gate_20261013_2110\\direct_audit\\raw_reports",
+  "raw_reports_reused": true,
+  "not_for_training": true,
+  "recorded_utc": "2026-10-13T13:05:15.652804+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "BLOCKED",
+  "array_id": "a1x4",
+  "blocked_stage": "solve",
+  "model_static_gate": "PASS",
+  "solution_readback_gate": "FAIL",
+  "attempts": [
+    {"frontend": "non_graphical", "hpc": "auto", "cores": 8, "result": "HFSSCOMENGINE BEX64"},
+    {"frontend": "non_graphical", "hpc": "auto", "cores": 1, "result": "HFSSCOMENGINE BEX64"},
+    {"frontend": "graphical", "hpc": "manual", "tasks": 16, "cores": 16, "result": "HFSSCOMENGINE BEX64"}
+  ],
+  "aedt_messages": [
+    "Setup2 : LastAdaptive distributing Direct Solver Memory",
+    "Com Engine non-responsive",
+    "Machine Local Machine: Engine terminated unexpectedly"
+  ],
+  "windows_event": {
+    "application": "HFSSCOMENGINE.exe",
+    "fault_module": "ucrtbase.dll",
+    "exception_code": "0xc0000409",
+    "event_ids": [1000, 1001],
+    "fault_bucket_same_across_attempts": true
+  },
+  "installed_aedt": {"product": "Electronics Desktop 2025 R2", "product_version": "2025.2.0", "file_version": "2025.2.0.1"},
+  "host": {"os_build": "26200", "recent_updates": ["KB5126052", "KB5124007", "KB5129195"]},
+  "historical_control": {
+    "project": "v2_8_array_4x4.aedt",
+    "successful_solve_time": "2026-09-03T00:05:48+08:00",
+    "profile": "Manual HPC, 16 tasks/cores, Direct Solver, 47 GHz",
+    "result_bytes": 751548196
+  },
+  "interpretation": "Static model equivalence passed. The solver process crashes before producing mesh/solution data, so no S/EEP export can be accepted. Environment/runtime failure is strongly indicated but not proven to be caused by a specific Windows update.",
+  "required_recovery": [
+    "Install the latest available AEDT 2025 R2 service pack or obtain an Ansys-supported HFSSCOMENGINE fix.",
+    "Rerun a1x4 solve with manual 16-task configuration.",
+    "Require readable S(1,1), a non-empty solution profile, then export S4P and both EEP grids.",
+    "Do not start a2x4 or a1x8 solve before a1x4 passes."
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "passed": true,
+  "stage": "existing_solution_full_gate",
+  "array_id": "a2x4",
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\projects\\recovery_work\\a2x4_20261013T180049Z\\a2x4_47ghz_recovery_20261013T180049Z.aedt",
+  "project_sha256_before": "841BD6B84D3F75A75A2013D01CADDCF14F4903376A40849AD7268362253186E9",
+  "project_sha256_after": "841BD6B84D3F75A75A2013D01CADDCF14F4903376A40849AD7268362253186E9",
+  "project_unchanged": true,
+  "pyaedt_version": "0.9.6",
+  "solution": {
+    "setup": "Setup2 : LastAdaptive",
+    "expression": "S(1,1)",
+    "sample_count": 1,
+    "frequency_values": [
+      47000000000.0
+    ],
+    "finite": true
+  },
+  "touchstone": {
+    "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\recovery_gate_20261013T180049Z\\a2x4_47ghz_readback.s8p",
+    "bytes": 2632,
+    "sha256": "A636C4296671AFB3E78D3BEA74C9FB477CE70B80682455ED4F089C4F37FFDA37",
+    "frequency_count": 1,
+    "port_count": 8,
+    "reference_impedance_ohm": 50.0,
+    "finite": true,
+    "has_47ghz": true,
+    "method": "all_64_hfss_s_trace_readback",
+    "expressions": [
+      "S(1,1)",
+      "S(2,1)",
+      "S(3,1)",
+      "S(4,1)",
+      "S(5,1)",
+      "S(6,1)",
+      "S(7,1)",
+      "S(8,1)",
+      "S(1,2)",
+      "S(2,2)",
+      "S(3,2)",
+      "S(4,2)",
+      "S(5,2)",
+      "S(6,2)",
+      "S(7,2)",
+      "S(8,2)",
+      "S(1,3)",
+      "S(2,3)",
+      "S(3,3)",
+      "S(4,3)",
+      "S(5,3)",
+      "S(6,3)",
+      "S(7,3)",
+      "S(8,3)",
+      "S(1,4)",
+      "S(2,4)",
+      "S(3,4)",
+      "S(4,4)",
+      "S(5,4)",
+      "S(6,4)",
+      "S(7,4)",
+      "S(8,4)",
+      "S(1,5)",
+      "S(2,5)",
+      "S(3,5)",
+      "S(4,5)",
+      "S(5,5)",
+      "S(6,5)",
+      "S(7,5)",
+      "S(8,5)",
+      "S(1,6)",
+      "S(2,6)",
+      "S(3,6)",
+      "S(4,6)",
+      "S(5,6)",
+      "S(6,6)",
+      "S(7,6)",
+      "S(8,6)",
+      "S(1,7)",
+      "S(2,7)",
+      "S(3,7)",
+      "S(4,7)",
+      "S(5,7)",
+      "S(6,7)",
+      "S(7,7)",
+      "S(8,7)",
+      "S(1,8)",
+      "S(2,8)",
+      "S(3,8)",
+      "S(4,8)",
+      "S(5,8)",
+      "S(6,8)",
+      "S(7,8)",
+      "S(8,8)"
+    ],
+    "frequency_values_hz": [
+      47000000000.0
+    ],
+    "native_api_passed": false,
+    "native_api_error": "HFSS ExportNetworkData rejected the saved solution; used all readable S traces"
+  },
+  "eep": {
+    "integer": {
+      "sphere": "SphereInteger",
+      "mapping": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\recovery_gate_20261013T180049Z\\eep\\integer\\eep.txt",
+      "mapping_bytes": 1719,
+      "mapping_sha256": "C96BD73D8FA525BE31756E4EE60604711D7A462A6344A672FCA7E86A60A24526",
+      "point_count": 65341,
+      "port_count": 8,
+      "finite": true,
+      "files": [
+        {
+          "name": "eep_1.ffd",
+          "bytes": 5944496,
+          "sha256": "0BAF0544B17101F339F66C9B6C65B20442BE64E943202DF16F15CCC5DD94E687"
+        },
+        {
+          "name": "eep_2.ffd",
+          "bytes": 5949422,
+          "sha256": "712E79F3988B726EC16BF9207365377AC9043BDDCCC1EE76309127693023869D"
+        },
+        {
+          "name": "eep_3.ffd",
+          "bytes": 5950869,
+          "sha256": "C1EBFAC363CA4B40535F6BB281B5CC81BF09E98DBBA106036B9B798096AADB95"
+        },
+        {
+          "name": "eep_4.ffd",
+          "bytes": 5949904,
+          "sha256": "6613E9A9B46E91D72D1DA99D2154111FA6A17801799AF4D51CEE66DC5BCD482E"
+        },
+        {
+          "name": "eep_5.ffd",
+          "bytes": 5948924,
+          "sha256": "946DE80B84AFC1EF2DCD7EB2CF925F36D29EA75B60A929093F13F437698B7738"
+        },
+        {
+          "name": "eep_6.ffd",
+          "bytes": 5949633,
+          "sha256": "2E690ABE161AE03BC23E4ACDB89E90A6D685F56D3C3CB28C25AA27F922612B69"
+        },
+        {
+          "name": "eep_7.ffd",
+          "bytes": 5952225,
+          "sha256": "1987F4BF05888A2A223BC7FFF3A6ACA648E669FCF527E49D86F3F1F18DF5DCD7"
+        },
+        {
+          "name": "eep_8.ffd",
+          "bytes": 5952584,
+          "sha256": "2FB79F8787A5FB928CCD9CD5B1CF6823C42BC1936F2C8DDC81D667E2854FDBF3"
+        }
+      ]
+    },
+    "offset": {
+      "sphere": "SphereOffset",
+      "mapping": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\recovery_gate_20261013T180049Z\\eep\\offset\\eep.txt",
+      "mapping_bytes": 1719,
+      "mapping_sha256": "A9EE3160725243BE2BF74040058F34180C194FB709D6CA26D53DB24A2CA396D7",
+      "point_count": 64800,
+      "port_count": 8,
+      "finite": true,
+      "files": [
+        {
+          "name": "eep_1.ffd",
+          "bytes": 5895254,
+          "sha256": "76767F6D64218A47147D8F88F285E666FC56A89AEB5F478A9C95D26DA7446908"
+        },
+        {
+          "name": "eep_2.ffd",
+          "bytes": 5900129,
+          "sha256": "3A56ED5BC0CB8D44C8FDDE4C404DCEEDD1A4B8F09921E74AEC140F925BB400E3"
+        },
+        {
+          "name": "eep_3.ffd",
+          "bytes": 5901496,
+          "sha256": "EA89956EAE2511C7FCD38D5A6509569A37FABB456C551C591D767740313A4642"
+        },
+        {
+          "name": "eep_4.ffd",
+          "bytes": 5900596,
+          "sha256": "96E8EB9414DC2FC3A48F1D598E30EFCFD18942923E415BF4A545FE54E0DFF313"
+        },
+        {
+          "name": "eep_5.ffd",
+          "bytes": 5899674,
+          "sha256": "875152CCAA9FFF865CBAF4B4A918A08C4608821AC14349239B71BDE0CC8021EB"
+        },
+        {
+          "name": "eep_6.ffd",
+          "bytes": 5900369,
+          "sha256": "1C7680FF0A4631DAD5A1F9E3E4E4C37407F244A36469F34AE25C47656ACE4378"
+        },
+        {
+          "name": "eep_7.ffd",
+          "bytes": 5902952,
+          "sha256": "32675B69332ECFF4D41555A2652353C9AC15394A45CFD30DE875CDB772BC7574"
+        },
+        {
+          "name": "eep_8.ffd",
+          "bytes": 5903271,
+          "sha256": "EB10E005991A918778CF83AD2D4B894295509EB5AD537A856AB1FAB9EB8BDF25"
+        }
+      ]
+    }
+  },
+  "direct_audit": {
+    "passed": true,
+    "aggregate_complex_nmse_db": -285.4091263273045,
+    "per_command": [
+      {
+        "command_id": "D00",
+        "complex_nmse_db": -290.62220379594373,
+        "amplitude_max_relative_error": 4.998982764891372e-15
+      },
+      {
+        "command_id": "D01",
+        "complex_nmse_db": -285.17749272621427,
+        "amplitude_max_relative_error": 5.601419597281345e-15
+      },
+      {
+        "command_id": "D02",
+        "complex_nmse_db": -283.77126896959123,
+        "amplitude_max_relative_error": 6.399178376613226e-15
+      },
+      {
+        "command_id": "D03",
+        "complex_nmse_db": -282.22923856565217,
+        "amplitude_max_relative_error": 6.864595624621159e-15
+      },
+      {
+        "command_id": "D04",
+        "complex_nmse_db": -287.1401225739702,
+        "amplitude_max_relative_error": 5.251026525711503e-15
+      },
+      {
+        "command_id": "D05",
+        "complex_nmse_db": -283.6080472946165,
+        "amplitude_max_relative_error": 6.876534916580092e-15
+      },
+      {
+        "command_id": "D06",
+        "complex_nmse_db": -285.6030833842854,
+        "amplitude_max_relative_error": 5.908154853386225e-15
+      },
+      {
+        "command_id": "D07",
+        "complex_nmse_db": -287.3453310113406,
+        "amplitude_max_relative_error": 4.8278502056205524e-15
+      },
+      {
+        "command_id": "D08",
+        "complex_nmse_db": -284.9152802047539,
+        "amplitude_max_relative_error": 8.760265636288542e-15
+      },
+      {
+        "command_id": "D09",
+        "complex_nmse_db": -283.0382151368793,
+        "amplitude_max_relative_error": 7.224945673136895e-15
+      },
+      {
+        "command_id": "D10",
+        "complex_nmse_db": -287.3989404744516,
+        "amplitude_max_relative_error": 4.341065795954969e-15
+      },
+      {
+        "command_id": "D11",
+        "complex_nmse_db": -289.44274143761123,
+        "amplitude_max_relative_error": 5.3180250859614166e-15
+      },
+      {
+        "command_id": "D12",
+        "complex_nmse_db": -284.75207777019995,
+        "amplitude_max_relative_error": 5.982834701292671e-15
+      },
+      {
+        "command_id": "D13",
+        "complex_nmse_db": -290.2604970167862,
+        "amplitude_max_relative_error": 5.376828208552915e-15
+      },
+      {
+        "command_id": "D14",
+        "complex_nmse_db": -285.70522723839235,
+        "amplitude_max_relative_error": 8.346173577502239e-15
+      },
+      {
+        "command_id": "D15",
+        "complex_nmse_db": -284.93421351667934,
+        "amplitude_max_relative_error": 6.636196905035899e-15
+      }
+    ],
+    "thresholds": {
+      "aggregate_complex_nmse_db_max": -100.0,
+      "per_command_complex_nmse_db_max": -80.0,
+      "amplitude_max_relative_error_max": 1e-06
+    },
+    "not_for_training": true
+  },
+  "aedt_messages_tail": [
+    "Project: a2x4_47ghz_recovery_20261013T180049Z, Design: HFSSDesign1, [error] Script macro error: Solution data is not available.  It was either not solved or was made invalid by subsequent design changes. (02:01:21 AM  Oct 14, 2026)\r\n"
+  ],
+  "elapsed_seconds": 333.18033385276794,
+  "restored_environment": {
+    "ANSYSEM_ROOT252": "machine",
+    "ANSYSLMD_LICENSE_FILE": "machine"
+  }
+}

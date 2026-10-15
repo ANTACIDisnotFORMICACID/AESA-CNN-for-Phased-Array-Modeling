@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "stage": "solve",
+  "array_id": "a2x4",
+  "setup": "Setup2 : LastAdaptive",
+  "solution_source": "user_gui_solve_reused_from_recovery_copy",
+  "solution_readback": "all 64 S-parameter traces readable and finite at 47 GHz",
+  "solve_performed_this_run": false,
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\projects\\recovery_work\\a2x4_20261013T180049Z\\a2x4_47ghz_recovery_20261013T180049Z.aedt",
+  "project_sha256": "841BD6B84D3F75A75A2013D01CADDCF14F4903376A40849AD7268362253186E9",
+  "project_unchanged_during_extraction": true,
+  "recovery_receipt": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\recovery_gate_20261013T180049Z.json",
+  "recorded_utc": "2026-10-13T18:07:23.214893+00:00"
+}

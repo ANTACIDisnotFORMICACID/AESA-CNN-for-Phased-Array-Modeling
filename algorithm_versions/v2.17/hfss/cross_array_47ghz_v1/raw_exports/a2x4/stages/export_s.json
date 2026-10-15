@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "stage": "export_s",
+  "array_id": "a2x4",
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\projects\\recovery_work\\a2x4_20261013T180049Z\\a2x4_47ghz_recovery_20261013T180049Z.aedt",
+  "project_sha256_after_solve": "841BD6B84D3F75A75A2013D01CADDCF14F4903376A40849AD7268362253186E9",
+  "touchstone": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\a2x4_47ghz.s8p",
+  "bytes": 2632,
+  "sha256": "A636C4296671AFB3E78D3BEA74C9FB477CE70B80682455ED4F089C4F37FFDA37",
+  "frequency_count": 1,
+  "frequency_hz": [
+    47000000000.0
+  ],
+  "port_count": 8,
+  "reference_impedance_ohm": 50.0,
+  "finite": true,
+  "method": "all_64_hfss_s_trace_readback_after_native_export_rejected",
+  "native_export_passed": false,
+  "recorded_utc": "2026-10-13T18:07:23.214893+00:00"
+}

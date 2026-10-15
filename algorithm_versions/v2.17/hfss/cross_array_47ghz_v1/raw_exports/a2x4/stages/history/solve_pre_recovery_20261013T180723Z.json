@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "solve",
+  "array_id": "a2x4",
+  "project": "W:\\projects\\a2x4_47ghz.aedt",
+  "error_type": "RuntimeError",
+  "error": "HFSS Analyze Setup2 returned true but no readable S(1,1) solution exists; treating this as a solver-engine failure; messages=['Project: a2x4_47ghz, Design: HFSSDesign1, [error] Script macro error: No trace data for quantity: S(1,1) (09:08:34 PM  Oct 13, 2026)\\r\\n', 'Project: a2x4_47ghz, Design: HFSSDesign1, [warning] Com Engine non-responsive since 21:08:36, October 13, 2026.   Can be due to CPU intensive processing or network problems.   If persisting for long, manually kill the com engine process and restart analysis. Retrying.....  (09:09:36 PM  Oct 13, 2026)\\r\\n', 'Project: a2x4_47ghz, Design: HFSSDesign1, [error] Machine Local Machine: Engine terminated unexpectedly, or machine reported error or was inaccessible. (09:10:34 PM  Oct 13, 2026)\\r\\n']",
+  "traceback": "Traceback (most recent call last):\n  File \"W:\\automation\\hfss_pipeline.py\", line 488, in main\n    report = solve(project, stage_dir / \"build.json\", rows, cols, args.graphical, args.cores)\n  File \"W:\\automation\\hfss_pipeline.py\", line 376, in solve\n    raise RuntimeError(\nRuntimeError: HFSS Analyze Setup2 returned true but no readable S(1,1) solution exists; treating this as a solver-engine failure; messages=['Project: a2x4_47ghz, Design: HFSSDesign1, [error] Script macro error: No trace data for quantity: S(1,1) (09:08:34 PM  Oct 13, 2026)\\r\\n', 'Project: a2x4_47ghz, Design: HFSSDesign1, [warning] Com Engine non-responsive since 21:08:36, October 13, 2026.   Can be due to CPU intensive processing or network problems.   If persisting for long, manually kill the com engine process and restart analysis. Retrying.....  (09:09:36 PM  Oct 13, 2026)\\r\\n', 'Project: a2x4_47ghz, Design: HFSSDesign1, [error] Machine Local Machine: Engine terminated unexpectedly, or machine reported error or was inaccessible. (09:10:34 PM  Oct 13, 2026)\\r\\n']\n",
+  "restored_environment": {
+    "ANSYSEM_ROOT252": "machine",
+    "ANSYSLMD_LICENSE_FILE": "machine"
+  }
+}

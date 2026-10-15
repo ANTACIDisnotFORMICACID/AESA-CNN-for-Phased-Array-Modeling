@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "stage": "export_eep",
+  "array_id": "a1x8",
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\projects\\manual_gui_work\\a1x8_47ghz_manual_gui.aedt",
+  "project_sha256_after_solve": "DBA4788D596EAE8AF7C7B7B5ECDF7559D142CCB4794D037DDD8408F9CFDFAC3B",
+  "grids": {
+    "integer": {
+      "mapping": {
+        "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\integer\\eep.txt",
+        "bytes": 1719,
+        "sha256": "BC9D83865D1125F8F8F22F11DBFF0E351C491A5599A563A520FF432C1C0760C7"
+      },
+      "point_count": 65341,
+      "ffd_count": 8,
+      "finite": true,
+      "phase_reference_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "phase_reference_to_global_applied": true,
+      "files": [
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\integer\\eep_1.ffd",
+          "bytes": 5945646,
+          "sha256": "8A7CC6C18AE9F3BFFD414361F3ACC4676D445CB55B52D5F47F818A36CA1418D0"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\integer\\eep_2.ffd",
+          "bytes": 5950826,
+          "sha256": "5BC3A231A288D4BB9968D96B510C4957058541BFF05AFAD46C578845F8738C73"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\integer\\eep_3.ffd",
+          "bytes": 5948838,
+          "sha256": "D1E0D324826CBB3F5D4B34698AC3B44CC7C4E4292E73C6A63456E81A8FB03EB6"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\integer\\eep_4.ffd",
+          "bytes": 5945736,
+          "sha256": "3C8D1CA35B729B62D842C15B7BBE677AB5065BEA5345FBAE6EA301F291B7B6F9"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\integer\\eep_5.ffd",
+          "bytes": 5944086,
+          "sha256": "41E5F564BD3EE9C1E367BEEA67877EA6BF81F99F35463A6618B54098C7A15217"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\integer\\eep_6.ffd",
+          "bytes": 5945829,
+          "sha256": "F1684CBA9BFD11C57959E3843F457724596E19F03225DA4FDB94C7A51B8EE60F"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\integer\\eep_7.ffd",
+          "bytes": 5946715,
+          "sha256": "15262DEC60DEB8CD9E6D06720834FF144A50D5C328E15CFFCBB076210D217072"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\integer\\eep_8.ffd",
+          "bytes": 5945495,
+          "sha256": "C1DB3D5C64FDCBC221F94D9E2E3461EAB89619616D79230B87910562CFD719B1"
+        }
+      ]
+    },
+    "offset": {
+      "mapping": {
+        "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\offset\\eep.txt",
+        "bytes": 1719,
+        "sha256": "E9C8491F4D100524F1F551297EC93E5C968073CF299A5E29F6420AEDD94D30FC"
+      },
+      "point_count": 64800,
+      "ffd_count": 8,
+      "finite": true,
+      "phase_reference_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "phase_reference_to_global_applied": true,
+      "files": [
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\offset\\eep_1.ffd",
+          "bytes": 5896388,
+          "sha256": "C3559E2B4FC34621951F48FFCC1801DB2DB9B13ADE959F4AF9B5110CF1A38DCA"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\offset\\eep_2.ffd",
+          "bytes": 5901613,
+          "sha256": "872B4732501546CE166A4D2C1EF1252644F11925B5E7F65E2E73B15E9B66A35D"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\offset\\eep_3.ffd",
+          "bytes": 5899744,
+          "sha256": "7ABD5EEC9B4649FDBD4CE7799338628A3B15D8B1DFD65EC7C27D259685DE514E"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\offset\\eep_4.ffd",
+          "bytes": 5896420,
+          "sha256": "4049C523CD9606784C88248CC81528B6D9914D0059AC117DBDA54A04994D1200"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\offset\\eep_5.ffd",
+          "bytes": 5895060,
+          "sha256": "1E1DCD3FA4612AB4CF02848F889ABF5F5FD8877FC1BCFD82199525AF3874B84C"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\offset\\eep_6.ffd",
+          "bytes": 5896712,
+          "sha256": "472FA9C13C20AF16CE381ED57577B2748D7A105766604EC1D229AFA31BB8D7FF"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\offset\\eep_7.ffd",
+          "bytes": 5897332,
+          "sha256": "17A5D425797CB5D7E95E98A5B6BC3E7F9AE7666276063206BBADE5B1C01C8973"
+        },
+        {
+          "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z\\eep\\offset\\eep_8.ffd",
+          "bytes": 5896125,
+          "sha256": "C55FA5B9A925DB180BC81D387174132B4BAB32C8A6DA2A760AA39F5A5544793E"
+        }
+      ]
+    }
+  },
+  "recorded_utc": "2026-10-14T03:00:37.050190+00:00"
+}

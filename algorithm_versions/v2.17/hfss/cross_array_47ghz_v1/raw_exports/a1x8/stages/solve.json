@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "stage": "solve",
+  "array_id": "a1x8",
+  "setup": "Setup2 : LastAdaptive",
+  "solution_source": "user_gui_solve_reused_from_recovery_copy",
+  "solution_readback": "all 64 S-parameter traces readable and finite at 47 GHz",
+  "solve_performed_this_run": false,
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\projects\\manual_gui_work\\a1x8_47ghz_manual_gui.aedt",
+  "project_sha256": "DBA4788D596EAE8AF7C7B7B5ECDF7559D142CCB4794D037DDD8408F9CFDFAC3B",
+  "project_unchanged_during_extraction": true,
+  "recovery_receipt": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x8\\inprocess_gate_20261014T032500Z.json",
+  "recorded_utc": "2026-10-14T03:00:37.050190+00:00",
+  "profile": {
+    "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\projects\\manual_gui_work\\a1x8_47ghz_manual_gui.aedtresults\\HFSSDesign1.results\\DV5215_S2145_V5244.profile",
+    "bytes": 35966,
+    "sha256": "496471FA9DB44C77F1653DF1494DCD94323FBE034F7940A8E11DA7279BD614AC"
+  }
+}

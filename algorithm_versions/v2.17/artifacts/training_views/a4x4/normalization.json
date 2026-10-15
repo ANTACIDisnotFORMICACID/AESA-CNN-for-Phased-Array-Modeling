@@ -1,0 +1,9 @@
+{
+  "normalization": "train-only RMS of absolute single-port Ephi",
+  "scale": 7.284856839008039,
+  "train_queries": 45071,
+  "validation_queries": 9780,
+  "blind_test_cache_written": false,
+  "canonical_precision": "float64/complex128",
+  "derived_precision": "float32/complex64"
+}

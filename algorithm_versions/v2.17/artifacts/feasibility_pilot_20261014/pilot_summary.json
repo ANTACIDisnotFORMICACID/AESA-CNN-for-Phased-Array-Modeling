@@ -1,0 +1,212 @@
+{
+  "schema": "v217-per-array-feasibility-summary-1",
+  "scope": "validation-only feasibility pilot",
+  "model_scope": "four independently trained geometry-matched models; shared idea only",
+  "arrays": {
+    "a1x4": {
+      "status": "FAIL",
+      "paired_seed_results": [
+        {
+          "seed": 21721,
+          "amplitude_improvement_db": 2.436828845693295,
+          "complex_operator_improvement_db": 2.425099862944249,
+          "Q_improvement_db": 0.42338941350394244,
+          "weakest_bucket_degradation_db": -2.663609612869095,
+          "strongest_bucket_degradation_db": -0.5675449028578221
+        },
+        {
+          "seed": 21722,
+          "amplitude_improvement_db": 2.503070179263773,
+          "complex_operator_improvement_db": 1.8698549451388047,
+          "Q_improvement_db": 0.8157167299152732,
+          "weakest_bucket_degradation_db": -1.7566550449027734,
+          "strongest_bucket_degradation_db": -1.2396723074564235
+        },
+        {
+          "seed": 21723,
+          "amplitude_improvement_db": -0.0051854776649307155,
+          "complex_operator_improvement_db": 0.8601728666624773,
+          "Q_improvement_db": -2.495991487873294,
+          "weakest_bucket_degradation_db": -1.2551732405161165,
+          "strongest_bucket_degradation_db": 2.9061314919137153
+        }
+      ],
+      "three_seed_means": {
+        "amplitude_improvement_db": 1.6449045157640458,
+        "complex_operator_improvement_db": 1.7183758915818437,
+        "Q_improvement_db": -0.4189617814846927,
+        "weakest_bucket_degradation_db": -1.8918126327626617,
+        "strongest_bucket_degradation_db": 0.3663047605331566
+      },
+      "positive_seed_count": 2,
+      "control_parameter_count": 14252,
+      "candidate_parameter_count": 14308,
+      "parameter_delta_fraction": 0.003929273084479371,
+      "gates": {
+        "mean_amplitude_improvement_at_least_0_30_db": true,
+        "at_least_2_of_3_positive_seeds": true,
+        "mean_complex_operator_improvement_positive": true,
+        "mean_Q_improvement_positive": false,
+        "parameter_delta_within_0_5_percent": true,
+        "weakest_bucket_mean_degradation_at_most_0_20_db": true,
+        "strongest_bucket_mean_degradation_at_most_0_20_db": false,
+        "all_outputs_finite": true
+      }
+    },
+    "a1x8": {
+      "status": "PASS",
+      "paired_seed_results": [
+        {
+          "seed": 21721,
+          "amplitude_improvement_db": 1.2725883264360487,
+          "complex_operator_improvement_db": 0.7660578830255744,
+          "Q_improvement_db": 1.1498803206514996,
+          "weakest_bucket_degradation_db": 0.5082212538706408,
+          "strongest_bucket_degradation_db": -1.8195799789355505
+        },
+        {
+          "seed": 21722,
+          "amplitude_improvement_db": 0.8528681681014625,
+          "complex_operator_improvement_db": 0.4442853635733073,
+          "Q_improvement_db": 0.3243347493896298,
+          "weakest_bucket_degradation_db": -1.8853067778804724,
+          "strongest_bucket_degradation_db": 0.3564897880484956
+        },
+        {
+          "seed": 21723,
+          "amplitude_improvement_db": 1.9242289295647943,
+          "complex_operator_improvement_db": 1.446539346050347,
+          "Q_improvement_db": 1.504735158723399,
+          "weakest_bucket_degradation_db": -2.0775336346045217,
+          "strongest_bucket_degradation_db": -1.1664704533502892
+        }
+      ],
+      "three_seed_means": {
+        "amplitude_improvement_db": 1.3498951413674352,
+        "complex_operator_improvement_db": 0.8856275308830762,
+        "Q_improvement_db": 0.9929834095881761,
+        "weakest_bucket_degradation_db": -1.1515397195381178,
+        "strongest_bucket_degradation_db": -0.8765202147457813
+      },
+      "positive_seed_count": 3,
+      "control_parameter_count": 19020,
+      "candidate_parameter_count": 19104,
+      "parameter_delta_fraction": 0.004416403785488959,
+      "gates": {
+        "mean_amplitude_improvement_at_least_0_30_db": true,
+        "at_least_2_of_3_positive_seeds": true,
+        "mean_complex_operator_improvement_positive": true,
+        "mean_Q_improvement_positive": true,
+        "parameter_delta_within_0_5_percent": true,
+        "weakest_bucket_mean_degradation_at_most_0_20_db": true,
+        "strongest_bucket_mean_degradation_at_most_0_20_db": true,
+        "all_outputs_finite": true
+      }
+    },
+    "a2x4": {
+      "status": "PASS",
+      "paired_seed_results": [
+        {
+          "seed": 21721,
+          "amplitude_improvement_db": 0.6883560266038593,
+          "complex_operator_improvement_db": 0.6304051666255059,
+          "Q_improvement_db": 0.4877894366240181,
+          "weakest_bucket_degradation_db": -0.8049175444937235,
+          "strongest_bucket_degradation_db": -0.6113999862038906
+        },
+        {
+          "seed": 21722,
+          "amplitude_improvement_db": 1.7757889987671636,
+          "complex_operator_improvement_db": 0.7842137505935529,
+          "Q_improvement_db": 2.4876665115993157,
+          "weakest_bucket_degradation_db": -1.4797964864171744,
+          "strongest_bucket_degradation_db": -2.3590578802857145
+        },
+        {
+          "seed": 21723,
+          "amplitude_improvement_db": 1.4720978138590155,
+          "complex_operator_improvement_db": 2.2039822602654198,
+          "Q_improvement_db": 0.4180267938855957,
+          "weakest_bucket_degradation_db": 0.618184398435516,
+          "strongest_bucket_degradation_db": -2.226130815928526
+        }
+      ],
+      "three_seed_means": {
+        "amplitude_improvement_db": 1.3120809464100127,
+        "complex_operator_improvement_db": 1.2062003924948261,
+        "Q_improvement_db": 1.13116091403631,
+        "weakest_bucket_degradation_db": -0.555509877491794,
+        "strongest_bucket_degradation_db": -1.7321962274727103
+      },
+      "positive_seed_count": 3,
+      "control_parameter_count": 26188,
+      "candidate_parameter_count": 26300,
+      "parameter_delta_fraction": 0.0042767679853367956,
+      "gates": {
+        "mean_amplitude_improvement_at_least_0_30_db": true,
+        "at_least_2_of_3_positive_seeds": true,
+        "mean_complex_operator_improvement_positive": true,
+        "mean_Q_improvement_positive": true,
+        "parameter_delta_within_0_5_percent": true,
+        "weakest_bucket_mean_degradation_at_most_0_20_db": true,
+        "strongest_bucket_mean_degradation_at_most_0_20_db": true,
+        "all_outputs_finite": true
+      }
+    },
+    "a4x4": {
+      "status": "FAIL",
+      "paired_seed_results": [
+        {
+          "seed": 21721,
+          "amplitude_improvement_db": -1.0309547613711203,
+          "complex_operator_improvement_db": -1.2250507415822574,
+          "Q_improvement_db": -1.5211247410772044,
+          "weakest_bucket_degradation_db": -1.0829583114604557,
+          "strongest_bucket_degradation_db": 1.5563414057140115
+        },
+        {
+          "seed": 21722,
+          "amplitude_improvement_db": -0.9758214050168235,
+          "complex_operator_improvement_db": -2.022370150468619,
+          "Q_improvement_db": -1.2082584660455495,
+          "weakest_bucket_degradation_db": 1.0068491851285746,
+          "strongest_bucket_degradation_db": 1.0283850118942155
+        },
+        {
+          "seed": 21723,
+          "amplitude_improvement_db": 0.8027417630438762,
+          "complex_operator_improvement_db": 1.5311278354403308,
+          "Q_improvement_db": 1.198981401302416,
+          "weakest_bucket_degradation_db": -0.9184735021369749,
+          "strongest_bucket_degradation_db": -0.8943807677894764
+        }
+      ],
+      "three_seed_means": {
+        "amplitude_improvement_db": -0.4013448011146892,
+        "complex_operator_improvement_db": -0.5720976855368485,
+        "Q_improvement_db": -0.510133935273446,
+        "weakest_bucket_degradation_db": -0.331527542822952,
+        "strongest_bucket_degradation_db": 0.5634485499395835
+      },
+      "positive_seed_count": 1,
+      "control_parameter_count": 29940,
+      "candidate_parameter_count": 29906,
+      "parameter_delta_fraction": -0.0011356045424181698,
+      "gates": {
+        "mean_amplitude_improvement_at_least_0_30_db": false,
+        "at_least_2_of_3_positive_seeds": false,
+        "mean_complex_operator_improvement_positive": false,
+        "mean_Q_improvement_positive": false,
+        "parameter_delta_within_0_5_percent": true,
+        "weakest_bucket_mean_degradation_at_most_0_20_db": true,
+        "strongest_bucket_mean_degradation_at_most_0_20_db": false,
+        "all_outputs_finite": true
+      }
+    }
+  },
+  "arrays_passed": 2,
+  "universality": "PARTIAL_2_OF_4",
+  "thresholds_frozen_before_training": true,
+  "blind_test_status": "not_read_or_generated",
+  "formal_model_promotion_authority": false
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "offset_train_validation_queries": 27500,
+  "offset_ephi_complex_nmse_db": -319.67520371900457,
+  "offset_direction_alignment_max": 4.696888157822301e-08,
+  "integer_front_queries": 32041,
+  "integer_ephi_complex_nmse_db": -3000.0,
+  "integer_direction_alignment_max": 0.0,
+  "gate_a_front_complex_nmse_db": -229.46282568600026,
+  "threshold_db": -100.0
+}

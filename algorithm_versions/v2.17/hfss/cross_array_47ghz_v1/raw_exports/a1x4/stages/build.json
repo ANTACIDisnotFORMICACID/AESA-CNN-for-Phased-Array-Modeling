@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "stage": "build",
+  "identity": "formic-acid\\asus",
+  "array_shape": [
+    1,
+    4
+  ],
+  "construction": "frozen_source_revalidated",
+  "source": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\projects\\source_1x4_20250326.aedt",
+  "source_sha256": "D647839C759D84C58D9A0251EFB814C29790F0D5D03287462284B3A2B683D350",
+  "project": "W:\\projects\\a1x4_47ghz.aedt",
+  "project_sha256": "4CBFCF43803CF9474858F9BB6473EA60304DC8DC17C634D7945F74AE716E443E",
+  "duplicated_object_count": 0,
+  "united_same_material_groups": [],
+  "port_count": 4,
+  "port_position_max_error_mm": 1.7763568394002505e-15,
+  "ports": [
+    {
+      "port": "1",
+      "mode": "1:1",
+      "sheet": "Rectangle1",
+      "center_mm": [
+        8.62151346599737e-17,
+        0.0,
+        0.12700000000000014
+      ],
+      "row": 0,
+      "col": 0
+    },
+    {
+      "port": "2",
+      "mode": "2:1",
+      "sheet": "Rectangle1_1",
+      "center_mm": [
+        8.62151346599737e-17,
+        6.8,
+        0.12700000000000014
+      ],
+      "row": 0,
+      "col": 1
+    },
+    {
+      "port": "3",
+      "mode": "3:1",
+      "sheet": "Rectangle1_2",
+      "center_mm": [
+        8.62151346599737e-17,
+        13.600000000000001,
+        0.12700000000000014
+      ],
+      "row": 0,
+      "col": 2
+    },
+    {
+      "port": "4",
+      "mode": "4:1",
+      "sheet": "Rectangle1_3",
+      "center_mm": [
+        8.62151346599737e-17,
+        20.4,
+        0.12700000000000014
+      ],
+      "row": 0,
+      "col": 3
+    }
+  ],
+  "radiation": {
+    "boundary": "Open1",
+    "object": "RadiatingSurface",
+    "array_box_mm": [
+      -0.5,
+      -3.4,
+      -0.797,
+      5.0,
+      23.8,
+      0.289
+    ],
+    "region_box_mm": [
+      -2.62765957446809,
+      -5.52765957446809,
+      -2.92465957446809,
+      7.12765957446808,
+      25.9276595744681,
+      2.41665957446809
+    ],
+    "margins_mm": [
+      2.12765957446809,
+      2.12765957446809,
+      2.12765957446809,
+      2.1276595744680797,
+      2.127659574468101,
+      2.12765957446809
+    ]
+  },
+  "far_field_spheres": [
+    {
+      "name": "SphereInteger",
+      "sampling": {
+        "ThetaStart": "0deg",
+        "ThetaStop": "180deg",
+        "ThetaStep": "1deg",
+        "PhiStart": "-180deg",
+        "PhiStop": "180deg",
+        "PhiStep": "1deg"
+      }
+    },
+    {
+      "name": "SphereOffset",
+      "sampling": {
+        "ThetaStart": "0.5deg",
+        "ThetaStop": "179.5deg",
+        "ThetaStep": "1deg",
+        "PhiStart": "-179.5deg",
+        "PhiStop": "179.5deg",
+        "PhiStep": "1deg"
+      }
+    }
+  ],
+  "setup2_frequency": "47GHz",
+  "validation": "(['Desktop messages:', '(Modal Network), [warning]  The computation of radiated fields requires a radiation boundary, a PML, or a free standing hybrid region. Therefore, setup Infinite Sphere1 has been deleted.  You may undo to recover. (02:04:27 PM  Oct 13, 2026)', '(Modal Network), [warning]  The computation of radiated fields requires a radiation boundary, a PML, or a free standing hybrid region. Therefore, setup TestSphere has been deleted.  You may undo to recover. (02:04:27 PM  Oct 13, 2026)', '(Modal Network), [warning]  The computation of radiated fields requires a radiation boundary, a PML, or a free standing hybrid region. Therefore, setup FF_Sphere_F60 has been deleted.  You may undo to recover. (02:04:27 PM  Oct 13, 2026)', \"(Modal Network), [warning]  Trace definition for 'dB(GainTotal)' was invalid. It has been deleted as a result. (02:04:27 PM  Oct 13, 2026)\", \"(Modal Network), [warning]  The report 'Gain Plot 1' was deleted because its traces were invalidated due to the edit. (02:04:27 PM  Oct 13, 2026)\", 'Design validation check PASSED.', 'Design validation messages:', '** End of design validation messages. **', 'Excitations check:', 'Solution type: Modal', 'Ports Requested: 4', 'Defined excitations number: 4', \"Defined excitations names: ['2:1', '3:1', '4:1', '1:1']\", 'Analysis setup messages:', 'Detected setup and sweep: ', 'Setup1', ' |__ Sweep', 'Setup2'], True)",
+  "solve_performed": false,
+  "restored_environment": {
+    "ANSYSEM_ROOT252": "machine",
+    "ANSYSLMD_LICENSE_FILE": "machine"
+  },
+  "array_id": "a1x4"
+}

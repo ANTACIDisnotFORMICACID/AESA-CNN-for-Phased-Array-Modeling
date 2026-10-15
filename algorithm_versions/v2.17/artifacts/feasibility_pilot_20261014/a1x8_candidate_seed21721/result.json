@@ -1,0 +1,79 @@
+{
+  "schema": "v217-per-array-feasibility-result-1",
+  "array_id": "a1x8",
+  "arm": "candidate",
+  "seed": 21721,
+  "trained_from_scratch": true,
+  "training_query_count": 16384,
+  "training_subset_seed": 21720,
+  "epochs": 40,
+  "batch_size": 2048,
+  "best_epoch": 40,
+  "parameter_count": 19104,
+  "validation_metrics": {
+    "amplitude": {
+      "linear_nmse_db": -12.721218111689199,
+      "mae": 0.14322781562805176,
+      "target_quartiles": [
+        0.27668387442827225,
+        0.5260812044143677,
+        0.9486952573060989
+      ],
+      "strength_buckets": [
+        {
+          "label": "weakest",
+          "count": 1254400,
+          "nmse_db": 2.829869323019417,
+          "mae": 0.14834673702716827
+        },
+        {
+          "label": "low_mid",
+          "count": 1254400,
+          "nmse_db": -5.975881998047001,
+          "mae": 0.1393013894557953
+        },
+        {
+          "label": "high_mid",
+          "count": 1254400,
+          "nmse_db": -11.854212243642962,
+          "mae": 0.14172010123729706
+        },
+        {
+          "label": "strongest",
+          "count": 1254400,
+          "nmse_db": -18.518979596733466,
+          "mae": 0.14354299008846283
+        }
+      ]
+    },
+    "complex_operator_nmse_db": -10.93771068815159,
+    "Q_nmse_db": -12.296382691031138,
+    "finite": true
+  },
+  "latency": {
+    "queries": 2048,
+    "median_seconds": 0.014518500000122003,
+    "microseconds_per_query": 7.089111328184572
+  },
+  "training_seconds": 28.475375599999097,
+  "read_receipt": [
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.17\\artifacts\\training_views\\a1x8\\train_operator_cache.npz",
+      "sha256": "06CCB16A12FFA8F872FDAC94648C89DFB332CD5C7A945B4B9C8BAA96FA68E105",
+      "role": "train_operator_cache"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.17\\artifacts\\training_views\\a1x8\\validation_operator_cache.npz",
+      "sha256": "17DD79709B0FD6075D6E4FF2AF796AED4F6EFE2733CF576787329B5835E39F51",
+      "role": "validation_operator_cache"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.17\\splits\\a1x8\\validation_commands.npz",
+      "sha256": "C20A79562936D91F9800F18CF12E5B380DA240A950D5DA75B744B09D01BEB45C",
+      "role": "validation_commands"
+    }
+  ],
+  "validation_used_for": "checkpoint selection and frozen feasibility thresholds only",
+  "blind_test_status": "not_read_or_generated",
+  "model_scope": "independent per-array fit; no parameter transfer"
+}

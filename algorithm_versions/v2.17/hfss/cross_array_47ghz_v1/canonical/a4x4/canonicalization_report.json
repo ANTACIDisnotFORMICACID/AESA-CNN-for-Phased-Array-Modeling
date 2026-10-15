@@ -1,0 +1,246 @@
+{
+  "array_id": "a4x4",
+  "output": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\canonical\\a4x4\\operator_47ghz.npz",
+  "queries": 64441,
+  "elements": 16,
+  "integer_front_queries": 32041,
+  "offset_front_queries": 32400,
+  "duplicate_directions": 0,
+  "finite": true,
+  "transverse_relative_p95": 8.337291010904445e-17,
+  "transverse_relative_max": 2.538892569015371e-16,
+  "s_reciprocity_relative": 5.631203685233354e-16,
+  "canonical_sha256": "A57227D0AD3CCBF6A2832BC23C970759860B2FBA141C7EA65ECFC3F4314E3A09",
+  "sources": {
+    "integer_mapping": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement.txt",
+    "offset_mapping": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new.txt",
+    "touchstone": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\v2_8_array_4x4_HFSSDesign1.s16p"
+  },
+  "spec": {
+    "array_id": "a4x4",
+    "rows": 4,
+    "cols": 4,
+    "row_pitch_m": 0.015,
+    "col_pitch_m": 0.0068,
+    "frequency_hz": 47000000000.0,
+    "coordinate_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "split": {
+    "array_id": "a4x4",
+    "canonical": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\canonical\\a4x4\\operator_47ghz.npz",
+    "split_seed": 21701,
+    "block_deg": 10.0,
+    "counts": {
+      "train": 45071,
+      "validation": 9780,
+      "blind_test": 9590
+    },
+    "validation_command_seed": 21702,
+    "blind_test_command_seed": 21703,
+    "commands_per_evaluation_split": 512,
+    "normalization_source": "train-only-single-port-amplitude"
+  },
+  "training_views": {
+    "normalization": "train-only RMS of absolute single-port Ephi",
+    "scale": 7.284856839008039,
+    "train_queries": 45071,
+    "validation_queries": 9780,
+    "blind_test_cache_written": false,
+    "canonical_precision": "float64/complex128",
+    "derived_precision": "float32/complex64"
+  },
+  "sources_fingerprint": [
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement.txt",
+      "bytes": 2589,
+      "sha256": "D276103C7BF51A0523F0F3085BA679645527B9DABC4F82B6C314BE45904B5877"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_1.ffd",
+      "bytes": 5944175,
+      "sha256": "F11FB50305C57D9323927A73350B57A66988DD6F5AA91E6293EA161ABE402F9A"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_2.ffd",
+      "bytes": 5947314,
+      "sha256": "6149D07A0EFF925FC50F5CFCAA9E3158FC433189D6C67B6BC1F9D42AC25B94F0"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_3.ffd",
+      "bytes": 5945980,
+      "sha256": "F15562F5F397D57C7D1C32F2F51016E20E56FACA3DB7DCE204451F94E8A5F3E0"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_4.ffd",
+      "bytes": 5945769,
+      "sha256": "25806FF2438D18217203A97B81356B53FE6AC86774BD00344F84AB35E3F29E4F"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_5.ffd",
+      "bytes": 5940663,
+      "sha256": "F69B26C1C13210222A605FB7EE3034AFF3A542D4A47ECB6D76205B1D0FB680A8"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_6.ffd",
+      "bytes": 5946472,
+      "sha256": "BE73FB7116DAD12F20B23776AE7CA08CACC8110989CFC6296328B1280884A37E"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_7.ffd",
+      "bytes": 5943484,
+      "sha256": "2970AC4124ECE9C26FD0B43857EC30E727B3C57A977CC298D7AC6C5F4F628195"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_8.ffd",
+      "bytes": 5946002,
+      "sha256": "40FD2B7AA80605965D071092F7DEFF94C080F6D7E68BD2AFB6AF2F23573D1461"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_9.ffd",
+      "bytes": 5946061,
+      "sha256": "17CD74501F91636B068B601DB79E193D6355014544BBE526676DA10384666A96"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_10.ffd",
+      "bytes": 5947764,
+      "sha256": "7D19DA6B13303B784FEFDD463F645795A6D98EB23770DF83DF4BC575527BB71E"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_11.ffd",
+      "bytes": 5949573,
+      "sha256": "4CB63AB5418671D98BCA5AFED18D41CF93898E00091FFDDB054E0E1CC36768B0"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_12.ffd",
+      "bytes": 5945394,
+      "sha256": "992857FAE6605EEDA5726B46FEC85F688AEFE5A6E765426CEB4D0AB04EF14EE1"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_13.ffd",
+      "bytes": 5947961,
+      "sha256": "5A75CD1981101187E65E21FB9830C9D5339D8244209944917BC65D66C094ACA4"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_14.ffd",
+      "bytes": 5943937,
+      "sha256": "78F2A8620D9C0C5224788C2471768C9568C991682B3DEC4D707B1C90E8CBFAD1"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_15.ffd",
+      "bytes": 5945021,
+      "sha256": "32ED585EB8EB3813B36329412327B15F899A648250600EBF9BDDB15FA3798010"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_16.ffd",
+      "bytes": 5946525,
+      "sha256": "1B6FBBFA83E65FCE4ABA87FD22C5048796320DF0DC3649795C1CFED992B2A823"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new.txt",
+      "bytes": 2657,
+      "sha256": "49BDF4D2D3B7FBA3426B65849CD076FDDE69DAB77F57445B6A806087C134AEBD"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_1.ffd",
+      "bytes": 5894861,
+      "sha256": "4044B234224D888A0D6DCC690A65F7CE1C8DE7C69030C557105F84169FC39707"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_2.ffd",
+      "bytes": 5898058,
+      "sha256": "72E902BBD9C35D70B811A12125D9E7300214EAED48C01D8BBBF30FF1BB9056DF"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_3.ffd",
+      "bytes": 5896580,
+      "sha256": "F2B42058751AFEE19FE30934A8EC6A9D89C90C71758F0A59D392300E6F2CF193"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_4.ffd",
+      "bytes": 5896484,
+      "sha256": "25118AFCB760A5A2C17A692E5BA4CDBEA5B5563D74F5A2E8C75FBDB10B1EC451"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_5.ffd",
+      "bytes": 5891554,
+      "sha256": "4453ED029F1D34FA4BCA46436E35DD84D7B72441F80E4A7677C69FCF4823E69D"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_6.ffd",
+      "bytes": 5897266,
+      "sha256": "D1EFBD0F736ACBE33FFBDCF79A504978E68F4B67903259675E181E343852100F"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_7.ffd",
+      "bytes": 5894064,
+      "sha256": "4F396A5C1FBD2DD9CE65687D2599D6F90CF965F776C07161862401B1331982E4"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_8.ffd",
+      "bytes": 5896529,
+      "sha256": "CF0C8E0D8C6034C491EA6E90B56CE7063A71C330C669172BF1A3D30AF611D7F2"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_9.ffd",
+      "bytes": 5896811,
+      "sha256": "FFD566A93D58896BCBFAC3B97C897AF47136E29452CB68B8228CFA70C256660C"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_10.ffd",
+      "bytes": 5898700,
+      "sha256": "2BCEFB5BE809D1F5B7BC00ADF36953AA6D67511B10511C1BE808BA67479B5ADA"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_11.ffd",
+      "bytes": 5900150,
+      "sha256": "9FE53DB043533369B6410122AECF00A15FE778D7204E146E0F4A9835AAE14458"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_12.ffd",
+      "bytes": 5896165,
+      "sha256": "108DF471AE44A38B28958E43BD82B6F76D5DD4C5EC6E51975D647523C98F4362"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_13.ffd",
+      "bytes": 5898571,
+      "sha256": "2D3DAF5FF0BF479D3800D6AC90268DB101D7F201E7BF3FFBF911B4B3D6FF5A33"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_14.ffd",
+      "bytes": 5894700,
+      "sha256": "3723CAAD6DAD2E38BFD173BE39BB8CDF50F02611D350EBFF5EC384B65144AF6C"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_15.ffd",
+      "bytes": 5895924,
+      "sha256": "22A75E749A517BD20DF6B8FFB5B3DC638EB656EB9D19EEB462C48A718AA9B107"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_16.ffd",
+      "bytes": 5897300,
+      "sha256": "C1482AE34DAEA59B03859D0571E319DD1453FED7031E83EADB7080A1B89DA589"
+    },
+    {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\v2_8_array_4x4_HFSSDesign1.s16p",
+      "bytes": 13993,
+      "sha256": "E936A6765CE8CE562561971305FD87F6F628B530B534B95AA52C2BCFFA0EA7EF"
+    }
+  ],
+  "status": "canonical_complete"
+}

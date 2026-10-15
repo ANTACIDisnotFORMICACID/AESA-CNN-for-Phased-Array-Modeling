@@ -1,0 +1,15 @@
+{
+  "array_id": "a1x8",
+  "canonical": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\canonical\\a1x8\\operator_47ghz.npz",
+  "split_seed": 21710,
+  "block_deg": 10.0,
+  "counts": {
+    "train": 45151,
+    "validation": 9800,
+    "blind_test": 9490
+  },
+  "validation_command_seed": 21711,
+  "blind_test_command_seed": 21712,
+  "commands_per_evaluation_split": 512,
+  "normalization_source": "train-only-single-port-amplitude"
+}

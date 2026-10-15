@@ -1,0 +1,16 @@
+{
+  "passed": false,
+  "stage": "existing_solution_full_gate",
+  "array_id": "a1x4",
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\projects\\a1x4_47ghz_recovery_extract.aedt",
+  "project_sha256_before": "92AA73EC5B71B1A12E76D785BD59F64BABF135CA0EB781B31EC2EC52886C4316",
+  "project_sha256_after": "92AA73EC5B71B1A12E76D785BD59F64BABF135CA0EB781B31EC2EC52886C4316",
+  "error_type": "RuntimeError",
+  "error": "Touchstone export failed or produced an empty file",
+  "traceback": "Traceback (most recent call last):\n  File \"W:\\automation\\recover_existing_solution.py\", line 284, in main\n    raise RuntimeError(\"Touchstone export failed or produced an empty file\")\nRuntimeError: Touchstone export failed or produced an empty file\n",
+  "elapsed_seconds": 26.662665128707886,
+  "restored_environment": {
+    "ANSYSEM_ROOT252": "machine",
+    "ANSYSLMD_LICENSE_FILE": "machine"
+  }
+}

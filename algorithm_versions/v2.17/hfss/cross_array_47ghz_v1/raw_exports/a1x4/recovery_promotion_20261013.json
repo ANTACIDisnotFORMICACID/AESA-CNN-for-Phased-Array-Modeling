@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "array_id": "a1x4",
+  "source_run": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x4\\recovery_gate_20261013_2110",
+  "official_touchstone": {
+    "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x4\\a1x4_47ghz.s4p",
+    "bytes": 705,
+    "sha256": "1C0D94528AED21231E4780ED774834BB4B8AD617E4FE42609B3C6EA3025FDEB9"
+  },
+  "official_integer_mapping": {
+    "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x4\\eep\\integer\\eep.txt",
+    "bytes": 1347,
+    "sha256": "B767BF85A095F815EE806AF43B442EF9723FF379472E6D4ADC807A3AAC708E0A"
+  },
+  "official_offset_mapping": {
+    "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x4\\eep\\offset\\eep.txt",
+    "bytes": 1347,
+    "sha256": "1711BEC26AB9ECD70655F770B764DA185F971F1D860A19850A39091A89E634D3"
+  },
+  "stage_receipts": {
+    "solve": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x4\\stages\\solve.json",
+    "export_s": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x4\\stages\\export_s.json",
+    "export_eep": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x4\\stages\\export_eep.json",
+    "direct_audit": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x4\\stages\\direct_audit.json"
+  },
+  "recorded_utc": "2026-10-13T13:05:15.652804+00:00"
+}

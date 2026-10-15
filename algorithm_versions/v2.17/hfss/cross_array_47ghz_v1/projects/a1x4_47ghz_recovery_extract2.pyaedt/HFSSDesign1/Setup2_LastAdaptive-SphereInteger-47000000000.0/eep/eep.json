@@ -1,0 +1,456 @@
+{
+  "variation": "d_cpwg='0.254mm' dphi='40deg' h_board='0.254mm' l2='0.59999999999999998mm' l_adap='1.1000000000000001mm' l_board='5mm' l_dir='4mm' l_ele='0mm' l_ele1='1.2250000000000001mm' l_eletot='2mm' l_gndcopper='1.5mm' phi1='0deg' phi2='80deg' phi3='119.99999999999999deg' phi4='160deg' w2='0.25mm' w_adap='0.5mm' w_board='6.7999999999999998mm' w_cpwg='0.45000000000000001mm' w_dir='0.20000000000000001mm' w_ele='0.20000000000000001mm' x_dir='3.6000000000000001mm'",
+  "frequency": 47000000000.0,
+  "model_info": {
+    "Box1": [
+      "geometry\\Box1.obj",
+      [
+        255,
+        255,
+        255
+      ],
+      0.5,
+      "mm"
+    ],
+    "Box2": [
+      "geometry\\Box2.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box3": [
+      "geometry\\Box3.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box4": [
+      "geometry\\Box4.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box5": [
+      "geometry\\Box5.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Polyline1": [
+      "geometry\\Polyline1.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Polyline2": [
+      "geometry\\Polyline2.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box8": [
+      "geometry\\Box8.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box10": [
+      "geometry\\Box10.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box11": [
+      "geometry\\Box11.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box1_1": [
+      "geometry\\Box1_1.obj",
+      [
+        255,
+        255,
+        255
+      ],
+      0.5,
+      "mm"
+    ],
+    "Box1_2": [
+      "geometry\\Box1_2.obj",
+      [
+        255,
+        255,
+        255
+      ],
+      0.5,
+      "mm"
+    ],
+    "Box1_3": [
+      "geometry\\Box1_3.obj",
+      [
+        255,
+        255,
+        255
+      ],
+      0.5,
+      "mm"
+    ],
+    "Box2_1": [
+      "geometry\\Box2_1.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box2_2": [
+      "geometry\\Box2_2.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box2_3": [
+      "geometry\\Box2_3.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box3_1": [
+      "geometry\\Box3_1.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box3_2": [
+      "geometry\\Box3_2.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box3_3": [
+      "geometry\\Box3_3.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box4_1": [
+      "geometry\\Box4_1.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box4_2": [
+      "geometry\\Box4_2.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box4_3": [
+      "geometry\\Box4_3.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box5_1": [
+      "geometry\\Box5_1.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box5_2": [
+      "geometry\\Box5_2.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box5_3": [
+      "geometry\\Box5_3.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Polyline1_1": [
+      "geometry\\Polyline1_1.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Polyline1_2": [
+      "geometry\\Polyline1_2.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Polyline1_3": [
+      "geometry\\Polyline1_3.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Polyline2_1": [
+      "geometry\\Polyline2_1.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Polyline2_2": [
+      "geometry\\Polyline2_2.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Polyline2_3": [
+      "geometry\\Polyline2_3.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box8_1": [
+      "geometry\\Box8_1.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box8_2": [
+      "geometry\\Box8_2.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box8_3": [
+      "geometry\\Box8_3.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box10_1": [
+      "geometry\\Box10_1.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box10_2": [
+      "geometry\\Box10_2.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box10_3": [
+      "geometry\\Box10_3.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box11_1": [
+      "geometry\\Box11_1.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box11_2": [
+      "geometry\\Box11_2.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box11_3": [
+      "geometry\\Box11_3.obj",
+      [
+        255,
+        128,
+        64
+      ],
+      1.0,
+      "mm"
+    ],
+    "Box12": [
+      "geometry\\Box12.obj",
+      [
+        143,
+        175,
+        143
+      ],
+      0.15000000000000002,
+      "mm"
+    ],
+    "Rectangle1": [
+      "geometry\\Rectangle1.obj",
+      [
+        143,
+        175,
+        143
+      ],
+      1.0,
+      "mm"
+    ],
+    "Rectangle1_1": [
+      "geometry\\Rectangle1_1.obj",
+      [
+        143,
+        175,
+        143
+      ],
+      1.0,
+      "mm"
+    ],
+    "Rectangle1_2": [
+      "geometry\\Rectangle1_2.obj",
+      [
+        143,
+        175,
+        143
+      ],
+      1.0,
+      "mm"
+    ],
+    "Rectangle1_3": [
+      "geometry\\Rectangle1_3.obj",
+      [
+        143,
+        175,
+        143
+      ],
+      1.0,
+      "mm"
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "analysis_scope": "train_only_pre_feasibility",
+  "arrays_included": [
+    "a1x4",
+    "a1x8",
+    "a2x4",
+    "a4x4"
+  ],
+  "arrays_excluded": [],
+  "validation_cache_read": false,
+  "blind_test_cache_read": false,
+  "cnn_trained": false,
+  "selection_authority": "none; descriptive evidence only",
+  "model_scope": "one independently fitted structure per array; no parameter transfer evaluated",
+  "per_array": {
+    "a1x4": {
+      "array_id": "a1x4",
+      "scope": "train_operator_cache_only",
+      "train_queries": 45180,
+      "logical_shape": [
+        1,
+        4
+      ],
+      "elements": 4,
+      "normalization_scale": 7.150296161390163,
+      "max_D_over_lambda": 3.1982125447598815,
+      "m1_common_eep_operator_nmse_db": -1.271662525972548,
+      "m1_common_eep_Q_nmse_db": -0.30143056011492575,
+      "optimal_rank1_operator_nmse_db": -15.840751819356178,
+      "optimal_rank1_Q_nmse_db": -14.274560857595464,
+      "envelope_rank_95_percent": 1,
+      "envelope_rank_99_percent": 3,
+      "envelope_svd_cumulative_energy": [
+        0.973942975536142,
+        0.9881409822749966,
+        0.9960687961083178,
+        1.0
+      ],
+      "element_nonuniformity_fraction": 0.7461630645315511,
+      "residual_rank_95_percent": 1,
+      "residual_svd_cumulative_energy": [
+        0.9810103911761817,
+        0.9944749845664683,
+        1.0,
+        1.0
+      ],
+      "residual_covariance_distance_spearman": 0.3530939318018998,
+      "etheta_to_ephi_power_db": -5.903773275153653
+    },
+    "a1x8": {
+      "array_id": "a1x8",
+      "scope": "train_operator_cache_only",
+      "train_queries": 45151,
+      "logical_shape": [
+        1,
+        8
+      ],
+      "elements": 8,
+      "normalization_scale": 7.4858586436075365,
+      "max_D_over_lambda": 7.462495937773057,
+      "m1_common_eep_operator_nmse_db": -1.2398842305761428,
+      "m1_common_eep_Q_nmse_db": -0.28181897038482495,
+      "optimal_rank1_operator_nmse_db": -18.28687139731376,
+      "optimal_rank1_Q_nmse_db": -16.672289511895556,
+      "envelope_rank_95_percent": 1,
+      "envelope_rank_99_percent": 2,
+      "envelope_svd_cumulative_energy": [
+        0.9851641351956977,
+        0.9916886577649484,
+        0.9954775188396507,
+        0.9977175538170513,
+        0.9987483777488861,
+        0.999398627996658,
+        0.9997758829367657,
+        1.0
+      ],
+      "element_nonuniformity_fraction": 0.751642930383079,
+      "residual_rank_95_percent": 1,
+      "residual_svd_cumulative_energy": [
+        0.9835205842463911,
+        0.9908609240652332,
+        0.9948026294830672,
+        0.997414709555763,
+        0.9987821714227287,
+        0.9995692727665051,
+        0.9999999999999998,
+        0.9999999999999998
+      ],
+      "residual_covariance_distance_spearman": -0.21270632014943774,
+      "etheta_to_ephi_power_db": -6.3012186852527785
+    },
+    "a2x4": {
+      "array_id": "a2x4",
+      "scope": "train_operator_cache_only",
+      "train_queries": 45072,
+      "logical_shape": [
+        2,
+        4
+      ],
+      "elements": 8,
+      "normalization_scale": 7.1465944983156895,
+      "max_D_over_lambda": 3.1982125447598815,
+      "m1_common_eep_operator_nmse_db": -1.264545703472216,
+      "m1_common_eep_Q_nmse_db": -0.3034230152077994,
+      "optimal_rank1_operator_nmse_db": -14.055998653925545,
+      "optimal_rank1_Q_nmse_db": -13.292853182472253,
+      "envelope_rank_95_percent": 1,
+      "envelope_rank_99_percent": 4,
+      "envelope_svd_cumulative_energy": [
+        0.960699314031948,
+        0.9756927902949154,
+        0.9853397919423192,
+        0.9924612414770586,
+        0.9964906328087089,
+        0.9986477154241199,
+        0.9994199446080644,
+        0.9999999999999999
+      ],
+      "element_nonuniformity_fraction": 0.7473868109272257,
+      "residual_rank_95_percent": 1,
+      "residual_svd_cumulative_energy": [
+        0.9619818959023028,
+        0.977726476755246,
+        0.9897785952092162,
+        0.99521615988196,
+        0.9981419167386232,
+        0.9992091920210416,
+        1.0,
+        1.0
+      ],
+      "residual_covariance_distance_spearman": 0.05920123229032765,
+      "etheta_to_ephi_power_db": -5.796097851799892
+    },
+    "a4x4": {
+      "array_id": "a4x4",
+      "scope": "train_operator_cache_only",
+      "train_queries": 45071,
+      "logical_shape": [
+        4,
+        4
+      ],
+      "elements": 16,
+      "normalization_scale": 7.284856839008039,
+      "max_D_over_lambda": 7.054880613440916,
+      "m1_common_eep_operator_nmse_db": -1.2282844305327199,
+      "m1_common_eep_Q_nmse_db": -0.28744135202155485,
+      "optimal_rank1_operator_nmse_db": -13.484035388476652,
+      "optimal_rank1_Q_nmse_db": -12.545897659611754,
+      "envelope_rank_95_percent": 1,
+      "envelope_rank_99_percent": 5,
+      "envelope_svd_cumulative_energy": [
+        0.955167138610666,
+        0.9724964711002853,
+        0.9820503883226768,
+        0.9882905469703634,
+        0.9929673250285735,
+        0.9957341928392905,
+        0.9971783564076709,
+        0.9978966908641959,
+        0.9983836568364574,
+        0.9987856979738208,
+        0.9991609133421069,
+        0.999445000693515,
+        0.9996509658830469,
+        0.9998321832873674,
+        0.9999305277251208,
+        0.9999999999999999
+      ],
+      "element_nonuniformity_fraction": 0.7536532162258102,
+      "residual_rank_95_percent": 1,
+      "residual_svd_cumulative_energy": [
+        0.9576502255939341,
+        0.9756680620873632,
+        0.9842423015873808,
+        0.9904562257510693,
+        0.9941277417498551,
+        0.9960736054300985,
+        0.9970757154240486,
+        0.9978049559094024,
+        0.9983472714706616,
+        0.9988628678430801,
+        0.9992539831318862,
+        0.9995273234687206,
+        0.9997719687440964,
+        0.9999039533504083,
+        1.0,
+        1.0
+      ],
+      "residual_covariance_distance_spearman": -0.09574816345490794,
+      "etheta_to_ephi_power_db": -6.074755856826539
+    }
+  },
+  "normalization_scale_relative_spread": 0.04668621745192703
+}

@@ -1,0 +1,368 @@
+{
+  "schema": "v217-per-array-model-static-audit-1",
+  "passed": true,
+  "scope": "architecture_shape_zero_start_parameter_match_and_gradient_smoke_only",
+  "training_performed": false,
+  "validation_read": false,
+  "blind_test_read": false,
+  "arrays": {
+    "a1x4": {
+      "passed": true,
+      "control": {
+        "array_id": "a1x4",
+        "arm": "control",
+        "logical_shape": [
+          1,
+          4
+        ],
+        "family": "column",
+        "direction_gated": false,
+        "width": 28,
+        "depth": 2,
+        "branch_widths": [
+          [
+            28,
+            28
+          ],
+          [
+            28,
+            28
+          ]
+        ],
+        "dilations": [
+          1,
+          1
+        ],
+        "shared_parameters_across_arrays": false,
+        "analytic_phase_backbone_required": true
+      },
+      "candidate": {
+        "array_id": "a1x4",
+        "arm": "candidate",
+        "logical_shape": [
+          1,
+          4
+        ],
+        "family": "column",
+        "direction_gated": true,
+        "width": 28,
+        "depth": 2,
+        "branch_widths": [
+          [
+            28,
+            28
+          ],
+          [
+            28,
+            28
+          ]
+        ],
+        "dilations": [
+          1,
+          1
+        ],
+        "shared_parameters_across_arrays": false,
+        "analytic_phase_backbone_required": true
+      },
+      "control_parameters": 12322,
+      "candidate_parameters": 12378,
+      "parameter_difference_fraction": 0.004544716766758716,
+      "full_control_parameters": 14252,
+      "full_candidate_parameters": 14308,
+      "full_parameter_difference_fraction": 0.003929273084479323,
+      "checks": {
+        "control_shape": true,
+        "candidate_shape": true,
+        "control_finite": true,
+        "candidate_finite": true,
+        "control_zero_start": true,
+        "candidate_zero_start": true,
+        "parameter_difference_within_0p5_percent": true,
+        "full_operator_shape": true,
+        "full_amplitude_shape": true,
+        "full_operator_finite": true,
+        "full_amplitude_finite": true,
+        "full_candidate_control_same_zero_start": true,
+        "full_parameter_difference_within_0p5_percent": true,
+        "full_separate_parameter_storage": true,
+        "paired_common_initialization": true,
+        "control_gradient_finite": true,
+        "control_gradient_nonzero": true,
+        "candidate_gradient_finite": true,
+        "candidate_gradient_nonzero": true,
+        "separate_parameter_storage": true
+      }
+    },
+    "a2x4": {
+      "passed": true,
+      "control": {
+        "array_id": "a2x4",
+        "arm": "control",
+        "logical_shape": [
+          2,
+          4
+        ],
+        "family": "row_pair_column",
+        "direction_gated": false,
+        "width": 28,
+        "depth": 2,
+        "branch_widths": [
+          [
+            28,
+            28
+          ],
+          [
+            28,
+            28
+          ]
+        ],
+        "dilations": [
+          1,
+          1
+        ],
+        "shared_parameters_across_arrays": false,
+        "analytic_phase_backbone_required": true
+      },
+      "candidate": {
+        "array_id": "a2x4",
+        "arm": "candidate",
+        "logical_shape": [
+          2,
+          4
+        ],
+        "family": "row_pair_column",
+        "direction_gated": true,
+        "width": 28,
+        "depth": 2,
+        "branch_widths": [
+          [
+            28,
+            28
+          ],
+          [
+            28,
+            28
+          ]
+        ],
+        "dilations": [
+          1,
+          1
+        ],
+        "shared_parameters_across_arrays": false,
+        "analytic_phase_backbone_required": true
+      },
+      "control_parameters": 24250,
+      "candidate_parameters": 24362,
+      "parameter_difference_fraction": 0.00461855670103084,
+      "full_control_parameters": 26188,
+      "full_candidate_parameters": 26300,
+      "full_parameter_difference_fraction": 0.004276767985336827,
+      "checks": {
+        "control_shape": true,
+        "candidate_shape": true,
+        "control_finite": true,
+        "candidate_finite": true,
+        "control_zero_start": true,
+        "candidate_zero_start": true,
+        "parameter_difference_within_0p5_percent": true,
+        "full_operator_shape": true,
+        "full_amplitude_shape": true,
+        "full_operator_finite": true,
+        "full_amplitude_finite": true,
+        "full_candidate_control_same_zero_start": true,
+        "full_parameter_difference_within_0p5_percent": true,
+        "full_separate_parameter_storage": true,
+        "paired_common_initialization": true,
+        "control_gradient_finite": true,
+        "control_gradient_nonzero": true,
+        "candidate_gradient_finite": true,
+        "candidate_gradient_nonzero": true,
+        "separate_parameter_storage": true
+      }
+    },
+    "a4x4": {
+      "passed": true,
+      "control": {
+        "array_id": "a4x4",
+        "arm": "control",
+        "logical_shape": [
+          4,
+          4
+        ],
+        "family": "isotropic_3x3",
+        "direction_gated": false,
+        "width": 24,
+        "depth": 2,
+        "branch_widths": [
+          [
+            36,
+            35
+          ],
+          [
+            35,
+            36
+          ]
+        ],
+        "dilations": [
+          1,
+          1
+        ],
+        "shared_parameters_across_arrays": false,
+        "analytic_phase_backbone_required": true
+      },
+      "candidate": {
+        "array_id": "a4x4",
+        "arm": "candidate",
+        "logical_shape": [
+          4,
+          4
+        ],
+        "family": "axial",
+        "direction_gated": true,
+        "width": 24,
+        "depth": 2,
+        "branch_widths": [
+          [
+            36,
+            35
+          ],
+          [
+            35,
+            36
+          ]
+        ],
+        "dilations": [
+          1,
+          1
+        ],
+        "shared_parameters_across_arrays": false,
+        "analytic_phase_backbone_required": true
+      },
+      "control_parameters": 27986,
+      "candidate_parameters": 27952,
+      "parameter_difference_fraction": -0.001214893160866093,
+      "full_control_parameters": 29940,
+      "full_candidate_parameters": 29906,
+      "full_parameter_difference_fraction": -0.0011356045424181227,
+      "checks": {
+        "control_shape": true,
+        "candidate_shape": true,
+        "control_finite": true,
+        "candidate_finite": true,
+        "control_zero_start": true,
+        "candidate_zero_start": true,
+        "parameter_difference_within_0p5_percent": true,
+        "full_operator_shape": true,
+        "full_amplitude_shape": true,
+        "full_operator_finite": true,
+        "full_amplitude_finite": true,
+        "full_candidate_control_same_zero_start": true,
+        "full_parameter_difference_within_0p5_percent": true,
+        "full_separate_parameter_storage": true,
+        "paired_common_initialization": true,
+        "control_gradient_finite": true,
+        "control_gradient_nonzero": true,
+        "candidate_gradient_finite": true,
+        "candidate_gradient_nonzero": true,
+        "separate_parameter_storage": true
+      }
+    },
+    "a1x8": {
+      "passed": true,
+      "control": {
+        "array_id": "a1x8",
+        "arm": "control",
+        "logical_shape": [
+          1,
+          8
+        ],
+        "family": "column",
+        "direction_gated": false,
+        "width": 28,
+        "depth": 3,
+        "branch_widths": [
+          [
+            28,
+            28
+          ],
+          [
+            28,
+            28
+          ],
+          [
+            28,
+            28
+          ]
+        ],
+        "dilations": [
+          1,
+          2,
+          1
+        ],
+        "shared_parameters_across_arrays": false,
+        "analytic_phase_backbone_required": true
+      },
+      "candidate": {
+        "array_id": "a1x8",
+        "arm": "candidate",
+        "logical_shape": [
+          1,
+          8
+        ],
+        "family": "column",
+        "direction_gated": true,
+        "width": 28,
+        "depth": 3,
+        "branch_widths": [
+          [
+            28,
+            28
+          ],
+          [
+            28,
+            28
+          ],
+          [
+            28,
+            28
+          ]
+        ],
+        "dilations": [
+          1,
+          2,
+          1
+        ],
+        "shared_parameters_across_arrays": false,
+        "analytic_phase_backbone_required": true
+      },
+      "control_parameters": 17082,
+      "candidate_parameters": 17166,
+      "parameter_difference_fraction": 0.004917456972251433,
+      "full_control_parameters": 19020,
+      "full_candidate_parameters": 19104,
+      "full_parameter_difference_fraction": 0.00441640378548902,
+      "checks": {
+        "control_shape": true,
+        "candidate_shape": true,
+        "control_finite": true,
+        "candidate_finite": true,
+        "control_zero_start": true,
+        "candidate_zero_start": true,
+        "parameter_difference_within_0p5_percent": true,
+        "full_operator_shape": true,
+        "full_amplitude_shape": true,
+        "full_operator_finite": true,
+        "full_amplitude_finite": true,
+        "full_candidate_control_same_zero_start": true,
+        "full_parameter_difference_within_0p5_percent": true,
+        "full_separate_parameter_storage": true,
+        "paired_common_initialization": true,
+        "control_gradient_finite": true,
+        "control_gradient_nonzero": true,
+        "candidate_gradient_finite": true,
+        "candidate_gradient_nonzero": true,
+        "separate_parameter_storage": true
+      }
+    }
+  }
+}

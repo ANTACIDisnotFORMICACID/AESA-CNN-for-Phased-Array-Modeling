@@ -1,0 +1,92 @@
+{
+  "passed": false,
+  "aggregate_complex_nmse_db": 2.602232615757349,
+  "per_command": [
+    {
+      "command_id": "D00",
+      "complex_nmse_db": 4.4038764756641795,
+      "amplitude_max_relative_error": 0.5187975422290629
+    },
+    {
+      "command_id": "D01",
+      "complex_nmse_db": -0.39314222053413567,
+      "amplitude_max_relative_error": 0.4013276098846285
+    },
+    {
+      "command_id": "D02",
+      "complex_nmse_db": -0.610517679694255,
+      "amplitude_max_relative_error": 0.4366049545671413
+    },
+    {
+      "command_id": "D03",
+      "complex_nmse_db": 4.4038764756641795,
+      "amplitude_max_relative_error": 0.5187975422290629
+    },
+    {
+      "command_id": "D04",
+      "complex_nmse_db": 0.9120414570450186,
+      "amplitude_max_relative_error": 0.8737384377724435
+    },
+    {
+      "command_id": "D05",
+      "complex_nmse_db": -0.18936978677654706,
+      "amplitude_max_relative_error": 0.47859257764715135
+    },
+    {
+      "command_id": "D06",
+      "complex_nmse_db": 3.0683321493078806,
+      "amplitude_max_relative_error": 0.538003804805769
+    },
+    {
+      "command_id": "D07",
+      "complex_nmse_db": 3.801936990905509,
+      "amplitude_max_relative_error": 1.0504276552469174
+    },
+    {
+      "command_id": "D08",
+      "complex_nmse_db": -0.5164727245916715,
+      "amplitude_max_relative_error": 0.5999007329251553
+    },
+    {
+      "command_id": "D09",
+      "complex_nmse_db": 3.987928950272103,
+      "amplitude_max_relative_error": 1.1022764943969847
+    },
+    {
+      "command_id": "D10",
+      "complex_nmse_db": 3.145041988335746,
+      "amplitude_max_relative_error": 0.7421305355219934
+    },
+    {
+      "command_id": "D11",
+      "complex_nmse_db": -0.04395429847247257,
+      "amplitude_max_relative_error": 0.6555533826410513
+    },
+    {
+      "command_id": "D12",
+      "complex_nmse_db": 1.0249628881203432,
+      "amplitude_max_relative_error": 0.6414672833999595
+    },
+    {
+      "command_id": "D13",
+      "complex_nmse_db": 5.010572019040451,
+      "amplitude_max_relative_error": 1.1617025357038673
+    },
+    {
+      "command_id": "D14",
+      "complex_nmse_db": 3.754016091022704,
+      "amplitude_max_relative_error": 0.8061583132868846
+    },
+    {
+      "command_id": "D15",
+      "complex_nmse_db": 2.4343522665096815,
+      "amplitude_max_relative_error": 0.599909503502964
+    }
+  ],
+  "thresholds": {
+    "aggregate_complex_nmse_db_max": -100.0,
+    "per_command_complex_nmse_db_max": -80.0,
+    "amplitude_max_relative_error_max": 1e-06
+  },
+  "not_for_training": true
+}

@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "route": "ordinary_gui_plus_pyaedt_pid_attach",
+  "aedt_process_id": 22848,
+  "project": "a1x4_47ghz_com_gui",
+  "error_type": "TypeError",
+  "error": "__init__() should return None, not 'bool'",
+  "traceback": "Traceback (most recent call last):\n  File \"W:\\automation\\attach_pid_solve.py\", line 34, in main\n    hfss = Hfss(\nTypeError: __init__() should return None, not 'bool'\n"
+}

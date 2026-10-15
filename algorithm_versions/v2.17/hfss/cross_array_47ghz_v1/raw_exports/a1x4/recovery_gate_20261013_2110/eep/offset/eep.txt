@@ -1,0 +1,26 @@
+# Header Begin
+# Blank lines and lines starting with '#' are ignored.
+
+# --- CS Definition Type ---
+# Specifies the coordinate system type. Must be one of the following: 'Theta-Phi', 'AzOverEl', or 'ElOverAz'.
+Theta-Phi
+
+# --- Far Field Setup Angle Information ---
+# Specifies the angle information in degrees. Should be provided in two consecutive lines with the following format:
+# <theta_start> <theta_stop> <num_theta>
+# <phi_start> <phi_stop> <num_phi>
+5.0000000000000000e-01 1.7950000000000000e+02 180
+-1.7950000000000000e+02 1.7950000000000000e+02 360
+
+# --- FFD Data Format ---
+# Indicates whether the FFD data format is binary. If set to 'true', two additional sections ('Binary Data Type Size in Bytes' and 'Binary FFD Data Format') are required below.
+false
+
+# The following sections will specify the element pattern source name, the FFD data filename, and the phase reference.
+# Header End
+Source Name File Name X                       Y                       Z
+1:1        eep_1    1.7055980405225331e-20  1.6318804303974238e-20  1.2700000000000011e-04  
+2:1        eep_2    1.7055980405225355e-20  6.8000000000000005e-03  1.2700000000000011e-04  
+3:1        eep_3    1.7055980405225340e-20  1.3600000000000001e-02  1.2700000000000013e-04  
+4:1        eep_4    1.7055980405225340e-20  2.0400000000000001e-02  1.2700000000000013e-04  
+

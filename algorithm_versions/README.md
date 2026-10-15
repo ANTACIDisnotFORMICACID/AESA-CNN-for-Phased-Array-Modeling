@@ -17,3 +17,4 @@
 | [V2.14](v2.14/README.md) | 结构筛选、角域覆盖交换和物理归因 | 完整复跑因未纳入大型训练数组而 `BLOCKED`；V2.15 验证局部图结构 |
 | [V2.15](v2.15/README.md) | 方向条件化局部图消息和真实/打乱 S 图反事实 | 完整复跑 `BLOCKED`；V2.16 去除 S 图混杂 |
 | [V2.16](v2.16/README.md) | 近等参数 Direction-Conditioned Axial Residual 受控验证 | 完整复跑 `BLOCKED`；V2.17 准备跨阵列数据 |
+| [V2.17](v2.17/README.md) | 1×4、2×4、1×8、4×4 跨阵列 HFSS 数据与分阵列可行性试验 | V2.18 检查 4×4 迁移归因 |

@@ -1,0 +1,30 @@
+{
+  "schema": "v217-per-array-feasibility-config-1",
+  "arrays": [
+    "a1x4",
+    "a1x8",
+    "a2x4",
+    "a4x4"
+  ],
+  "arms": [
+    "control",
+    "candidate"
+  ],
+  "seeds": [
+    21721,
+    21722,
+    21723
+  ],
+  "epochs": 40,
+  "batch_size": 2048,
+  "training_queries_per_array": 16384,
+  "training_subset": "fixed train-only random subset; seed 21719 plus array ordinal",
+  "learning_rate": 0.002,
+  "late_learning_rate": 0.0005,
+  "learning_rate_drop_epoch": 31,
+  "validation_interval": 2,
+  "checkpoint_selection": "validation_amplitude_linear_nmse_only",
+  "device": "cpu",
+  "model_scope": "independent geometry-matched model per array; shared physical idea only",
+  "blind_test_status": "no loader or output path exists"
+}

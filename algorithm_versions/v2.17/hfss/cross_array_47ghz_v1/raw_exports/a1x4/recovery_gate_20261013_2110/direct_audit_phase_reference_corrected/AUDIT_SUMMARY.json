@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "aggregate_complex_nmse_db": -286.3237174817055,
+  "per_command": [
+    {
+      "command_id": "D00",
+      "complex_nmse_db": -291.7997418259754,
+      "amplitude_max_relative_error": 5.479893318475005e-15
+    },
+    {
+      "command_id": "D01",
+      "complex_nmse_db": -285.50143740918367,
+      "amplitude_max_relative_error": 5.5543806996484465e-15
+    },
+    {
+      "command_id": "D02",
+      "complex_nmse_db": -283.94631457983985,
+      "amplitude_max_relative_error": 6.455321459176107e-15
+    },
+    {
+      "command_id": "D03",
+      "complex_nmse_db": -291.7840550003883,
+      "amplitude_max_relative_error": 5.479893318475005e-15
+    },
+    {
+      "command_id": "D04",
+      "complex_nmse_db": -285.6702559690699,
+      "amplitude_max_relative_error": 4.358798296005669e-15
+    },
+    {
+      "command_id": "D05",
+      "complex_nmse_db": -290.7154853904192,
+      "amplitude_max_relative_error": 5.814962989207953e-15
+    },
+    {
+      "command_id": "D06",
+      "complex_nmse_db": -283.15720457833754,
+      "amplitude_max_relative_error": 6.67319462846284e-15
+    },
+    {
+      "command_id": "D07",
+      "complex_nmse_db": -284.7305007653422,
+      "amplitude_max_relative_error": 8.58045125465055e-15
+    },
+    {
+      "command_id": "D08",
+      "complex_nmse_db": -287.8582891098972,
+      "amplitude_max_relative_error": 4.7632154340323644e-15
+    },
+    {
+      "command_id": "D09",
+      "complex_nmse_db": -291.87287574709575,
+      "amplitude_max_relative_error": 5.253578768726839e-15
+    },
+    {
+      "command_id": "D10",
+      "complex_nmse_db": -282.1114231959741,
+      "amplitude_max_relative_error": 4.497900142784072e-15
+    },
+    {
+      "command_id": "D11",
+      "complex_nmse_db": -288.0172988307316,
+      "amplitude_max_relative_error": 5.880862782246167e-15
+    },
+    {
+      "command_id": "D12",
+      "complex_nmse_db": -286.6584997103879,
+      "amplitude_max_relative_error": 8.10670947298427e-15
+    },
+    {
+      "command_id": "D13",
+      "complex_nmse_db": -287.6173383584428,
+      "amplitude_max_relative_error": 5.054442544580456e-15
+    },
+    {
+      "command_id": "D14",
+      "complex_nmse_db": -287.54781648984783,
+      "amplitude_max_relative_error": 4.82189551644953e-15
+    },
+    {
+      "command_id": "D15",
+      "complex_nmse_db": -287.8538069911671,
+      "amplitude_max_relative_error": 5.380770809344701e-15
+    }
+  ],
+  "project_unchanged": true,
+  "raw_reports": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a1x4\\recovery_gate_20261013_2110\\direct_audit\\raw_reports",
+  "raw_reports_reused": true,
+  "eep_phase_reference_to_global_applied": true,
+  "not_for_training": true
+}

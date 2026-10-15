@@ -1,0 +1,15 @@
+{
+  "passed": false,
+  "stage": "export_s",
+  "array_id": "a1x4",
+  "project": "W:\\projects\\a1x4_47ghz.aedt",
+  "error_type": "RuntimeError",
+  "error": "Touchstone API export failed; use the documented GUI fallback and rerun verification",
+  "invalidated_by_later_audit": true,
+  "interpretation": "This export was attempted after a false-positive solve return. No valid solution existed, so this does not diagnose the Touchstone path and must be rerun only after solve PASS.",
+  "traceback": "Traceback (most recent call last):\n  File \"W:\\automation\\hfss_pipeline.py\", line 448, in main\n    report = export_s(\n        project, stage_dir / \"solve.json\",\n        root / \"raw_exports\" / args.array_id / f\"{args.array_id}_47ghz.s{rows * cols}p\",\n        rows, cols, args.graphical,\n    )\n  File \"W:\\automation\\hfss_pipeline.py\", line 366, in export_s\n    raise RuntimeError(\"Touchstone API export failed; use the documented GUI fallback and rerun verification\")\nRuntimeError: Touchstone API export failed; use the documented GUI fallback and rerun verification\n",
+  "restored_environment": {
+    "ANSYSEM_ROOT252": "machine",
+    "ANSYSLMD_LICENSE_FILE": "machine"
+  }
+}

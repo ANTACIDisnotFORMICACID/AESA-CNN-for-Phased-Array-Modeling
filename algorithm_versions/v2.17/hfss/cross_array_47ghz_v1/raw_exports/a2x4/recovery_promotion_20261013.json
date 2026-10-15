@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "array_id": "a2x4",
+  "source_run": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\recovery_gate_20261013T180049Z",
+  "official_touchstone": {
+    "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\a2x4_47ghz.s8p",
+    "bytes": 2632,
+    "sha256": "A636C4296671AFB3E78D3BEA74C9FB477CE70B80682455ED4F089C4F37FFDA37"
+  },
+  "official_integer_mapping": {
+    "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\eep\\integer\\eep.txt",
+    "bytes": 1719,
+    "sha256": "C96BD73D8FA525BE31756E4EE60604711D7A462A6344A672FCA7E86A60A24526"
+  },
+  "official_offset_mapping": {
+    "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\eep\\offset\\eep.txt",
+    "bytes": 1719,
+    "sha256": "A9EE3160725243BE2BF74040058F34180C194FB709D6CA26D53DB24A2CA396D7"
+  },
+  "stage_receipts": {
+    "solve": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\stages\\solve.json",
+    "export_s": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\stages\\export_s.json",
+    "export_eep": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\stages\\export_eep.json",
+    "direct_audit": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\HFSS\\cross_array_47ghz_v1\\raw_exports\\a2x4\\stages\\direct_audit.json"
+  },
+  "recorded_utc": "2026-10-13T18:07:23.214893+00:00"
+}
