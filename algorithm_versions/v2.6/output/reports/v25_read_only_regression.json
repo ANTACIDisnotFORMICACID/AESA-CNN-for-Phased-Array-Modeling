@@ -1,0 +1,27 @@
+{
+  "read_only": true,
+  "v25_unittest": {
+    "passed": true,
+    "returncode": 0,
+    "stderr_tail": "----------------------------------------------------------------------\nRan 35 tests in 3.154s\n\nOK\n"
+  },
+  "v24_bundle_check": {
+    "passed": true,
+    "returncode": 0,
+    "stdout": "{\"version\": \"v2.4\", \"comparison_bundle\": \"pass\"}",
+    "stderr_tail": ""
+  },
+  "v25_full_pattern_bundle_check": {
+    "passed": false,
+    "difference_count_returned": 1,
+    "first_differences": [
+      {
+        "path": "$.cases.4x4.golden_error.relative_l2",
+        "actual": 2.789658184154388e-16,
+        "expected": 2.7896581841543875e-16,
+        "absolute_difference": 4.930380657631324e-32
+      }
+    ]
+  },
+  "conclusion": "V2.5 code/golden control path is intact; full-pattern generated JSON differs from current in-memory regeneration"
+}

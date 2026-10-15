@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "states": 48,
+  "condition_number": 1.1137565658824784,
+  "condition_limit": 20.0,
+  "holdout_nmse_limit_db": -20.0,
+  "reliable_count": 48,
+  "all_reliable": true,
+  "holdout_nmse_db_p05_median_p95_worst": [
+    -51.799213809330936,
+    -44.23777641137376,
+    -34.851759809761646,
+    -32.22136261067027
+  ],
+  "rows": [
+    {
+      "state_index": 0,
+      "snr_db": 29.69168573207463,
+      "failed_port": null,
+      "global_phase_rad": 1.2335777282714844,
+      "fit_residual_nmse_db": -31.518108367919922,
+      "holdout_nmse_db": -40.90381973156593,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 1,
+      "snr_db": 30.971585074126523,
+      "failed_port": null,
+      "global_phase_rad": -2.114030122756958,
+      "fit_residual_nmse_db": -30.21892738342285,
+      "holdout_nmse_db": -44.09243872865619,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 2,
+      "snr_db": 38.79239593844286,
+      "failed_port": null,
+      "global_phase_rad": 2.166165828704834,
+      "fit_residual_nmse_db": -39.02763748168945,
+      "holdout_nmse_db": -48.244487694153946,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 3,
+      "snr_db": 30.065363897086165,
+      "failed_port": null,
+      "global_phase_rad": 2.2654309272766113,
+      "fit_residual_nmse_db": -29.488306045532227,
+      "holdout_nmse_db": -42.63746514978497,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 4,
+      "snr_db": 39.990709216414864,
+      "failed_port": null,
+      "global_phase_rad": -2.4677865505218506,
+      "fit_residual_nmse_db": -41.045536041259766,
+      "holdout_nmse_db": -52.44982542937873,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 5,
+      "snr_db": 28.511863614406355,
+      "failed_port": null,
+      "global_phase_rad": 0.9584722518920898,
+      "fit_residual_nmse_db": -27.437681198120117,
+      "holdout_nmse_db": -39.787701538655405,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 6,
+      "snr_db": 29.752204293832452,
+      "failed_port": null,
+      "global_phase_rad": 2.915559768676758,
+      "fit_residual_nmse_db": -30.311098098754883,
+      "holdout_nmse_db": -38.89249494505714,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 7,
+      "snr_db": 32.74882279319446,
+      "failed_port": null,
+      "global_phase_rad": -2.94602632522583,
+      "fit_residual_nmse_db": -32.96800994873047,
+      "holdout_nmse_db": -39.72281551585308,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 8,
+      "snr_db": 35.299271403110154,
+      "failed_port": null,
+      "global_phase_rad": -1.2995812892913818,
+      "fit_residual_nmse_db": -35.363868713378906,
+      "holdout_nmse_db": -41.36250438437082,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 9,
+      "snr_db": 38.12323519571273,
+      "failed_port": 2,
+      "global_phase_rad": 0.24492238461971283,
+      "fit_residual_nmse_db": -38.44428634643555,
+      "holdout_nmse_db": -57.0244799379674,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 10,
+      "snr_db": 33.93010023091854,
+      "failed_port": null,
+      "global_phase_rad": 3.029298782348633,
+      "fit_residual_nmse_db": -34.23369598388672,
+      "holdout_nmse_db": -42.45547806275175,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 11,
+      "snr_db": 35.62229909132718,
+      "failed_port": null,
+      "global_phase_rad": -1.6956679821014404,
+      "fit_residual_nmse_db": -37.591983795166016,
+      "holdout_nmse_db": -46.83357078300421,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 12,
+      "snr_db": 27.9100070461303,
+      "failed_port": null,
+      "global_phase_rad": -2.1170287132263184,
+      "fit_residual_nmse_db": -29.329631805419922,
+      "holdout_nmse_db": -36.68527175241863,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 13,
+      "snr_db": 30.06381106295234,
+      "failed_port": null,
+      "global_phase_rad": -0.10786186158657074,
+      "fit_residual_nmse_db": -28.33196449279785,
+      "holdout_nmse_db": -43.71975887075469,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 14,
+      "snr_db": 37.190390483198364,
+      "failed_port": 1,
+      "global_phase_rad": -1.51658296585083,
+      "fit_residual_nmse_db": -38.530887603759766,
+      "holdout_nmse_db": -45.1374870444438,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 15,
+      "snr_db": 39.02421506879549,
+      "failed_port": 1,
+      "global_phase_rad": -1.452791452407837,
+      "fit_residual_nmse_db": -40.869049072265625,
+      "holdout_nmse_db": -48.715911511921,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 16,
+      "snr_db": 29.21944915650728,
+      "failed_port": 3,
+      "global_phase_rad": -1.5320571660995483,
+      "fit_residual_nmse_db": -28.961748123168945,
+      "holdout_nmse_db": -45.26271012892326,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 17,
+      "snr_db": 25.932707591429452,
+      "failed_port": null,
+      "global_phase_rad": -1.876193881034851,
+      "fit_residual_nmse_db": -26.211009979248047,
+      "holdout_nmse_db": -32.22136261067027,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 18,
+      "snr_db": 34.25107925554414,
+      "failed_port": null,
+      "global_phase_rad": -2.232591390609741,
+      "fit_residual_nmse_db": -36.95953369140625,
+      "holdout_nmse_db": -48.61834402041674,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 19,
+      "snr_db": 36.368797393615736,
+      "failed_port": null,
+      "global_phase_rad": -1.735487937927246,
+      "fit_residual_nmse_db": -37.713233947753906,
+      "holdout_nmse_db": -47.06261587625952,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 20,
+      "snr_db": 32.99169894321419,
+      "failed_port": null,
+      "global_phase_rad": 0.6848100423812866,
+      "fit_residual_nmse_db": -33.72509765625,
+      "holdout_nmse_db": -45.987622925979245,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 21,
+      "snr_db": 26.681829751880223,
+      "failed_port": 3,
+      "global_phase_rad": 1.7483516931533813,
+      "fit_residual_nmse_db": -26.889802932739258,
+      "holdout_nmse_db": -35.30631818025176,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 22,
+      "snr_db": 31.81452345819661,
+      "failed_port": null,
+      "global_phase_rad": -1.6696171760559082,
+      "fit_residual_nmse_db": -32.32304000854492,
+      "holdout_nmse_db": -44.50409417955835,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 23,
+      "snr_db": 31.900648847450015,
+      "failed_port": null,
+      "global_phase_rad": -1.0450221300125122,
+      "fit_residual_nmse_db": -31.498544692993164,
+      "holdout_nmse_db": -44.383114094091326,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 24,
+      "snr_db": 28.329999638069076,
+      "failed_port": null,
+      "global_phase_rad": -0.27153414487838745,
+      "fit_residual_nmse_db": -28.801864624023438,
+      "holdout_nmse_db": -38.822520419517,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 25,
+      "snr_db": 38.821147763163594,
+      "failed_port": 1,
+      "global_phase_rad": -1.7134337425231934,
+      "fit_residual_nmse_db": -39.759395599365234,
+      "holdout_nmse_db": -52.06341974412648,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 26,
+      "snr_db": 34.71670187080234,
+      "failed_port": null,
+      "global_phase_rad": 1.3237184286117554,
+      "fit_residual_nmse_db": -35.22465133666992,
+      "holdout_nmse_db": -45.28017197590148,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 27,
+      "snr_db": 37.448977006821096,
+      "failed_port": null,
+      "global_phase_rad": -2.963742256164551,
+      "fit_residual_nmse_db": -37.352657318115234,
+      "holdout_nmse_db": -46.5469547021913,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 28,
+      "snr_db": 32.20362747456774,
+      "failed_port": null,
+      "global_phase_rad": -2.3472132682800293,
+      "fit_residual_nmse_db": -33.103065490722656,
+      "holdout_nmse_db": -46.38762596304777,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 29,
+      "snr_db": 31.837877261298924,
+      "failed_port": null,
+      "global_phase_rad": -2.5622403621673584,
+      "fit_residual_nmse_db": -33.66301345825195,
+      "holdout_nmse_db": -40.52022674829197,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 30,
+      "snr_db": 27.038799775116207,
+      "failed_port": null,
+      "global_phase_rad": -2.183584690093994,
+      "fit_residual_nmse_db": -28.071487426757812,
+      "holdout_nmse_db": -44.81400228077895,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 31,
+      "snr_db": 35.42842067755015,
+      "failed_port": 0,
+      "global_phase_rad": -1.7994695901870728,
+      "fit_residual_nmse_db": -35.169654846191406,
+      "holdout_nmse_db": -43.589590968627604,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 32,
+      "snr_db": 37.366231513833384,
+      "failed_port": null,
+      "global_phase_rad": 2.2613184452056885,
+      "fit_residual_nmse_db": -38.936309814453125,
+      "holdout_nmse_db": -48.33596432128549,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 33,
+      "snr_db": 36.08282712687072,
+      "failed_port": null,
+      "global_phase_rad": 2.6060826778411865,
+      "fit_residual_nmse_db": -36.64426803588867,
+      "holdout_nmse_db": -49.588378402765755,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 34,
+      "snr_db": 27.247607661891408,
+      "failed_port": null,
+      "global_phase_rad": -0.5209928154945374,
+      "fit_residual_nmse_db": -28.554744720458984,
+      "holdout_nmse_db": -37.88404358952513,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 35,
+      "snr_db": 27.462056558665488,
+      "failed_port": null,
+      "global_phase_rad": -0.7469496130943298,
+      "fit_residual_nmse_db": -28.975067138671875,
+      "holdout_nmse_db": -38.637481166702266,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 36,
+      "snr_db": 39.75003544363053,
+      "failed_port": null,
+      "global_phase_rad": 1.9363592863082886,
+      "fit_residual_nmse_db": -39.860595703125,
+      "holdout_nmse_db": -51.308545644710655,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 37,
+      "snr_db": 36.38951052978406,
+      "failed_port": null,
+      "global_phase_rad": -2.739658832550049,
+      "fit_residual_nmse_db": -37.808650970458984,
+      "holdout_nmse_db": -47.81541984976108,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 38,
+      "snr_db": 28.7748079427922,
+      "failed_port": null,
+      "global_phase_rad": -2.4070088863372803,
+      "fit_residual_nmse_db": -30.966493606567383,
+      "holdout_nmse_db": -42.61125688816332,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 39,
+      "snr_db": 27.149846626736494,
+      "failed_port": null,
+      "global_phase_rad": -0.013834448531270027,
+      "fit_residual_nmse_db": -28.676456451416016,
+      "holdout_nmse_db": -35.345984249080324,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 40,
+      "snr_db": 38.939991791607554,
+      "failed_port": null,
+      "global_phase_rad": 1.1108644008636475,
+      "fit_residual_nmse_db": -39.60971450805664,
+      "holdout_nmse_db": -49.52527674525571,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 41,
+      "snr_db": 34.35215227081861,
+      "failed_port": null,
+      "global_phase_rad": 3.0190603733062744,
+      "fit_residual_nmse_db": -35.015995025634766,
+      "holdout_nmse_db": -43.0893697587502,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 42,
+      "snr_db": 37.61370090284706,
+      "failed_port": 2,
+      "global_phase_rad": -0.47804439067840576,
+      "fit_residual_nmse_db": -39.48066329956055,
+      "holdout_nmse_db": -48.34494048458411,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 43,
+      "snr_db": 32.31131753424195,
+      "failed_port": null,
+      "global_phase_rad": 2.1906492710113525,
+      "fit_residual_nmse_db": -33.25226593017578,
+      "holdout_nmse_db": -43.14377156594189,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 44,
+      "snr_db": 26.28723445587824,
+      "failed_port": null,
+      "global_phase_rad": 1.2742291688919067,
+      "fit_residual_nmse_db": -26.97922134399414,
+      "holdout_nmse_db": -34.60699761026697,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 45,
+      "snr_db": 37.34632306834735,
+      "failed_port": null,
+      "global_phase_rad": 2.1341404914855957,
+      "fit_residual_nmse_db": -36.89061737060547,
+      "holdout_nmse_db": -46.90513237022991,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 46,
+      "snr_db": 28.223396815530798,
+      "failed_port": null,
+      "global_phase_rad": 1.0250295400619507,
+      "fit_residual_nmse_db": -27.34433364868164,
+      "holdout_nmse_db": -39.451936573542675,
+      "confidence": 1.0,
+      "reliable": true
+    },
+    {
+      "state_index": 47,
+      "snr_db": 26.459300369780532,
+      "failed_port": null,
+      "global_phase_rad": -0.688758373260498,
+      "fit_residual_nmse_db": -27.194425582885742,
+      "holdout_nmse_db": -34.586081559115684,
+      "confidence": 1.0,
+      "reliable": true
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "acceptance_margin_db": 3.0,
+  "all_continuous_feasible": false,
+  "max_steps": 300,
+  "results": [
+    {
+      "continuous_metrics": {
+        "dominant_polarization_ratio_db": 12.782778169298595,
+        "ephi_power": 2363.721500414702,
+        "etheta_power": 124.542760777378,
+        "feasible": false,
+        "outside_peak_power": 2445.2374609761237,
+        "peak_phi_deg": -8.0,
+        "peak_power": 2488.7009533088853,
+        "peak_theta_deg": 114.0,
+        "pointing_error_deg": 0.9999999999995357,
+        "strong_peak_margin_db": 0.07575461306791359,
+        "target_power": 2488.26426119208,
+        "target_to_peak_db": -0.0007621229762800128
+      },
+      "continuous_weights_iq": [
+        [
+          0.05920089739754373,
+          0.9982460887713638
+        ],
+        [
+          0.9795447842790134,
+          -0.20122627957545972
+        ],
+        [
+          0.7524173676920112,
+          0.31064954596120503
+        ],
+        [
+          0.404923807980132,
+          0.9143504304865117
+        ]
+      ],
+      "int8_codes_iq": [
+        [
+          3,
+          126
+        ],
+        [
+          124,
+          -24
+        ],
+        [
+          104,
+          35
+        ],
+        [
+          55,
+          114
+        ]
+      ],
+      "int8_metrics": {
+        "dominant_polarization_ratio_db": 12.7985411788952,
+        "ephi_power": 2388.7231786087636,
+        "etheta_power": 125.40409136980665,
+        "feasible": false,
+        "outside_peak_power": 2463.63975853385,
+        "peak_phi_deg": -8.0,
+        "peak_power": 2515.801205242313,
+        "peak_theta_deg": 114.0,
+        "pointing_error_deg": 0.9999999999995357,
+        "strong_peak_margin_db": 0.0881005455722679,
+        "target_power": 2514.1272699785704,
+        "target_to_peak_db": -0.0028906211232475306
+      },
+      "int8_weights_iq": [
+        [
+          0.023622047156095505,
+          0.9921259880065918
+        ],
+        [
+          0.9763779640197754,
+          -0.18897637724876404
+        ],
+        [
+          0.8188976645469666,
+          0.27559053897857666
+        ],
+        [
+          0.4330708682537079,
+          0.8976377844810486
+        ]
+      ],
+      "optimizer_message": "Inequality constraints incompatible; Optimization terminated successfully; Positive directional derivative for linesearch",
+      "optimizer_success": true,
+      "phase_only_metrics": {
+        "dominant_polarization_ratio_db": 13.009855580969003,
+        "ephi_power": 2658.9188727071637,
+        "etheta_power": 132.95954753039132,
+        "feasible": false,
+        "outside_peak_power": 2754.7911247886404,
+        "peak_phi_deg": -8.0,
+        "peak_power": 2791.878420237554,
+        "peak_theta_deg": 113.0,
+        "pointing_error_deg": 0.0,
+        "strong_peak_margin_db": 0.05807826722875762,
+        "target_power": 2791.878420237555,
+        "target_to_peak_db": 9.64327466553287e-16
+      },
+      "phase_only_weights_iq": [
+        [
+          0.5230858205287198,
+          -0.8522800152307902
+        ],
+        [
+          -0.9999269020690039,
+          -0.012090927122624594
+        ],
+        [
+          -0.5858137953120223,
+          -0.8104456781438989
+        ],
+        [
+          0.18363700319262669,
+          -0.9829941256479772
+        ]
+      ],
+      "reference_target_power": 2791.878420237555,
+      "target_phi_deg": -8.0,
+      "target_theta_deg": 113.0
+    },
+    {
+      "continuous_metrics": {
+        "dominant_polarization_ratio_db": 11.820709471114046,
+        "ephi_power": 1833.3109711165152,
+        "etheta_power": 120.54943806929839,
+        "feasible": false,
+        "outside_peak_power": 2282.5081382817257,
+        "peak_phi_deg": 0.0,
+        "peak_power": 2282.5081382817257,
+        "peak_theta_deg": 114.0,
+        "pointing_error_deg": 24.000000000000004,
+        "strong_peak_margin_db": -0.6751880175442753,
+        "target_power": 1953.8604091858138,
+        "target_to_peak_db": -0.6751880175442753
+      },
+      "continuous_weights_iq": [
+        [
+          -0.7117400237298512,
+          0.702442978910766
+        ],
+        [
+          0.835608796406903,
+          -0.5493249852022087
+        ],
+        [
+          0.999918855966386,
+          0.012738974953811499
+        ],
+        [
+          0.6765009916156035,
+          -0.7364417209413826
+        ]
+      ],
+      "int8_codes_iq": [
+        [
+          -90,
+          89
+        ],
+        [
+          105,
+          -70
+        ],
+        [
+          126,
+          2
+        ],
+        [
+          85,
+          -94
+        ]
+      ],
+      "int8_metrics": {
+        "dominant_polarization_ratio_db": 11.81618773657512,
+        "ephi_power": 1811.152755946133,
+        "etheta_power": 119.21648349790796,
+        "feasible": false,
+        "outside_peak_power": 2255.00782316018,
+        "peak_phi_deg": 0.0,
+        "peak_power": 2255.00782316018,
+        "peak_theta_deg": 114.0,
+        "pointing_error_deg": 24.000000000000004,
+        "strong_peak_margin_db": -0.6750766444194994,
+        "target_power": 1930.369239444041,
+        "target_to_peak_db": -0.6750766444194994
+      },
+      "int8_weights_iq": [
+        [
+          -0.7086614370346069,
+          0.7007874250411987
+        ],
+        [
+          0.8267716765403748,
+          -0.5511810779571533
+        ],
+        [
+          0.9921259880065918,
+          0.015748031437397003
+        ],
+        [
+          0.6692913174629211,
+          -0.7401574850082397
+        ]
+      ],
+      "optimizer_message": "Optimization terminated successfully; Positive directional derivative for linesearch",
+      "optimizer_success": true,
+      "phase_only_metrics": {
+        "dominant_polarization_ratio_db": 11.88833636058899,
+        "ephi_power": 2058.971560607049,
+        "etheta_power": 133.29587563824762,
+        "feasible": false,
+        "outside_peak_power": 2567.1440792433173,
+        "peak_phi_deg": 0.0,
+        "peak_power": 2567.1440792433173,
+        "peak_theta_deg": 114.0,
+        "pointing_error_deg": 24.000000000000004,
+        "strong_peak_margin_db": -0.6855671090940784,
+        "target_power": 2192.2674362452967,
+        "target_to_peak_db": -0.6855671090940784
+      },
+      "phase_only_weights_iq": [
+        [
+          -0.9999999999643325,
+          -8.446006664741667e-06
+        ],
+        [
+          0.9861787366056516,
+          0.16568494037443773
+        ],
+        [
+          0.9966872453694119,
+          0.08132979108502403
+        ],
+        [
+          0.9902900761373276,
+          0.13901642026726896
+        ]
+      ],
+      "reference_target_power": 2192.2674362452967,
+      "target_phi_deg": 0.0,
+      "target_theta_deg": 90.0
+    },
+    {
+      "continuous_metrics": {
+        "dominant_polarization_ratio_db": 15.456963505043053,
+        "ephi_power": 1415.724840605031,
+        "etheta_power": 40.2979080750504,
+        "feasible": false,
+        "outside_peak_power": 2294.480801090788,
+        "peak_phi_deg": 20.0,
+        "peak_power": 2294.480801090788,
+        "peak_theta_deg": 111.0,
+        "pointing_error_deg": 35.999999999999986,
+        "strong_peak_margin_db": -1.9751626773529258,
+        "target_power": 1456.0227486800813,
+        "target_to_peak_db": -1.9751626773529258
+      },
+      "continuous_weights_iq": [
+        [
+          0.41401843863391646,
+          0.9102684947152317
+        ],
+        [
+          0.2944308730831587,
+          0.9556727792374798
+        ],
+        [
+          0.9922542188887553,
+          0.12422385075928857
+        ],
+        [
+          -0.8326824458082607,
+          -0.553750796336017
+        ]
+      ],
+      "int8_codes_iq": [
+        [
+          53,
+          115
+        ],
+        [
+          37,
+          121
+        ],
+        [
+          125,
+          16
+        ],
+        [
+          -106,
+          -69
+        ]
+      ],
+      "int8_metrics": {
+        "dominant_polarization_ratio_db": 15.462792576298156,
+        "ephi_power": 1403.0285446385378,
+        "etheta_power": 39.882947719802544,
+        "feasible": false,
+        "outside_peak_power": 2273.3915856344192,
+        "peak_phi_deg": 20.0,
+        "peak_power": 2273.3915856344192,
+        "peak_theta_deg": 111.0,
+        "pointing_error_deg": 35.999999999999986,
+        "strong_peak_margin_db": -1.974345557816477,
+        "target_power": 1442.9114923583404,
+        "target_to_peak_db": -1.974345557816477
+      },
+      "int8_weights_iq": [
+        [
+          0.4173228442668915,
+          0.9055117964744568
+        ],
+        [
+          0.29133859276771545,
+          0.9527559280395508
+        ],
+        [
+          0.9842519760131836,
+          0.12598425149917603
+        ],
+        [
+          -0.834645688533783,
+          -0.5433070659637451
+        ]
+      ],
+      "optimizer_message": "Inequality constraints incompatible; Optimization terminated successfully; Positive directional derivative for linesearch",
+      "optimizer_success": true,
+      "phase_only_metrics": {
+        "dominant_polarization_ratio_db": 15.264375148426092,
+        "ephi_power": 1586.4784524889353,
+        "etheta_power": 47.20594141361791,
+        "feasible": false,
+        "outside_peak_power": 2593.8649674577123,
+        "peak_phi_deg": 20.0,
+        "peak_power": 2593.8649674577123,
+        "peak_theta_deg": 111.0,
+        "pointing_error_deg": 35.999999999999986,
+        "strong_peak_margin_db": -2.007792032653021,
+        "target_power": 1633.6843939025532,
+        "target_to_peak_db": -2.007792032653021
+      },
+      "phase_only_weights_iq": [
+        [
+          -0.9999999998401989,
+          -1.787741800024786e-05
+        ],
+        [
+          -0.7033021833798667,
+          -0.7108910175639529
+        ],
+        [
+          -0.2799880041483031,
+          0.9600034987087546
+        ],
+        [
+          0.9658403182613431,
+          -0.25913795480559654
+        ]
+      ],
+      "reference_target_power": 1633.6843939025532,
+      "target_phi_deg": 20.0,
+      "target_theta_deg": 75.0
+    }
+  ],
+  "scope": "three-direction production-setting spot check; not the complete 64x64 map",
+  "starts": 32
+}

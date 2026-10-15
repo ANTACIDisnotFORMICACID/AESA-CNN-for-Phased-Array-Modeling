@@ -1,0 +1,128 @@
+{
+  "calibration": {
+    "confidence": [
+      [
+        1.0
+      ]
+    ],
+    "design_condition_number": 1.1137565658824784,
+    "residual_nmse_db": [
+      -40.36311721801758
+    ]
+  },
+  "controller": {
+    "calibration_confidence": 1.0,
+    "feasible": false,
+    "metrics_fp32": {
+      "dominant_polarization_ratio_db": 13.03432272859359,
+      "ephi_power": 2506.341063175123,
+      "etheta_power": 124.62578206588557,
+      "outside_peak_power": 2595.909114319615,
+      "peak_phi_deg": -8.0,
+      "peak_power": 2630.9668452410097,
+      "peak_theta_deg": 113.0,
+      "pointing_error_deg": 0.0,
+      "strong_peak_margin_db": 0.058258919950943885,
+      "target_power": 2630.9668452410087,
+      "target_to_peak_db": -1.446491199829931e-15
+    },
+    "metrics_int8": {
+      "dominant_polarization_ratio_db": 13.030576429916032,
+      "ephi_power": 2495.260548235657,
+      "etheta_power": 124.18188765996989,
+      "outside_peak_power": 2584.6768886345835,
+      "peak_phi_deg": -8.0,
+      "peak_power": 2619.4424358956276,
+      "peak_theta_deg": 113.0,
+      "pointing_error_deg": 0.0,
+      "strong_peak_margin_db": 0.058025994422449226,
+      "target_power": 2619.442435895627,
+      "target_to_peak_db": -9.643274665532871e-16
+    },
+    "reason_mask": 2,
+    "reason_names": [
+      "AMBIGUOUS_LOBE"
+    ],
+    "target_hfss_deg": [
+      113.0,
+      -8.0
+    ],
+    "weights_fp32_iq": [
+      [
+        -1.0,
+        -1.842797064455226e-05
+      ],
+      [
+        0.606290340423584,
+        0.7952433824539185
+      ],
+      [
+        -0.5336620211601257,
+        0.8456978797912598
+      ],
+      [
+        -0.9140869975090027,
+        0.4055180847644806
+      ]
+    ],
+    "weights_int8_codes_iq": [
+      [
+        -127,
+        0
+      ],
+      [
+        76,
+        101
+      ],
+      [
+        -68,
+        107
+      ],
+      [
+        -116,
+        51
+      ]
+    ],
+    "weights_int8_iq": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        0.5984252095222473,
+        0.7952755689620972
+      ],
+      [
+        -0.5354330539703369,
+        0.8425197005271912
+      ],
+      [
+        -0.913385808467865,
+        0.4015747904777527
+      ]
+    ]
+  },
+  "environment": {
+    "canonical_npz": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\HFSS\\vitis_hfss_lab\\artifacts\\hfss_active_element_patterns_47ghz.npz",
+    "numpy": "2.5.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.13 | packaged by Anaconda, Inc. | (main, Apr 14 2026, 06:12:50) [MSC v.1942 64 bit (AMD64)]",
+    "torch": "2.13.0+cpu"
+  },
+  "phase_only_oracle": {
+    "dominant_polarization_ratio_db": 13.009855580964203,
+    "ephi_power": 2658.918872707023,
+    "etheta_power": 132.9595475305312,
+    "outside_peak_power": 2754.7911247890324,
+    "peak_phi_deg": -8.0,
+    "peak_power": 2791.8784202375537,
+    "peak_theta_deg": 113.0,
+    "pointing_error_deg": 0.0,
+    "strong_peak_margin_db": 0.058078267228139135,
+    "target_power": 2791.8784202375546,
+    "target_to_peak_db": 9.64327466553287e-16
+  },
+  "scope": "FP32 physical-interface smoke; not trained, PTQ, DPU, FPGA, or OTA",
+  "status": "passed",
+  "timestamp_utc": "2026-08-31T02:28:02.259903+00:00"
+}

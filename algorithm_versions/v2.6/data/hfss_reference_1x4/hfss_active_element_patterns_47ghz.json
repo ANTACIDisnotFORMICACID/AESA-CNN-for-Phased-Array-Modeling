@@ -1,0 +1,28 @@
+{
+  "frequency_hz": 47000000000.0,
+  "metadata": {
+    "far_field_setup": "Infinite Sphere1",
+    "frequency": "47GHz",
+    "no_solve_performed_by_importer": true,
+    "setup": "Setup2 : LastAdaptive",
+    "source": "manual HFSS GUI export",
+    "source_file_sha256": {
+      "port_1.ffd": "2F31A300E2D424102CC94A6576AF234CCE789BF0FB443805CE41E259C5BDF543",
+      "port_2.ffd": "8A7CB8AB5639F7ED8059A21FE4BC0F19CA03E488EA4EFF0A27279544CC01982B",
+      "port_3.ffd": "7AD7112C90F4F847915294F1A5C2C2BF250B71ED36FA5EAEB59BFCBC57DDFCCF",
+      "port_4.ffd": "1C8B1D6314469F752112ADB6DCA0337B472D31BA3A17B22C32588B898D8BAFA6",
+      "sparams.csv": "644F637F5BDBB6BEFB28E840E7AF3CFD9C6AC4B807B333EFD96847F0C4ADEED4"
+    },
+    "source_project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\HFSS\\20250326.aedt",
+    "source_project_sha256": "D647839C759D84C58D9A0251EFB814C29790F0D5D03287462284B3A2B683D350"
+  },
+  "normalization": "one active port at 1 W / 0 deg; other ports at 0 W",
+  "npz": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\HFSS\\vitis_hfss_lab\\artifacts\\hfss_active_element_patterns_47ghz.npz",
+  "port_names": [
+    "1:1",
+    "2:1",
+    "3:1",
+    "4:1"
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,24 @@
+{
+  "failed": 0,
+  "failures": [],
+  "passed": 16,
+  "passed_tests": [
+    "test_calibration_v26.test_calibration_design_and_phase_invariance",
+    "test_calibration_v26.test_calibration_noisy_holdout_nmse_gate",
+    "test_calibration_v26.test_single_failed_port_remains_finite",
+    "test_controller_v26.test_model_fixed_shapes_and_parameter_budget",
+    "test_controller_v26.test_public_result_reason_bits_for_domain_confidence_and_health",
+    "test_controller_v26.test_untrained_zero_head_is_exact_analytic_baseline_and_reports_ambiguity",
+    "test_dataset_v26.test_release_profile_counts_ranges_and_determinism",
+    "test_dataset_v26.test_target_blocks_do_not_overlap_and_each_state_has_64_targets",
+    "test_deployment_v26.test_deployment_contract_preserves_all_reason_bits",
+    "test_deployment_v26.test_static_core_audit_has_no_non_dpu_math",
+    "test_oracle_v26.test_phase_only_oracle_is_deterministic_and_target_optimal_against_random",
+    "test_physics_v26.test_equal_phase_electrical_boresight_and_positive_ramp_sign",
+    "test_physics_v26.test_geometry_and_hfss_coordinate_contract",
+    "test_physics_v26.test_integer_quantizer_never_leaves_disk",
+    "test_physics_v26.test_linearity_and_recorded_direct_recomposition_gate",
+    "test_training_v26.test_exact_hfss_loss_is_finite_and_backpropagates"
+  ],
+  "status": "pass"
+}

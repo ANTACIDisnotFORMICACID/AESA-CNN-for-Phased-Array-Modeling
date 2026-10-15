@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "model_version": "2.6.0",
+  "dpu_core": {
+    "input": {
+      "name": "deployment_x",
+      "layout": "NCHW",
+      "shape": [
+        1,
+        15,
+        1,
+        4
+      ],
+      "dtype": "float32/int8"
+    },
+    "output": {
+      "name": "delta_iq",
+      "layout": "NCHW",
+      "shape": [
+        1,
+        2,
+        1,
+        4
+      ],
+      "dtype": "float32/int8"
+    },
+    "channel_order": [
+      "initial_I",
+      "initial_Q",
+      "calibration_I",
+      "calibration_Q",
+      "health_mask",
+      "target_ETheta_I",
+      "target_ETheta_Q",
+      "target_EPhi_I",
+      "target_EPhi_Q",
+      "port_y_normalized",
+      "target_ux",
+      "target_uy",
+      "target_uz",
+      "target_element_envelope",
+      "calibration_confidence"
+    ]
+  },
+  "ps_before_dpu": [
+    "phase-invariant calibration",
+    "HFSS target-response interpolation",
+    "analytic initial weights",
+    "coordinate and direction channel construction"
+  ],
+  "ps_after_dpu": [
+    "complex residual multiplication",
+    "amplitude clipping",
+    "health mask",
+    "unit-disk projection",
+    "nearest INT8 integer-disk quantization",
+    "feasibility reason reporting"
+  ],
+  "reason_bits": {
+    "OUT_OF_DOMAIN": 1,
+    "AMBIGUOUS_LOBE": 2,
+    "POINTING_UNACHIEVABLE": 4,
+    "CALIBRATION_UNCERTAIN": 8,
+    "INSUFFICIENT_ELEMENTS": 16
+  },
+  "not_in_dpu": [
+    "HFSS full-sphere observer",
+    "physical oracle",
+    "measurement acquisition"
+  ]
+}

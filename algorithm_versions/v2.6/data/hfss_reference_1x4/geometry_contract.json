@@ -1,0 +1,68 @@
+{
+  "array_axis": "+Y",
+  "boresight": "+X nominal printed-endfire direction",
+  "boresight_evidence": "substrate length/director geometry along X plus exported element-pattern envelope",
+  "design": "HFSSDesign1",
+  "design_info_is_solved": true,
+  "expected_project_sha256": "D647839C759D84C58D9A0251EFB814C29790F0D5D03287462284B3A2B683D350",
+  "geometry_compatible_with_frozen_checkpoint": false,
+  "hash_matches_frozen_input": true,
+  "infinite_sphere1": {
+    "phi_start": "-180deg",
+    "phi_step": "1deg",
+    "phi_stop": "180deg",
+    "theta_start": "0deg",
+    "theta_step": "1deg",
+    "theta_stop": "180deg"
+  },
+  "port_spacing_mm": [
+    6.8,
+    6.8,
+    6.799999999999999
+  ],
+  "ports": [
+    {
+      "name": "1",
+      "y_mm": 0.0
+    },
+    {
+      "name": "2",
+      "y_mm": 6.8
+    },
+    {
+      "name": "3",
+      "y_mm": 13.6
+    },
+    {
+      "name": "4",
+      "y_mm": 20.4
+    }
+  ],
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\HFSS\\20250326.aedt",
+  "project_sha256": "D647839C759D84C58D9A0251EFB814C29790F0D5D03287462284B3A2B683D350",
+  "rotation_hfss_from_v25": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  ],
+  "schema_version": 1,
+  "setup2": {
+    "enabled": true,
+    "frequency": "47GHz",
+    "solution": "Setup2 : LastAdaptive"
+  },
+  "solution_type": "HFSS Modal Network",
+  "v25_frozen_spacing_mm": 15.0
+}

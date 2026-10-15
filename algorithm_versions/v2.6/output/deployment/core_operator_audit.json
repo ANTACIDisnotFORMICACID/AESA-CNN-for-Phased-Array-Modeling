@@ -1,0 +1,129 @@
+{
+  "checkpoint": null,
+  "docker_cli": null,
+  "input": {
+    "dtype": "float32",
+    "name": "deployment_x",
+    "shape": [
+      1,
+      15,
+      1,
+      4
+    ]
+  },
+  "nodes": [
+    {
+      "name": "deployment_x",
+      "op": "placeholder",
+      "target": "deployment_x"
+    },
+    {
+      "module_type": "Conv2d",
+      "name": "stem_0",
+      "op": "call_module",
+      "target": "stem.0"
+    },
+    {
+      "module_type": "ReLU6",
+      "name": "stem_1",
+      "op": "call_module",
+      "target": "stem.1"
+    },
+    {
+      "module_type": "Conv2d",
+      "name": "blocks_0_depthwise",
+      "op": "call_module",
+      "target": "blocks.0.depthwise"
+    },
+    {
+      "module_type": "Conv2d",
+      "name": "blocks_0_pointwise",
+      "op": "call_module",
+      "target": "blocks.0.pointwise"
+    },
+    {
+      "name": "add",
+      "op": "call_function",
+      "target": "<built-in function add>"
+    },
+    {
+      "module_type": "ReLU6",
+      "name": "blocks_0_activation",
+      "op": "call_module",
+      "target": "blocks.0.activation"
+    },
+    {
+      "module_type": "Conv2d",
+      "name": "blocks_1_depthwise",
+      "op": "call_module",
+      "target": "blocks.1.depthwise"
+    },
+    {
+      "module_type": "Conv2d",
+      "name": "blocks_1_pointwise",
+      "op": "call_module",
+      "target": "blocks.1.pointwise"
+    },
+    {
+      "name": "add_1",
+      "op": "call_function",
+      "target": "<built-in function add>"
+    },
+    {
+      "module_type": "ReLU6",
+      "name": "blocks_1_activation",
+      "op": "call_module",
+      "target": "blocks.1.activation"
+    },
+    {
+      "module_type": "Conv2d",
+      "name": "blocks_2_depthwise",
+      "op": "call_module",
+      "target": "blocks.2.depthwise"
+    },
+    {
+      "module_type": "Conv2d",
+      "name": "blocks_2_pointwise",
+      "op": "call_module",
+      "target": "blocks.2.pointwise"
+    },
+    {
+      "name": "add_2",
+      "op": "call_function",
+      "target": "<built-in function add>"
+    },
+    {
+      "module_type": "ReLU6",
+      "name": "blocks_2_activation",
+      "op": "call_module",
+      "target": "blocks.2.activation"
+    },
+    {
+      "module_type": "Conv2d",
+      "name": "head",
+      "op": "call_module",
+      "target": "head"
+    },
+    {
+      "name": "output",
+      "op": "output",
+      "target": "output"
+    }
+  ],
+  "output": {
+    "dtype": "float32",
+    "name": "delta_iq",
+    "shape": [
+      1,
+      2,
+      1,
+      4
+    ]
+  },
+  "parameter_count": 1250,
+  "ptq_status": "blocked_missing_existing_runtime",
+  "pytorch_nndct_available_on_host": false,
+  "scope": "static PyTorch core audit only; vai_c_xir is authoritative for DPU partitioning",
+  "status": "pass",
+  "unsupported_nodes": []
+}

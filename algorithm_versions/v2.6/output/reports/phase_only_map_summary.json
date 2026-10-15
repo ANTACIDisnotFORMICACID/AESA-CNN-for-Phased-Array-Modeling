@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "samples": 4096,
+  "starts": 32,
+  "feasible_count": 0,
+  "target_to_peak_db_p05_median_p95": [
+    -3.5813878194946365,
+    -0.7462500742789017,
+    -0.033157961088359264
+  ],
+  "pointing_error_deg_p05_median_p95": [
+    1.5398836799400963,
+    25.952402393016605,
+    58.304124753293316
+  ],
+  "strong_peak_margin_db_p05_median_p95_max": [
+    -3.5813878194946365,
+    -0.7462500742789017,
+    0.029350953248392195,
+    0.08793233496126361
+  ],
+  "conclusion": "phase-only has no feasible direction"
+}
