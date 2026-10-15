@@ -1,0 +1,12 @@
+[model]
+direction_fourier_bands = 4
+directional_width = 24
+edge_width = 16
+multihop_width = 16
+enable_multihop = false
+
+[model.initialization]
+# The untrained model exactly reproduces the ideal operator. Every learned
+# correction begins from zero, while the complex element gains begin at 1+0j.
+zero_residual = true
+

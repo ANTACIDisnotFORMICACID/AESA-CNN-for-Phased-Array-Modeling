@@ -1,0 +1,1351 @@
+{
+  "aedt_version": "2025.2",
+  "boundaries": [
+    {
+      "name": "Rad1",
+      "props": {
+        "BoundType": "Radiation",
+        "ID": 1,
+        "IsComponent": false,
+        "IsForPML": false,
+        "IsFssReference": false,
+        "Objects": [
+          422
+        ],
+        "ParentBndID": -1,
+        "UseAdaptiveIE": false
+      },
+      "type": "Radiation"
+    },
+    {
+      "name": "1",
+      "props": {
+        "BoundType": "Wave Port",
+        "DeembedDist": "0mm",
+        "DoDeembed": false,
+        "ID": 0,
+        "ImpedanceType": "Impedance",
+        "IsComponent": false,
+        "Modes": {
+          "Mode1": {
+            "AlignmentGroup": 0,
+            "CharImp": "Zpi",
+            "IntLine": {
+              "GeometryPosition": [
+                {
+                  "EntityID": 55,
+                  "FacetedBodyTriangleIndex": -1,
+                  "IsAttachedToEntity": true,
+                  "PositionType": "EdgeCenter",
+                  "TriangleVertexIndex": -1,
+                  "UParam": 0.5,
+                  "VParam": 0,
+                  "XPosition": "0",
+                  "YPosition": "0",
+                  "ZPosition": "0",
+                  "hasXYZ": true
+                },
+                {
+                  "EntityID": 87,
+                  "FacetedBodyTriangleIndex": -1,
+                  "IsAttachedToEntity": true,
+                  "PositionType": "EdgeCenter",
+                  "TriangleVertexIndex": -1,
+                  "UParam": 0.5,
+                  "VParam": 0,
+                  "XPosition": "0",
+                  "YPosition": "0",
+                  "ZPosition": "0.254",
+                  "hasXYZ": true
+                }
+              ]
+            },
+            "ModeNum": 1,
+            "RenormImp": "50ohm",
+            "UseIntLine": true
+          }
+        },
+        "NumModes": 1,
+        "Objects": [
+          382
+        ],
+        "PECCapPartID": -1,
+        "ParentBndID": -1,
+        "ReporterFilter": [
+          true
+        ],
+        "ShowReporterFilter": false,
+        "SpecifiedWaveDirectionFlip": false,
+        "SpecifyWaveDirection": false,
+        "UseAnalyticAlignment": false,
+        "UseLineModeAlignment": false,
+        "WaveDirectionComputed": false,
+        "WavePortType": "Modal"
+      },
+      "type": "Wave Port"
+    },
+    {
+      "name": "2",
+      "props": {
+        "BoundType": "Wave Port",
+        "DeembedDist": "0mm",
+        "DoDeembed": false,
+        "ID": 2,
+        "ImpedanceType": "Impedance",
+        "IsComponent": false,
+        "Modes": {
+          "Mode1": {
+            "AlignmentGroup": 0,
+            "CharImp": "Zpi",
+            "IntLine": {
+              "GeometryPosition": [
+                {
+                  "EntityID": 1269,
+                  "FacetedBodyTriangleIndex": -1,
+                  "IsAttachedToEntity": true,
+                  "PositionType": "EdgeCenter",
+                  "TriangleVertexIndex": -1,
+                  "UParam": 0.5,
+                  "VParam": 0,
+                  "XPosition": "4.31075673299869e-17",
+                  "YPosition": "6.8",
+                  "ZPosition": "0.289",
+                  "hasXYZ": true
+                },
+                {
+                  "EntityID": 1271,
+                  "FacetedBodyTriangleIndex": -1,
+                  "IsAttachedToEntity": true,
+                  "PositionType": "EdgeCenter",
+                  "TriangleVertexIndex": -1,
+                  "UParam": 0.5,
+                  "VParam": 0,
+                  "XPosition": "-8.99560651953618e-18",
+                  "YPosition": "6.8",
+                  "ZPosition": "-0.0349999999999999",
+                  "hasXYZ": true
+                }
+              ]
+            },
+            "ModeNum": 1,
+            "RenormImp": "50ohm",
+            "UseIntLine": true
+          }
+        },
+        "NumModes": 1,
+        "Objects": [
+          1267
+        ],
+        "PECCapPartID": -1,
+        "ParentBndID": -1,
+        "ReporterFilter": [
+          true
+        ],
+        "ShowReporterFilter": false,
+        "SpecifiedWaveDirectionFlip": false,
+        "SpecifyWaveDirection": false,
+        "UseAnalyticAlignment": false,
+        "UseLineModeAlignment": false,
+        "WaveDirectionComputed": false,
+        "WavePortType": "Modal"
+      },
+      "type": "Wave Port"
+    },
+    {
+      "name": "3",
+      "props": {
+        "BoundType": "Wave Port",
+        "DeembedDist": "0mm",
+        "DoDeembed": false,
+        "ID": 3,
+        "ImpedanceType": "Impedance",
+        "IsComponent": false,
+        "Modes": {
+          "Mode1": {
+            "AlignmentGroup": 0,
+            "CharImp": "Zpi",
+            "IntLine": {
+              "GeometryPosition": [
+                {
+                  "EntityID": 811,
+                  "FacetedBodyTriangleIndex": -1,
+                  "IsAttachedToEntity": true,
+                  "PositionType": "EdgeCenter",
+                  "TriangleVertexIndex": -1,
+                  "UParam": 0.5,
+                  "VParam": 0,
+                  "XPosition": "0",
+                  "YPosition": "13.6",
+                  "ZPosition": "0.254",
+                  "hasXYZ": true
+                },
+                {
+                  "EntityID": 1282,
+                  "FacetedBodyTriangleIndex": -1,
+                  "IsAttachedToEntity": true,
+                  "PositionType": "OnEdge",
+                  "TriangleVertexIndex": -1,
+                  "UParam": 0.504438920454545,
+                  "VParam": 0,
+                  "XPosition": "-9.37830864426963e-18",
+                  "YPosition": "13.59375",
+                  "ZPosition": "-0.0349999999999999",
+                  "hasXYZ": true
+                }
+              ]
+            },
+            "ModeNum": 1,
+            "RenormImp": "50ohm",
+            "UseIntLine": true
+          }
+        },
+        "NumModes": 1,
+        "Objects": [
+          1278
+        ],
+        "PECCapPartID": -1,
+        "ParentBndID": -1,
+        "ReporterFilter": [
+          true
+        ],
+        "ShowReporterFilter": false,
+        "SpecifiedWaveDirectionFlip": false,
+        "SpecifyWaveDirection": false,
+        "UseAnalyticAlignment": false,
+        "UseLineModeAlignment": false,
+        "WaveDirectionComputed": false,
+        "WavePortType": "Modal"
+      },
+      "type": "Wave Port"
+    },
+    {
+      "name": "4",
+      "props": {
+        "BoundType": "Wave Port",
+        "DeembedDist": "0mm",
+        "DoDeembed": false,
+        "ID": 4,
+        "ImpedanceType": "Impedance",
+        "IsComponent": false,
+        "Modes": {
+          "Mode1": {
+            "AlignmentGroup": 0,
+            "CharImp": "Zpi",
+            "IntLine": {
+              "GeometryPosition": [
+                {
+                  "EntityID": 1291,
+                  "FacetedBodyTriangleIndex": -1,
+                  "IsAttachedToEntity": true,
+                  "PositionType": "EdgeCenter",
+                  "TriangleVertexIndex": -1,
+                  "UParam": 0.5,
+                  "VParam": 0,
+                  "XPosition": "4.31075673299868e-17",
+                  "YPosition": "20.4",
+                  "ZPosition": "0.289",
+                  "hasXYZ": true
+                },
+                {
+                  "EntityID": 1293,
+                  "FacetedBodyTriangleIndex": -1,
+                  "IsAttachedToEntity": true,
+                  "PositionType": "EdgeCenter",
+                  "TriangleVertexIndex": -1,
+                  "UParam": 0.5,
+                  "VParam": 0,
+                  "XPosition": "-8.99560651953612e-18",
+                  "YPosition": "20.4",
+                  "ZPosition": "-0.0349999999999999",
+                  "hasXYZ": true
+                }
+              ]
+            },
+            "ModeNum": 1,
+            "RenormImp": "50ohm",
+            "UseIntLine": true
+          }
+        },
+        "NumModes": 1,
+        "Objects": [
+          1289
+        ],
+        "PECCapPartID": -1,
+        "ParentBndID": -1,
+        "ReporterFilter": [
+          true
+        ],
+        "ShowReporterFilter": false,
+        "SpecifiedWaveDirectionFlip": false,
+        "SpecifyWaveDirection": false,
+        "UseAnalyticAlignment": false,
+        "UseLineModeAlignment": false,
+        "WaveDirectionComputed": false,
+        "WavePortType": "Modal"
+      },
+      "type": "Wave Port"
+    }
+  ],
+  "design_name": "HFSSDesign1",
+  "excitations": [
+    "2:1",
+    "1:1",
+    "4:1",
+    "3:1"
+  ],
+  "field_setups": [
+    {
+      "name": "Infinite Sphere1",
+      "props": {
+        "Boresight": "Z Axis",
+        "CSDefinition": "Theta-Phi",
+        "ID": 0,
+        "PhiStart": "-180deg",
+        "PhiStep": "1deg",
+        "PhiStop": "180deg",
+        "Polarization": "Linear",
+        "ThetaStart": "0deg",
+        "ThetaStep": "1deg",
+        "ThetaStop": "180deg",
+        "Type": "Infinite Sphere",
+        "UseCustomRadiationSurface": false,
+        "UseLocalCS": false,
+        "VersionID": 180
+      }
+    },
+    {
+      "name": "TestSphere",
+      "props": {
+        "Boresight": "Z Axis",
+        "CSDefinition": "Theta-Phi",
+        "ID": 20,
+        "PhiStart": "0deg",
+        "PhiStep": "10deg",
+        "PhiStop": "360deg",
+        "Polarization": "Linear",
+        "ThetaStart": "-180deg",
+        "ThetaStep": "10deg",
+        "ThetaStop": "180deg",
+        "Type": "Infinite Sphere",
+        "UseCustomRadiationSurface": false,
+        "UseLocalCS": false,
+        "VersionID": 181
+      }
+    },
+    {
+      "name": "FF_Sphere_F60",
+      "props": {
+        "Boresight": "Z Axis",
+        "CSDefinition": "Theta-Phi",
+        "ID": 62,
+        "PhiStart": "0deg",
+        "PhiStep": "2deg",
+        "PhiStop": "360deg",
+        "Polarization": "Linear",
+        "ThetaStart": "-180deg",
+        "ThetaStep": "2deg",
+        "ThetaStop": "180deg",
+        "Type": "Infinite Sphere",
+        "UseCustomRadiationSurface": false,
+        "UseLocalCS": false,
+        "VersionID": 182
+      }
+    }
+  ],
+  "launcher_identity": "formic-acid\\asus",
+  "model_units": "mm",
+  "no_solve_performed": true,
+  "object_count": 47,
+  "objects": [
+    {
+      "bounding_box": [
+        0.0,
+        -3.4,
+        0.0,
+        5.0,
+        3.4,
+        0.254
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 6,
+      "material_name": "rogers ro4350 (tm)",
+      "model": true,
+      "name": "Box1",
+      "object_type": "Solid",
+      "solve_inside": true
+    },
+    {
+      "bounding_box": [
+        0.0,
+        -3.4,
+        -0.035,
+        1.5,
+        3.4,
+        0.0
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 46,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box2",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        -0.225,
+        0.254,
+        1.5,
+        0.225,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 74,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box3",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        0.479,
+        0.254,
+        1.5,
+        3.4,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 102,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box4",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        -3.4,
+        0.254,
+        1.5,
+        -0.479,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 130,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box5",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.5,
+        -0.25,
+        0.254,
+        2.6,
+        1.225,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 158,
+      "material_name": "copper",
+      "model": true,
+      "name": "Polyline1",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.5,
+        -0.775,
+        -0.035,
+        2.6,
+        0.25,
+        4.33680868994202e-17
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 242,
+      "material_name": "copper",
+      "model": true,
+      "name": "Polyline2",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        -0.5,
+        -0.85,
+        -0.035,
+        0.0,
+        0.85,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 394,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box8",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        -2.0,
+        -4.0,
+        -2.0,
+        6.0,
+        25.0,
+        2.0
+      ],
+      "display_wireframe": false,
+      "group_name": "Model",
+      "id": 422,
+      "material_name": "vacuum",
+      "model": true,
+      "name": "Box9",
+      "object_type": "Solid",
+      "solve_inside": true
+    },
+    {
+      "bounding_box": [
+        2.6,
+        0.975,
+        0.254,
+        3.2,
+        1.225,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 514,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box10",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.8,
+        -0.775,
+        -0.035,
+        2.4,
+        -0.525,
+        0.0
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 570,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box11",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        3.4,
+        0.0,
+        5.0,
+        10.2,
+        0.254
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 600,
+      "material_name": "rogers ro4350 (tm)",
+      "model": true,
+      "name": "Box1_1",
+      "object_type": "Solid",
+      "solve_inside": true
+    },
+    {
+      "bounding_box": [
+        0.0,
+        10.2,
+        0.0,
+        5.0,
+        17.0,
+        0.254
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 628,
+      "material_name": "rogers ro4350 (tm)",
+      "model": true,
+      "name": "Box1_2",
+      "object_type": "Solid",
+      "solve_inside": true
+    },
+    {
+      "bounding_box": [
+        0.0,
+        17.0,
+        0.0,
+        5.0,
+        23.8,
+        0.254
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 656,
+      "material_name": "rogers ro4350 (tm)",
+      "model": true,
+      "name": "Box1_3",
+      "object_type": "Solid",
+      "solve_inside": true
+    },
+    {
+      "bounding_box": [
+        0.0,
+        3.4,
+        -0.035,
+        1.5,
+        10.2,
+        0.0
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 685,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box2_1",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        10.2,
+        -0.035,
+        1.5,
+        17.0,
+        0.0
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 713,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box2_2",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        17.0,
+        -0.035,
+        1.5,
+        23.8,
+        0.0
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 741,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box2_3",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        6.575,
+        0.254,
+        1.5,
+        7.025,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 770,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box3_1",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        13.375,
+        0.254,
+        1.5,
+        13.825,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 798,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box3_2",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        20.175,
+        0.254,
+        1.5,
+        20.625,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 826,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box3_3",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        7.279,
+        0.254,
+        1.5,
+        10.2,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 855,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box4_1",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        14.079,
+        0.254,
+        1.5,
+        17.0,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 883,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box4_2",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        20.879,
+        0.254,
+        1.5,
+        23.8,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 911,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box4_3",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        3.4,
+        0.254,
+        1.5,
+        6.321,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 940,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box5_1",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        10.2,
+        0.254,
+        1.5,
+        13.121,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 968,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box5_2",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        17.0,
+        0.254,
+        1.5,
+        19.921,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 996,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box5_3",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.5,
+        6.55,
+        0.254,
+        2.6,
+        8.025,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1025,
+      "material_name": "copper",
+      "model": true,
+      "name": "Polyline1_1",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.5,
+        13.35,
+        0.254,
+        2.6,
+        14.825,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1065,
+      "material_name": "copper",
+      "model": true,
+      "name": "Polyline1_2",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.5,
+        20.15,
+        0.254,
+        2.6,
+        21.625,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1105,
+      "material_name": "copper",
+      "model": true,
+      "name": "Polyline1_3",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.5,
+        6.025,
+        -0.035,
+        2.6,
+        7.05,
+        4.33680868994202e-17
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1146,
+      "material_name": "copper",
+      "model": true,
+      "name": "Polyline2_1",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.5,
+        12.825,
+        -0.035,
+        2.6,
+        13.85,
+        4.33680868994202e-17
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1186,
+      "material_name": "copper",
+      "model": true,
+      "name": "Polyline2_2",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.5,
+        19.625,
+        -0.035,
+        2.6,
+        20.65,
+        4.33680868994202e-17
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1226,
+      "material_name": "copper",
+      "model": true,
+      "name": "Polyline2_3",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        -0.5,
+        5.95,
+        -0.035,
+        0.0,
+        7.65,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1301,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box8_1",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        -0.5,
+        12.75,
+        -0.035,
+        0.0,
+        14.45,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1329,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box8_2",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        -0.5,
+        19.55,
+        -0.035,
+        0.0,
+        21.25,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1357,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box8_3",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        2.6,
+        7.775,
+        0.254,
+        3.2,
+        8.025,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1386,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box10_1",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        2.6,
+        14.575,
+        0.254,
+        3.2,
+        14.825,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1414,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box10_2",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        2.6,
+        21.375,
+        0.254,
+        3.2,
+        21.625,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1442,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box10_3",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.8,
+        6.025,
+        -0.035,
+        2.4,
+        6.275,
+        0.0
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1471,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box11_1",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.8,
+        12.825,
+        -0.035,
+        2.4,
+        13.075,
+        0.0
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1499,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box11_2",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        1.8,
+        19.625,
+        -0.035,
+        2.4,
+        19.875,
+        0.0
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1527,
+      "material_name": "copper",
+      "model": true,
+      "name": "Box11_3",
+      "object_type": "Solid",
+      "solve_inside": false
+    },
+    {
+      "bounding_box": [
+        0.0,
+        -3.4,
+        -0.797,
+        5.0,
+        23.8,
+        -0.035
+      ],
+      "display_wireframe": false,
+      "group_name": "Model",
+      "id": 1555,
+      "material_name": "rogers ro4350 (tm)",
+      "model": true,
+      "name": "Box12",
+      "object_type": "Solid",
+      "solve_inside": true
+    },
+    {
+      "bounding_box": [
+        8.62151346599737e-17,
+        -0.704,
+        -0.0349999999999997,
+        8.62151346599737e-17,
+        0.704,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 382,
+      "material_name": "",
+      "model": true,
+      "name": "Rectangle1",
+      "object_type": "Sheet",
+      "solve_inside": null
+    },
+    {
+      "bounding_box": [
+        8.62151346599737e-17,
+        6.096,
+        -0.0349999999999997,
+        8.62151346599737e-17,
+        7.504,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1267,
+      "material_name": "",
+      "model": true,
+      "name": "Rectangle1_1",
+      "object_type": "Sheet",
+      "solve_inside": null
+    },
+    {
+      "bounding_box": [
+        8.62151346599737e-17,
+        12.896,
+        -0.0349999999999997,
+        8.62151346599737e-17,
+        14.304,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1278,
+      "material_name": "",
+      "model": true,
+      "name": "Rectangle1_2",
+      "object_type": "Sheet",
+      "solve_inside": null
+    },
+    {
+      "bounding_box": [
+        8.62151346599737e-17,
+        19.696,
+        -0.0349999999999997,
+        8.62151346599737e-17,
+        21.104,
+        0.289
+      ],
+      "display_wireframe": false,
+      "group_name": "ANT1",
+      "id": 1289,
+      "material_name": "",
+      "model": true,
+      "name": "Rectangle1_3",
+      "object_type": "Sheet",
+      "solve_inside": null
+    },
+    {
+      "bounding_box": [
+        -42.0,
+        -42.0,
+        65.754,
+        42.0,
+        42.0,
+        65.754
+      ],
+      "display_wireframe": false,
+      "group_name": "Model",
+      "id": 1697,
+      "material_name": "",
+      "model": false,
+      "name": "NF_Plane_Z65_75",
+      "object_type": "Sheet",
+      "solve_inside": null
+    }
+  ],
+  "passed": true,
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\projects\\source_1x4_20250326.aedt",
+  "project_name": "source_1x4_20250326",
+  "project_saved": false,
+  "project_sha256": "D647839C759D84C58D9A0251EFB814C29790F0D5D03287462284B3A2B683D350",
+  "pyaedt_version": "0.9.6",
+  "restored_environment": {
+    "ANSYSEM_ROOT252": "machine",
+    "ANSYSLMD_LICENSE_FILE": "machine"
+  },
+  "schema_version": 1,
+  "setups": [
+    {
+      "name": "Setup1",
+      "props": {
+        "AutoSolverSetting": "Balanced",
+        "ID": 4,
+        "InfiniteSphereSetup": -1,
+        "IsEnabled": false,
+        "MeshLink": {
+          "ImportMesh": false
+        },
+        "SaveAnyFields": true,
+        "SaveRadFieldsOnly": false,
+        "SetupType": "HfssDrivenAuto",
+        "SolveType": "Auto",
+        "Type": "Interpolating"
+      }
+    },
+    {
+      "name": "Setup2",
+      "props": {
+        "BasisOrder": 1,
+        "DoLambdaRefine": true,
+        "DoMaterialLambda": true,
+        "DrivenSolverType": "Direct Solver",
+        "EnhancedFEBIPreconditioner": false,
+        "EnhancedLowFreqAccuracy": false,
+        "Frequency": "47GHz",
+        "ID": 6,
+        "IE Solver Accuracy": "Balanced",
+        "IESolverType": "Auto",
+        "InfiniteSphereSetup": -1,
+        "IsEnabled": true,
+        "LambdaTargetForIESolver": 0.15,
+        "MaxDeltaS": 0.03,
+        "MaxPass": 10,
+        "MaximumPasses": 8,
+        "MeshLink": {
+          "ImportMesh": false
+        },
+        "MinConvPass": 1,
+        "MinPass": 1,
+        "MinimumConvergedPasses": 1,
+        "MinimumPasses": 1,
+        "PerError": 1,
+        "PerRefine": 30,
+        "PercentRefinement": 30,
+        "PortAccuracy": 2,
+        "PortMaxTri": 500,
+        "PortMinTri": 100,
+        "SaveAnyFields": true,
+        "SaveRadFieldsOnly": false,
+        "SetLambdaTarget": false,
+        "SetPortMinMaxTri": false,
+        "SetupType": "HfssDriven",
+        "SolveType": "Single",
+        "Target": 0.3333,
+        "UseABCOnPort": false,
+        "UseDefaultLambdaTgtForIESolver": true,
+        "UseMatrixConv": false,
+        "UseMaxTetIncrease": false
+      }
+    }
+  ],
+  "solution_type": "Modal",
+  "variables": {
+    "d_cpwg": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "dphi": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "h_board": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "l2": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "l_adap": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "l_board": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "l_dir": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "l_ele": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "l_ele1": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "l_eletot": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "l_gndcopper": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "phi1": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "phi2": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "phi3": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "phi4": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "w2": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "w_adap": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "w_board": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "w_cpwg": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "w_dir": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "w_ele": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    },
+    "x_dir": {
+      "error": "Failed to execute gRPC AEDT command: GetPropEvaluatedValue"
+    }
+  }
+}

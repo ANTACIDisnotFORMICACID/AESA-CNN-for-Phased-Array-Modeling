@@ -1,0 +1,8 @@
+{
+  "error": "Could not export the 16-port Touchstone file",
+  "error_type": "RuntimeError",
+  "identity": "formic-acid\\asus",
+  "passed": false,
+  "schema_version": 1,
+  "traceback": "Traceback (most recent call last):\n  File \"V:\\automation\\solve_export_4x4.py\", line 182, in main\n    report = solve_and_export(\n  File \"V:\\automation\\solve_export_4x4.py\", line 115, in solve_and_export\n    raise RuntimeError(\"Could not export the 16-port Touchstone file\")\nRuntimeError: Could not export the 16-port Touchstone file\n"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "v2.8-amplitude-1",
+  "source_type": "hfss_amplitude",
+  "frequency_hz": 47000000000.0,
+  "receiver_channel": "ephi",
+  "amplitude_unit": "V/m_at_1m_from_HFSS_rE",
+  "reference_distance_m": 1.0,
+  "excitation_reference": "HFSS exported element pattern: active source magnitude 1.0 SI and phase 0 deg",
+  "inactive_port_termination": "HFSS Setup2 inactive-source termination; must be matched or calibrated for chamber deployment",
+  "calibration_reference_plane": "HFSS Setup2 port reference planes",
+  "array_id": "v2_8_array_4x4_row_pitch_15mm_47GHz",
+  "session_id": "hfss_2026-09-03_47GHz",
+  "noise_floor_amplitude": 0.0,
+  "phase_available": false,
+  "rows": 4,
+  "cols": 4,
+  "command_axes": [
+    "command",
+    "iq",
+    "row",
+    "col"
+  ],
+  "amplitude_axes": [
+    "command",
+    "query"
+  ],
+  "direction_axes": [
+    "query",
+    "xyz"
+  ],
+  "provenance": {
+    "generator": "HFSS FFD projected to scalar receiver amplitude",
+    "mapping_file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\data\\manifests\\hfss_47ghz_ports.json",
+    "command_seed": 28001,
+    "raw_query_count": 65341,
+    "canonical_query_count": 64440,
+    "query_canonicalization": "drop theta=0/180 and duplicate phi=+180 seam",
+    "raw_ffd_quantity": "r_times_E in volt",
+    "amplitude_conversion": "E at reference_distance_m = abs(rE) / reference_distance_m",
+    "measured_phase_exported_to_training_dataset": false,
+    "s_parameters_exported_to_training_dataset": false
+  }
+}

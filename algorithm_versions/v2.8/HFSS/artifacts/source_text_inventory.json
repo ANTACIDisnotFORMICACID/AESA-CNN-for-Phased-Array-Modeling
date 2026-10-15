@@ -1,0 +1,975 @@
+{
+  "boundaries": [
+    {
+      "name": "Rad1",
+      "object_ids": [
+        422
+      ],
+      "object_names": [
+        "Box9"
+      ],
+      "type": "Radiation"
+    },
+    {
+      "name": "1",
+      "object_ids": [
+        382
+      ],
+      "object_names": [
+        "Rectangle1"
+      ],
+      "type": "Wave Port"
+    },
+    {
+      "name": "2",
+      "object_ids": [
+        1267
+      ],
+      "object_names": [
+        "Rectangle1_1"
+      ],
+      "type": "Wave Port"
+    },
+    {
+      "name": "3",
+      "object_ids": [
+        1278
+      ],
+      "object_names": [
+        "Rectangle1_2"
+      ],
+      "type": "Wave Port"
+    },
+    {
+      "name": "4",
+      "object_ids": [
+        1289
+      ],
+      "object_names": [
+        "Rectangle1_3"
+      ],
+      "type": "Wave Port"
+    }
+  ],
+  "geometry": [
+    {
+      "body_ids": [
+        6
+      ],
+      "final_body_id": 6,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"Rogers RO4350 (tm)\"",
+      "name": "Box1",
+      "operation_types": [
+        "Box",
+        "DuplicateAlongLine"
+      ],
+      "x_position": "0mm",
+      "x_size": "l_board",
+      "y_position": "-w_board/2",
+      "y_size": "w_board",
+      "z_position": "0mm",
+      "z_size": "h_board"
+    },
+    {
+      "body_ids": [
+        46
+      ],
+      "final_body_id": 46,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box2",
+      "operation_types": [
+        "Box",
+        "DuplicateAlongLine"
+      ],
+      "x_position": "0mm",
+      "x_size": "l_gndcopper",
+      "y_position": "-w_board/2",
+      "y_size": "w_board",
+      "z_position": "0mm",
+      "z_size": "-0.035mm"
+    },
+    {
+      "body_ids": [
+        74
+      ],
+      "final_body_id": 74,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box3",
+      "operation_types": [
+        "Box",
+        "DuplicateAlongLine"
+      ],
+      "x_position": "0mm",
+      "x_size": "l_gndcopper",
+      "y_position": "-w_cpwg/2",
+      "y_size": "w_cpwg",
+      "z_position": "h_board",
+      "z_size": "0.035mm"
+    },
+    {
+      "body_ids": [
+        102
+      ],
+      "final_body_id": 102,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box4",
+      "operation_types": [
+        "Box",
+        "DuplicateAlongLine"
+      ],
+      "x_position": "0mm",
+      "x_size": "1.5mm",
+      "y_position": "w_cpwg/2+d_cpwg",
+      "y_size": "w_board/2-w_cpwg/2-d_cpwg",
+      "z_position": "h_board",
+      "z_size": "0.035mm"
+    },
+    {
+      "body_ids": [
+        130
+      ],
+      "final_body_id": 130,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box5",
+      "operation_types": [
+        "Box",
+        "DuplicateAlongLine"
+      ],
+      "x_position": "0mm",
+      "x_size": "1.5mm",
+      "y_position": "-w_cpwg/2-d_cpwg",
+      "y_size": "-w_board/2+w_cpwg/2+d_cpwg",
+      "z_position": "h_board",
+      "z_size": "0.035mm"
+    },
+    {
+      "body_ids": [
+        158
+      ],
+      "final_body_id": 158,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Polyline1",
+      "operation_types": [
+        "Polyline",
+        "CoverLines",
+        "SweepAlongVector",
+        "Unite",
+        "DuplicateAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        242
+      ],
+      "final_body_id": 242,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Polyline2",
+      "operation_types": [
+        "Polyline",
+        "CoverLines",
+        "SweepAlongVector",
+        "Move",
+        "Unite",
+        "DuplicateAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        382
+      ],
+      "final_body_id": 382,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"vacuum\"",
+      "name": "Rectangle1",
+      "operation_types": [
+        "Rectangle",
+        "CoverLines",
+        "DuplicateAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        394
+      ],
+      "final_body_id": 394,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box8",
+      "operation_types": [
+        "Box",
+        "DuplicateAlongLine"
+      ],
+      "x_position": "0mm",
+      "x_size": "-0.5mm",
+      "y_position": "0.85mm",
+      "y_size": "-1.7mm",
+      "z_position": "-0.035mm",
+      "z_size": "0.324mm"
+    },
+    {
+      "body_ids": [
+        422
+      ],
+      "final_body_id": 422,
+      "flags": "",
+      "group_id": "-1",
+      "material": "\"vacuum\"",
+      "name": "Box9",
+      "operation_types": [
+        "Box"
+      ],
+      "x_position": "-2mm",
+      "x_size": "8mm",
+      "y_position": "-4mm",
+      "y_size": "29mm",
+      "z_position": "-2mm",
+      "z_size": "4mm"
+    },
+    {
+      "body_ids": [
+        514
+      ],
+      "final_body_id": 514,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box10",
+      "operation_types": [
+        "Box",
+        "DuplicateAlongLine"
+      ],
+      "x_position": "l_adap+l_gndcopper",
+      "x_size": "l2",
+      "y_position": "l_ele1",
+      "y_size": "-w2",
+      "z_position": "0.254mm",
+      "z_size": "0.035mm"
+    },
+    {
+      "body_ids": [
+        570
+      ],
+      "final_body_id": 570,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box11",
+      "operation_types": [
+        "Box",
+        "DuplicateAlongLine"
+      ],
+      "x_position": "l_adap+l_gndcopper-w_ele",
+      "x_size": "-l2",
+      "y_position": "-l_eletot+l_ele1",
+      "y_size": "w2",
+      "z_position": "0",
+      "z_size": "-0.035mm"
+    },
+    {
+      "body_ids": [
+        600
+      ],
+      "final_body_id": 600,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"Rogers RO4350 (tm)\"",
+      "name": "Box1_1",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        628
+      ],
+      "final_body_id": 628,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"Rogers RO4350 (tm)\"",
+      "name": "Box1_2",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        656
+      ],
+      "final_body_id": 656,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"Rogers RO4350 (tm)\"",
+      "name": "Box1_3",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        685
+      ],
+      "final_body_id": 685,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box2_1",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        713
+      ],
+      "final_body_id": 713,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box2_2",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        741
+      ],
+      "final_body_id": 741,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box2_3",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        770
+      ],
+      "final_body_id": 770,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box3_1",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        798
+      ],
+      "final_body_id": 798,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box3_2",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        826
+      ],
+      "final_body_id": 826,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box3_3",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        855
+      ],
+      "final_body_id": 855,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box4_1",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        883
+      ],
+      "final_body_id": 883,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box4_2",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        911
+      ],
+      "final_body_id": 911,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box4_3",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        940
+      ],
+      "final_body_id": 940,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box5_1",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        968
+      ],
+      "final_body_id": 968,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box5_2",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        996
+      ],
+      "final_body_id": 996,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box5_3",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1025
+      ],
+      "final_body_id": 1025,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Polyline1_1",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1065
+      ],
+      "final_body_id": 1065,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Polyline1_2",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1105
+      ],
+      "final_body_id": 1105,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Polyline1_3",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1146
+      ],
+      "final_body_id": 1146,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Polyline2_1",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1186
+      ],
+      "final_body_id": 1186,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Polyline2_2",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1226
+      ],
+      "final_body_id": 1226,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Polyline2_3",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1267
+      ],
+      "final_body_id": 1267,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"vacuum\"",
+      "name": "Rectangle1_1",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1278
+      ],
+      "final_body_id": 1278,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"vacuum\"",
+      "name": "Rectangle1_2",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1289
+      ],
+      "final_body_id": 1289,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"vacuum\"",
+      "name": "Rectangle1_3",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1301
+      ],
+      "final_body_id": 1301,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box8_1",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1329
+      ],
+      "final_body_id": 1329,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box8_2",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1357
+      ],
+      "final_body_id": 1357,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box8_3",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1386
+      ],
+      "final_body_id": 1386,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box10_1",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1414
+      ],
+      "final_body_id": 1414,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box10_2",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1442
+      ],
+      "final_body_id": 1442,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box10_3",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1471
+      ],
+      "final_body_id": 1471,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box11_1",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1499
+      ],
+      "final_body_id": 1499,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box11_2",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1527
+      ],
+      "final_body_id": 1527,
+      "flags": "",
+      "group_id": "597",
+      "material": "\"copper\"",
+      "name": "Box11_3",
+      "operation_types": [
+        "DuplicateBodyAlongLine"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    },
+    {
+      "body_ids": [
+        1555
+      ],
+      "final_body_id": 1555,
+      "flags": "",
+      "group_id": "-1",
+      "material": "\"Rogers RO4350 (tm)\"",
+      "name": "Box12",
+      "operation_types": [
+        "Box"
+      ],
+      "x_position": "0mm",
+      "x_size": "5mm",
+      "y_position": "23.8mm",
+      "y_size": "-27.2mm",
+      "z_position": "-0.035mm",
+      "z_size": "-0.762mm"
+    },
+    {
+      "body_ids": [
+        1697
+      ],
+      "final_body_id": 1697,
+      "flags": "NonModel#",
+      "group_id": "-1",
+      "material": "\"vacuum\"",
+      "name": "NF_Plane_Z65_75",
+      "operation_types": [
+        "Rectangle",
+        "CoverLines"
+      ],
+      "x_position": null,
+      "x_size": null,
+      "y_position": null,
+      "y_size": null,
+      "z_position": null,
+      "z_size": null
+    }
+  ],
+  "geometry_count": 47,
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\projects\\source_1x4_20250326.aedt",
+  "project_sha256": "D647839C759D84C58D9A0251EFB814C29790F0D5D03287462284B3A2B683D350",
+  "schema_version": 1,
+  "source": "offline_aedt_text_parser",
+  "warning": "Preflight only; AEDT GUI/API remains authoritative."
+}

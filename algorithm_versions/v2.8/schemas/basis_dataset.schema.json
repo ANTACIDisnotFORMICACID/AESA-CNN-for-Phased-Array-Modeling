@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.aesa-cnn/v2.8/basis_dataset.schema.json",
+  "title": "AESA-CNN v2.8 basis response dataset manifest",
+  "type": "object",
+  "required": [
+    "schema_version", "source_type", "frequency_hz", "rows", "cols",
+    "row_pitch_m", "col_pitch_m", "field_basis", "complex_layout",
+    "operator_axes", "direction_axes", "network_axes"
+  ],
+  "properties": {
+    "schema_version": {"const": "v2.8.0"},
+    "source_type": {"enum": ["hfss_ffd", "anechoic_chamber", "synthetic_fixture"]},
+    "frequency_hz": {"type": "number", "exclusiveMinimum": 0},
+    "rows": {"const": 4},
+    "cols": {"const": 4},
+    "row_pitch_m": {"type": "number", "exclusiveMinimum": 0},
+    "col_pitch_m": {"type": "number", "exclusiveMinimum": 0},
+    "field_basis": {"const": "cartesian_xyz"},
+    "complex_layout": {"const": "IQ"},
+    "operator_axes": {"const": ["query", "xyz", "iq", "row", "col"]},
+    "direction_axes": {"const": ["query", "xyz"]},
+    "network_axes": {
+      "const": ["frequency", "iq", "receive_row", "receive_col", "source_row", "source_col"]
+    },
+    "units": {"type": ["object", "null"]},
+    "provenance": {"type": ["object", "null"]}
+  },
+  "additionalProperties": false
+}

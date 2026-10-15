@@ -1,0 +1,9 @@
+{
+  "error": "Expected one explicitly named 'Infinite Sphere1', got ['3D', 'Elevation', 'Azimuth']",
+  "error_type": "RuntimeError",
+  "passed": false,
+  "schema_version": 1,
+  "source": "V:\\projects\\source_1x4_20250326.aedt",
+  "target": "V:\\projects\\v2_8_array_4x4.aedt",
+  "traceback": "Traceback (most recent call last):\n  File \"V:\\automation\\build_4x4.py\", line 437, in main\n    report = build(source, target, args.graphical)\n  File \"V:\\automation\\build_4x4.py\", line 379, in build\n    far_field_sphere = far_field_sphere_audit(hfss)\n  File \"V:\\automation\\build_4x4.py\", line 129, in far_field_sphere_audit\n    raise RuntimeError(\nRuntimeError: Expected one explicitly named 'Infinite Sphere1', got ['3D', 'Elevation', 'Azimuth']\n"
+}

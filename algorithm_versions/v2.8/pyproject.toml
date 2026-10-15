@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aesa-cnn-v28"
+version = "0.1.0"
+description = "Physics-structured 4x4 phased-array forward model and four-target optimizer"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.12",
+  "torch>=2.2",
+]
+
+[project.scripts]
+v28-prepare-hfss = "v28.cli.prepare_hfss_data:main"
+v28-prepare-hfss-amplitude = "v28.cli.prepare_hfss_amplitude:main"
+v28-prepare-measured-amplitude = "v28.cli.prepare_measured_amplitude:main"
+v28-prepare-amplitude-split = "v28.cli.prepare_amplitude_split:main"
+v28-train-forward = "v28.cli.train_forward:main"
+v28-evaluate-forward = "v28.cli.evaluate_forward:main"
+v28-optimize-targets = "v28.cli.optimize_targets:main"
+v28-verify-hfss-basis = "v28.cli.verify_hfss_basis:main"
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+hfss = ["scikit-rf>=1.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

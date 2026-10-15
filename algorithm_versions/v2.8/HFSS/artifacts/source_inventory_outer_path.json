@@ -1,0 +1,11 @@
+{
+  "error": "__init__() should return None, not 'bool'",
+  "error_type": "TypeError",
+  "no_solve_performed": true,
+  "passed": false,
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\HFSS\\20250326.aedt",
+  "project_saved": false,
+  "project_sha256": "D647839C759D84C58D9A0251EFB814C29790F0D5D03287462284B3A2B683D350",
+  "schema_version": 1,
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\automation\\audit_aedt.py\", line 168, in main\n    report = inventory(project)\n  File \"D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\automation\\audit_aedt.py\", line 82, in inventory\n    hfss = Hfss(\nTypeError: __init__() should return None, not 'bool'\n"
+}

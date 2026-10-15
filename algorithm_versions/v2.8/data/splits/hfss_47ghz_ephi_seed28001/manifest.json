@@ -1,0 +1,20 @@
+{
+  "schema_version": "v2.8-amplitude-split-1",
+  "dataset_fingerprint": "a53084dd96b2b24a9694b4b0692d79ea0f28c89477f02a10aae702c17f59e009",
+  "seed": 28001,
+  "query_count": 64440,
+  "command_count": 128,
+  "theta_block_deg": 10.0,
+  "phi_block_deg": 10.0,
+  "validation_fraction": 0.15,
+  "test_fraction": 0.15,
+  "audit": {
+    "query_indices_disjoint_and_complete": true,
+    "command_indices_disjoint_and_complete": true,
+    "shared_angular_blocks_train_validation": 0,
+    "shared_angular_blocks_train_test": 0,
+    "shared_angular_blocks_validation_test": 0,
+    "duplicate_physical_directions": 0,
+    "split_before_training": true
+  }
+}

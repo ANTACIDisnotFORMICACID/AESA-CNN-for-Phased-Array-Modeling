@@ -1,0 +1,16 @@
+{
+  "schema_version": "v2.8-amplitude-1",
+  "split": "test",
+  "unseen_commands": 18,
+  "unseen_queries": 9670,
+  "observation_count": 174060,
+  "measured_phase_used": false,
+  "s_parameters_used": false,
+  "metrics": {
+    "linear_nmse": 0.5110674500465393,
+    "linear_nmse_db": -2.915217876434326,
+    "amplitude_db_mae": 6.1351637840271,
+    "absolute_error_p50": 1.8191105127334595,
+    "absolute_error_p95": 9.075247764587402
+  }
+}
