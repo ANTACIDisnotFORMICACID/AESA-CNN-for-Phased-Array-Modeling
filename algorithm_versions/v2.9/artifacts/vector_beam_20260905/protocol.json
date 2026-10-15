@@ -1,0 +1,88 @@
+{
+  "config": {
+    "seeds": [
+      29511,
+      29512,
+      29513
+    ],
+    "max_epochs": 3000,
+    "min_epochs": 600,
+    "plateau_epochs": 200,
+    "plateau_db": 0.03,
+    "batch": 512,
+    "steps_per_epoch": 4,
+    "validate_every": 10,
+    "learning_rate": 0.001,
+    "learning_rate_floor": 0.00001,
+    "op_weight": 0.5,
+    "hard_weight": 0.08,
+    "over_weight": 0.01,
+    "rank_weight": 0.02,
+    "recipes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "device": "cuda",
+    "split_seed": 2952026,
+    "gain_floor_db": -50,
+    "optimizer_steps": 160,
+    "model_starts": 8,
+    "reference_starts": 32,
+    "parameter_budget": 34973,
+    "extension_max_epochs": 6000
+  },
+  "scale": 4.2592339515686035,
+  "split": {
+    "train": {
+      "directions": 36000,
+      "tiles": 360,
+      "commands": 256,
+      "trajectories": 64,
+      "frames": 3
+    },
+    "validation": {
+      "directions": 10800,
+      "tiles": 108,
+      "commands": 96,
+      "trajectories": 24,
+      "frames": 3
+    },
+    "calibration": {
+      "directions": 7200,
+      "tiles": 72,
+      "commands": 96,
+      "trajectories": 64,
+      "frames": 3
+    },
+    "holdout": {
+      "directions": 10800,
+      "tiles": 108,
+      "commands": 96,
+      "trajectories": 120,
+      "frames": 3
+    }
+  },
+  "model_parameters": 28854,
+  "conv_mac_per_direction": 459648,
+  "largest_single_feature_map_floats": 496,
+  "architecture": "Cartesian transverse dual-polarization operator, ideal phase x shared aperture CNN",
+  "model_output": "[Q,3,16] complex; equivalent two transverse polarizations; gain=sum(abs(Hw)^2)/(60*sum(abs(w)^2))",
+  "isolation": "trainer only opens dev/train.npz and dev/validation.npz; reserved labels opened after selection freeze",
+  "historical_exposure": "same complete HFSS table already used for diagnostics; holdout is prospective command/trajectory and internal angular-block generalization, not unseen physical state",
+  "diagnostic_exports_used_for_training": false,
+  "hash_policy": "no hashes per user; separate paths, fixed config, split intersection checks and freeze markers",
+  "acceptance": {
+    "global_db_mae": 0.5,
+    "strong_db_mae": 0.35,
+    "fourpoint_db_mae": 0.3,
+    "bottleneck_over_p95_db": 0.75,
+    "regret_median": 0.05,
+    "regret_p95": 0.1,
+    "seed_nmse_std_db": 0.25
+  },
+  "operator_supervision": "Shared direction-specific unit-complex gauge alignment across all Cartesian components and all 16 ports; relative phases retained",
+  "protocol_amendment": "Before holdout opening: first development A run still improving at epoch 3000; extend every run cap to 6000 with the same 200-epoch/<0.03 dB early stop, as allowed by NEXT_OPTIMIZATION_PLAN P5."
+}

@@ -1,0 +1,43 @@
+{
+  "status": "complete_no_posthoc_tuning",
+  "seed": 2960501,
+  "coordinate_rule": "180 deterministic random four-point cases in +x cone <=60deg; 60 per geometry stratum",
+  "strata": {
+    "moderate": "min separation >=8deg, max 25..65deg",
+    "distributed": "min >=18deg, max 45..95deg",
+    "wide": "min >=25deg, max >=80deg"
+  },
+  "methods": {
+    "baseline_softmin": {
+      "starts": 8,
+      "steps": 160,
+      "kind": "baseline"
+    },
+    "eigen_multibeam": {
+      "starts": 8,
+      "steps": 160,
+      "kind": "eigen"
+    },
+    "flat_top_2deg": {
+      "starts": 8,
+      "steps": 180,
+      "kind": "flat"
+    },
+    "peak_ratio": {
+      "starts": 8,
+      "steps": 180,
+      "kind": "ratio",
+      "scan_directions": 192
+    },
+    "relocate_5deg": {
+      "starts": 8,
+      "steps": 160,
+      "kind": "relocate",
+      "rounds": 2
+    }
+  },
+  "constraint": "phase-only, |w_n|=1/4",
+  "strong_definition": "all four true HFSS gains within 10dB of the same command's full-sphere peak",
+  "cnn": "frozen C/seed29513; no parameter update",
+  "boundary": "same historically exposed single HFSS state; optimizer study, not independent electromagnetic blind test"
+}

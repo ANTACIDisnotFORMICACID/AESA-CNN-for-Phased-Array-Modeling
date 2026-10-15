@@ -1,0 +1,4030 @@
+{
+  "geometry": {
+    "wavelength_mm": 6.378562936170212,
+    "row_pitch_lambda": 2.351626871146972,
+    "col_pitch_lambda": 1.066070848253294,
+    "center_span_mm": [
+      45,
+      20.4
+    ],
+    "nominal_array_factor_hpbw_deg": [
+      5.396695929043316,
+      11.90447631406614
+    ],
+    "boresight": "+x",
+    "row": "+z",
+    "column": "+y"
+  },
+  "complex_excitation_dof": 32,
+  "normalized_power_pattern_amp_phase_real_dof": 30,
+  "phase_only_power_pattern_real_dof": 15,
+  "radiation_gram_eigenvalues": [
+    0.8333522679687991,
+    0.8517214937049319,
+    0.8638497533753436,
+    0.8683460313128868,
+    0.8819040425660819,
+    0.8965404626775912,
+    0.9058440454744587,
+    0.9155720688887004,
+    0.9298176716626639,
+    0.9544718523467713,
+    0.9595811710614464,
+    0.9682727956210528,
+    0.9771616983804815,
+    0.9909300042490418,
+    1.007733725593184,
+    1.0182166789941947
+  ],
+  "radiation_effective_rank": 15.94153122716124,
+  "commands": [
+    {
+      "command_id": "A01",
+      "peak_gain_dBi": 14.678159818151311,
+      "peak_theta_deg": 115.5,
+      "peak_phi_deg": -8.5,
+      "competing_peak_count_minus3dB": 3,
+      "distinct_peak_count_minus10dB": 27,
+      "main_halfpower_solid_angle_fraction": 0.0013815190096026823,
+      "other_peak_relative_db": -0.5671134312596049,
+      "coverage_minus3dB": 0.004014350144796827,
+      "coverage_minus10dB": 0.07560222895708163,
+      "weak_below_minus30dB": 0.131611471675187,
+      "front_radiated_fraction": 0.744181327515802,
+      "sphere_integrated_realized_efficiency": 0.9031309826651251,
+      "theta_polarized_energy_fraction": 0.22489534587470766,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 1.0,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999733960175945e-11
+    },
+    {
+      "command_id": "A02",
+      "peak_gain_dBi": 14.678159818151308,
+      "peak_theta_deg": 115.5,
+      "peak_phi_deg": -8.5,
+      "competing_peak_count_minus3dB": 3,
+      "distinct_peak_count_minus10dB": 27,
+      "main_halfpower_solid_angle_fraction": 0.0013815190096026823,
+      "other_peak_relative_db": -0.5671134312595996,
+      "coverage_minus3dB": 0.004014350144796827,
+      "coverage_minus10dB": 0.07560222895708163,
+      "weak_below_minus30dB": 0.131611471675187,
+      "front_radiated_fraction": 0.7441813275158017,
+      "sphere_integrated_realized_efficiency": 0.9031309826651251,
+      "theta_polarized_energy_fraction": 0.22489534587470766,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 1.0,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 5.000089231543825e-11
+    },
+    {
+      "command_id": "A03",
+      "peak_gain_dBi": 13.63900804028248,
+      "peak_theta_deg": 102.5,
+      "peak_phi_deg": -19.5,
+      "competing_peak_count_minus3dB": 9,
+      "distinct_peak_count_minus10dB": 34,
+      "main_halfpower_solid_angle_fraction": 0.003242966178128209,
+      "other_peak_relative_db": -0.02862344810510109,
+      "coverage_minus3dB": 0.009166158560244773,
+      "coverage_minus10dB": 0.09515601469859097,
+      "weak_below_minus30dB": 0.11637812290042628,
+      "front_radiated_fraction": 0.6832226857508886,
+      "sphere_integrated_realized_efficiency": 0.8979452910826041,
+      "theta_polarized_energy_fraction": 0.25293241128024146,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 6.123233995736766e-17,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999733960175945e-11
+    },
+    {
+      "command_id": "A04",
+      "peak_gain_dBi": 14.818434447591258,
+      "peak_theta_deg": 118.5,
+      "peak_phi_deg": -8.5,
+      "competing_peak_count_minus3dB": 4,
+      "distinct_peak_count_minus10dB": 26,
+      "main_halfpower_solid_angle_fraction": 0.0014455563679706613,
+      "other_peak_relative_db": -0.29281120617175205,
+      "coverage_minus3dB": 0.004404228704622931,
+      "coverage_minus10dB": 0.07210210804118299,
+      "weak_below_minus30dB": 0.15661767472155208,
+      "front_radiated_fraction": 0.775291256058556,
+      "sphere_integrated_realized_efficiency": 0.8903682380886373,
+      "theta_polarized_energy_fraction": 0.2251249647457963,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.6532814824381883,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999733960175945e-11
+    },
+    {
+      "command_id": "A05",
+      "peak_gain_dBi": 14.191131370394514,
+      "peak_theta_deg": 112.5,
+      "peak_phi_deg": -8.5,
+      "competing_peak_count_minus3dB": 6,
+      "distinct_peak_count_minus10dB": 33,
+      "main_halfpower_solid_angle_fraction": 0.0013480276790684704,
+      "other_peak_relative_db": -0.7652988837557881,
+      "coverage_minus3dB": 0.005284222109518911,
+      "coverage_minus10dB": 0.0842350424041118,
+      "weak_below_minus30dB": 0.11212923644097046,
+      "front_radiated_fraction": 0.7075763672605654,
+      "sphere_integrated_realized_efficiency": 0.8978489536906136,
+      "theta_polarized_energy_fraction": 0.2247151576787594,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.6532814824381882,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999556324492005e-11
+    },
+    {
+      "command_id": "A06",
+      "peak_gain_dBi": 14.850246281401185,
+      "peak_theta_deg": 115.5,
+      "peak_phi_deg": -15.5,
+      "competing_peak_count_minus3dB": 3,
+      "distinct_peak_count_minus10dB": 29,
+      "main_halfpower_solid_angle_fraction": 0.001645032813408179,
+      "other_peak_relative_db": -0.3859000363948031,
+      "coverage_minus3dB": 0.003168080691674468,
+      "coverage_minus10dB": 0.07554239537032546,
+      "weak_below_minus30dB": 0.1349841104977934,
+      "front_radiated_fraction": 0.7589515792676993,
+      "sphere_integrated_realized_efficiency": 0.8908418482720744,
+      "theta_polarized_energy_fraction": 0.24464000073310221,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.6532814824381883,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 5.000089231543825e-11
+    },
+    {
+      "command_id": "A07",
+      "peak_gain_dBi": 14.875186089224128,
+      "peak_theta_deg": 115.5,
+      "peak_phi_deg": 17.5,
+      "competing_peak_count_minus3dB": 3,
+      "distinct_peak_count_minus10dB": 24,
+      "main_halfpower_solid_angle_fraction": 0.0014023053537606906,
+      "other_peak_relative_db": -0.5700805554246866,
+      "coverage_minus3dB": 0.003998635680438105,
+      "coverage_minus10dB": 0.0743233531097505,
+      "weak_below_minus30dB": 0.14157505838229703,
+      "front_radiated_fraction": 0.7145084946991895,
+      "sphere_integrated_realized_efficiency": 0.9308900659034804,
+      "theta_polarized_energy_fraction": 0.21338645707144066,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.6532814824381882,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999911595859885e-11
+    },
+    {
+      "command_id": "A08",
+      "peak_gain_dBi": 14.798314321602524,
+      "peak_theta_deg": 118.5,
+      "peak_phi_deg": -15.5,
+      "competing_peak_count_minus3dB": 5,
+      "distinct_peak_count_minus10dB": 27,
+      "main_halfpower_solid_angle_fraction": 0.001745459935814458,
+      "other_peak_relative_db": -0.15690655574615953,
+      "coverage_minus3dB": 0.0038620093255167785,
+      "coverage_minus10dB": 0.07133381391208352,
+      "weak_below_minus30dB": 0.1506086500078564,
+      "front_radiated_fraction": 0.7845329322545475,
+      "sphere_integrated_realized_efficiency": 0.8774696414644005,
+      "theta_polarized_energy_fraction": 0.2441994866768089,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.4267766952966369,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999733960175945e-11
+    },
+    {
+      "command_id": "A09",
+      "peak_gain_dBi": 14.688836376509657,
+      "peak_theta_deg": 118.5,
+      "peak_phi_deg": 17.5,
+      "competing_peak_count_minus3dB": 4,
+      "distinct_peak_count_minus10dB": 24,
+      "main_halfpower_solid_angle_fraction": 0.0015106303972000938,
+      "other_peak_relative_db": -0.33387050155808495,
+      "coverage_minus3dB": 0.004721812497157324,
+      "coverage_minus10dB": 0.07203130796806724,
+      "weak_below_minus30dB": 0.13861715165986882,
+      "front_radiated_fraction": 0.7467522466634138,
+      "sphere_integrated_realized_efficiency": 0.9059105627565004,
+      "theta_polarized_energy_fraction": 0.2155560364790412,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.42677669529663687,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 5.000089231543825e-11
+    },
+    {
+      "command_id": "A10",
+      "peak_gain_dBi": 13.944546303742653,
+      "peak_theta_deg": 121.5,
+      "peak_phi_deg": -16.5,
+      "competing_peak_count_minus3dB": 5,
+      "distinct_peak_count_minus10dB": 34,
+      "main_halfpower_solid_angle_fraction": 0.0017467899173095973,
+      "other_peak_relative_db": -0.027042716498435482,
+      "coverage_minus3dB": 0.00526278335995731,
+      "coverage_minus10dB": 0.10227760446186068,
+      "weak_below_minus30dB": 0.11599314064241338,
+      "front_radiated_fraction": 0.761790307365257,
+      "sphere_integrated_realized_efficiency": 0.9051324366094257,
+      "theta_polarized_energy_fraction": 0.26430774505630844,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 8.073504097213684e-17,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999733960175945e-11
+    },
+    {
+      "command_id": "B01",
+      "peak_gain_dBi": 11.10360048979807,
+      "peak_theta_deg": 115.5,
+      "peak_phi_deg": 10.5,
+      "competing_peak_count_minus3dB": 13,
+      "distinct_peak_count_minus10dB": 66,
+      "main_halfpower_solid_angle_fraction": 0.0013569653703296002,
+      "other_peak_relative_db": -0.08463728439958373,
+      "coverage_minus3dB": 0.011660690398737744,
+      "coverage_minus10dB": 0.20312089145325676,
+      "weak_below_minus30dB": 0.0034676611639963217,
+      "front_radiated_fraction": 0.7284437939711401,
+      "sphere_integrated_realized_efficiency": 0.9243213323478947,
+      "theta_polarized_energy_fraction": 0.2518000374413455,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.32129123825822936,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999023417440185e-11
+    },
+    {
+      "command_id": "B02",
+      "peak_gain_dBi": 11.757788168804655,
+      "peak_theta_deg": 110.5,
+      "peak_phi_deg": 4.5,
+      "competing_peak_count_minus3dB": 12,
+      "distinct_peak_count_minus10dB": 60,
+      "main_halfpower_solid_angle_fraction": 0.0020273397570875792,
+      "other_peak_relative_db": -0.931662318833542,
+      "coverage_minus3dB": 0.008530713891661988,
+      "coverage_minus10dB": 0.1689613072712467,
+      "weak_below_minus30dB": 0.00954075090964624,
+      "front_radiated_fraction": 0.7263563493310082,
+      "sphere_integrated_realized_efficiency": 0.9033538285068681,
+      "theta_polarized_energy_fraction": 0.25972983655964826,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.1915405242678444,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999911595859885e-11
+    },
+    {
+      "command_id": "B03",
+      "peak_gain_dBi": 10.387938080961712,
+      "peak_theta_deg": 125.5,
+      "peak_phi_deg": 14.5,
+      "competing_peak_count_minus3dB": 18,
+      "distinct_peak_count_minus10dB": 78,
+      "main_halfpower_solid_angle_fraction": 0.0014958188014869396,
+      "other_peak_relative_db": -0.022105839725986343,
+      "coverage_minus3dB": 0.014208168245731772,
+      "coverage_minus10dB": 0.25915661020360325,
+      "weak_below_minus30dB": 0.002632581908539938,
+      "front_radiated_fraction": 0.7112741161517308,
+      "sphere_integrated_realized_efficiency": 0.9250176910477274,
+      "theta_polarized_energy_fraction": 0.24816550761968886,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.10393370153781809,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999911595859885e-11
+    },
+    {
+      "command_id": "B04",
+      "peak_gain_dBi": 11.885204354566204,
+      "peak_theta_deg": 94.5,
+      "peak_phi_deg": -22.5,
+      "competing_peak_count_minus3dB": 10,
+      "distinct_peak_count_minus10dB": 44,
+      "main_halfpower_solid_angle_fraction": 0.0015226140549601667,
+      "other_peak_relative_db": -0.020556021834266858,
+      "coverage_minus3dB": 0.012174149532193198,
+      "coverage_minus10dB": 0.14896107964015343,
+      "weak_below_minus30dB": 0.006060281240839879,
+      "front_radiated_fraction": 0.7096412947103398,
+      "sphere_integrated_realized_efficiency": 0.9231003492711755,
+      "theta_polarized_energy_fraction": 0.25619936194159454,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.12070787018593146,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999201053124125e-11
+    },
+    {
+      "command_id": "B05",
+      "peak_gain_dBi": 10.622955411309551,
+      "peak_theta_deg": 121.5,
+      "peak_phi_deg": 10.5,
+      "competing_peak_count_minus3dB": 12,
+      "distinct_peak_count_minus10dB": 78,
+      "main_halfpower_solid_angle_fraction": 0.0034041259988778117,
+      "other_peak_relative_db": -0.15531313168855831,
+      "coverage_minus3dB": 0.008955340382280437,
+      "coverage_minus10dB": 0.25171771075172317,
+      "weak_below_minus30dB": 0.002793951396962173,
+      "front_radiated_fraction": 0.6951554016919201,
+      "sphere_integrated_realized_efficiency": 0.9340037661079721,
+      "theta_polarized_energy_fraction": 0.25525398933707816,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.24009263828134744,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999911595859885e-11
+    },
+    {
+      "command_id": "B06",
+      "peak_gain_dBi": 12.163713601196635,
+      "peak_theta_deg": 122.5,
+      "peak_phi_deg": 12.5,
+      "competing_peak_count_minus3dB": 4,
+      "distinct_peak_count_minus10dB": 60,
+      "main_halfpower_solid_angle_fraction": 0.0018817249622627575,
+      "other_peak_relative_db": -0.032373116458314755,
+      "coverage_minus3dB": 0.004234049976481175,
+      "coverage_minus10dB": 0.15551757578777242,
+      "weak_below_minus30dB": 0.007745786691999422,
+      "front_radiated_fraction": 0.7098509135367234,
+      "sphere_integrated_realized_efficiency": 0.9143384586241373,
+      "theta_polarized_energy_fraction": 0.25946418536539884,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.16021214465012407,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 5.000089231543825e-11
+    },
+    {
+      "command_id": "C01",
+      "peak_gain_dBi": 15.104115733079384,
+      "peak_theta_deg": 94.5,
+      "peak_phi_deg": -15.5,
+      "competing_peak_count_minus3dB": 2,
+      "distinct_peak_count_minus10dB": 30,
+      "main_halfpower_solid_angle_fraction": 0.001425464412453657,
+      "other_peak_relative_db": -0.011679007840184497,
+      "coverage_minus3dB": 0.0034675161792641993,
+      "coverage_minus10dB": 0.061237857533401545,
+      "weak_below_minus30dB": 0.04945533090713123,
+      "front_radiated_fraction": 0.733564724673334,
+      "sphere_integrated_realized_efficiency": 0.9252788123318552,
+      "theta_polarized_energy_fraction": 0.24163586495952372,
+      "effective_excited_ports": 13.106453549383025,
+      "phase_circular_coherence": 0.2247535324641918,
+      "total_incident_W": 0.999999946,
+      "export_db_max_difference": 1.6963273736791962e-06
+    },
+    {
+      "command_id": "C02",
+      "peak_gain_dBi": 15.011522655768959,
+      "peak_theta_deg": 116.5,
+      "peak_phi_deg": -15.5,
+      "competing_peak_count_minus3dB": 4,
+      "distinct_peak_count_minus10dB": 28,
+      "main_halfpower_solid_angle_fraction": 0.0017134274033626543,
+      "other_peak_relative_db": -0.3205352142278599,
+      "coverage_minus3dB": 0.004105225787637948,
+      "coverage_minus10dB": 0.06468339722141572,
+      "weak_below_minus30dB": 0.07787065715820037,
+      "front_radiated_fraction": 0.7206024104923934,
+      "sphere_integrated_realized_efficiency": 0.9304947846843011,
+      "theta_polarized_energy_fraction": 0.2271826341284014,
+      "effective_excited_ports": 11.778001037048217,
+      "phase_circular_coherence": 0.1643751360362458,
+      "total_incident_W": 1.000000095,
+      "export_db_max_difference": 1.5367928440923606e-06
+    },
+    {
+      "command_id": "C03",
+      "peak_gain_dBi": 14.355580398996736,
+      "peak_theta_deg": 107.5,
+      "peak_phi_deg": -25.5,
+      "competing_peak_count_minus3dB": 6,
+      "distinct_peak_count_minus10dB": 30,
+      "main_halfpower_solid_angle_fraction": 0.0018781542736165415,
+      "other_peak_relative_db": -0.8057235520601296,
+      "coverage_minus3dB": 0.007182931194844134,
+      "coverage_minus10dB": 0.08054213269276271,
+      "weak_below_minus30dB": 0.043088380989641975,
+      "front_radiated_fraction": 0.6861166258027277,
+      "sphere_integrated_realized_efficiency": 0.9573412175654827,
+      "theta_polarized_energy_fraction": 0.264010137088156,
+      "effective_excited_ports": 11.141432607414833,
+      "phase_circular_coherence": 0.19122630450373895,
+      "total_incident_W": 1.000000023,
+      "export_db_max_difference": 6.264477327988516e-07
+    },
+    {
+      "command_id": "C04",
+      "peak_gain_dBi": 14.678436717490113,
+      "peak_theta_deg": 126.5,
+      "peak_phi_deg": -20.5,
+      "competing_peak_count_minus3dB": 5,
+      "distinct_peak_count_minus10dB": 30,
+      "main_halfpower_solid_angle_fraction": 0.0017668063247453976,
+      "other_peak_relative_db": -0.30995372879202954,
+      "coverage_minus3dB": 0.004586895336011364,
+      "coverage_minus10dB": 0.07238478400005485,
+      "weak_below_minus30dB": 0.09145664404143306,
+      "front_radiated_fraction": 0.7062237902196028,
+      "sphere_integrated_realized_efficiency": 0.9411038279726512,
+      "theta_polarized_energy_fraction": 0.26155745826581117,
+      "effective_excited_ports": 10.507240880748904,
+      "phase_circular_coherence": 0.1355750346633578,
+      "total_incident_W": 1.0000000779999998,
+      "export_db_max_difference": 8.448398460814133e-07
+    },
+    {
+      "command_id": "D01",
+      "peak_gain_dBi": 14.701174014478255,
+      "peak_theta_deg": 120.5,
+      "peak_phi_deg": -17.5,
+      "competing_peak_count_minus3dB": 2,
+      "distinct_peak_count_minus10dB": 34,
+      "main_halfpower_solid_angle_fraction": 0.001718165597222083,
+      "other_peak_relative_db": -0.03819597248955375,
+      "coverage_minus3dB": 0.003507543154803781,
+      "coverage_minus10dB": 0.06652649203898409,
+      "weak_below_minus30dB": 0.030623374226442242,
+      "front_radiated_fraction": 0.7310673679744356,
+      "sphere_integrated_realized_efficiency": 0.9277484514573124,
+      "theta_polarized_energy_fraction": 0.2391020046320083,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.22475353246419183,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999733960175945e-11
+    },
+    {
+      "command_id": "D02",
+      "peak_gain_dBi": 14.742708093337892,
+      "peak_theta_deg": 117.5,
+      "peak_phi_deg": -17.5,
+      "competing_peak_count_minus3dB": 3,
+      "distinct_peak_count_minus10dB": 29,
+      "main_halfpower_solid_angle_fraction": 0.0018500559424525097,
+      "other_peak_relative_db": -0.2053562485330609,
+      "coverage_minus3dB": 0.0036554252511479817,
+      "coverage_minus10dB": 0.06422712415975172,
+      "weak_below_minus30dB": 0.03665640500390247,
+      "front_radiated_fraction": 0.7329280563075345,
+      "sphere_integrated_realized_efficiency": 0.9233540043360005,
+      "theta_polarized_energy_fraction": 0.22794736614790942,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.16437513603624573,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999556324492005e-11
+    },
+    {
+      "command_id": "D03",
+      "peak_gain_dBi": 14.48694463869373,
+      "peak_theta_deg": 106.5,
+      "peak_phi_deg": -24.5,
+      "competing_peak_count_minus3dB": 6,
+      "distinct_peak_count_minus10dB": 30,
+      "main_halfpower_solid_angle_fraction": 0.0016929170367590931,
+      "other_peak_relative_db": -0.862260126234025,
+      "coverage_minus3dB": 0.006390380266195443,
+      "coverage_minus10dB": 0.07480775341732662,
+      "weak_below_minus30dB": 0.044629572064112014,
+      "front_radiated_fraction": 0.6999034107654218,
+      "sphere_integrated_realized_efficiency": 0.9508362042929617,
+      "theta_polarized_energy_fraction": 0.2587107440925331,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.19122630450373895,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999733960175945e-11
+    },
+    {
+      "command_id": "D04",
+      "peak_gain_dBi": 14.544491446125567,
+      "peak_theta_deg": 126.5,
+      "peak_phi_deg": -20.5,
+      "competing_peak_count_minus3dB": 4,
+      "distinct_peak_count_minus10dB": 31,
+      "main_halfpower_solid_angle_fraction": 0.0017770775819190001,
+      "other_peak_relative_db": -0.3141693565962793,
+      "coverage_minus3dB": 0.004521697422151783,
+      "coverage_minus10dB": 0.07118453117065868,
+      "weak_below_minus30dB": 0.07233679297666439,
+      "front_radiated_fraction": 0.7013995522329081,
+      "sphere_integrated_realized_efficiency": 0.930227254461922,
+      "theta_polarized_energy_fraction": 0.2675279713380389,
+      "effective_excited_ports": 16.0,
+      "phase_circular_coherence": 0.1355750346633578,
+      "total_incident_W": 1.0,
+      "export_db_max_difference": 4.999733960175945e-11
+    }
+  ],
+  "peaks": {
+    "A01": [
+      {
+        "theta": 115.5,
+        "phi": -8.5,
+        "gain_dBi": 14.678159818151311,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 90.5,
+        "phi": -7.5,
+        "gain_dBi": 14.111046386891706,
+        "relative_dB": -0.5671134312596049
+      },
+      {
+        "theta": 115.5,
+        "phi": 10.5,
+        "gain_dBi": 13.815531449125746,
+        "relative_dB": -0.8626283690255647
+      },
+      {
+        "theta": 90.5,
+        "phi": 9.5,
+        "gain_dBi": 13.050813742792183,
+        "relative_dB": -1.627346075359128
+      },
+      {
+        "theta": 89.5,
+        "phi": -55.5,
+        "gain_dBi": 11.643058579283192,
+        "relative_dB": -3.035101238868119
+      },
+      {
+        "theta": 147.5,
+        "phi": -14.5,
+        "gain_dBi": 11.386071039029533,
+        "relative_dB": -3.2920887791217783
+      },
+      {
+        "theta": 65.5,
+        "phi": -8.5,
+        "gain_dBi": 11.086378207112828,
+        "relative_dB": -3.591781611038483
+      },
+      {
+        "theta": 147.5,
+        "phi": 17.5,
+        "gain_dBi": 10.918881156134976,
+        "relative_dB": -3.759278662016335
+      },
+      {
+        "theta": 114.5,
+        "phi": -61.5,
+        "gain_dBi": 10.395795116293819,
+        "relative_dB": -4.282364701857492
+      },
+      {
+        "theta": 64.5,
+        "phi": -62.5,
+        "gain_dBi": 10.32112478219551,
+        "relative_dB": -4.357035035955802
+      },
+      {
+        "theta": 115.5,
+        "phi": 29.5,
+        "gain_dBi": 10.26146383765596,
+        "relative_dB": -4.416695980495351
+      },
+      {
+        "theta": 65.5,
+        "phi": 10.5,
+        "gain_dBi": 10.005935941746982,
+        "relative_dB": -4.672223876404329
+      },
+      {
+        "theta": 90.5,
+        "phi": 48.5,
+        "gain_dBi": 9.617562692590454,
+        "relative_dB": -5.060597125560857
+      },
+      {
+        "theta": 90.5,
+        "phi": 26.5,
+        "gain_dBi": 9.612552834226909,
+        "relative_dB": -5.065606983924402
+      },
+      {
+        "theta": 115.5,
+        "phi": -30.5,
+        "gain_dBi": 9.600525921980829,
+        "relative_dB": -5.077633896170482
+      },
+      {
+        "theta": 90.5,
+        "phi": -27.5,
+        "gain_dBi": 9.501491539710642,
+        "relative_dB": -5.176668278440669
+      },
+      {
+        "theta": 114.5,
+        "phi": 54.5,
+        "gain_dBi": 9.440005988359239,
+        "relative_dB": -5.238153829792072
+      },
+      {
+        "theta": 89.5,
+        "phi": -104.5,
+        "gain_dBi": 9.312520617985006,
+        "relative_dB": -5.365639200166305
+      },
+      {
+        "theta": 147.5,
+        "phi": -167.5,
+        "gain_dBi": 8.116670923372228,
+        "relative_dB": -6.5614888947790835
+      },
+      {
+        "theta": 65.5,
+        "phi": -30.5,
+        "gain_dBi": 7.326720541693049,
+        "relative_dB": -7.351439276458262
+      },
+      {
+        "theta": 147.5,
+        "phi": 55.5,
+        "gain_dBi": 6.530161287330493,
+        "relative_dB": -8.147998530820818
+      },
+      {
+        "theta": 65.5,
+        "phi": 29.5,
+        "gain_dBi": 6.505295748666741,
+        "relative_dB": -8.17286406948457
+      },
+      {
+        "theta": 147.5,
+        "phi": 163.5,
+        "gain_dBi": 6.3862174133255145,
+        "relative_dB": -8.291942404825797
+      },
+      {
+        "theta": 65.5,
+        "phi": 54.5,
+        "gain_dBi": 5.656516090679357,
+        "relative_dB": -9.021643727471954
+      }
+    ],
+    "A02": [
+      {
+        "theta": 115.5,
+        "phi": -8.5,
+        "gain_dBi": 14.678159818151308,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 90.5,
+        "phi": -7.5,
+        "gain_dBi": 14.111046386891708,
+        "relative_dB": -0.5671134312595996
+      },
+      {
+        "theta": 115.5,
+        "phi": 10.5,
+        "gain_dBi": 13.815531449125746,
+        "relative_dB": -0.8626283690255612
+      },
+      {
+        "theta": 90.5,
+        "phi": 9.5,
+        "gain_dBi": 13.050813742792183,
+        "relative_dB": -1.6273460753591245
+      },
+      {
+        "theta": 89.5,
+        "phi": -55.5,
+        "gain_dBi": 11.643058579283192,
+        "relative_dB": -3.0351012388681156
+      },
+      {
+        "theta": 147.5,
+        "phi": -14.5,
+        "gain_dBi": 11.386071039029533,
+        "relative_dB": -3.2920887791217748
+      },
+      {
+        "theta": 65.5,
+        "phi": -8.5,
+        "gain_dBi": 11.086378207112828,
+        "relative_dB": -3.5917816110384795
+      },
+      {
+        "theta": 147.5,
+        "phi": 17.5,
+        "gain_dBi": 10.918881156134976,
+        "relative_dB": -3.7592786620163317
+      },
+      {
+        "theta": 114.5,
+        "phi": -61.5,
+        "gain_dBi": 10.395795116293819,
+        "relative_dB": -4.282364701857489
+      },
+      {
+        "theta": 64.5,
+        "phi": -62.5,
+        "gain_dBi": 10.32112478219551,
+        "relative_dB": -4.357035035955798
+      },
+      {
+        "theta": 115.5,
+        "phi": 29.5,
+        "gain_dBi": 10.26146383765596,
+        "relative_dB": -4.416695980495348
+      },
+      {
+        "theta": 65.5,
+        "phi": 10.5,
+        "gain_dBi": 10.005935941746982,
+        "relative_dB": -4.672223876404326
+      },
+      {
+        "theta": 90.5,
+        "phi": 48.5,
+        "gain_dBi": 9.617562692590454,
+        "relative_dB": -5.060597125560854
+      },
+      {
+        "theta": 90.5,
+        "phi": 26.5,
+        "gain_dBi": 9.612552834226909,
+        "relative_dB": -5.065606983924399
+      },
+      {
+        "theta": 115.5,
+        "phi": -30.5,
+        "gain_dBi": 9.600525921980829,
+        "relative_dB": -5.077633896170479
+      },
+      {
+        "theta": 90.5,
+        "phi": -27.5,
+        "gain_dBi": 9.501491539710642,
+        "relative_dB": -5.1766682784406655
+      },
+      {
+        "theta": 114.5,
+        "phi": 54.5,
+        "gain_dBi": 9.440005988359239,
+        "relative_dB": -5.2381538297920684
+      },
+      {
+        "theta": 89.5,
+        "phi": -104.5,
+        "gain_dBi": 9.312520617985006,
+        "relative_dB": -5.365639200166301
+      },
+      {
+        "theta": 147.5,
+        "phi": -167.5,
+        "gain_dBi": 8.116670923372228,
+        "relative_dB": -6.56148889477908
+      },
+      {
+        "theta": 65.5,
+        "phi": -30.5,
+        "gain_dBi": 7.326720541693049,
+        "relative_dB": -7.351439276458258
+      },
+      {
+        "theta": 147.5,
+        "phi": 55.5,
+        "gain_dBi": 6.530161287330493,
+        "relative_dB": -8.147998530820814
+      },
+      {
+        "theta": 65.5,
+        "phi": 29.5,
+        "gain_dBi": 6.505295748666741,
+        "relative_dB": -8.172864069484566
+      },
+      {
+        "theta": 147.5,
+        "phi": 163.5,
+        "gain_dBi": 6.386217413325518,
+        "relative_dB": -8.29194240482579
+      },
+      {
+        "theta": 65.5,
+        "phi": 54.5,
+        "gain_dBi": 5.656516090679359,
+        "relative_dB": -9.021643727471949
+      }
+    ],
+    "A03": [
+      {
+        "theta": 102.5,
+        "phi": -19.5,
+        "gain_dBi": 13.63900804028248,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 129.5,
+        "phi": -24.5,
+        "gain_dBi": 13.610384592177379,
+        "relative_dB": -0.02862344810510109
+      },
+      {
+        "theta": 102.5,
+        "phi": -36.5,
+        "gain_dBi": 13.20770553963473,
+        "relative_dB": -0.43130250064774955
+      },
+      {
+        "theta": 77.5,
+        "phi": -37.5,
+        "gain_dBi": 12.945967465276983,
+        "relative_dB": -0.6930405750054973
+      },
+      {
+        "theta": 77.5,
+        "phi": -18.5,
+        "gain_dBi": 12.186155480286263,
+        "relative_dB": -1.4528525599962165
+      },
+      {
+        "theta": 129.5,
+        "phi": -152.5,
+        "gain_dBi": 11.73990403029041,
+        "relative_dB": -1.8991040099920706
+      },
+      {
+        "theta": 102.5,
+        "phi": 18.5,
+        "gain_dBi": 11.423670801954906,
+        "relative_dB": -2.2153372383275745
+      },
+      {
+        "theta": 129.5,
+        "phi": 158.5,
+        "gain_dBi": 11.221934314899308,
+        "relative_dB": -2.4170737253831724
+      },
+      {
+        "theta": 129.5,
+        "phi": 23.5,
+        "gain_dBi": 11.062977654603374,
+        "relative_dB": -2.576030385679106
+      },
+      {
+        "theta": 102.5,
+        "phi": 35.5,
+        "gain_dBi": 10.73725168484538,
+        "relative_dB": -2.901756355437101
+      },
+      {
+        "theta": 129.5,
+        "phi": -48.5,
+        "gain_dBi": 10.181859169846748,
+        "relative_dB": -3.4571488704357325
+      },
+      {
+        "theta": 129.5,
+        "phi": 45.5,
+        "gain_dBi": 9.954679281514961,
+        "relative_dB": -3.684328758767519
+      },
+      {
+        "theta": 77.5,
+        "phi": 18.5,
+        "gain_dBi": 9.838757057091481,
+        "relative_dB": -3.800250983190999
+      },
+      {
+        "theta": 50.5,
+        "phi": -48.5,
+        "gain_dBi": 9.587322646551696,
+        "relative_dB": -4.051685393730784
+      },
+      {
+        "theta": 129.5,
+        "phi": -1.5,
+        "gain_dBi": 9.4791655769409,
+        "relative_dB": -4.15984246334158
+      },
+      {
+        "theta": 102.5,
+        "phi": -0.5,
+        "gain_dBi": 9.19258616003612,
+        "relative_dB": -4.44642188024636
+      },
+      {
+        "theta": 50.5,
+        "phi": 157.5,
+        "gain_dBi": 8.917582914713908,
+        "relative_dB": -4.721425125568572
+      },
+      {
+        "theta": 50.5,
+        "phi": -23.5,
+        "gain_dBi": 8.393118035930915,
+        "relative_dB": -5.2458900043515655
+      },
+      {
+        "theta": 77.5,
+        "phi": -0.5,
+        "gain_dBi": 8.16383493513785,
+        "relative_dB": -5.475173105144631
+      },
+      {
+        "theta": 102.5,
+        "phi": 162.5,
+        "gain_dBi": 7.975597746936619,
+        "relative_dB": -5.663410293345861
+      },
+      {
+        "theta": 78.5,
+        "phi": 34.5,
+        "gain_dBi": 7.719110849882868,
+        "relative_dB": -5.919897190399612
+      },
+      {
+        "theta": 130.5,
+        "phi": -178.5,
+        "gain_dBi": 7.30764549167869,
+        "relative_dB": -6.33136254860379
+      },
+      {
+        "theta": 77.5,
+        "phi": 161.5,
+        "gain_dBi": 6.984393563754457,
+        "relative_dB": -6.654614476528023
+      },
+      {
+        "theta": 102.5,
+        "phi": -157.5,
+        "gain_dBi": 6.906645085136626,
+        "relative_dB": -6.732362955145854
+      }
+    ],
+    "A04": [
+      {
+        "theta": 118.5,
+        "phi": -8.5,
+        "gain_dBi": 14.818434447591258,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 93.5,
+        "phi": -7.5,
+        "gain_dBi": 14.525623241419506,
+        "relative_dB": -0.29281120617175205
+      },
+      {
+        "theta": 118.5,
+        "phi": 10.5,
+        "gain_dBi": 14.027215241164857,
+        "relative_dB": -0.7912192064264012
+      },
+      {
+        "theta": 93.5,
+        "phi": 9.5,
+        "gain_dBi": 13.591047657811067,
+        "relative_dB": -1.2273867897801907
+      },
+      {
+        "theta": 68.5,
+        "phi": -7.5,
+        "gain_dBi": 11.966895874393494,
+        "relative_dB": -2.8515385731977645
+      },
+      {
+        "theta": 92.5,
+        "phi": -55.5,
+        "gain_dBi": 11.262895749273072,
+        "relative_dB": -3.555538698318186
+      },
+      {
+        "theta": 68.5,
+        "phi": 10.5,
+        "gain_dBi": 10.94717267290468,
+        "relative_dB": -3.8712617746865785
+      },
+      {
+        "theta": 118.5,
+        "phi": 30.5,
+        "gain_dBi": 10.530354677145162,
+        "relative_dB": -4.288079770446096
+      },
+      {
+        "theta": 68.5,
+        "phi": -60.5,
+        "gain_dBi": 10.496031536204004,
+        "relative_dB": -4.322402911387254
+      },
+      {
+        "theta": 153.5,
+        "phi": -16.5,
+        "gain_dBi": 10.155958427567409,
+        "relative_dB": -4.662476020023849
+      },
+      {
+        "theta": 93.5,
+        "phi": 26.5,
+        "gain_dBi": 9.962043017131323,
+        "relative_dB": -4.856391430459935
+      },
+      {
+        "theta": 93.5,
+        "phi": -27.5,
+        "gain_dBi": 9.867232714789713,
+        "relative_dB": -4.951201732801545
+      },
+      {
+        "theta": 118.5,
+        "phi": -30.5,
+        "gain_dBi": 9.726503269324752,
+        "relative_dB": -5.091931178266506
+      },
+      {
+        "theta": 153.5,
+        "phi": 20.5,
+        "gain_dBi": 9.698954521081841,
+        "relative_dB": -5.119479926509417
+      },
+      {
+        "theta": 118.5,
+        "phi": -64.5,
+        "gain_dBi": 9.573338605170278,
+        "relative_dB": -5.24509584242098
+      },
+      {
+        "theta": 93.5,
+        "phi": 48.5,
+        "gain_dBi": 9.547906403042312,
+        "relative_dB": -5.270528044548946
+      },
+      {
+        "theta": 118.5,
+        "phi": 57.5,
+        "gain_dBi": 8.782687201318588,
+        "relative_dB": -6.0357472462726705
+      },
+      {
+        "theta": 92.5,
+        "phi": -104.5,
+        "gain_dBi": 8.740673406962658,
+        "relative_dB": -6.0777610406286
+      },
+      {
+        "theta": 68.5,
+        "phi": -29.5,
+        "gain_dBi": 8.186360643465074,
+        "relative_dB": -6.632073804126184
+      },
+      {
+        "theta": 68.5,
+        "phi": 28.5,
+        "gain_dBi": 7.422839979847529,
+        "relative_dB": -7.395594467743729
+      },
+      {
+        "theta": 153.5,
+        "phi": 75.5,
+        "gain_dBi": 6.966141760182202,
+        "relative_dB": -7.852292687409056
+      },
+      {
+        "theta": 38.5,
+        "phi": -12.5,
+        "gain_dBi": 6.3194772366105925,
+        "relative_dB": -8.498957210980667
+      },
+      {
+        "theta": 68.5,
+        "phi": 53.5,
+        "gain_dBi": 6.158920812243478,
+        "relative_dB": -8.65951363534778
+      },
+      {
+        "theta": 93.5,
+        "phi": 99.5,
+        "gain_dBi": 5.354637423569816,
+        "relative_dB": -9.463797024021442
+      }
+    ],
+    "A05": [
+      {
+        "theta": 112.5,
+        "phi": -8.5,
+        "gain_dBi": 14.191131370394514,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 112.5,
+        "phi": 10.5,
+        "gain_dBi": 13.425832486638726,
+        "relative_dB": -0.7652988837557881
+      },
+      {
+        "theta": 87.5,
+        "phi": -7.5,
+        "gain_dBi": 13.340473135004299,
+        "relative_dB": -0.850658235390215
+      },
+      {
+        "theta": 87.5,
+        "phi": 9.5,
+        "gain_dBi": 12.415742261957657,
+        "relative_dB": -1.7753891084368565
+      },
+      {
+        "theta": 142.5,
+        "phi": -12.5,
+        "gain_dBi": 12.261241750778423,
+        "relative_dB": -1.929889619616091
+      },
+      {
+        "theta": 86.5,
+        "phi": -55.5,
+        "gain_dBi": 11.830750418153865,
+        "relative_dB": -2.3603809522406483
+      },
+      {
+        "theta": 142.5,
+        "phi": 15.5,
+        "gain_dBi": 11.769274843354122,
+        "relative_dB": -2.421856527040392
+      },
+      {
+        "theta": 111.5,
+        "phi": -60.5,
+        "gain_dBi": 10.988028888485598,
+        "relative_dB": -3.2031024819089158
+      },
+      {
+        "theta": 61.5,
+        "phi": -64.5,
+        "gain_dBi": 10.036801322121885,
+        "relative_dB": -4.154330048272628
+      },
+      {
+        "theta": 111.5,
+        "phi": 53.5,
+        "gain_dBi": 9.93640294923712,
+        "relative_dB": -4.2547284211573935
+      },
+      {
+        "theta": 61.5,
+        "phi": -8.5,
+        "gain_dBi": 9.887782994929829,
+        "relative_dB": -4.303348375464685
+      },
+      {
+        "theta": 142.5,
+        "phi": -167.5,
+        "gain_dBi": 9.778072650924539,
+        "relative_dB": -4.413058719469975
+      },
+      {
+        "theta": 111.5,
+        "phi": 29.5,
+        "gain_dBi": 9.733167217915412,
+        "relative_dB": -4.457964152479102
+      },
+      {
+        "theta": 111.5,
+        "phi": -29.5,
+        "gain_dBi": 9.539468399165404,
+        "relative_dB": -4.6516629712291095
+      },
+      {
+        "theta": 87.5,
+        "phi": 48.5,
+        "gain_dBi": 9.5083026587729,
+        "relative_dB": -4.682828711621614
+      },
+      {
+        "theta": 86.5,
+        "phi": -104.5,
+        "gain_dBi": 9.466154829978578,
+        "relative_dB": -4.724976540415936
+      },
+      {
+        "theta": 87.5,
+        "phi": -27.5,
+        "gain_dBi": 9.059043320003823,
+        "relative_dB": -5.13208805039069
+      },
+      {
+        "theta": 61.5,
+        "phi": 11.5,
+        "gain_dBi": 9.046103049230155,
+        "relative_dB": -5.145028321164359
+      },
+      {
+        "theta": 87.5,
+        "phi": 27.5,
+        "gain_dBi": 8.632504364534789,
+        "relative_dB": -5.558627005859725
+      },
+      {
+        "theta": 142.5,
+        "phi": 165.5,
+        "gain_dBi": 7.654369355932358,
+        "relative_dB": -6.536762014462155
+      },
+      {
+        "theta": 142.5,
+        "phi": 46.5,
+        "gain_dBi": 7.328488840083354,
+        "relative_dB": -6.86264253031116
+      },
+      {
+        "theta": 111.5,
+        "phi": -169.5,
+        "gain_dBi": 6.719860507815926,
+        "relative_dB": -7.471270862578588
+      },
+      {
+        "theta": 61.5,
+        "phi": -32.5,
+        "gain_dBi": 6.4560522702057845,
+        "relative_dB": -7.735079100188729
+      },
+      {
+        "theta": 111.5,
+        "phi": 124.5,
+        "gain_dBi": 5.785040395022342,
+        "relative_dB": -8.406090975372171
+      }
+    ],
+    "A06": [
+      {
+        "theta": 115.5,
+        "phi": -15.5,
+        "gain_dBi": 14.850246281401185,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 90.5,
+        "phi": -13.5,
+        "gain_dBi": 14.464346245006382,
+        "relative_dB": -0.3859000363948031
+      },
+      {
+        "theta": 115.5,
+        "phi": 2.5,
+        "gain_dBi": 12.274074424742398,
+        "relative_dB": -2.576171856658787
+      },
+      {
+        "theta": 115.5,
+        "phi": 22.5,
+        "gain_dBi": 12.0426473444504,
+        "relative_dB": -2.807598936950786
+      },
+      {
+        "theta": 90.5,
+        "phi": 2.5,
+        "gain_dBi": 11.58550656414545,
+        "relative_dB": -3.2647397172557344
+      },
+      {
+        "theta": 90.5,
+        "phi": 20.5,
+        "gain_dBi": 11.582478247727497,
+        "relative_dB": -3.267768033673688
+      },
+      {
+        "theta": 65.5,
+        "phi": -15.5,
+        "gain_dBi": 11.519355251568735,
+        "relative_dB": -3.3308910298324506
+      },
+      {
+        "theta": 89.5,
+        "phi": -62.5,
+        "gain_dBi": 11.047338110865017,
+        "relative_dB": -3.8029081705361687
+      },
+      {
+        "theta": 147.5,
+        "phi": -24.5,
+        "gain_dBi": 10.732501947398978,
+        "relative_dB": -4.117744334002207
+      },
+      {
+        "theta": 115.5,
+        "phi": 46.5,
+        "gain_dBi": 10.139905629731093,
+        "relative_dB": -4.7103406516700925
+      },
+      {
+        "theta": 90.5,
+        "phi": 41.5,
+        "gain_dBi": 9.558789834589298,
+        "relative_dB": -5.291456446811887
+      },
+      {
+        "theta": 147.5,
+        "phi": 4.5,
+        "gain_dBi": 9.41031170404948,
+        "relative_dB": -5.439934577351705
+      },
+      {
+        "theta": 65.5,
+        "phi": -69.5,
+        "gain_dBi": 8.889063690523171,
+        "relative_dB": -5.961182590878014
+      },
+      {
+        "theta": 114.5,
+        "phi": -69.5,
+        "gain_dBi": 8.827638815231786,
+        "relative_dB": -6.022607466169399
+      },
+      {
+        "theta": 65.5,
+        "phi": 22.5,
+        "gain_dBi": 8.645494577736923,
+        "relative_dB": -6.204751703664263
+      },
+      {
+        "theta": 65.5,
+        "phi": 2.5,
+        "gain_dBi": 8.577442491803755,
+        "relative_dB": -6.272803789597431
+      },
+      {
+        "theta": 90.5,
+        "phi": -35.5,
+        "gain_dBi": 8.554883246334018,
+        "relative_dB": -6.295363035067167
+      },
+      {
+        "theta": 64.5,
+        "phi": -40.5,
+        "gain_dBi": 8.147104403094222,
+        "relative_dB": -6.703141878306964
+      },
+      {
+        "theta": 115.5,
+        "phi": -40.5,
+        "gain_dBi": 8.067308367951377,
+        "relative_dB": -6.782937913449809
+      },
+      {
+        "theta": 146.5,
+        "phi": 37.5,
+        "gain_dBi": 7.772133565604468,
+        "relative_dB": -7.078112715796717
+      },
+      {
+        "theta": 90.5,
+        "phi": 66.5,
+        "gain_dBi": 7.670394956090516,
+        "relative_dB": -7.179851325310669
+      },
+      {
+        "theta": 147.5,
+        "phi": -160.5,
+        "gain_dBi": 7.312131339275101,
+        "relative_dB": -7.538114942126084
+      },
+      {
+        "theta": 89.5,
+        "phi": 104.5,
+        "gain_dBi": 6.247908965367589,
+        "relative_dB": -8.602337316033596
+      },
+      {
+        "theta": 115.5,
+        "phi": 130.5,
+        "gain_dBi": 6.232679611143888,
+        "relative_dB": -8.617566670257297
+      }
+    ],
+    "A07": [
+      {
+        "theta": 115.5,
+        "phi": 17.5,
+        "gain_dBi": 14.875186089224128,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 90.5,
+        "phi": 15.5,
+        "gain_dBi": 14.305105533799441,
+        "relative_dB": -0.5700805554246866
+      },
+      {
+        "theta": 115.5,
+        "phi": -1.5,
+        "gain_dBi": 13.886367772765269,
+        "relative_dB": -0.9888183164588593
+      },
+      {
+        "theta": 90.5,
+        "phi": -1.5,
+        "gain_dBi": 13.352933281182155,
+        "relative_dB": -1.5222528080419728
+      },
+      {
+        "theta": 115.5,
+        "phi": -21.5,
+        "gain_dBi": 11.531816985660823,
+        "relative_dB": -3.3433691035633046
+      },
+      {
+        "theta": 65.5,
+        "phi": 17.5,
+        "gain_dBi": 11.302056848927693,
+        "relative_dB": -3.573129240296435
+      },
+      {
+        "theta": 90.5,
+        "phi": -19.5,
+        "gain_dBi": 11.268580134671183,
+        "relative_dB": -3.606605954552945
+      },
+      {
+        "theta": 147.5,
+        "phi": 27.5,
+        "gain_dBi": 11.212394532545362,
+        "relative_dB": -3.6627915566787657
+      },
+      {
+        "theta": 147.5,
+        "phi": -3.5,
+        "gain_dBi": 10.788639113381755,
+        "relative_dB": -4.0865469758423725
+      },
+      {
+        "theta": 65.5,
+        "phi": -1.5,
+        "gain_dBi": 10.517670524998895,
+        "relative_dB": -4.357515564225233
+      },
+      {
+        "theta": 89.5,
+        "phi": -42.5,
+        "gain_dBi": 9.932538225978488,
+        "relative_dB": -4.942647863245639
+      },
+      {
+        "theta": 89.5,
+        "phi": -112.5,
+        "gain_dBi": 9.543110111912322,
+        "relative_dB": -5.332075977311806
+      },
+      {
+        "theta": 64.5,
+        "phi": -50.5,
+        "gain_dBi": 9.131652425280917,
+        "relative_dB": -5.743533663943211
+      },
+      {
+        "theta": 114.5,
+        "phi": -47.5,
+        "gain_dBi": 9.116722172881303,
+        "relative_dB": -5.758463916342825
+      },
+      {
+        "theta": 65.5,
+        "phi": -21.5,
+        "gain_dBi": 8.640999045683316,
+        "relative_dB": -6.234187043540812
+      },
+      {
+        "theta": 89.5,
+        "phi": 56.5,
+        "gain_dBi": 8.209248245560502,
+        "relative_dB": -6.665937843663626
+      },
+      {
+        "theta": 148.5,
+        "phi": 178.5,
+        "gain_dBi": 7.889101891650457,
+        "relative_dB": -6.986084197573671
+      },
+      {
+        "theta": 114.5,
+        "phi": 36.5,
+        "gain_dBi": 7.66456523257442,
+        "relative_dB": -7.210620856649708
+      },
+      {
+        "theta": 147.5,
+        "phi": -36.5,
+        "gain_dBi": 7.269356132823833,
+        "relative_dB": -7.605829956400295
+      },
+      {
+        "theta": 114.5,
+        "phi": 63.5,
+        "gain_dBi": 7.191751630209642,
+        "relative_dB": -7.683434459014486
+      },
+      {
+        "theta": 89.5,
+        "phi": 33.5,
+        "gain_dBi": 6.858056665265561,
+        "relative_dB": -8.017129423958567
+      },
+      {
+        "theta": 114.5,
+        "phi": -108.5,
+        "gain_dBi": 6.305481212992109,
+        "relative_dB": -8.56970487623202
+      },
+      {
+        "theta": 147.5,
+        "phi": 151.5,
+        "gain_dBi": 6.259460126864616,
+        "relative_dB": -8.615725962359512
+      },
+      {
+        "theta": 65.5,
+        "phi": -106.5,
+        "gain_dBi": 5.940102113978176,
+        "relative_dB": -8.935083975245952
+      }
+    ],
+    "A08": [
+      {
+        "theta": 118.5,
+        "phi": -15.5,
+        "gain_dBi": 14.798314321602524,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 93.5,
+        "phi": -13.5,
+        "gain_dBi": 14.641407765856364,
+        "relative_dB": -0.15690655574615953
+      },
+      {
+        "theta": 118.5,
+        "phi": 2.5,
+        "gain_dBi": 12.449092961181904,
+        "relative_dB": -2.3492213604206196
+      },
+      {
+        "theta": 68.5,
+        "phi": -14.5,
+        "gain_dBi": 12.137231032497272,
+        "relative_dB": -2.6610832891052514
+      },
+      {
+        "theta": 93.5,
+        "phi": 2.5,
+        "gain_dBi": 12.067436815784943,
+        "relative_dB": -2.730877505817581
+      },
+      {
+        "theta": 118.5,
+        "phi": 23.5,
+        "gain_dBi": 11.824775236837347,
+        "relative_dB": -2.973539084765177
+      },
+      {
+        "theta": 93.5,
+        "phi": 20.5,
+        "gain_dBi": 11.559412422023705,
+        "relative_dB": -3.238901899578819
+      },
+      {
+        "theta": 92.5,
+        "phi": -62.5,
+        "gain_dBi": 10.858497474535264,
+        "relative_dB": -3.9398168470672594
+      },
+      {
+        "theta": 118.5,
+        "phi": 47.5,
+        "gain_dBi": 9.750159752428253,
+        "relative_dB": -5.048154569174271
+      },
+      {
+        "theta": 93.5,
+        "phi": 41.5,
+        "gain_dBi": 9.665108180728165,
+        "relative_dB": -5.133206140874359
+      },
+      {
+        "theta": 68.5,
+        "phi": 2.5,
+        "gain_dBi": 9.495475593323082,
+        "relative_dB": -5.302838728279442
+      },
+      {
+        "theta": 68.5,
+        "phi": -68.5,
+        "gain_dBi": 9.389372239237513,
+        "relative_dB": -5.4089420823650105
+      },
+      {
+        "theta": 152.5,
+        "phi": -28.5,
+        "gain_dBi": 9.116029517590006,
+        "relative_dB": -5.682284804012518
+      },
+      {
+        "theta": 68.5,
+        "phi": 22.5,
+        "gain_dBi": 9.115437003065454,
+        "relative_dB": -5.68287731853707
+      },
+      {
+        "theta": 93.5,
+        "phi": -35.5,
+        "gain_dBi": 8.803707722625644,
+        "relative_dB": -5.99460659897688
+      },
+      {
+        "theta": 68.5,
+        "phi": -39.5,
+        "gain_dBi": 8.500653934157427,
+        "relative_dB": -6.297660387445097
+      },
+      {
+        "theta": 153.5,
+        "phi": 5.5,
+        "gain_dBi": 8.24795573595522,
+        "relative_dB": -6.550358585647304
+      },
+      {
+        "theta": 118.5,
+        "phi": -41.5,
+        "gain_dBi": 7.981866651763198,
+        "relative_dB": -6.8164476698393255
+      },
+      {
+        "theta": 93.5,
+        "phi": 67.5,
+        "gain_dBi": 7.744808771980731,
+        "relative_dB": -7.053505549621793
+      },
+      {
+        "theta": 117.5,
+        "phi": -71.5,
+        "gain_dBi": 7.6680105134080945,
+        "relative_dB": -7.130303808194429
+      },
+      {
+        "theta": 37.5,
+        "phi": -26.5,
+        "gain_dBi": 7.554744229680499,
+        "relative_dB": -7.243570091922025
+      },
+      {
+        "theta": 68.5,
+        "phi": 45.5,
+        "gain_dBi": 6.185099964237937,
+        "relative_dB": -8.613214357364587
+      },
+      {
+        "theta": 93.5,
+        "phi": 104.5,
+        "gain_dBi": 6.049953000219181,
+        "relative_dB": -8.748361321383342
+      },
+      {
+        "theta": 152.5,
+        "phi": 46.5,
+        "gain_dBi": 5.824279083093814,
+        "relative_dB": -8.974035238508709
+      }
+    ],
+    "A09": [
+      {
+        "theta": 118.5,
+        "phi": 17.5,
+        "gain_dBi": 14.688836376509657,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 93.5,
+        "phi": 15.5,
+        "gain_dBi": 14.354965874951573,
+        "relative_dB": -0.33387050155808495
+      },
+      {
+        "theta": 118.5,
+        "phi": -1.5,
+        "gain_dBi": 14.011476630058795,
+        "relative_dB": -0.6773597464508629
+      },
+      {
+        "theta": 93.5,
+        "phi": -1.5,
+        "gain_dBi": 13.78541681161735,
+        "relative_dB": -0.9034195648923067
+      },
+      {
+        "theta": 68.5,
+        "phi": 16.5,
+        "gain_dBi": 11.816790527056135,
+        "relative_dB": -2.8720458494535226
+      },
+      {
+        "theta": 118.5,
+        "phi": -22.5,
+        "gain_dBi": 11.60506677615845,
+        "relative_dB": -3.083769600351207
+      },
+      {
+        "theta": 93.5,
+        "phi": -19.5,
+        "gain_dBi": 11.568280163336018,
+        "relative_dB": -3.1205562131736393
+      },
+      {
+        "theta": 68.5,
+        "phi": -1.5,
+        "gain_dBi": 11.325790835611642,
+        "relative_dB": -3.3630455408980158
+      },
+      {
+        "theta": 93.5,
+        "phi": -41.5,
+        "gain_dBi": 10.050280468043187,
+        "relative_dB": -4.63855590846647
+      },
+      {
+        "theta": 153.5,
+        "phi": -4.5,
+        "gain_dBi": 9.59701012706144,
+        "relative_dB": -5.091826249448218
+      },
+      {
+        "theta": 68.5,
+        "phi": -47.5,
+        "gain_dBi": 9.42306837225526,
+        "relative_dB": -5.265768004254397
+      },
+      {
+        "theta": 152.5,
+        "phi": 30.5,
+        "gain_dBi": 9.422238699435477,
+        "relative_dB": -5.266597677074181
+      },
+      {
+        "theta": 68.5,
+        "phi": -20.5,
+        "gain_dBi": 9.404113370067979,
+        "relative_dB": -5.284723006441679
+      },
+      {
+        "theta": 92.5,
+        "phi": -56.5,
+        "gain_dBi": 9.300035564247592,
+        "relative_dB": -5.388800812262065
+      },
+      {
+        "theta": 92.5,
+        "phi": -111.5,
+        "gain_dBi": 8.929069610588167,
+        "relative_dB": -5.759766765921491
+      },
+      {
+        "theta": 118.5,
+        "phi": -48.5,
+        "gain_dBi": 8.831616786646652,
+        "relative_dB": -5.857219589863005
+      },
+      {
+        "theta": 93.5,
+        "phi": 57.5,
+        "gain_dBi": 8.030774588129203,
+        "relative_dB": -6.658061788380454
+      },
+      {
+        "theta": 118.5,
+        "phi": 37.5,
+        "gain_dBi": 7.645313456726771,
+        "relative_dB": -7.043522919782887
+      },
+      {
+        "theta": 93.5,
+        "phi": 33.5,
+        "gain_dBi": 7.005779651039643,
+        "relative_dB": -7.683056725470014
+      },
+      {
+        "theta": 38.5,
+        "phi": -2.5,
+        "gain_dBi": 6.280384131329553,
+        "relative_dB": -8.408452245180104
+      },
+      {
+        "theta": 68.5,
+        "phi": -106.5,
+        "gain_dBi": 6.213048006766066,
+        "relative_dB": -8.475788369743592
+      },
+      {
+        "theta": 118.5,
+        "phi": 67.5,
+        "gain_dBi": 6.103988524549784,
+        "relative_dB": -8.584847851959873
+      },
+      {
+        "theta": 153.5,
+        "phi": -44.5,
+        "gain_dBi": 5.9918381256537545,
+        "relative_dB": -8.696998250855902
+      },
+      {
+        "theta": 153.5,
+        "phi": 175.5,
+        "gain_dBi": 5.4850783196655595,
+        "relative_dB": -9.203758056844098
+      }
+    ],
+    "A10": [
+      {
+        "theta": 121.5,
+        "phi": -16.5,
+        "gain_dBi": 13.944546303742653,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 95.5,
+        "phi": -13.5,
+        "gain_dBi": 13.917503587244218,
+        "relative_dB": -0.027042716498435482
+      },
+      {
+        "theta": 122.5,
+        "phi": 2.5,
+        "gain_dBi": 12.334801665856086,
+        "relative_dB": -1.6097446378865676
+      },
+      {
+        "theta": 96.5,
+        "phi": 2.5,
+        "gain_dBi": 12.229645425436015,
+        "relative_dB": -1.7149008783066382
+      },
+      {
+        "theta": 71.5,
+        "phi": -14.5,
+        "gain_dBi": 12.027453976230104,
+        "relative_dB": -1.9170923275125489
+      },
+      {
+        "theta": 122.5,
+        "phi": 24.5,
+        "gain_dBi": 11.174853127636954,
+        "relative_dB": -2.769693176105699
+      },
+      {
+        "theta": 96.5,
+        "phi": 20.5,
+        "gain_dBi": 10.925581258290345,
+        "relative_dB": -3.0189650454523083
+      },
+      {
+        "theta": 96.5,
+        "phi": -62.5,
+        "gain_dBi": 10.581728273102406,
+        "relative_dB": -3.3628180306402466
+      },
+      {
+        "theta": 96.5,
+        "phi": 41.5,
+        "gain_dBi": 10.439524723459844,
+        "relative_dB": -3.5050215802828095
+      },
+      {
+        "theta": 71.5,
+        "phi": 2.5,
+        "gain_dBi": 10.089465189047353,
+        "relative_dB": -3.8550811146953006
+      },
+      {
+        "theta": 122.5,
+        "phi": 49.5,
+        "gain_dBi": 9.916681782678435,
+        "relative_dB": -4.0278645210642186
+      },
+      {
+        "theta": 71.5,
+        "phi": -66.5,
+        "gain_dBi": 9.756593770520444,
+        "relative_dB": -4.187952533222209
+      },
+      {
+        "theta": 96.5,
+        "phi": -36.5,
+        "gain_dBi": 9.289358377361822,
+        "relative_dB": -4.655187926380831
+      },
+      {
+        "theta": 71.5,
+        "phi": -38.5,
+        "gain_dBi": 9.034813611054108,
+        "relative_dB": -4.909732692688545
+      },
+      {
+        "theta": 71.5,
+        "phi": 21.5,
+        "gain_dBi": 8.9072532933387,
+        "relative_dB": -5.037293010403953
+      },
+      {
+        "theta": 42.5,
+        "phi": -22.5,
+        "gain_dBi": 8.58855501283259,
+        "relative_dB": -5.3559912909100635
+      },
+      {
+        "theta": 161.5,
+        "phi": -44.5,
+        "gain_dBi": 8.32050231771145,
+        "relative_dB": -5.624043986031204
+      },
+      {
+        "theta": 122.5,
+        "phi": -43.5,
+        "gain_dBi": 8.106793453665082,
+        "relative_dB": -5.837752850077571
+      },
+      {
+        "theta": 96.5,
+        "phi": 68.5,
+        "gain_dBi": 7.747560072103573,
+        "relative_dB": -6.19698623163908
+      },
+      {
+        "theta": 71.5,
+        "phi": 43.5,
+        "gain_dBi": 7.330082285873674,
+        "relative_dB": -6.614464017868979
+      },
+      {
+        "theta": 160.5,
+        "phi": 6.5,
+        "gain_dBi": 6.982594360868438,
+        "relative_dB": -6.961951942874215
+      },
+      {
+        "theta": 160.5,
+        "phi": 83.5,
+        "gain_dBi": 6.734534746909526,
+        "relative_dB": -7.210011556833127
+      },
+      {
+        "theta": 121.5,
+        "phi": -75.5,
+        "gain_dBi": 6.471962651153119,
+        "relative_dB": -7.472583652589534
+      },
+      {
+        "theta": 123.5,
+        "phi": -161.5,
+        "gain_dBi": 6.443419179183286,
+        "relative_dB": -7.501127124559367
+      }
+    ],
+    "B01": [
+      {
+        "theta": 115.5,
+        "phi": 10.5,
+        "gain_dBi": 11.10360048979807,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 114.5,
+        "phi": -28.5,
+        "gain_dBi": 11.018963205398487,
+        "relative_dB": -0.08463728439958373
+      },
+      {
+        "theta": 89.5,
+        "phi": -25.5,
+        "gain_dBi": 10.868812750853287,
+        "relative_dB": -0.23478773894478344
+      },
+      {
+        "theta": 90.5,
+        "phi": 9.5,
+        "gain_dBi": 10.319148704648612,
+        "relative_dB": -0.784451785149459
+      },
+      {
+        "theta": 105.5,
+        "phi": -22.5,
+        "gain_dBi": 10.300821670582446,
+        "relative_dB": -0.8027788192156251
+      },
+      {
+        "theta": 90.5,
+        "phi": -50.5,
+        "gain_dBi": 9.07395665836285,
+        "relative_dB": -2.029643831435221
+      },
+      {
+        "theta": 80.5,
+        "phi": -23.5,
+        "gain_dBi": 9.030552899747612,
+        "relative_dB": -2.073047590050459
+      },
+      {
+        "theta": 64.5,
+        "phi": -29.5,
+        "gain_dBi": 8.794390643439396,
+        "relative_dB": -2.3092098463586748
+      },
+      {
+        "theta": 133.5,
+        "phi": -28.5,
+        "gain_dBi": 8.77245909202956,
+        "relative_dB": -2.3311413977685103
+      },
+      {
+        "theta": 133.5,
+        "phi": -152.5,
+        "gain_dBi": 8.579963261948162,
+        "relative_dB": -2.5236372278499086
+      },
+      {
+        "theta": 95.5,
+        "phi": -21.5,
+        "gain_dBi": 8.547276011385287,
+        "relative_dB": -2.556324478412783
+      },
+      {
+        "theta": 122.5,
+        "phi": -26.5,
+        "gain_dBi": 8.450049711717758,
+        "relative_dB": -2.6535507780803123
+      },
+      {
+        "theta": 114.5,
+        "phi": 32.5,
+        "gain_dBi": 8.423145858951962,
+        "relative_dB": -2.680454630846109
+      },
+      {
+        "theta": 105.5,
+        "phi": 33.5,
+        "gain_dBi": 8.237830928768624,
+        "relative_dB": -2.865769561029447
+      },
+      {
+        "theta": 115.5,
+        "phi": -58.5,
+        "gain_dBi": 8.06830108543833,
+        "relative_dB": -3.0352994043597405
+      },
+      {
+        "theta": 65.5,
+        "phi": -57.5,
+        "gain_dBi": 7.854612772610805,
+        "relative_dB": -3.2489877171872656
+      },
+      {
+        "theta": 147.5,
+        "phi": 17.5,
+        "gain_dBi": 7.65159688262105,
+        "relative_dB": -3.452003607177021
+      },
+      {
+        "theta": 65.5,
+        "phi": 10.5,
+        "gain_dBi": 7.334394525987578,
+        "relative_dB": -3.769205963810493
+      },
+      {
+        "theta": 89.5,
+        "phi": 29.5,
+        "gain_dBi": 7.287335449213824,
+        "relative_dB": -3.8162650405842466
+      },
+      {
+        "theta": 126.5,
+        "phi": 17.5,
+        "gain_dBi": 7.160908532504889,
+        "relative_dB": -3.9426919572931816
+      },
+      {
+        "theta": 100.5,
+        "phi": 15.5,
+        "gain_dBi": 7.055659650711224,
+        "relative_dB": -4.047940839086847
+      },
+      {
+        "theta": 133.5,
+        "phi": 46.5,
+        "gain_dBi": 6.913005157404316,
+        "relative_dB": -4.190595332393754
+      },
+      {
+        "theta": 71.5,
+        "phi": -23.5,
+        "gain_dBi": 6.881194776871357,
+        "relative_dB": -4.222405712926713
+      },
+      {
+        "theta": 123.5,
+        "phi": -3.5,
+        "gain_dBi": 6.859646005680774,
+        "relative_dB": -4.243954484117297
+      }
+    ],
+    "B02": [
+      {
+        "theta": 110.5,
+        "phi": 4.5,
+        "gain_dBi": 11.757788168804655,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 85.5,
+        "phi": 4.5,
+        "gain_dBi": 10.826125849971113,
+        "relative_dB": -0.931662318833542
+      },
+      {
+        "theta": 140.5,
+        "phi": 7.5,
+        "gain_dBi": 10.453525110558939,
+        "relative_dB": -1.3042630582457164
+      },
+      {
+        "theta": 85.5,
+        "phi": -56.5,
+        "gain_dBi": 10.194610212430346,
+        "relative_dB": -1.5631779563743091
+      },
+      {
+        "theta": 118.5,
+        "phi": -13.5,
+        "gain_dBi": 10.172828898475624,
+        "relative_dB": -1.5849592703290316
+      },
+      {
+        "theta": 92.5,
+        "phi": -12.5,
+        "gain_dBi": 10.073534259869794,
+        "relative_dB": -1.6842539089348616
+      },
+      {
+        "theta": 118.5,
+        "phi": 7.5,
+        "gain_dBi": 9.426640689318996,
+        "relative_dB": -2.3311474794856597
+      },
+      {
+        "theta": 127.5,
+        "phi": 7.5,
+        "gain_dBi": 9.266036859352841,
+        "relative_dB": -2.4917513094518142
+      },
+      {
+        "theta": 100.5,
+        "phi": 6.5,
+        "gain_dBi": 9.244543150580187,
+        "relative_dB": -2.5132450182244686
+      },
+      {
+        "theta": 110.5,
+        "phi": -61.5,
+        "gain_dBi": 9.203932487213915,
+        "relative_dB": -2.55385568159074
+      },
+      {
+        "theta": 92.5,
+        "phi": 6.5,
+        "gain_dBi": 9.076035948505183,
+        "relative_dB": -2.6817522202994724
+      },
+      {
+        "theta": 100.5,
+        "phi": -56.5,
+        "gain_dBi": 8.88682650206839,
+        "relative_dB": -2.8709616667362656
+      },
+      {
+        "theta": 75.5,
+        "phi": -56.5,
+        "gain_dBi": 8.883566222445696,
+        "relative_dB": -2.8742219463589596
+      },
+      {
+        "theta": 141.5,
+        "phi": 173.5,
+        "gain_dBi": 8.239741694653379,
+        "relative_dB": -3.5180464741512765
+      },
+      {
+        "theta": 75.5,
+        "phi": 6.5,
+        "gain_dBi": 7.985124710516342,
+        "relative_dB": -3.7726634582883136
+      },
+      {
+        "theta": 59.5,
+        "phi": 5.5,
+        "gain_dBi": 7.736944427788963,
+        "relative_dB": -4.0208437410156925
+      },
+      {
+        "theta": 68.5,
+        "phi": -12.5,
+        "gain_dBi": 7.427853152819974,
+        "relative_dB": -4.329935015984681
+      },
+      {
+        "theta": 59.5,
+        "phi": -67.5,
+        "gain_dBi": 7.278932505794468,
+        "relative_dB": -4.4788556630101874
+      },
+      {
+        "theta": 93.5,
+        "phi": -59.5,
+        "gain_dBi": 6.9331971970298305,
+        "relative_dB": -4.824590971774825
+      },
+      {
+        "theta": 68.5,
+        "phi": 7.5,
+        "gain_dBi": 6.574119664253325,
+        "relative_dB": -5.18366850455133
+      },
+      {
+        "theta": 68.5,
+        "phi": -64.5,
+        "gain_dBi": 5.85708014490407,
+        "relative_dB": -5.900708023900585
+      },
+      {
+        "theta": 85.5,
+        "phi": 102.5,
+        "gain_dBi": 5.734787505577598,
+        "relative_dB": -6.023000663227057
+      },
+      {
+        "theta": 48.5,
+        "phi": 5.5,
+        "gain_dBi": 5.608193431872859,
+        "relative_dB": -6.149594736931796
+      },
+      {
+        "theta": 85.5,
+        "phi": 69.5,
+        "gain_dBi": 5.309615928655353,
+        "relative_dB": -6.448172240149303
+      }
+    ],
+    "B03": [
+      {
+        "theta": 125.5,
+        "phi": 14.5,
+        "gain_dBi": 10.387938080961712,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 98.5,
+        "phi": 12.5,
+        "gain_dBi": 10.365832241235726,
+        "relative_dB": -0.022105839725986343
+      },
+      {
+        "theta": 112.5,
+        "phi": -9.5,
+        "gain_dBi": 9.959991822236965,
+        "relative_dB": -0.4279462587247469
+      },
+      {
+        "theta": 122.5,
+        "phi": -6.5,
+        "gain_dBi": 9.666539342574902,
+        "relative_dB": -0.7213987383868101
+      },
+      {
+        "theta": 96.5,
+        "phi": -5.5,
+        "gain_dBi": 9.520900404207694,
+        "relative_dB": -0.867037676754018
+      },
+      {
+        "theta": 124.5,
+        "phi": -28.5,
+        "gain_dBi": 9.38871104999849,
+        "relative_dB": -0.9992270309632225
+      },
+      {
+        "theta": 97.5,
+        "phi": -23.5,
+        "gain_dBi": 9.149318311299352,
+        "relative_dB": -1.2386197696623604
+      },
+      {
+        "theta": 88.5,
+        "phi": -9.5,
+        "gain_dBi": 9.131960983852089,
+        "relative_dB": -1.2559770971096231
+      },
+      {
+        "theta": 99.5,
+        "phi": -45.5,
+        "gain_dBi": 8.748124588549175,
+        "relative_dB": -1.6398134924125376
+      },
+      {
+        "theta": 74.5,
+        "phi": 12.5,
+        "gain_dBi": 8.736184423989965,
+        "relative_dB": -1.6517536569717475
+      },
+      {
+        "theta": 107.5,
+        "phi": 6.5,
+        "gain_dBi": 8.472974912624277,
+        "relative_dB": -1.9149631683374349
+      },
+      {
+        "theta": 74.5,
+        "phi": -47.5,
+        "gain_dBi": 8.399149464561553,
+        "relative_dB": -1.988788616400159
+      },
+      {
+        "theta": 82.5,
+        "phi": -51.5,
+        "gain_dBi": 8.13352300762809,
+        "relative_dB": -2.2544150733336217
+      },
+      {
+        "theta": 135.5,
+        "phi": 9.5,
+        "gain_dBi": 8.096774154857357,
+        "relative_dB": -2.291163926104355
+      },
+      {
+        "theta": 73.5,
+        "phi": -24.5,
+        "gain_dBi": 7.807947388036862,
+        "relative_dB": -2.5799906929248504
+      },
+      {
+        "theta": 143.5,
+        "phi": -14.5,
+        "gain_dBi": 7.777818755371536,
+        "relative_dB": -2.6101193255901762
+      },
+      {
+        "theta": 106.5,
+        "phi": -53.5,
+        "gain_dBi": 7.631691043222823,
+        "relative_dB": -2.7562470377388895
+      },
+      {
+        "theta": 82.5,
+        "phi": 6.5,
+        "gain_dBi": 7.627578962274776,
+        "relative_dB": -2.760359118686936
+      },
+      {
+        "theta": 123.5,
+        "phi": 37.5,
+        "gain_dBi": 7.476175179127163,
+        "relative_dB": -2.9117629018345488
+      },
+      {
+        "theta": 71.5,
+        "phi": -5.5,
+        "gain_dBi": 7.271726731854687,
+        "relative_dB": -3.116211349107025
+      },
+      {
+        "theta": 97.5,
+        "phi": 31.5,
+        "gain_dBi": 7.257478879472706,
+        "relative_dB": -3.130459201489006
+      },
+      {
+        "theta": 169.5,
+        "phi": 91.5,
+        "gain_dBi": 7.231425812903531,
+        "relative_dB": -3.156512268058181
+      },
+      {
+        "theta": 126.5,
+        "phi": 164.5,
+        "gain_dBi": 6.657495919487709,
+        "relative_dB": -3.730442161474003
+      },
+      {
+        "theta": 127.5,
+        "phi": -153.5,
+        "gain_dBi": 6.286230326452074,
+        "relative_dB": -4.101707754509638
+      }
+    ],
+    "B04": [
+      {
+        "theta": 94.5,
+        "phi": -22.5,
+        "gain_dBi": 11.885204354566204,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 119.5,
+        "phi": -26.5,
+        "gain_dBi": 11.864648332731937,
+        "relative_dB": -0.020556021834266858
+      },
+      {
+        "theta": 107.5,
+        "phi": -13.5,
+        "gain_dBi": 11.805795836965668,
+        "relative_dB": -0.07940851760053569
+      },
+      {
+        "theta": 136.5,
+        "phi": -18.5,
+        "gain_dBi": 11.099199595663807,
+        "relative_dB": -0.7860047589023971
+      },
+      {
+        "theta": 119.5,
+        "phi": 12.5,
+        "gain_dBi": 10.891474409734236,
+        "relative_dB": -0.9937299448319674
+      },
+      {
+        "theta": 135.5,
+        "phi": -158.5,
+        "gain_dBi": 10.716867416990926,
+        "relative_dB": -1.168336937575278
+      },
+      {
+        "theta": 94.5,
+        "phi": 10.5,
+        "gain_dBi": 10.66653527425947,
+        "relative_dB": -1.218669080306734
+      },
+      {
+        "theta": 83.5,
+        "phi": -12.5,
+        "gain_dBi": 10.595996554676256,
+        "relative_dB": -1.2892077998899474
+      },
+      {
+        "theta": 69.5,
+        "phi": -24.5,
+        "gain_dBi": 10.219077134824214,
+        "relative_dB": -1.6661272197419894
+      },
+      {
+        "theta": 107.5,
+        "phi": 45.5,
+        "gain_dBi": 9.241625605030952,
+        "relative_dB": -2.6435787495352514
+      },
+      {
+        "theta": 119.5,
+        "phi": 37.5,
+        "gain_dBi": 9.035790377284991,
+        "relative_dB": -2.8494139772812126
+      },
+      {
+        "theta": 94.5,
+        "phi": 32.5,
+        "gain_dBi": 8.482296734907115,
+        "relative_dB": -3.4029076196590893
+      },
+      {
+        "theta": 69.5,
+        "phi": 11.5,
+        "gain_dBi": 8.28728890863358,
+        "relative_dB": -3.5979154459326246
+      },
+      {
+        "theta": 15.5,
+        "phi": -94.5,
+        "gain_dBi": 7.681476668397348,
+        "relative_dB": -4.203727686168856
+      },
+      {
+        "theta": 83.5,
+        "phi": 43.5,
+        "gain_dBi": 7.535249233226391,
+        "relative_dB": -4.349955121339812
+      },
+      {
+        "theta": 94.5,
+        "phi": -48.5,
+        "gain_dBi": 7.3518083027541365,
+        "relative_dB": -4.533396051812067
+      },
+      {
+        "theta": 107.5,
+        "phi": -164.5,
+        "gain_dBi": 7.304079845570939,
+        "relative_dB": -4.581124508995265
+      },
+      {
+        "theta": 57.5,
+        "phi": -14.5,
+        "gain_dBi": 7.025470131463727,
+        "relative_dB": -4.8597342231024765
+      },
+      {
+        "theta": 69.5,
+        "phi": -52.5,
+        "gain_dBi": 6.7185895034725736,
+        "relative_dB": -5.16661485109363
+      },
+      {
+        "theta": 38.5,
+        "phi": -38.5,
+        "gain_dBi": 6.248409502617863,
+        "relative_dB": -5.63679485194834
+      },
+      {
+        "theta": 119.5,
+        "phi": -57.5,
+        "gain_dBi": 6.0421480159248855,
+        "relative_dB": -5.843056338641318
+      },
+      {
+        "theta": 154.5,
+        "phi": -56.5,
+        "gain_dBi": 6.012762579819268,
+        "relative_dB": -5.872441774746936
+      },
+      {
+        "theta": 155.5,
+        "phi": 26.5,
+        "gain_dBi": 5.971388634579606,
+        "relative_dB": -5.913815719986598
+      },
+      {
+        "theta": 136.5,
+        "phi": 67.5,
+        "gain_dBi": 5.7415592776681645,
+        "relative_dB": -6.143645076898039
+      }
+    ],
+    "B05": [
+      {
+        "theta": 121.5,
+        "phi": 10.5,
+        "gain_dBi": 10.622955411309551,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 95.5,
+        "phi": 9.5,
+        "gain_dBi": 10.467642279620993,
+        "relative_dB": -0.15531313168855831
+      },
+      {
+        "theta": 126.5,
+        "phi": -1.5,
+        "gain_dBi": 9.482472429109336,
+        "relative_dB": -1.140482982200215
+      },
+      {
+        "theta": 117.5,
+        "phi": -9.5,
+        "gain_dBi": 9.04959474917898,
+        "relative_dB": -1.5733606621305718
+      },
+      {
+        "theta": 99.5,
+        "phi": -0.5,
+        "gain_dBi": 9.04100472510608,
+        "relative_dB": -1.5819506862034718
+      },
+      {
+        "theta": 92.5,
+        "phi": -8.5,
+        "gain_dBi": 8.480766449000422,
+        "relative_dB": -2.1421889623091293
+      },
+      {
+        "theta": 106.5,
+        "phi": 8.5,
+        "gain_dBi": 8.406643315561663,
+        "relative_dB": -2.216312095747888
+      },
+      {
+        "theta": 134.5,
+        "phi": 11.5,
+        "gain_dBi": 8.384383408009846,
+        "relative_dB": -2.238572003299705
+      },
+      {
+        "theta": 70.5,
+        "phi": 9.5,
+        "gain_dBi": 8.196019286139894,
+        "relative_dB": -2.4269361251696573
+      },
+      {
+        "theta": 75.5,
+        "phi": -0.5,
+        "gain_dBi": 7.786199274378612,
+        "relative_dB": -2.836756136930939
+      },
+      {
+        "theta": 81.5,
+        "phi": -54.5,
+        "gain_dBi": 7.764354200910688,
+        "relative_dB": -2.858601210398863
+      },
+      {
+        "theta": 102.5,
+        "phi": -9.5,
+        "gain_dBi": 7.75020242821959,
+        "relative_dB": -2.8727529830899607
+      },
+      {
+        "theta": 178.5,
+        "phi": -4.5,
+        "gain_dBi": 7.716680744214896,
+        "relative_dB": -2.906274667094655
+      },
+      {
+        "theta": 106.5,
+        "phi": -56.5,
+        "gain_dBi": 7.566248178895122,
+        "relative_dB": -3.0567072324144293
+      },
+      {
+        "theta": 97.5,
+        "phi": -57.5,
+        "gain_dBi": 7.4827014050606575,
+        "relative_dB": -3.1402540062488935
+      },
+      {
+        "theta": 95.5,
+        "phi": -48.5,
+        "gain_dBi": 7.414654691370438,
+        "relative_dB": -3.208300719939113
+      },
+      {
+        "theta": 72.5,
+        "phi": -59.5,
+        "gain_dBi": 7.199757713938331,
+        "relative_dB": -3.4231976973712204
+      },
+      {
+        "theta": 81.5,
+        "phi": 8.5,
+        "gain_dBi": 7.013062392011918,
+        "relative_dB": -3.6098930192976333
+      },
+      {
+        "theta": 99.5,
+        "phi": -36.5,
+        "gain_dBi": 6.931293847744118,
+        "relative_dB": -3.6916615635654333
+      },
+      {
+        "theta": 100.5,
+        "phi": 61.5,
+        "gain_dBi": 6.733154346311622,
+        "relative_dB": -3.889801064997929
+      },
+      {
+        "theta": 74.5,
+        "phi": -37.5,
+        "gain_dBi": 6.473907410188968,
+        "relative_dB": -4.149048001120583
+      },
+      {
+        "theta": 134.5,
+        "phi": 167.5,
+        "gain_dBi": 6.422323561709536,
+        "relative_dB": -4.200631849600015
+      },
+      {
+        "theta": 46.5,
+        "phi": -0.5,
+        "gain_dBi": 6.229614039231622,
+        "relative_dB": -4.393341372077929
+      },
+      {
+        "theta": 150.5,
+        "phi": -13.5,
+        "gain_dBi": 6.208762599211034,
+        "relative_dB": -4.414192812098517
+      }
+    ],
+    "B06": [
+      {
+        "theta": 122.5,
+        "phi": 12.5,
+        "gain_dBi": 12.163713601196635,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 96.5,
+        "phi": 10.5,
+        "gain_dBi": 12.13134048473832,
+        "relative_dB": -0.032373116458314755
+      },
+      {
+        "theta": 71.5,
+        "phi": 11.5,
+        "gain_dBi": 10.21143195352204,
+        "relative_dB": -1.9522816476745959
+      },
+      {
+        "theta": 96.5,
+        "phi": -44.5,
+        "gain_dBi": 9.342045845193617,
+        "relative_dB": -2.821667756003018
+      },
+      {
+        "theta": 111.5,
+        "phi": 10.5,
+        "gain_dBi": 9.27103003587437,
+        "relative_dB": -2.8926835653222653
+      },
+      {
+        "theta": 71.5,
+        "phi": -48.5,
+        "gain_dBi": 8.874514918756017,
+        "relative_dB": -3.2891986824406185
+      },
+      {
+        "theta": 87.5,
+        "phi": 8.5,
+        "gain_dBi": 8.119636019453614,
+        "relative_dB": -4.0440775817430215
+      },
+      {
+        "theta": 112.5,
+        "phi": -16.5,
+        "gain_dBi": 8.090258398803497,
+        "relative_dB": -4.073455202393138
+      },
+      {
+        "theta": 107.5,
+        "phi": -5.5,
+        "gain_dBi": 7.782263423658594,
+        "relative_dB": -4.381450177538041
+      },
+      {
+        "theta": 137.5,
+        "phi": 18.5,
+        "gain_dBi": 7.676960553599934,
+        "relative_dB": -4.486753047596701
+      },
+      {
+        "theta": 136.5,
+        "phi": -7.5,
+        "gain_dBi": 7.422380712873259,
+        "relative_dB": -4.7413328883233765
+      },
+      {
+        "theta": 87.5,
+        "phi": -15.5,
+        "gain_dBi": 7.3448742000064335,
+        "relative_dB": -4.818839401190202
+      },
+      {
+        "theta": 86.5,
+        "phi": -48.5,
+        "gain_dBi": 7.163475114535297,
+        "relative_dB": -5.000238486661338
+      },
+      {
+        "theta": 122.5,
+        "phi": -54.5,
+        "gain_dBi": 6.899156103066451,
+        "relative_dB": -5.264557498130184
+      },
+      {
+        "theta": 98.5,
+        "phi": -22.5,
+        "gain_dBi": 6.738790418029307,
+        "relative_dB": -5.424923183167328
+      },
+      {
+        "theta": 131.5,
+        "phi": 5.5,
+        "gain_dBi": 6.66822118928294,
+        "relative_dB": -5.495492411913695
+      },
+      {
+        "theta": 124.5,
+        "phi": -27.5,
+        "gain_dBi": 6.641278078335294,
+        "relative_dB": -5.5224355228613415
+      },
+      {
+        "theta": 83.5,
+        "phi": -5.5,
+        "gain_dBi": 6.5716564932389465,
+        "relative_dB": -5.592057107957689
+      },
+      {
+        "theta": 165.5,
+        "phi": 56.5,
+        "gain_dBi": 6.534193380701473,
+        "relative_dB": -5.629520220495162
+      },
+      {
+        "theta": 111.5,
+        "phi": -52.5,
+        "gain_dBi": 6.531715487008016,
+        "relative_dB": -5.631998114188619
+      },
+      {
+        "theta": 104.5,
+        "phi": 5.5,
+        "gain_dBi": 6.492554889969391,
+        "relative_dB": -5.671158711227244
+      },
+      {
+        "theta": 137.5,
+        "phi": 159.5,
+        "gain_dBi": 6.343866792440204,
+        "relative_dB": -5.819846808756431
+      },
+      {
+        "theta": 123.5,
+        "phi": 162.5,
+        "gain_dBi": 6.124881068589188,
+        "relative_dB": -6.038832532607447
+      },
+      {
+        "theta": 130.5,
+        "phi": -19.5,
+        "gain_dBi": 5.6943322128012035,
+        "relative_dB": -6.469381388395432
+      }
+    ],
+    "C01": [
+      {
+        "theta": 94.5,
+        "phi": -15.5,
+        "gain_dBi": 15.104115733079384,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 120.5,
+        "phi": -18.5,
+        "gain_dBi": 15.0924367252392,
+        "relative_dB": -0.011679007840184497
+      },
+      {
+        "theta": 69.5,
+        "phi": -16.5,
+        "gain_dBi": 12.789076258950873,
+        "relative_dB": -2.315039474128511
+      },
+      {
+        "theta": 105.5,
+        "phi": 16.5,
+        "gain_dBi": 11.004338922421514,
+        "relative_dB": -4.09977681065787
+      },
+      {
+        "theta": 105.5,
+        "phi": -41.5,
+        "gain_dBi": 10.679771528088061,
+        "relative_dB": -4.424344204991323
+      },
+      {
+        "theta": 80.5,
+        "phi": -40.5,
+        "gain_dBi": 10.579959995175262,
+        "relative_dB": -4.524155737904122
+      },
+      {
+        "theta": 133.5,
+        "phi": 21.5,
+        "gain_dBi": 10.503828459176571,
+        "relative_dB": -4.600287273902813
+      },
+      {
+        "theta": 120.5,
+        "phi": 45.5,
+        "gain_dBi": 10.429406178041523,
+        "relative_dB": -4.674709555037861
+      },
+      {
+        "theta": 94.5,
+        "phi": 39.5,
+        "gain_dBi": 10.180714414728342,
+        "relative_dB": -4.923401318351042
+      },
+      {
+        "theta": 133.5,
+        "phi": 159.5,
+        "gain_dBi": 9.937446562664823,
+        "relative_dB": -5.166669170414561
+      },
+      {
+        "theta": 81.5,
+        "phi": 15.5,
+        "gain_dBi": 9.611280704179393,
+        "relative_dB": -5.492835028899991
+      },
+      {
+        "theta": 156.5,
+        "phi": -39.5,
+        "gain_dBi": 9.268965442452135,
+        "relative_dB": -5.835150290627249
+      },
+      {
+        "theta": 39.5,
+        "phi": -26.5,
+        "gain_dBi": 8.485994069741889,
+        "relative_dB": -6.6181216633374955
+      },
+      {
+        "theta": 110.5,
+        "phi": -20.5,
+        "gain_dBi": 8.324023270365139,
+        "relative_dB": -6.780092462714245
+      },
+      {
+        "theta": 54.5,
+        "phi": -51.5,
+        "gain_dBi": 7.637065490764222,
+        "relative_dB": -7.467050242315162
+      },
+      {
+        "theta": 85.5,
+        "phi": -18.5,
+        "gain_dBi": 7.409146924191791,
+        "relative_dB": -7.694968808887593
+      },
+      {
+        "theta": 122.5,
+        "phi": 22.5,
+        "gain_dBi": 6.76504275453315,
+        "relative_dB": -8.339072978546234
+      },
+      {
+        "theta": 105.5,
+        "phi": 163.5,
+        "gain_dBi": 6.735837724047072,
+        "relative_dB": -8.368278009032313
+      },
+      {
+        "theta": 96.5,
+        "phi": 19.5,
+        "gain_dBi": 6.615193614763923,
+        "relative_dB": -8.488922118315461
+      },
+      {
+        "theta": 70.5,
+        "phi": 40.5,
+        "gain_dBi": 6.453973634240754,
+        "relative_dB": -8.65014209883863
+      },
+      {
+        "theta": 133.5,
+        "phi": -58.5,
+        "gain_dBi": 6.361903440209761,
+        "relative_dB": -8.742212292869624
+      },
+      {
+        "theta": 53.5,
+        "phi": 159.5,
+        "gain_dBi": 6.339891221892908,
+        "relative_dB": -8.764224511186477
+      },
+      {
+        "theta": 140.5,
+        "phi": -29.5,
+        "gain_dBi": 5.976167659007261,
+        "relative_dB": -9.127948074072123
+      },
+      {
+        "theta": 110.5,
+        "phi": 38.5,
+        "gain_dBi": 5.904218701469112,
+        "relative_dB": -9.199897031610272
+      }
+    ],
+    "C02": [
+      {
+        "theta": 116.5,
+        "phi": -15.5,
+        "gain_dBi": 15.011522655768959,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 91.5,
+        "phi": -14.5,
+        "gain_dBi": 14.690987441541099,
+        "relative_dB": -0.3205352142278599
+      },
+      {
+        "theta": 106.5,
+        "phi": -31.5,
+        "gain_dBi": 13.189504240533783,
+        "relative_dB": -1.822018415235176
+      },
+      {
+        "theta": 81.5,
+        "phi": -31.5,
+        "gain_dBi": 12.646372314672199,
+        "relative_dB": -2.3651503410967596
+      },
+      {
+        "theta": 106.5,
+        "phi": 25.5,
+        "gain_dBi": 12.066266428682733,
+        "relative_dB": -2.945256227086226
+      },
+      {
+        "theta": 66.5,
+        "phi": -15.5,
+        "gain_dBi": 11.818461437198408,
+        "relative_dB": -3.1930612185705503
+      },
+      {
+        "theta": 134.5,
+        "phi": 34.5,
+        "gain_dBi": 11.047410198610343,
+        "relative_dB": -3.964112457158615
+      },
+      {
+        "theta": 148.5,
+        "phi": -24.5,
+        "gain_dBi": 10.498928639104578,
+        "relative_dB": -4.51259401666438
+      },
+      {
+        "theta": 134.5,
+        "phi": -43.5,
+        "gain_dBi": 10.256240764927284,
+        "relative_dB": -4.755281890841674
+      },
+      {
+        "theta": 81.5,
+        "phi": 24.5,
+        "gain_dBi": 10.121110762283047,
+        "relative_dB": -4.890411893485911
+      },
+      {
+        "theta": 55.5,
+        "phi": -39.5,
+        "gain_dBi": 9.903683541088867,
+        "relative_dB": -5.107839114680091
+      },
+      {
+        "theta": 135.5,
+        "phi": 144.5,
+        "gain_dBi": 9.702250587298666,
+        "relative_dB": -5.3092720684702925
+      },
+      {
+        "theta": 116.5,
+        "phi": 48.5,
+        "gain_dBi": 9.48321762513141,
+        "relative_dB": -5.528305030637549
+      },
+      {
+        "theta": 106.5,
+        "phi": -9.5,
+        "gain_dBi": 9.152909866065036,
+        "relative_dB": -5.858612789703923
+      },
+      {
+        "theta": 91.5,
+        "phi": 42.5,
+        "gain_dBi": 8.939741798201979,
+        "relative_dB": -6.07178085756698
+      },
+      {
+        "theta": 134.5,
+        "phi": -12.5,
+        "gain_dBi": 8.70981348048225,
+        "relative_dB": -6.3017091752867085
+      },
+      {
+        "theta": 135.5,
+        "phi": -136.5,
+        "gain_dBi": 7.902112063913326,
+        "relative_dB": -7.1094105918556325
+      },
+      {
+        "theta": 81.5,
+        "phi": -9.5,
+        "gain_dBi": 7.649366411289394,
+        "relative_dB": -7.362156244479564
+      },
+      {
+        "theta": 134.5,
+        "phi": -165.5,
+        "gain_dBi": 7.388616802946447,
+        "relative_dB": -7.6229058528225115
+      },
+      {
+        "theta": 106.5,
+        "phi": 53.5,
+        "gain_dBi": 7.269917647942674,
+        "relative_dB": -7.741605007826284
+      },
+      {
+        "theta": 148.5,
+        "phi": -157.5,
+        "gain_dBi": 6.89946787736723,
+        "relative_dB": -8.112054778401728
+      },
+      {
+        "theta": 106.5,
+        "phi": -147.5,
+        "gain_dBi": 6.677441722658309,
+        "relative_dB": -8.334080933110648
+      },
+      {
+        "theta": 34.5,
+        "phi": -29.5,
+        "gain_dBi": 6.463121077519961,
+        "relative_dB": -8.548401578248997
+      },
+      {
+        "theta": 55.5,
+        "phi": 148.5,
+        "gain_dBi": 6.384191909612689,
+        "relative_dB": -8.62733074615627
+      }
+    ],
+    "C03": [
+      {
+        "theta": 107.5,
+        "phi": -25.5,
+        "gain_dBi": 14.355580398996736,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 106.5,
+        "phi": 32.5,
+        "gain_dBi": 13.549856846936606,
+        "relative_dB": -0.8057235520601296
+      },
+      {
+        "theta": 82.5,
+        "phi": -24.5,
+        "gain_dBi": 13.345497235671894,
+        "relative_dB": -1.0100831633248415
+      },
+      {
+        "theta": 134.5,
+        "phi": -148.5,
+        "gain_dBi": 12.521961933275223,
+        "relative_dB": -1.8336184657215124
+      },
+      {
+        "theta": 134.5,
+        "phi": -32.5,
+        "gain_dBi": 12.512519678129294,
+        "relative_dB": -1.8430607208674417
+      },
+      {
+        "theta": 82.5,
+        "phi": 30.5,
+        "gain_dBi": 11.676761011072665,
+        "relative_dB": -2.6788193879240705
+      },
+      {
+        "theta": 135.5,
+        "phi": 45.5,
+        "gain_dBi": 11.643445510333452,
+        "relative_dB": -2.712134888663284
+      },
+      {
+        "theta": 56.5,
+        "phi": -31.5,
+        "gain_dBi": 10.270789720479465,
+        "relative_dB": -4.084790678517271
+      },
+      {
+        "theta": 118.5,
+        "phi": 18.5,
+        "gain_dBi": 9.868801306135827,
+        "relative_dB": -4.486779092860909
+      },
+      {
+        "theta": 107.5,
+        "phi": -154.5,
+        "gain_dBi": 9.68015806635608,
+        "relative_dB": -4.675422332640656
+      },
+      {
+        "theta": 92.5,
+        "phi": 16.5,
+        "gain_dBi": 9.629330828271035,
+        "relative_dB": -4.726249570725701
+      },
+      {
+        "theta": 136.5,
+        "phi": 135.5,
+        "gain_dBi": 8.626095296717414,
+        "relative_dB": -5.729485102279321
+      },
+      {
+        "theta": 19.5,
+        "phi": -90.5,
+        "gain_dBi": 8.57047539507182,
+        "relative_dB": -5.785105003924915
+      },
+      {
+        "theta": 55.5,
+        "phi": -147.5,
+        "gain_dBi": 7.011189296782351,
+        "relative_dB": -7.344391102214385
+      },
+      {
+        "theta": 68.5,
+        "phi": 17.5,
+        "gain_dBi": 6.842475648167467,
+        "relative_dB": -7.513104750829269
+      },
+      {
+        "theta": 82.5,
+        "phi": -154.5,
+        "gain_dBi": 6.723782420279915,
+        "relative_dB": -7.631797978716821
+      },
+      {
+        "theta": 92.5,
+        "phi": -40.5,
+        "gain_dBi": 6.6855782495258005,
+        "relative_dB": -7.670002149470935
+      },
+      {
+        "theta": 67.5,
+        "phi": -44.5,
+        "gain_dBi": 6.211634887580465,
+        "relative_dB": -8.14394551141627
+      },
+      {
+        "theta": 124.5,
+        "phi": 32.5,
+        "gain_dBi": 6.1626759186731945,
+        "relative_dB": -8.192904480323541
+      },
+      {
+        "theta": 98.5,
+        "phi": 27.5,
+        "gain_dBi": 6.087941322626178,
+        "relative_dB": -8.267639076370557
+      },
+      {
+        "theta": 98.5,
+        "phi": -28.5,
+        "gain_dBi": 5.532063785591529,
+        "relative_dB": -8.823516613405207
+      },
+      {
+        "theta": 117.5,
+        "phi": -46.5,
+        "gain_dBi": 5.477269176934221,
+        "relative_dB": -8.878311222062514
+      },
+      {
+        "theta": 56.5,
+        "phi": 37.5,
+        "gain_dBi": 5.467377036371637,
+        "relative_dB": -8.888203362625099
+      },
+      {
+        "theta": 107.5,
+        "phi": 147.5,
+        "gain_dBi": 5.048493773243074,
+        "relative_dB": -9.307086625753662
+      }
+    ],
+    "C04": [
+      {
+        "theta": 126.5,
+        "phi": -20.5,
+        "gain_dBi": 14.678436717490113,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 99.5,
+        "phi": -16.5,
+        "gain_dBi": 14.368482988698084,
+        "relative_dB": -0.30995372879202954
+      },
+      {
+        "theta": 75.5,
+        "phi": -17.5,
+        "gain_dBi": 13.001318365001719,
+        "relative_dB": -1.6771183524883941
+      },
+      {
+        "theta": 113.5,
+        "phi": 21.5,
+        "gain_dBi": 12.467048794023011,
+        "relative_dB": -2.211387923467102
+      },
+      {
+        "theta": 100.5,
+        "phi": 38.5,
+        "gain_dBi": 12.367715139888604,
+        "relative_dB": -2.310721577601509
+      },
+      {
+        "theta": 127.5,
+        "phi": -158.5,
+        "gain_dBi": 11.797173664620129,
+        "relative_dB": -2.8812630528699845
+      },
+      {
+        "theta": 88.5,
+        "phi": 19.5,
+        "gain_dBi": 11.58970090784091,
+        "relative_dB": -3.0887358096492026
+      },
+      {
+        "theta": 126.5,
+        "phi": 48.5,
+        "gain_dBi": 11.354890390982646,
+        "relative_dB": -3.3235463265074667
+      },
+      {
+        "theta": 88.5,
+        "phi": -34.5,
+        "gain_dBi": 11.296559156221546,
+        "relative_dB": -3.381877561268567
+      },
+      {
+        "theta": 112.5,
+        "phi": -36.5,
+        "gain_dBi": 11.08790787785898,
+        "relative_dB": -3.5905288396311335
+      },
+      {
+        "theta": 62.5,
+        "phi": -40.5,
+        "gain_dBi": 10.21527267901196,
+        "relative_dB": -4.463164038478153
+      },
+      {
+        "theta": 47.5,
+        "phi": -22.5,
+        "gain_dBi": 9.99046421987347,
+        "relative_dB": -4.687972497616643
+      },
+      {
+        "theta": 75.5,
+        "phi": 39.5,
+        "gain_dBi": 9.27978248458388,
+        "relative_dB": -5.3986542329062335
+      },
+      {
+        "theta": 166.5,
+        "phi": -87.5,
+        "gain_dBi": 9.093749642795759,
+        "relative_dB": -5.584687074694354
+      },
+      {
+        "theta": 145.5,
+        "phi": 36.5,
+        "gain_dBi": 8.844561140877188,
+        "relative_dB": -5.833875576612925
+      },
+      {
+        "theta": 64.5,
+        "phi": 21.5,
+        "gain_dBi": 7.919074591970833,
+        "relative_dB": -6.75936212551928
+      },
+      {
+        "theta": 124.5,
+        "phi": 21.5,
+        "gain_dBi": 7.846617857880471,
+        "relative_dB": -6.831818859609642
+      },
+      {
+        "theta": 100.5,
+        "phi": -161.5,
+        "gain_dBi": 7.7127641432624845,
+        "relative_dB": -6.965672574227629
+      },
+      {
+        "theta": 98.5,
+        "phi": 17.5,
+        "gain_dBi": 7.429092391266518,
+        "relative_dB": -7.2493443262235955
+      },
+      {
+        "theta": 127.5,
+        "phi": 131.5,
+        "gain_dBi": 6.820242394727356,
+        "relative_dB": -7.858194322762757
+      },
+      {
+        "theta": 47.5,
+        "phi": -156.5,
+        "gain_dBi": 6.091985045081171,
+        "relative_dB": -8.586451672408941
+      },
+      {
+        "theta": 115.5,
+        "phi": -15.5,
+        "gain_dBi": 6.017608675305008,
+        "relative_dB": -8.660828042185106
+      },
+      {
+        "theta": 73.5,
+        "phi": 18.5,
+        "gain_dBi": 5.777911568165271,
+        "relative_dB": -8.900525149324842
+      },
+      {
+        "theta": 90.5,
+        "phi": -14.5,
+        "gain_dBi": 5.7064933674870675,
+        "relative_dB": -8.971943350003045
+      }
+    ],
+    "D01": [
+      {
+        "theta": 120.5,
+        "phi": -17.5,
+        "gain_dBi": 14.701174014478255,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 94.5,
+        "phi": -15.5,
+        "gain_dBi": 14.662978041988701,
+        "relative_dB": -0.03819597248955375
+      },
+      {
+        "theta": 69.5,
+        "phi": -16.5,
+        "gain_dBi": 12.349399405843906,
+        "relative_dB": -2.351774608634349
+      },
+      {
+        "theta": 105.5,
+        "phi": 16.5,
+        "gain_dBi": 10.668392259315326,
+        "relative_dB": -4.0327817551629295
+      },
+      {
+        "theta": 133.5,
+        "phi": 20.5,
+        "gain_dBi": 10.3628315669276,
+        "relative_dB": -4.338342447550655
+      },
+      {
+        "theta": 105.5,
+        "phi": -41.5,
+        "gain_dBi": 10.245594728168552,
+        "relative_dB": -4.455579286309703
+      },
+      {
+        "theta": 80.5,
+        "phi": -40.5,
+        "gain_dBi": 10.233326462009202,
+        "relative_dB": -4.467847552469053
+      },
+      {
+        "theta": 120.5,
+        "phi": 45.5,
+        "gain_dBi": 9.928583304694019,
+        "relative_dB": -4.772590709784236
+      },
+      {
+        "theta": 94.5,
+        "phi": 39.5,
+        "gain_dBi": 9.710873266313811,
+        "relative_dB": -4.990300748164444
+      },
+      {
+        "theta": 133.5,
+        "phi": 159.5,
+        "gain_dBi": 9.53017297192782,
+        "relative_dB": -5.171001042550435
+      },
+      {
+        "theta": 80.5,
+        "phi": 15.5,
+        "gain_dBi": 9.39536682281638,
+        "relative_dB": -5.305807191661875
+      },
+      {
+        "theta": 156.5,
+        "phi": -38.5,
+        "gain_dBi": 8.75163307371045,
+        "relative_dB": -5.949540940767806
+      },
+      {
+        "theta": 40.5,
+        "phi": -25.5,
+        "gain_dBi": 8.006398859170844,
+        "relative_dB": -6.694775155307411
+      },
+      {
+        "theta": 121.5,
+        "phi": 22.5,
+        "gain_dBi": 7.91577486127891,
+        "relative_dB": -6.785399153199345
+      },
+      {
+        "theta": 96.5,
+        "phi": 20.5,
+        "gain_dBi": 7.761323354849839,
+        "relative_dB": -6.939850659628416
+      },
+      {
+        "theta": 110.5,
+        "phi": -22.5,
+        "gain_dBi": 7.114850371438456,
+        "relative_dB": -7.586323643039799
+      },
+      {
+        "theta": 54.5,
+        "phi": -51.5,
+        "gain_dBi": 7.045968018887459,
+        "relative_dB": -7.655205995590796
+      },
+      {
+        "theta": 105.5,
+        "phi": 163.5,
+        "gain_dBi": 6.249666310025078,
+        "relative_dB": -8.451507704453178
+      },
+      {
+        "theta": 130.5,
+        "phi": -25.5,
+        "gain_dBi": 6.143640359362199,
+        "relative_dB": -8.557533655116057
+      },
+      {
+        "theta": 85.5,
+        "phi": -21.5,
+        "gain_dBi": 6.127305353219788,
+        "relative_dB": -8.573868661258466
+      },
+      {
+        "theta": 70.5,
+        "phi": 41.5,
+        "gain_dBi": 6.062203968746434,
+        "relative_dB": -8.63897004573182
+      },
+      {
+        "theta": 102.5,
+        "phi": -19.5,
+        "gain_dBi": 5.982988898896756,
+        "relative_dB": -8.718185115581498
+      },
+      {
+        "theta": 132.5,
+        "phi": -58.5,
+        "gain_dBi": 5.947457245057838,
+        "relative_dB": -8.753716769420418
+      },
+      {
+        "theta": 53.5,
+        "phi": 159.5,
+        "gain_dBi": 5.9319833228923615,
+        "relative_dB": -8.769190691585894
+      }
+    ],
+    "D02": [
+      {
+        "theta": 117.5,
+        "phi": -17.5,
+        "gain_dBi": 14.742708093337892,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 91.5,
+        "phi": -14.5,
+        "gain_dBi": 14.537351844804832,
+        "relative_dB": -0.2053562485330609
+      },
+      {
+        "theta": 105.5,
+        "phi": -31.5,
+        "gain_dBi": 12.081577875271165,
+        "relative_dB": -2.6611302180667273
+      },
+      {
+        "theta": 67.5,
+        "phi": -16.5,
+        "gain_dBi": 11.792967976461046,
+        "relative_dB": -2.9497401168768462
+      },
+      {
+        "theta": 105.5,
+        "phi": 25.5,
+        "gain_dBi": 11.43063375749826,
+        "relative_dB": -3.3120743358396325
+      },
+      {
+        "theta": 81.5,
+        "phi": -30.5,
+        "gain_dBi": 11.42208108053459,
+        "relative_dB": -3.3206270128033033
+      },
+      {
+        "theta": 133.5,
+        "phi": 34.5,
+        "gain_dBi": 10.5033952354113,
+        "relative_dB": -4.239312857926592
+      },
+      {
+        "theta": 149.5,
+        "phi": -27.5,
+        "gain_dBi": 9.683252744029602,
+        "relative_dB": -5.0594553493082906
+      },
+      {
+        "theta": 133.5,
+        "phi": -41.5,
+        "gain_dBi": 9.483739547352648,
+        "relative_dB": -5.258968545985244
+      },
+      {
+        "theta": 80.5,
+        "phi": 25.5,
+        "gain_dBi": 9.368548213944317,
+        "relative_dB": -5.374159879393575
+      },
+      {
+        "theta": 106.5,
+        "phi": -8.5,
+        "gain_dBi": 9.24993941705839,
+        "relative_dB": -5.492768676279502
+      },
+      {
+        "theta": 117.5,
+        "phi": 45.5,
+        "gain_dBi": 9.201831971971547,
+        "relative_dB": -5.540876121366345
+      },
+      {
+        "theta": 134.5,
+        "phi": -11.5,
+        "gain_dBi": 8.907394837630315,
+        "relative_dB": -5.835313255707577
+      },
+      {
+        "theta": 92.5,
+        "phi": 40.5,
+        "gain_dBi": 8.629926052345262,
+        "relative_dB": -6.112782040992631
+      },
+      {
+        "theta": 134.5,
+        "phi": 144.5,
+        "gain_dBi": 8.601341842416204,
+        "relative_dB": -6.141366250921688
+      },
+      {
+        "theta": 54.5,
+        "phi": -38.5,
+        "gain_dBi": 8.399668139857699,
+        "relative_dB": -6.343039953480194
+      },
+      {
+        "theta": 82.5,
+        "phi": -8.5,
+        "gain_dBi": 7.778634478175515,
+        "relative_dB": -6.964073615162378
+      },
+      {
+        "theta": 135.5,
+        "phi": -166.5,
+        "gain_dBi": 7.520425679640146,
+        "relative_dB": -7.222282413697746
+      },
+      {
+        "theta": 106.5,
+        "phi": 53.5,
+        "gain_dBi": 7.213472132671398,
+        "relative_dB": -7.529235960666495
+      },
+      {
+        "theta": 36.5,
+        "phi": -30.5,
+        "gain_dBi": 6.785160923446542,
+        "relative_dB": -7.957547169891351
+      },
+      {
+        "theta": 134.5,
+        "phi": -137.5,
+        "gain_dBi": 6.718175064329847,
+        "relative_dB": -8.024533029008046
+      },
+      {
+        "theta": 82.5,
+        "phi": 51.5,
+        "gain_dBi": 6.1033770185121,
+        "relative_dB": -8.639331074825792
+      },
+      {
+        "theta": 114.5,
+        "phi": 22.5,
+        "gain_dBi": 5.622317677705998,
+        "relative_dB": -9.120390415631896
+      },
+      {
+        "theta": 149.5,
+        "phi": -156.5,
+        "gain_dBi": 5.396752756941851,
+        "relative_dB": -9.345955336396042
+      }
+    ],
+    "D03": [
+      {
+        "theta": 106.5,
+        "phi": -24.5,
+        "gain_dBi": 14.48694463869373,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 106.5,
+        "phi": 32.5,
+        "gain_dBi": 13.624684512459705,
+        "relative_dB": -0.862260126234025
+      },
+      {
+        "theta": 82.5,
+        "phi": -24.5,
+        "gain_dBi": 13.449661735052027,
+        "relative_dB": -1.037282903641703
+      },
+      {
+        "theta": 134.5,
+        "phi": -31.5,
+        "gain_dBi": 12.752834129395467,
+        "relative_dB": -1.7341105092982634
+      },
+      {
+        "theta": 134.5,
+        "phi": -148.5,
+        "gain_dBi": 12.587057132230528,
+        "relative_dB": -1.8998875064632017
+      },
+      {
+        "theta": 135.5,
+        "phi": 45.5,
+        "gain_dBi": 11.72500010859979,
+        "relative_dB": -2.76194453009394
+      },
+      {
+        "theta": 82.5,
+        "phi": 30.5,
+        "gain_dBi": 11.639451921042575,
+        "relative_dB": -2.8474927176511553
+      },
+      {
+        "theta": 56.5,
+        "phi": -30.5,
+        "gain_dBi": 10.385120058042203,
+        "relative_dB": -4.101824580651527
+      },
+      {
+        "theta": 106.5,
+        "phi": -155.5,
+        "gain_dBi": 9.623368678364535,
+        "relative_dB": -4.863575960329195
+      },
+      {
+        "theta": 18.5,
+        "phi": -90.5,
+        "gain_dBi": 8.47511205446201,
+        "relative_dB": -6.011832584231721
+      },
+      {
+        "theta": 118.5,
+        "phi": 20.5,
+        "gain_dBi": 8.404296558529886,
+        "relative_dB": -6.082648080163844
+      },
+      {
+        "theta": 135.5,
+        "phi": 135.5,
+        "gain_dBi": 8.196579155532419,
+        "relative_dB": -6.290365483161311
+      },
+      {
+        "theta": 92.5,
+        "phi": 18.5,
+        "gain_dBi": 8.15984614072703,
+        "relative_dB": -6.3270984979667
+      },
+      {
+        "theta": 97.5,
+        "phi": 24.5,
+        "gain_dBi": 7.0597881869094,
+        "relative_dB": -7.42715645178433
+      },
+      {
+        "theta": 124.5,
+        "phi": 30.5,
+        "gain_dBi": 7.049275268673577,
+        "relative_dB": -7.437669370020153
+      },
+      {
+        "theta": 55.5,
+        "phi": -148.5,
+        "gain_dBi": 6.847514925659482,
+        "relative_dB": -7.639429713034248
+      },
+      {
+        "theta": 116.5,
+        "phi": -25.5,
+        "gain_dBi": 6.66972234166964,
+        "relative_dB": -7.81722229702409
+      },
+      {
+        "theta": 98.5,
+        "phi": -30.5,
+        "gain_dBi": 6.6570968591920145,
+        "relative_dB": -7.829847779501716
+      },
+      {
+        "theta": 91.5,
+        "phi": -23.5,
+        "gain_dBi": 6.582453179737461,
+        "relative_dB": -7.90449145895627
+      },
+      {
+        "theta": 82.5,
+        "phi": -154.5,
+        "gain_dBi": 6.478461718819883,
+        "relative_dB": -8.008482919873847
+      },
+      {
+        "theta": 124.5,
+        "phi": -36.5,
+        "gain_dBi": 5.952757951070939,
+        "relative_dB": -8.53418668762279
+      },
+      {
+        "theta": 73.5,
+        "phi": -31.5,
+        "gain_dBi": 5.933960020117775,
+        "relative_dB": -8.552984618575955
+      },
+      {
+        "theta": 92.5,
+        "phi": -36.5,
+        "gain_dBi": 5.7131624540111385,
+        "relative_dB": -8.773782184682592
+      },
+      {
+        "theta": 122.5,
+        "phi": -11.5,
+        "gain_dBi": 5.480829159393162,
+        "relative_dB": -9.006115479300568
+      }
+    ],
+    "D04": [
+      {
+        "theta": 126.5,
+        "phi": -20.5,
+        "gain_dBi": 14.544491446125567,
+        "relative_dB": 0.0
+      },
+      {
+        "theta": 100.5,
+        "phi": -17.5,
+        "gain_dBi": 14.230322089529288,
+        "relative_dB": -0.3141693565962793
+      },
+      {
+        "theta": 75.5,
+        "phi": -17.5,
+        "gain_dBi": 12.887322437304672,
+        "relative_dB": -1.6571690088208957
+      },
+      {
+        "theta": 100.5,
+        "phi": 38.5,
+        "gain_dBi": 12.339981190348361,
+        "relative_dB": -2.2045102557772065
+      },
+      {
+        "theta": 127.5,
+        "phi": -158.5,
+        "gain_dBi": 11.987781106345015,
+        "relative_dB": -2.556710339780553
+      },
+      {
+        "theta": 127.5,
+        "phi": 48.5,
+        "gain_dBi": 11.272589514405722,
+        "relative_dB": -3.271901931719846
+      },
+      {
+        "theta": 113.5,
+        "phi": 21.5,
+        "gain_dBi": 10.91784962485434,
+        "relative_dB": -3.626641821271228
+      },
+      {
+        "theta": 87.5,
+        "phi": -34.5,
+        "gain_dBi": 10.318097483649371,
+        "relative_dB": -4.226393962476196
+      },
+      {
+        "theta": 112.5,
+        "phi": -37.5,
+        "gain_dBi": 10.148456440063505,
+        "relative_dB": -4.396035006062062
+      },
+      {
+        "theta": 88.5,
+        "phi": 19.5,
+        "gain_dBi": 10.074786381100333,
+        "relative_dB": -4.469705065025234
+      },
+      {
+        "theta": 47.5,
+        "phi": -22.5,
+        "gain_dBi": 10.01666013998471,
+        "relative_dB": -4.5278313061408575
+      },
+      {
+        "theta": 62.5,
+        "phi": -40.5,
+        "gain_dBi": 9.348104731282312,
+        "relative_dB": -5.196386714843255
+      },
+      {
+        "theta": 76.5,
+        "phi": 38.5,
+        "gain_dBi": 9.285566117542857,
+        "relative_dB": -5.258925328582711
+      },
+      {
+        "theta": 166.5,
+        "phi": -88.5,
+        "gain_dBi": 8.664525596603745,
+        "relative_dB": -5.879965849521822
+      },
+      {
+        "theta": 126.5,
+        "phi": 3.5,
+        "gain_dBi": 8.577004667316885,
+        "relative_dB": -5.9674867788086825
+      },
+      {
+        "theta": 99.5,
+        "phi": 2.5,
+        "gain_dBi": 8.491851030378188,
+        "relative_dB": -6.05264041574738
+      },
+      {
+        "theta": 100.5,
+        "phi": -161.5,
+        "gain_dBi": 7.725147903391286,
+        "relative_dB": -6.8193435427342814
+      },
+      {
+        "theta": 144.5,
+        "phi": 34.5,
+        "gain_dBi": 7.520682770329027,
+        "relative_dB": -7.02380867579654
+      },
+      {
+        "theta": 74.5,
+        "phi": 2.5,
+        "gain_dBi": 7.1834931292674264,
+        "relative_dB": -7.360998316858141
+      },
+      {
+        "theta": 114.5,
+        "phi": -0.5,
+        "gain_dBi": 7.01961061409207,
+        "relative_dB": -7.524880832033498
+      },
+      {
+        "theta": 127.5,
+        "phi": 130.5,
+        "gain_dBi": 6.52842399957981,
+        "relative_dB": -8.016067446545758
+      },
+      {
+        "theta": 63.5,
+        "phi": 21.5,
+        "gain_dBi": 6.500752282452168,
+        "relative_dB": -8.0437391636734
+      },
+      {
+        "theta": 89.5,
+        "phi": -0.5,
+        "gain_dBi": 6.408092003293863,
+        "relative_dB": -8.136399442831705
+      },
+      {
+        "theta": 47.5,
+        "phi": -157.5,
+        "gain_dBi": 6.2238553996000245,
+        "relative_dB": -8.320636046525543
+      }
+    ]
+  },
+  "interpretation": "Peak clusters separated by >=5 deg; competing lobes are not all certified grating lobes. Solid-angle weights sin(theta).",
+  "data_boundary": "24 diagnostic commands are synthesized from one exposed HFSS state; they are not new independent direct simulations."
+}

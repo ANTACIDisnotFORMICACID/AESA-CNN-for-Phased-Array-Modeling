@@ -1,0 +1,172 @@
+{
+  "comparisons": {
+    "baseline_softmin": {
+      "success_count": 166,
+      "success_wilson95_percent": [
+        87.36917128220239,
+        95.31070095563716
+      ],
+      "paired_success_delta_vs_baseline_percent": 0.0,
+      "paired_bootstrap_success_delta95_percent": [
+        0.0,
+        0.0
+      ],
+      "per_case_min_gain_delta_median_dB": 0.0,
+      "paired_bootstrap_median_gain_delta95_dB": [
+        0.0,
+        0.0
+      ],
+      "success_flips_vs_baseline": {
+        "fail_to_pass": 0,
+        "pass_to_fail": 0
+      }
+    },
+    "eigen_multibeam": {
+      "success_count": 167,
+      "success_wilson95_percent": [
+        88.03669851119695,
+        95.73106678240364
+      ],
+      "paired_success_delta_vs_baseline_percent": 0.5555555555555536,
+      "paired_bootstrap_success_delta95_percent": [
+        0.0,
+        1.6666666666666718
+      ],
+      "per_case_min_gain_delta_median_dB": 0.00095367431640625,
+      "paired_bootstrap_median_gain_delta95_dB": [
+        0.00014495849609375,
+        0.0022249221801757812
+      ],
+      "success_flips_vs_baseline": {
+        "fail_to_pass": 1,
+        "pass_to_fail": 0
+      }
+    },
+    "flat_top_2deg": {
+      "success_count": 161,
+      "success_wilson95_percent": [
+        84.1026520679669,
+        93.13775489106742
+      ],
+      "paired_success_delta_vs_baseline_percent": -2.777777777777779,
+      "paired_bootstrap_success_delta95_percent": [
+        -6.111111111111112,
+        0.5555555555555536
+      ],
+      "per_case_min_gain_delta_median_dB": -0.5055584907531738,
+      "paired_bootstrap_median_gain_delta95_dB": [
+        -0.5883550643920898,
+        -0.4299774169921875
+      ],
+      "success_flips_vs_baseline": {
+        "fail_to_pass": 2,
+        "pass_to_fail": 7
+      }
+    },
+    "peak_ratio": {
+      "success_count": 165,
+      "success_wilson95_percent": [
+        86.70691981623806,
+        94.88505936584042
+      ],
+      "paired_success_delta_vs_baseline_percent": -0.5555555555555647,
+      "paired_bootstrap_success_delta95_percent": [
+        -1.6666666666666718,
+        0.0
+      ],
+      "per_case_min_gain_delta_median_dB": 0.0006422996520996094,
+      "paired_bootstrap_median_gain_delta95_dB": [
+        -9.298324584960938e-05,
+        0.0017535686492919922
+      ],
+      "success_flips_vs_baseline": {
+        "fail_to_pass": 0,
+        "pass_to_fail": 1
+      }
+    },
+    "relocate_5deg": {
+      "success_count": 176,
+      "success_wilson95_percent": [
+        94.42628110561309,
+        99.1325216898369
+      ],
+      "paired_success_delta_vs_baseline_percent": 5.5555555555555465,
+      "paired_bootstrap_success_delta95_percent": [
+        2.2222222222222254,
+        8.888888888888891
+      ],
+      "per_case_min_gain_delta_median_dB": 1.1641426086425781,
+      "paired_bootstrap_median_gain_delta95_dB": [
+        1.062821626663208,
+        1.3639194965362549
+      ],
+      "success_flips_vs_baseline": {
+        "fail_to_pass": 10,
+        "pass_to_fail": 0
+      }
+    }
+  },
+  "hfss_numerical_reference": {
+    "description": "true-HFSS phase-only max-min, 32 starts x 320 steps, includes baseline weight; numerical feasible reference, not global optimum",
+    "optimizer_seconds": 6.349758900003508,
+    "metrics": {
+      "cases": 180,
+      "all_four_within_global_peak_minus10_rate": 0.9333333333333333,
+      "all_four_within_forward_peak_minus10_rate": 0.9333333333333333,
+      "all_four_within_1dB_of_local_peak_rate": 0.13333333333333333,
+      "min_gain_dBi_p5_median_p95": [
+        4.35092978477478,
+        8.35414743423462,
+        10.748038721084594
+      ],
+      "min_relative_global_dB_p5_median_p95": [
+        -10.395563554763793,
+        -5.459176540374756,
+        -2.160104274749759
+      ],
+      "fourpoint_mae_dB": 0.0,
+      "bottleneck_overestimate_p95_dB": 0.0,
+      "bottleneck_overestimate_rate": 0.0,
+      "local_peak_gap_dB_p50_p95": [
+        0.7051429748535156,
+        4.102721738815306
+      ],
+      "by_stratum": {
+        "moderate": {
+          "cases": 60,
+          "all_strong_global_rate": 0.95,
+          "min_gain_dBi_median": 9.277759552001953,
+          "min_gain_dBi_p5": 4.523694038391113,
+          "local_peak_1dB_rate": 0.15
+        },
+        "distributed": {
+          "cases": 60,
+          "all_strong_global_rate": 0.8833333333333333,
+          "min_gain_dBi_median": 8.25657844543457,
+          "min_gain_dBi_p5": 3.7119040489196777,
+          "local_peak_1dB_rate": 0.11666666666666667
+        },
+        "wide": {
+          "cases": 60,
+          "all_strong_global_rate": 0.9666666666666667,
+          "min_gain_dBi_median": 7.706581115722656,
+          "min_gain_dBi_p5": 4.889474391937256,
+          "local_peak_1dB_rate": 0.13333333333333333
+        }
+      },
+      "original_coordinate_min_gain_dBi_p5_median": [
+        4.35092978477478,
+        8.35414743423462
+      ]
+    },
+    "baseline_min_gain_regret_median_p95_percent": [
+      3.0809760093688965,
+      9.184955060482025
+    ]
+  },
+  "interpretation": [
+    "Confidence intervals are trajectory-set resampling only; they do not cover new HFSS states or hardware errors.",
+    "Relocate changes coordinates and is not directly comparable for fixed stations.",
+    "Runtime is one warm GPU pass, not a latency benchmark."
+  ]
+}

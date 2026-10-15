@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "command_id": "C03",
+  "source_csv": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.9\\data\\external_next\\hfss_direct_validation\\commands\\sources\\cmd_C03_optimized_case26_amp_phase_sources.csv",
+  "frequency_hz": 47000000000.0,
+  "grid": {
+    "theta_start_deg": 0.5,
+    "theta_end_deg": 179.5,
+    "theta_step_deg": 1.0,
+    "theta_count": 180,
+    "phi_start_deg": -179.5,
+    "phi_end_deg": 179.5,
+    "phi_step_deg": 1.0,
+    "phi_count": 360,
+    "point_count": 64800
+  },
+  "total_power_w": 1.0000000230000001,
+  "weight_convention": "complex_weight_n = amplitude_coefficient_n * exp(j * phase_deg_n); power_w is not used as a complex amplitude",
+  "source_ffd": [
+    {
+      "port": 1,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_1.ffd",
+      "bytes": 5894861
+    },
+    {
+      "port": 2,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_2.ffd",
+      "bytes": 5898058
+    },
+    {
+      "port": 3,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_3.ffd",
+      "bytes": 5896580
+    },
+    {
+      "port": 4,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_4.ffd",
+      "bytes": 5896484
+    },
+    {
+      "port": 5,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_5.ffd",
+      "bytes": 5891554
+    },
+    {
+      "port": 6,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_6.ffd",
+      "bytes": 5897266
+    },
+    {
+      "port": 7,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_7.ffd",
+      "bytes": 5894064
+    },
+    {
+      "port": 8,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_8.ffd",
+      "bytes": 5896529
+    },
+    {
+      "port": 9,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_9.ffd",
+      "bytes": 5896811
+    },
+    {
+      "port": 10,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_10.ffd",
+      "bytes": 5898700
+    },
+    {
+      "port": 11,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_11.ffd",
+      "bytes": 5900150
+    },
+    {
+      "port": 12,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_12.ffd",
+      "bytes": 5896165
+    },
+    {
+      "port": 13,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_13.ffd",
+      "bytes": 5898571
+    },
+    {
+      "port": 14,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_14.ffd",
+      "bytes": 5894700
+    },
+    {
+      "port": 15,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_15.ffd",
+      "bytes": 5895924
+    },
+    {
+      "port": 16,
+      "file": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.8\\HFSS\\exports\\hfss_47ghz\\exportelement_new_16.ffd",
+      "bytes": 5897300
+    }
+  ],
+  "source_ffd_prefix": "exportelement_new",
+  "realized_gain_calibration": {
+    "formula": "RealizedGainTotal_linear = (|rETheta|^2 + |rEPhi|^2) / 60",
+    "factor": 0.016666666666666666,
+    "calibrated_against": "A01 direct HFSS report on integer grid",
+    "assumption": "same 47 GHz, same 1 W source normalization and same embedded FFD export convention"
+  },
+  "data_origin": "HFSS embedded-pattern linear superposition; not 24 direct HFSS reports",
+  "direct_HFSS_or_linear_superposition": "linear_superposition",
+  "outputs": {
+    "complex_farfield": {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.9\\data\\external_next\\hfss_direct_validation\\exports\\complex_farfield\\C03_complex_farfield.csv",
+      "bytes": 4560637
+    },
+    "realized_gain": {
+      "path": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.9\\data\\external_next\\hfss_direct_validation\\exports\\realized_gain\\C03_realized_gain.csv",
+      "bytes": 2655604
+    }
+  }
+}

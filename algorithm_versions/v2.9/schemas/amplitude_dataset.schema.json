@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.aesa-cnn/v2.8/amplitude_dataset.schema.json",
+  "title": "AESA-CNN v2.8 amplitude-only measurement manifest",
+  "type": "object",
+  "required": [
+    "schema_version", "source_type", "frequency_hz", "receiver_channel",
+    "amplitude_unit", "reference_distance_m", "excitation_reference",
+    "inactive_port_termination", "calibration_reference_plane", "array_id",
+    "session_id", "noise_floor_amplitude", "phase_available", "rows", "cols",
+    "command_axes", "amplitude_axes", "direction_axes"
+  ],
+  "properties": {
+    "schema_version": {"const": "v2.8-amplitude-1"},
+    "source_type": {
+      "enum": ["hfss_amplitude", "anechoic_chamber_amplitude", "synthetic_fixture"]
+    },
+    "frequency_hz": {"type": "number", "exclusiveMinimum": 0},
+    "receiver_channel": {"enum": ["etheta", "ephi", "x", "y", "z"]},
+    "amplitude_unit": {"type": "string", "minLength": 1},
+    "reference_distance_m": {"type": "number", "exclusiveMinimum": 0},
+    "excitation_reference": {"type": "string", "minLength": 1},
+    "inactive_port_termination": {"type": "string", "minLength": 1},
+    "calibration_reference_plane": {"type": "string", "minLength": 1},
+    "array_id": {"type": "string", "minLength": 1},
+    "session_id": {"type": "string", "minLength": 1},
+    "noise_floor_amplitude": {"type": "number", "minimum": 0},
+    "phase_available": {"const": false},
+    "rows": {"const": 4},
+    "cols": {"const": 4},
+    "command_axes": {"const": ["command", "iq", "row", "col"]},
+    "amplitude_axes": {"const": ["command", "query"]},
+    "direction_axes": {"const": ["query", "xyz"]},
+    "provenance": {"type": ["object", "null"]}
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,35 @@
+{
+  "audit_type": "metadata_only_before_blind_open",
+  "protocol_sha256": "726351762a64eeb8bafa02f4cedab56e40683c334390b5388d568ebff863a83f",
+  "command_counts": [
+    292,
+    62,
+    62
+  ],
+  "phase_equivalent_command_overlap_train_val_train_test_val_test": [
+    0,
+    0,
+    0
+  ],
+  "angular_block_overlap_train_val_train_test_val_test": [
+    0,
+    0,
+    0
+  ],
+  "integer_shifted_coordinate_overlap": 0,
+  "dev_amplitude_shapes": {
+    "train": [
+      292,
+      45140
+    ],
+    "validation": [
+      62,
+      9660
+    ]
+  },
+  "blind_field_values_read_by_this_audit": false,
+  "blind_label_files_exist": false,
+  "historical_single_dft_anchor_test_count": 4,
+  "novel_random_sparse_steering_test_count": 58,
+  "result": "PASS"
+}

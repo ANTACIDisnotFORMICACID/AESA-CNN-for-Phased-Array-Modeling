@@ -1,0 +1,25 @@
+﻿command_id,group,priority,description,historical_case,total_power_w,amplitude_control_required,sources_file
+A01,structured_equal_amplitude,core,等幅同相0度,,1.000000000,no,sources/cmd_A01_uniform_0_sources.csv
+A02,structured_equal_amplitude,core,A01公共相位加90度,,1.000000000,no,sources/cmd_A02_uniform_90_sources.csv
+A03,structured_equal_amplitude,core,行列棋盘0/180度,,1.000000000,no,sources/cmd_A03_checkerboard_180_sources.csv
+A04,structured_equal_amplitude,core,行方向每行增加45度,,1.000000000,no,sources/cmd_A04_row_plus_45_sources.csv
+A05,structured_equal_amplitude,extended,行方向每行减少45度,,1.000000000,no,sources/cmd_A05_row_minus_45_sources.csv
+A06,structured_equal_amplitude,core,列方向每列增加45度,,1.000000000,no,sources/cmd_A06_col_plus_45_sources.csv
+A07,structured_equal_amplitude,extended,列方向每列减少45度,,1.000000000,no,sources/cmd_A07_col_minus_45_sources.csv
+A08,structured_equal_amplitude,core,行列方向均增加45度,,1.000000000,no,sources/cmd_A08_diag_plus_plus_45_sources.csv
+A09,structured_equal_amplitude,extended,行加45度列减45度,,1.000000000,no,sources/cmd_A09_diag_plus_minus_45_sources.csv
+A10,structured_equal_amplitude,extended,行加90度列加45度,,1.000000000,no,sources/cmd_A10_mixed_row90_col45_sources.csv
+B01,random_equal_amplitude_4bit,core,固定seed=47029的4-bit等幅随机相位1,,1.000000000,no,sources/cmd_B01_random_4bit_01_sources.csv
+B02,random_equal_amplitude_4bit,core,固定seed=47029的4-bit等幅随机相位2,,1.000000000,no,sources/cmd_B02_random_4bit_02_sources.csv
+B03,random_equal_amplitude_4bit,extended,固定seed=47029的4-bit等幅随机相位3,,1.000000000,no,sources/cmd_B03_random_4bit_03_sources.csv
+B04,random_equal_amplitude_4bit,extended,固定seed=47029的4-bit等幅随机相位4,,1.000000000,no,sources/cmd_B04_random_4bit_04_sources.csv
+B05,random_equal_amplitude_4bit,extended,固定seed=47029的4-bit等幅随机相位5,,1.000000000,no,sources/cmd_B05_random_4bit_05_sources.csv
+B06,random_equal_amplitude_4bit,extended,固定seed=47029的4-bit等幅随机相位6,,1.000000000,no,sources/cmd_B06_random_4bit_06_sources.csv
+C01,historical_optimized_amplitude_phase,extended,历史四目标case 2连续幅相; regret=17.911%; 最小间距=2度,2,0.999999946,yes,sources/cmd_C01_optimized_case02_amp_phase_sources.csv
+C02,historical_optimized_amplitude_phase,extended,历史四目标case 14连续幅相; regret=20.719%; 最小间距=10度,14,1.000000096,yes,sources/cmd_C02_optimized_case14_amp_phase_sources.csv
+C03,historical_optimized_amplitude_phase,core,历史四目标case 26连续幅相; regret=29.607%; 最小间距=30度,26,1.000000023,yes,sources/cmd_C03_optimized_case26_amp_phase_sources.csv
+C04,historical_optimized_amplitude_phase,core,历史四目标case 22连续幅相; regret=0.138%; 最小间距=20度,22,1.000000077,yes,sources/cmd_C04_optimized_case22_amp_phase_sources.csv
+D01,historical_optimized_phase_only_projection,extended,历史四目标case 2连续幅相; regret=17.911%; 最小间距=2度; 等幅phase-only投影,2,1.000000000,no,sources/cmd_D01_optimized_case02_phase_only_sources.csv
+D02,historical_optimized_phase_only_projection,extended,历史四目标case 14连续幅相; regret=20.719%; 最小间距=10度; 等幅phase-only投影,14,1.000000000,no,sources/cmd_D02_optimized_case14_phase_only_sources.csv
+D03,historical_optimized_phase_only_projection,core,历史四目标case 26连续幅相; regret=29.607%; 最小间距=30度; 等幅phase-only投影,26,1.000000000,no,sources/cmd_D03_optimized_case26_phase_only_sources.csv
+D04,historical_optimized_phase_only_projection,core,历史四目标case 22连续幅相; regret=0.138%; 最小间距=20度; 等幅phase-only投影,22,1.000000000,no,sources/cmd_D04_optimized_case22_phase_only_sources.csv

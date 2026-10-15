@@ -1,0 +1,30 @@
+{
+  "schema_version": "v2.9-hfss-basis-verification-1",
+  "verification_source": "direct_hfss_ffd_receiver_projection",
+  "receiver_channel": "ephi",
+  "grid_indices": [
+    32670,
+    32682,
+    32658,
+    28338
+  ],
+  "angular_error_deg": [
+    0.0,
+    0.11134147668019882,
+    0.11134147668019882,
+    0.11134147668347222
+  ],
+  "target_amplitude": [
+    2.276496171951294,
+    2.562148094177246,
+    2.366222858428955,
+    2.2975780963897705
+  ],
+  "target_power": [
+    5.182435035705566,
+    6.564602851867676,
+    5.599010467529297,
+    5.278865337371826
+  ],
+  "min_target_power": 5.182435035705566
+}

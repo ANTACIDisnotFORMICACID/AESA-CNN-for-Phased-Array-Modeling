@@ -1,0 +1,10 @@
+{
+  "error": "__init__() should return None, not 'bool'",
+  "error_type": "TypeError",
+  "passed": false,
+  "project": "D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.9\\data\\external_next\\hfss_direct_validation\\automation_work\\smoke_project\\v2_8_array_4x4.aedt",
+  "project_sha256_after": "55DE531D9CA4729D85C3AAD3E2EEA0FFA13346E918591006AC639EB2E1B9A980",
+  "project_sha256_before": "55DE531D9CA4729D85C3AAD3E2EEA0FFA13346E918591006AC639EB2E1B9A980",
+  "schema_version": 1,
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\Desktop\\wireless\\BigChuang\\phased_array_algorithm\\AESA-CNN\\git_workcopies\\big_creation_v26\\algorithm_versions\\v2.9\\tools\\hfss\\hfss_api_smoke.py\", line 58, in main\n    hfss = Hfss(\nTypeError: __init__() should return None, not 'bool'\n"
+}

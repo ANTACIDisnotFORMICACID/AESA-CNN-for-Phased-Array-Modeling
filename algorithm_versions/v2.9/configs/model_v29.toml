@@ -1,0 +1,20 @@
+[model]
+architecture_version = "v29_nominal_coupling_residual_1"
+basis_type = "ideal_phase"
+direction_fourier_bands = 4
+nominal_width = 24
+nominal_depth = 2
+nominal_max_log_amplitude = 3.0
+enable_coupling = true
+coupling_low_rank = 1
+enable_residual = true
+residual_width = 12
+residual_depth = 1
+residual_maximum_magnitude = 2.0
+device_model = "identity"
+
+[model.initialization]
+nominal_pattern = "identity"
+port_coupling = "identity"
+angular_residual = "zero"
+device = "identity"

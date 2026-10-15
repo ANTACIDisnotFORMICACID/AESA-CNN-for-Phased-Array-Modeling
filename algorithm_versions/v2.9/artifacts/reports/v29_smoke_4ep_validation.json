@@ -1,0 +1,80 @@
+{
+  "schema_version": "v2.9-amplitude-operator-1",
+  "split": "validation",
+  "unseen_commands": 18,
+  "unseen_queries": 9660,
+  "observation_count": 173880,
+  "measured_phase_used": false,
+  "s_parameters_used": false,
+  "metrics": {
+    "loss": 0.7658092975616455,
+    "linear_nmse": 0.7658092975616455,
+    "linear_nmse_db": -1.1587936878204346,
+    "global_linear_nmse": 0.7659909725189209,
+    "global_linear_nmse_db": -1.1577634811401367,
+    "power_nmse": 0.980035126209259,
+    "power_nmse_db": -0.08758357912302017,
+    "global_power_nmse": 0.9805898666381836,
+    "global_power_nmse_db": -0.08512599766254425,
+    "amplitude_db_mae": 13.996341705322266,
+    "mean_command_amplitude_correlation": 0.13930504024028778,
+    "absolute_error_p50": 2.7560179233551025,
+    "absolute_error_p95": 10.189900398254395
+  },
+  "metrics_by_command_family": {
+    "dft_phase": {
+      "command_count": 2,
+      "metrics": {
+        "loss": 0.7857301831245422,
+        "linear_nmse": 0.7857301831245422,
+        "linear_nmse_db": -1.047265648841858,
+        "global_linear_nmse": 0.78526771068573,
+        "global_linear_nmse_db": -1.0498225688934326,
+        "power_nmse": 0.9770307540893555,
+        "power_nmse_db": -0.10091765969991684,
+        "global_power_nmse": 0.9772813320159912,
+        "global_power_nmse_db": -0.09980396926403046,
+        "amplitude_db_mae": 19.682315826416016,
+        "mean_command_amplitude_correlation": 0.46547967195510864,
+        "absolute_error_p50": 2.1929306983947754,
+        "absolute_error_p95": 10.464447021484375
+      }
+    },
+    "random_phase": {
+      "command_count": 14,
+      "metrics": {
+        "loss": 0.7692360877990723,
+        "linear_nmse": 0.7692360877990723,
+        "linear_nmse_db": -1.1394034624099731,
+        "global_linear_nmse": 0.7696165442466736,
+        "global_linear_nmse_db": -1.1372560262680054,
+        "power_nmse": 0.9815114736557007,
+        "power_nmse_db": -0.0810461938381195,
+        "global_power_nmse": 0.982070803642273,
+        "global_power_nmse_db": -0.07857199758291245,
+        "amplitude_db_mae": 13.450925827026367,
+        "mean_command_amplitude_correlation": 0.12004018574953079,
+        "absolute_error_p50": 2.7647876739501953,
+        "absolute_error_p95": 10.261078834533691
+      }
+    },
+    "single_element": {
+      "command_count": 2,
+      "metrics": {
+        "loss": 0.7219003438949585,
+        "linear_nmse": 0.7219003438949585,
+        "linear_nmse_db": -1.4152275323867798,
+        "global_linear_nmse": 0.7218959331512451,
+        "global_linear_nmse_db": -1.41525399684906,
+        "power_nmse": 0.9727053642272949,
+        "power_nmse_db": -0.12018688768148422,
+        "global_power_nmse": 0.9727358818054199,
+        "global_power_nmse_db": -0.12005063891410828,
+        "amplitude_db_mae": 12.128255844116211,
+        "mean_command_amplitude_correlation": -0.05201573669910431,
+        "absolute_error_p50": 3.4852805137634277,
+        "absolute_error_p95": 9.875762939453125
+      }
+    }
+  }
+}

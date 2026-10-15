@@ -1,0 +1,266 @@
+{
+  "schema_version": "v2.9-hfss-direct-validation-commands-1",
+  "frequency_hz": 47000000000.0,
+  "array_shape": [
+    4,
+    4
+  ],
+  "port_order": "row-major 1:1..16:1",
+  "total_incident_power_w": 1.0,
+  "hfss_source_rule": "power_w=abs(w)^2; phase_deg=arg(w)",
+  "structured_and_random_equal_amplitude": 0.25,
+  "random_phase_bits": 4,
+  "random_seed": 47029,
+  "selected_historical_cases": [
+    2,
+    14,
+    26,
+    22
+  ],
+  "command_count": 24,
+  "core_count": 12,
+  "optimized_npz_sha256": "df4278e1e15c9ca58251fde4a593251afe051f6864ede6f6a174046190f6d146",
+  "diagnostic_json_sha256": "6c8b69c84e9d1f2b8a6f332d1eb1c2cb0e770ad6d95bd2cdfd6b755fefa80b01",
+  "commands": [
+    {
+      "command_id": "A01",
+      "group": "structured_equal_amplitude",
+      "priority": "core",
+      "description": "等幅同相0度",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_A01_uniform_0_sources.csv"
+    },
+    {
+      "command_id": "A02",
+      "group": "structured_equal_amplitude",
+      "priority": "core",
+      "description": "A01公共相位加90度",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_A02_uniform_90_sources.csv"
+    },
+    {
+      "command_id": "A03",
+      "group": "structured_equal_amplitude",
+      "priority": "core",
+      "description": "行列棋盘0/180度",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_A03_checkerboard_180_sources.csv"
+    },
+    {
+      "command_id": "A04",
+      "group": "structured_equal_amplitude",
+      "priority": "core",
+      "description": "行方向每行增加45度",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_A04_row_plus_45_sources.csv"
+    },
+    {
+      "command_id": "A05",
+      "group": "structured_equal_amplitude",
+      "priority": "extended",
+      "description": "行方向每行减少45度",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_A05_row_minus_45_sources.csv"
+    },
+    {
+      "command_id": "A06",
+      "group": "structured_equal_amplitude",
+      "priority": "core",
+      "description": "列方向每列增加45度",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_A06_col_plus_45_sources.csv"
+    },
+    {
+      "command_id": "A07",
+      "group": "structured_equal_amplitude",
+      "priority": "extended",
+      "description": "列方向每列减少45度",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_A07_col_minus_45_sources.csv"
+    },
+    {
+      "command_id": "A08",
+      "group": "structured_equal_amplitude",
+      "priority": "core",
+      "description": "行列方向均增加45度",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_A08_diag_plus_plus_45_sources.csv"
+    },
+    {
+      "command_id": "A09",
+      "group": "structured_equal_amplitude",
+      "priority": "extended",
+      "description": "行加45度列减45度",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_A09_diag_plus_minus_45_sources.csv"
+    },
+    {
+      "command_id": "A10",
+      "group": "structured_equal_amplitude",
+      "priority": "extended",
+      "description": "行加90度列加45度",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_A10_mixed_row90_col45_sources.csv"
+    },
+    {
+      "command_id": "B01",
+      "group": "random_equal_amplitude_4bit",
+      "priority": "core",
+      "description": "固定seed=47029的4-bit等幅随机相位1",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_B01_random_4bit_01_sources.csv"
+    },
+    {
+      "command_id": "B02",
+      "group": "random_equal_amplitude_4bit",
+      "priority": "core",
+      "description": "固定seed=47029的4-bit等幅随机相位2",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_B02_random_4bit_02_sources.csv"
+    },
+    {
+      "command_id": "B03",
+      "group": "random_equal_amplitude_4bit",
+      "priority": "extended",
+      "description": "固定seed=47029的4-bit等幅随机相位3",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_B03_random_4bit_03_sources.csv"
+    },
+    {
+      "command_id": "B04",
+      "group": "random_equal_amplitude_4bit",
+      "priority": "extended",
+      "description": "固定seed=47029的4-bit等幅随机相位4",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_B04_random_4bit_04_sources.csv"
+    },
+    {
+      "command_id": "B05",
+      "group": "random_equal_amplitude_4bit",
+      "priority": "extended",
+      "description": "固定seed=47029的4-bit等幅随机相位5",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_B05_random_4bit_05_sources.csv"
+    },
+    {
+      "command_id": "B06",
+      "group": "random_equal_amplitude_4bit",
+      "priority": "extended",
+      "description": "固定seed=47029的4-bit等幅随机相位6",
+      "historical_case": "",
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_B06_random_4bit_06_sources.csv"
+    },
+    {
+      "command_id": "C01",
+      "group": "historical_optimized_amplitude_phase",
+      "priority": "extended",
+      "description": "历史四目标case 2连续幅相; regret=17.911%; 最小间距=2度",
+      "historical_case": 2,
+      "total_power_w": "0.999999946",
+      "amplitude_control_required": "yes",
+      "sources_file": "sources/cmd_C01_optimized_case02_amp_phase_sources.csv"
+    },
+    {
+      "command_id": "C02",
+      "group": "historical_optimized_amplitude_phase",
+      "priority": "extended",
+      "description": "历史四目标case 14连续幅相; regret=20.719%; 最小间距=10度",
+      "historical_case": 14,
+      "total_power_w": "1.000000096",
+      "amplitude_control_required": "yes",
+      "sources_file": "sources/cmd_C02_optimized_case14_amp_phase_sources.csv"
+    },
+    {
+      "command_id": "C03",
+      "group": "historical_optimized_amplitude_phase",
+      "priority": "core",
+      "description": "历史四目标case 26连续幅相; regret=29.607%; 最小间距=30度",
+      "historical_case": 26,
+      "total_power_w": "1.000000023",
+      "amplitude_control_required": "yes",
+      "sources_file": "sources/cmd_C03_optimized_case26_amp_phase_sources.csv"
+    },
+    {
+      "command_id": "C04",
+      "group": "historical_optimized_amplitude_phase",
+      "priority": "core",
+      "description": "历史四目标case 22连续幅相; regret=0.138%; 最小间距=20度",
+      "historical_case": 22,
+      "total_power_w": "1.000000077",
+      "amplitude_control_required": "yes",
+      "sources_file": "sources/cmd_C04_optimized_case22_amp_phase_sources.csv"
+    },
+    {
+      "command_id": "D01",
+      "group": "historical_optimized_phase_only_projection",
+      "priority": "extended",
+      "description": "历史四目标case 2连续幅相; regret=17.911%; 最小间距=2度; 等幅phase-only投影",
+      "historical_case": 2,
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_D01_optimized_case02_phase_only_sources.csv"
+    },
+    {
+      "command_id": "D02",
+      "group": "historical_optimized_phase_only_projection",
+      "priority": "extended",
+      "description": "历史四目标case 14连续幅相; regret=20.719%; 最小间距=10度; 等幅phase-only投影",
+      "historical_case": 14,
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_D02_optimized_case14_phase_only_sources.csv"
+    },
+    {
+      "command_id": "D03",
+      "group": "historical_optimized_phase_only_projection",
+      "priority": "core",
+      "description": "历史四目标case 26连续幅相; regret=29.607%; 最小间距=30度; 等幅phase-only投影",
+      "historical_case": 26,
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_D03_optimized_case26_phase_only_sources.csv"
+    },
+    {
+      "command_id": "D04",
+      "group": "historical_optimized_phase_only_projection",
+      "priority": "core",
+      "description": "历史四目标case 22连续幅相; regret=0.138%; 最小间距=20度; 等幅phase-only投影",
+      "historical_case": 22,
+      "total_power_w": "1.000000000",
+      "amplitude_control_required": "no",
+      "sources_file": "sources/cmd_D04_optimized_case22_phase_only_sources.csv"
+    }
+  ]
+}

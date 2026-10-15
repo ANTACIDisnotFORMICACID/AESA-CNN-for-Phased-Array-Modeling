@@ -1,0 +1,1 @@
+receiver_id,frequency_hz,bandwidth_hz,rx_gain_dbi,polarization_loss_db,other_loss_db,noise_temperature_k,noise_figure_db,required_snr_db,required_margin_db

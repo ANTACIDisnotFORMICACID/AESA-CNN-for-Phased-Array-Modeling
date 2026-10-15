@@ -1,0 +1,7 @@
+{
+  "transverse": true,
+  "common_phase_invariance": true,
+  "nonzero_gradient": true,
+  "quadratic_contraction": true,
+  "phase_constraints": true
+}

@@ -1,0 +1,33 @@
+{
+  "disjoint_angle_tiles": true,
+  "disjoint_commands_mod_global_phase": true,
+  "trajectories_stay_in_partition": true,
+  "train": {
+    "directions": 36000,
+    "tiles": 360,
+    "commands": 256,
+    "trajectories": 64,
+    "frames": 3
+  },
+  "validation": {
+    "directions": 10800,
+    "tiles": 108,
+    "commands": 96,
+    "trajectories": 24,
+    "frames": 3
+  },
+  "calibration": {
+    "directions": 7200,
+    "tiles": 72,
+    "commands": 96,
+    "trajectories": 64,
+    "frames": 3
+  },
+  "holdout": {
+    "directions": 10800,
+    "tiles": 108,
+    "commands": 96,
+    "trajectories": 120,
+    "frames": 3
+  }
+}

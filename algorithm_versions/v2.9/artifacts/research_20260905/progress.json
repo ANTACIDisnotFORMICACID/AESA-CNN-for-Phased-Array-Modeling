@@ -1,0 +1,11 @@
+{
+  "phase": "final",
+  "recipe": "R1",
+  "seed": 29003,
+  "epoch": 847,
+  "cap": 2000,
+  "best_validation_nmse_db": -19.993057250976562,
+  "best_epoch": 725,
+  "elapsed_seconds": 438.34454279999954,
+  "blind_opened": false
+}

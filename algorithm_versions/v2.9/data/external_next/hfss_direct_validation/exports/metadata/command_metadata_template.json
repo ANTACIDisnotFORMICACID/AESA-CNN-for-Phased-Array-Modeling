@@ -1,0 +1,21 @@
+{
+  "command_id": "FILL_ME",
+  "hfss_version": "2025.2",
+  "project": "v2_8_array_4x4",
+  "design": "HFSSDesign1",
+  "setup": "Setup2",
+  "solution": "LastAdaptive",
+  "frequency_hz": 47000000000.0,
+  "coordinate_system": "Theta-Phi",
+  "theta_start_deg": 0.5,
+  "theta_stop_deg": 179.5,
+  "theta_step_deg": 1.0,
+  "phi_start_deg": -179.5,
+  "phi_stop_deg": 179.5,
+  "phi_step_deg": 1.0,
+  "source_unit": "W",
+  "total_incident_power_w": 1.0,
+  "phase_reference": [0.0, 0.0, 0.0],
+  "exported_at": "FILL_ME",
+  "notes": ""
+}

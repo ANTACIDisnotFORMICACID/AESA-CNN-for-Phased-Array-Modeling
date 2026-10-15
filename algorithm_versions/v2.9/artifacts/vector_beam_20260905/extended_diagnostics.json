@@ -1,0 +1,856 @@
+{
+  "full_sphere_forward": {
+    "amplitude_nmse_db": -27.640771865844727,
+    "power_nmse_db": -25.978748321533203,
+    "bins": {
+      "all": {
+        "count": 6220800,
+        "mae_db": 0.45746126770973206,
+        "bias_db": -0.008350248448550701,
+        "p95_abs_db": 1.7102022171020508,
+        "over_fraction": 0.4921288258744856,
+        "solid_angle_mae_db": 0.5390126868785091
+      },
+      "strong": {
+        "count": 939117,
+        "mae_db": 0.14912936091423035,
+        "bias_db": -0.002456363756209612,
+        "p95_abs_db": 0.48796623945236206,
+        "over_fraction": 0.49585834352908104,
+        "solid_angle_mae_db": 0.177984430913597
+      },
+      "medium": {
+        "count": 3526637,
+        "mae_db": 0.32194605469703674,
+        "bias_db": -0.028805704787373543,
+        "p95_abs_db": 1.0749682188034058,
+        "over_fraction": 0.4831398865264557,
+        "solid_angle_mae_db": 0.3832020416712563
+      },
+      "weak": {
+        "count": 1570085,
+        "mae_db": 0.7800883650779724,
+        "bias_db": -0.03991788625717163,
+        "p95_abs_db": 2.5970141887664795,
+        "over_fraction": 0.49730301225729817,
+        "solid_angle_mae_db": 0.8880780326122696
+      },
+      "deep": {
+        "count": 184961,
+        "mae_db": 1.8681492805480957,
+        "bias_db": 0.6197162866592407,
+        "p95_abs_db": 5.71668815612793,
+        "over_fraction": 0.6006617611280216,
+        "solid_angle_mae_db": 2.0181436136037645
+      }
+    }
+  },
+  "macro_measured_local_widths": [
+    {
+      "command_id": "A01",
+      "theta_cut_hpbw_deg": 6.199665867990795,
+      "phi_coordinate_cut_hpbw_deg": 12.59128811334887,
+      "phi_cut_spherical_width_deg": 11.360456616190096
+    },
+    {
+      "command_id": "A02",
+      "theta_cut_hpbw_deg": 6.199665867990795,
+      "phi_coordinate_cut_hpbw_deg": 12.59128811334887,
+      "phi_cut_spherical_width_deg": 11.360456616190096
+    },
+    {
+      "command_id": "A03",
+      "theta_cut_hpbw_deg": 5.574924690046956,
+      "phi_coordinate_cut_hpbw_deg": 31.21275049776691,
+      "phi_cut_spherical_width_deg": 30.45472117735996
+    },
+    {
+      "command_id": "A04",
+      "theta_cut_hpbw_deg": 6.389139897030812,
+      "phi_coordinate_cut_hpbw_deg": 13.002925929254047,
+      "phi_cut_spherical_width_deg": 11.421589056976797
+    },
+    {
+      "command_id": "A05",
+      "theta_cut_hpbw_deg": 5.929533549663761,
+      "phi_coordinate_cut_hpbw_deg": 12.522242460833944,
+      "phi_cut_spherical_width_deg": 11.565658031029175
+    },
+    {
+      "command_id": "A06",
+      "theta_cut_hpbw_deg": 6.1680854292786655,
+      "phi_coordinate_cut_hpbw_deg": 15.089687966965291,
+      "phi_cut_spherical_width_deg": 13.612394784865568
+    },
+    {
+      "command_id": "A07",
+      "theta_cut_hpbw_deg": 6.145712246324095,
+      "phi_coordinate_cut_hpbw_deg": 13.434145509477428,
+      "phi_cut_spherical_width_deg": 12.120291649245408
+    },
+    {
+      "command_id": "A08",
+      "theta_cut_hpbw_deg": 6.343625526280805,
+      "phi_coordinate_cut_hpbw_deg": 15.634090218473913,
+      "phi_cut_spherical_width_deg": 13.729747232253073
+    },
+    {
+      "command_id": "A09",
+      "theta_cut_hpbw_deg": 6.314789397927324,
+      "phi_coordinate_cut_hpbw_deg": 13.938211094193953,
+      "phi_cut_spherical_width_deg": 12.242231198933093
+    },
+    {
+      "command_id": "A10",
+      "theta_cut_hpbw_deg": 6.586493363103874,
+      "phi_coordinate_cut_hpbw_deg": 16.42056641667648,
+      "phi_cut_spherical_width_deg": 13.987678557307206
+    },
+    {
+      "command_id": "B01",
+      "theta_cut_hpbw_deg": 5.929888961428256,
+      "phi_coordinate_cut_hpbw_deg": 13.101503458570765,
+      "phi_cut_spherical_width_deg": 11.82042949330585
+    },
+    {
+      "command_id": "B02",
+      "theta_cut_hpbw_deg": 10.928828219379906,
+      "phi_coordinate_cut_hpbw_deg": 12.439072199319726,
+      "phi_cut_spherical_width_deg": 11.648515167606392
+    },
+    {
+      "command_id": "B03",
+      "theta_cut_hpbw_deg": 6.741878204701209,
+      "phi_coordinate_cut_hpbw_deg": 12.697763880498172,
+      "phi_cut_spherical_width_deg": 10.330291052948333
+    },
+    {
+      "command_id": "B04",
+      "theta_cut_hpbw_deg": 5.829347296358964,
+      "phi_coordinate_cut_hpbw_deg": 12.558941799594313,
+      "phi_cut_spherical_width_deg": 12.520071739839628
+    },
+    {
+      "command_id": "B05",
+      "theta_cut_hpbw_deg": 7.116351922287482,
+      "phi_coordinate_cut_hpbw_deg": 15.952207272535082,
+      "phi_cut_spherical_width_deg": 13.589434535468635
+    },
+    {
+      "command_id": "B06",
+      "theta_cut_hpbw_deg": 6.666793962279057,
+      "phi_coordinate_cut_hpbw_deg": 15.742919749184694,
+      "phi_cut_spherical_width_deg": 13.265324502490879
+    },
+    {
+      "command_id": "C01",
+      "theta_cut_hpbw_deg": 5.463710992917211,
+      "phi_coordinate_cut_hpbw_deg": 13.388638868168508,
+      "phi_cut_spherical_width_deg": 13.347178205094984
+    },
+    {
+      "command_id": "C02",
+      "theta_cut_hpbw_deg": 6.313744882734335,
+      "phi_coordinate_cut_hpbw_deg": 14.86872986508869,
+      "phi_cut_spherical_width_deg": 13.299064430501648
+    },
+    {
+      "command_id": "C03",
+      "theta_cut_hpbw_deg": 6.185494785820941,
+      "phi_coordinate_cut_hpbw_deg": 14.991855409069716,
+      "phi_cut_spherical_width_deg": 14.294275622795546
+    },
+    {
+      "command_id": "C04",
+      "theta_cut_hpbw_deg": 6.5815553024319655,
+      "phi_coordinate_cut_hpbw_deg": 15.71870650515611,
+      "phi_cut_spherical_width_deg": 12.621506333588457
+    },
+    {
+      "command_id": "D01",
+      "theta_cut_hpbw_deg": 6.347555059864033,
+      "phi_coordinate_cut_hpbw_deg": 15.556426731322187,
+      "phi_cut_spherical_width_deg": 13.39320962779255
+    },
+    {
+      "command_id": "D02",
+      "theta_cut_hpbw_deg": 6.549622134204814,
+      "phi_coordinate_cut_hpbw_deg": 15.815331404403743,
+      "phi_cut_spherical_width_deg": 14.018819490403924
+    },
+    {
+      "command_id": "D03",
+      "theta_cut_hpbw_deg": 5.648976916630675,
+      "phi_coordinate_cut_hpbw_deg": 15.007617197394268,
+      "phi_cut_spherical_width_deg": 14.386260540785317
+    },
+    {
+      "command_id": "D04",
+      "theta_cut_hpbw_deg": 7.04178485438664,
+      "phi_coordinate_cut_hpbw_deg": 15.387958196528876,
+      "phi_cut_spherical_width_deg": 12.356504995994024
+    }
+  ],
+  "prediction_defined_intensity_bins": {
+    "strong": {
+      "count": 947321,
+      "mae_db": 0.1501886248588562,
+      "bias_db": 0.019280383363366127,
+      "p95_abs_db": 0.49411940574645996
+    },
+    "medium": {
+      "count": 3519854,
+      "mae_db": 0.3195357322692871,
+      "bias_db": 0.024529745802283287,
+      "p95_abs_db": 1.064008355140686
+    },
+    "weak": {
+      "count": 1568375,
+      "mae_db": 0.7831941246986389,
+      "bias_db": -0.03483200818300247,
+      "p95_abs_db": 2.6134982109069824
+    },
+    "deep": {
+      "count": 185250,
+      "mae_db": 1.8917080163955688,
+      "bias_db": -0.5501832365989685,
+      "p95_abs_db": 5.8013410568237305
+    }
+  },
+  "intensity_confusion_counts": [
+    [
+      914501,
+      24615,
+      0,
+      0
+    ],
+    [
+      32820,
+      3413068,
+      80707,
+      42
+    ],
+    [
+      0,
+      82134,
+      1451357,
+      36595
+    ],
+    [
+      0,
+      37,
+      36311,
+      148613
+    ]
+  ],
+  "peak_regions": {
+    "global_peak_neighborhood": {
+      "count": 8205,
+      "mae_db": 0.13069456815719604,
+      "bias_db": -0.0393834188580513,
+      "p95_abs_db": 0.4205555319786072
+    },
+    "competing_peak_neighborhood": {
+      "count": 398572,
+      "mae_db": 0.14910994470119476,
+      "bias_db": -0.006236692424863577,
+      "p95_abs_db": 0.48772305250167847
+    },
+    "other_strong": {
+      "count": 532340,
+      "mae_db": 0.14942806959152222,
+      "bias_db": 0.0009431916405446827,
+      "p95_abs_db": 0.4893845021724701
+    }
+  },
+  "peak_region_definition": "full-grid local maxima, separated by >=5 deg; neighborhoods within5 deg and reference>=peak-10dB; not certified grating-lobe identities",
+  "old_new_common_Ephi": {
+    "old_Ephi": {
+      "amplitude_nmse_db": -22.3865966796875,
+      "power_nmse_db": -22.63766860961914,
+      "bins": {
+        "all": {
+          "count": 1036800,
+          "mae_db": 1.1014889478683472,
+          "bias_db": -0.035292573273181915,
+          "p95_abs_db": 4.166327953338623,
+          "over_fraction": 0.4970621141975309,
+          "solid_angle_mae_db": 1.1750170023650472
+        },
+        "strong": {
+          "count": 131230,
+          "mae_db": 0.2925487160682678,
+          "bias_db": -0.06174436956644058,
+          "p95_abs_db": 0.8306745290756226,
+          "over_fraction": 0.47872437704793114,
+          "solid_angle_mae_db": 0.2790217314837693
+        },
+        "medium": {
+          "count": 477061,
+          "mae_db": 0.6258731484413147,
+          "bias_db": -0.12065993249416351,
+          "p95_abs_db": 2.01426362991333,
+          "over_fraction": 0.48040816583204243,
+          "solid_angle_mae_db": 0.6613356477013587
+        },
+        "weak": {
+          "count": 335935,
+          "mae_db": 1.4263930320739746,
+          "bias_db": -0.1950698345899582,
+          "p95_abs_db": 4.583332538604736,
+          "over_fraction": 0.4972688168842187,
+          "solid_angle_mae_db": 1.5392203196725833
+        },
+        "deep": {
+          "count": 92574,
+          "mae_db": 3.520186185836792,
+          "bias_db": 1.0219316482543945,
+          "p95_abs_db": 10.859798431396484,
+          "over_fraction": 0.6081297124462592,
+          "solid_angle_mae_db": 3.7304232264478516
+        }
+      }
+    },
+    "new_Ephi": {
+      "amplitude_nmse_db": -4.708450794219971,
+      "power_nmse_db": -1.588603138923645,
+      "bins": {
+        "all": {
+          "count": 1036800,
+          "mae_db": 5.642823219299316,
+          "bias_db": -2.8170735836029053,
+          "p95_abs_db": 15.301286697387695,
+          "over_fraction": 0.3275945216049383,
+          "solid_angle_mae_db": 5.908269272259011
+        },
+        "strong": {
+          "count": 131230,
+          "mae_db": 7.583878040313721,
+          "bias_db": -7.389190196990967,
+          "p95_abs_db": 17.546018600463867,
+          "over_fraction": 0.07931875333384135,
+          "solid_angle_mae_db": 8.545528405012826
+        },
+        "medium": {
+          "count": 477061,
+          "mae_db": 5.36553430557251,
+          "bias_db": -4.1959123611450195,
+          "p95_abs_db": 14.857522010803223,
+          "over_fraction": 0.23454442932874411,
+          "solid_angle_mae_db": 5.7477864707703
+        },
+        "weak": {
+          "count": 335935,
+          "mae_db": 4.829472541809082,
+          "bias_db": -1.0750503540039062,
+          "p95_abs_db": 13.0533447265625,
+          "over_fraction": 0.44885171238483634,
+          "solid_angle_mae_db": 4.758247059492434
+        },
+        "deep": {
+          "count": 92574,
+          "mae_db": 7.271711826324463,
+          "bias_db": 4.448271751403809,
+          "p95_abs_db": 18.893630981445312,
+          "over_fraction": 0.7190355823449348,
+          "solid_angle_mae_db": 6.719370739915633
+        }
+      }
+    },
+    "limitation": "old model saw different angular split and budgets; common observable comparison is diagnostic, not clean causal architecture ablation"
+  },
+  "baseline_A": {
+    "seed": 29513,
+    "forward": {
+      "amplitude_nmse_db": -25.29983901977539,
+      "power_nmse_db": -23.748228073120117,
+      "bins": {
+        "all": {
+          "count": 1036800,
+          "mae_db": 0.6119282841682434,
+          "bias_db": 0.029285943135619164,
+          "p95_abs_db": 2.2730283737182617,
+          "over_fraction": 0.5202989969135803,
+          "solid_angle_mae_db": 0.7383934028979388
+        },
+        "strong": {
+          "count": 184486,
+          "mae_db": 0.2044585645198822,
+          "bias_db": 0.023539088666439056,
+          "p95_abs_db": 0.6648203134536743,
+          "over_fraction": 0.5356991858460805,
+          "solid_angle_mae_db": 0.25881879303862115
+        },
+        "medium": {
+          "count": 585784,
+          "mae_db": 0.4710412621498108,
+          "bias_db": -0.013131430372595787,
+          "p95_abs_db": 1.5723094940185547,
+          "over_fraction": 0.5114564412821108,
+          "solid_angle_mae_db": 0.5695116800982888
+        },
+        "weak": {
+          "count": 239044,
+          "mae_db": 1.0706241130828857,
+          "bias_db": 0.024615023285150528,
+          "p95_abs_db": 3.4504127502441406,
+          "over_fraction": 0.5162020381185054,
+          "solid_angle_mae_db": 1.2297446609601361
+        },
+        "deep": {
+          "count": 27486,
+          "mae_db": 2.360211133956909,
+          "bias_db": 1.0124841928482056,
+          "p95_abs_db": 6.771411418914795,
+          "over_fraction": 0.6410172451429819,
+          "solid_angle_mae_db": 2.5691806714182626
+        }
+      }
+    },
+    "targets": {
+      "phase": {
+        "median_regret": 0.03285616636276245,
+        "p95_regret": 0.17783212661743164,
+        "worst_regret": 0.32893121242523193,
+        "fourpoint_mae_db": 0.20909564197063446,
+        "bottleneck_bias_db": 0.3386138379573822,
+        "bottleneck_over_p95_db": 0.9479522705078125,
+        "bottleneck_over_fraction": 0.9444444444444444,
+        "bottleneck_identity_accuracy": 0.5305555555555556,
+        "true_min_gain_dBi_quantiles": [
+          0.08466473966836928,
+          4.978698015213013,
+          13.698209905624392
+        ],
+        "reference_min_gain_dBi_quantiles": [
+          0.9352710753679275,
+          5.1490724086761475,
+          13.718841695785523
+        ],
+        "spectral_bound_gap_median": 0.5397446155548096,
+        "constraint_max_power_error": 0.0,
+        "constraint_max_magnitude_error": 1.4901161193847656e-08,
+        "strata": {
+          "clustered": {
+            "frames": 120,
+            "regret_p95": 0.07178397476673126,
+            "min_gain_p5_dBi": 1.118501901626587
+          },
+          "distributed_front": {
+            "frames": 120,
+            "regret_p95": 0.10331278294324875,
+            "min_gain_p5_dBi": 0.5867836475372314
+          },
+          "full_sphere_stress": {
+            "frames": 120,
+            "regret_p95": 0.2584953308105469,
+            "min_gain_p5_dBi": -0.7779707312583923
+          }
+        }
+      },
+      "continuity": {
+        "warm4starts80steps_phase_jump_median": 0.23045116662979126,
+        "cold8starts160steps_phase_jump_median": 0.2208086997270584,
+        "warm_min_p5_dBi": 0.07057486474514008,
+        "cold_min_p5_dBi": 0.08466474711894989,
+        "amortized_gpu_seconds_per_frame": 0.003161881111049701,
+        "comparison": "unequal budgets, exploratory warm-start efficiency, not a controlled causal claim or FPGA latency"
+      },
+      "amplitude_phase": {
+        "median_regret": 0.033775389194488525,
+        "p95_regret": 0.13910827040672302,
+        "worst_regret": 0.27138715982437134,
+        "fourpoint_mae_db": 0.19714154303073883,
+        "bottleneck_bias_db": 0.3117169439792633,
+        "bottleneck_over_p95_db": 0.7804559469223022,
+        "bottleneck_over_fraction": 0.9277777777777778,
+        "bottleneck_identity_accuracy": 0.5694444444444444,
+        "true_min_gain_dBi_quantiles": [
+          1.1804117500782012,
+          5.506012439727783,
+          13.742996358871462
+        ],
+        "reference_min_gain_dBi_quantiles": [
+          1.4404289186000825,
+          5.6423399448394775,
+          13.764146375656129
+        ],
+        "spectral_bound_gap_median": 0.45990240573883057,
+        "constraint_max_power_error": 2.384185791015625e-07,
+        "constraint_max_magnitude_error": null,
+        "strata": {
+          "clustered": {
+            "frames": 120,
+            "regret_p95": 0.06576797366142273,
+            "min_gain_p5_dBi": 2.4641048908233643
+          },
+          "distributed_front": {
+            "frames": 120,
+            "regret_p95": 0.10344511270523071,
+            "min_gain_p5_dBi": 1.237680196762085
+          },
+          "full_sphere_stress": {
+            "frames": 120,
+            "regret_p95": 0.18416495621204376,
+            "min_gain_p5_dBi": -0.054080091416835785
+          }
+        }
+      }
+    }
+  },
+  "target_effective_rank": {
+    "clustered": {
+      "effective_rank_quantiles": [
+        1.138694703578949,
+        1.4445818662643433,
+        1.8881256401538848
+      ],
+      "frame_count": 120
+    },
+    "distributed_front": {
+      "effective_rank_quantiles": [
+        2.0818185567855836,
+        2.8407236337661743,
+        3.5765288591384885
+      ],
+      "frame_count": 120
+    },
+    "full_sphere_stress": {
+      "effective_rank_quantiles": [
+        2.235747754573822,
+        2.918740391731262,
+        3.9779184103012084
+      ],
+      "frame_count": 120
+    }
+  },
+  "phase_quantization": {
+    "3": {
+      "delta_min_gain_db_quantiles": [
+        -1.70761496424675,
+        -0.49298524856567383,
+        -0.032832293212413745
+      ],
+      "assumption": "ideal uniform phase codebook sensitivity only"
+    },
+    "4": {
+      "delta_min_gain_db_quantiles": [
+        -0.5246697187423706,
+        -0.13216745853424072,
+        0.08119471073150637
+      ],
+      "assumption": "ideal uniform phase codebook sensitivity only"
+    },
+    "6": {
+      "delta_min_gain_db_quantiles": [
+        -0.10633984878659249,
+        -0.00960385799407959,
+        0.07230293750762941
+      ],
+      "assumption": "ideal uniform phase codebook sensitivity only"
+    },
+    "8": {
+      "delta_min_gain_db_quantiles": [
+        -0.02485010623931885,
+        -0.0013031959533691406,
+        0.020499002933502205
+      ],
+      "assumption": "ideal uniform phase codebook sensitivity only"
+    }
+  },
+  "target_seed_summaries": {
+    "29513": {
+      "phase": {
+        "median_regret": 0.03066188097000122,
+        "p95_regret": 0.18753007054328918,
+        "worst_regret": 0.34438520669937134,
+        "fourpoint_mae_db": 0.21883562207221985,
+        "bottleneck_bias_db": 0.3591535687446594,
+        "bottleneck_over_p95_db": 1.0197975635528564,
+        "bottleneck_over_fraction": 0.9527777777777777,
+        "bottleneck_identity_accuracy": 0.5166666666666667,
+        "true_min_gain_dBi_quantiles": [
+          0.15782228931784628,
+          4.949275970458984,
+          13.698783254623415
+        ],
+        "reference_min_gain_dBi_quantiles": [
+          0.9354373663663864,
+          5.1492297649383545,
+          13.71891360282898
+        ],
+        "spectral_bound_gap_median": 0.5397446155548096,
+        "constraint_max_power_error": 5.960464477539063e-08,
+        "constraint_max_magnitude_error": 1.4901161193847656e-08,
+        "strata": {
+          "clustered": {
+            "frames": 120,
+            "regret_p95": 0.06624108552932739,
+            "min_gain_p5_dBi": 1.25898277759552
+          },
+          "distributed_front": {
+            "frames": 120,
+            "regret_p95": 0.0981367826461792,
+            "min_gain_p5_dBi": 0.5362609624862671
+          },
+          "full_sphere_stress": {
+            "frames": 120,
+            "regret_p95": 0.2467816174030304,
+            "min_gain_p5_dBi": -0.8187001943588257
+          }
+        }
+      },
+      "continuity": {
+        "warm4starts80steps_phase_jump_median": 0.23167182505130768,
+        "cold8starts160steps_phase_jump_median": 0.21819043159484863,
+        "warm_min_p5_dBi": 0.1692783683538437,
+        "cold_min_p5_dBi": 0.15782231092453003,
+        "amortized_gpu_seconds_per_frame": 0.00340863944442794,
+        "comparison": "unequal budgets, exploratory warm-start efficiency, not a controlled causal claim or FPGA latency"
+      },
+      "amplitude_phase": {
+        "median_regret": 0.03520819544792175,
+        "p95_regret": 0.1262860894203186,
+        "worst_regret": 0.26304662227630615,
+        "fourpoint_mae_db": 0.20317251980304718,
+        "bottleneck_bias_db": 0.33245548605918884,
+        "bottleneck_over_p95_db": 0.8376310467720032,
+        "bottleneck_over_fraction": 0.9194444444444444,
+        "bottleneck_identity_accuracy": 0.5666666666666667,
+        "true_min_gain_dBi_quantiles": [
+          1.211354809999466,
+          5.537200689315796,
+          13.742368841171265
+        ],
+        "reference_min_gain_dBi_quantiles": [
+          1.4404313564300537,
+          5.641549825668335,
+          13.764145517349245
+        ],
+        "spectral_bound_gap_median": 0.4598987400531769,
+        "constraint_max_power_error": 2.384185791015625e-07,
+        "constraint_max_magnitude_error": null,
+        "strata": {
+          "clustered": {
+            "frames": 120,
+            "regret_p95": 0.0658414289355278,
+            "min_gain_p5_dBi": 2.575260877609253
+          },
+          "distributed_front": {
+            "frames": 120,
+            "regret_p95": 0.0990167111158371,
+            "min_gain_p5_dBi": 1.3263697624206543
+          },
+          "full_sphere_stress": {
+            "frames": 120,
+            "regret_p95": 0.20542168617248535,
+            "min_gain_p5_dBi": -0.08428017050027847
+          }
+        }
+      }
+    },
+    "29511": {
+      "phase": {
+        "median_regret": 0.03860172629356384,
+        "p95_regret": 0.2032860815525055,
+        "worst_regret": 0.3096250891685486,
+        "fourpoint_mae_db": 0.24415439367294312,
+        "bottleneck_bias_db": 0.3091491460800171,
+        "bottleneck_over_p95_db": 1.1860573291778564,
+        "bottleneck_over_fraction": 0.7972222222222223,
+        "bottleneck_identity_accuracy": 0.5388888888888889,
+        "true_min_gain_dBi_quantiles": [
+          0.1869735687971115,
+          4.84984564781189,
+          13.676787662506104
+        ],
+        "reference_min_gain_dBi_quantiles": [
+          0.9352710753679275,
+          5.149190902709961,
+          13.718920183181764
+        ],
+        "spectral_bound_gap_median": 0.5397446155548096,
+        "constraint_max_power_error": 0.0,
+        "constraint_max_magnitude_error": 1.4901161193847656e-08,
+        "strata": {
+          "clustered": {
+            "frames": 120,
+            "regret_p95": 0.07522779703140259,
+            "min_gain_p5_dBi": 1.21207594871521
+          },
+          "distributed_front": {
+            "frames": 120,
+            "regret_p95": 0.1792811006307602,
+            "min_gain_p5_dBi": 0.6423184275627136
+          },
+          "full_sphere_stress": {
+            "frames": 120,
+            "regret_p95": 0.24893693625926971,
+            "min_gain_p5_dBi": -0.8038159608840942
+          }
+        }
+      },
+      "continuity": {
+        "warm4starts80steps_phase_jump_median": 0.22427555918693542,
+        "cold8starts160steps_phase_jump_median": 0.20336899161338806,
+        "warm_min_p5_dBi": 0.291143536567688,
+        "cold_min_p5_dBi": 0.18697360157966614,
+        "amortized_gpu_seconds_per_frame": 0.0032294102777895104,
+        "comparison": "unequal budgets, exploratory warm-start efficiency, not a controlled causal claim or FPGA latency"
+      },
+      "amplitude_phase": {
+        "median_regret": 0.03753826022148132,
+        "p95_regret": 0.1752096712589264,
+        "worst_regret": 0.3882855772972107,
+        "fourpoint_mae_db": 0.2298050820827484,
+        "bottleneck_bias_db": 0.2998802661895752,
+        "bottleneck_over_p95_db": 1.0922298431396484,
+        "bottleneck_over_fraction": 0.7833333333333333,
+        "bottleneck_identity_accuracy": 0.5361111111111111,
+        "true_min_gain_dBi_quantiles": [
+          1.0647235244512558,
+          5.357165336608887,
+          13.695981836318971
+        ],
+        "reference_min_gain_dBi_quantiles": [
+          1.4404273211956025,
+          5.642462730407715,
+          13.764146184921266
+        ],
+        "spectral_bound_gap_median": 0.45952364802360535,
+        "constraint_max_power_error": 2.384185791015625e-07,
+        "constraint_max_magnitude_error": null,
+        "strata": {
+          "clustered": {
+            "frames": 120,
+            "regret_p95": 0.07604844868183136,
+            "min_gain_p5_dBi": 2.450404644012451
+          },
+          "distributed_front": {
+            "frames": 120,
+            "regret_p95": 0.14526356756687164,
+            "min_gain_p5_dBi": 1.2919540405273438
+          },
+          "full_sphere_stress": {
+            "frames": 120,
+            "regret_p95": 0.19854992628097534,
+            "min_gain_p5_dBi": 0.09945569187402725
+          }
+        }
+      }
+    },
+    "29512": {
+      "phase": {
+        "median_regret": 0.04046475887298584,
+        "p95_regret": 0.24515989422798157,
+        "worst_regret": 0.385458767414093,
+        "fourpoint_mae_db": 0.24520371854305267,
+        "bottleneck_bias_db": 0.2936796545982361,
+        "bottleneck_over_p95_db": 1.3547817468643188,
+        "bottleneck_over_fraction": 0.7833333333333333,
+        "bottleneck_identity_accuracy": 0.4666666666666667,
+        "true_min_gain_dBi_quantiles": [
+          -0.06649920530617243,
+          4.894534111022949,
+          13.652452421188356
+        ],
+        "reference_min_gain_dBi_quantiles": [
+          0.9352710753679275,
+          5.149980306625366,
+          13.718778371810915
+        ],
+        "spectral_bound_gap_median": 0.5393180251121521,
+        "constraint_max_power_error": 5.960464477539063e-08,
+        "constraint_max_magnitude_error": 1.4901161193847656e-08,
+        "strata": {
+          "clustered": {
+            "frames": 120,
+            "regret_p95": 0.09639448672533035,
+            "min_gain_p5_dBi": 1.1974027156829834
+          },
+          "distributed_front": {
+            "frames": 120,
+            "regret_p95": 0.14043362438678741,
+            "min_gain_p5_dBi": 0.6746304631233215
+          },
+          "full_sphere_stress": {
+            "frames": 120,
+            "regret_p95": 0.34674257040023804,
+            "min_gain_p5_dBi": -0.8840196132659912
+          }
+        }
+      },
+      "continuity": {
+        "warm4starts80steps_phase_jump_median": 0.22542576491832733,
+        "cold8starts160steps_phase_jump_median": 0.22698409855365753,
+        "warm_min_p5_dBi": -0.0635591372847557,
+        "cold_min_p5_dBi": -0.06649913638830185,
+        "amortized_gpu_seconds_per_frame": 0.0031336402778429653,
+        "comparison": "unequal budgets, exploratory warm-start efficiency, not a controlled causal claim or FPGA latency"
+      },
+      "amplitude_phase": {
+        "median_regret": 0.04735478758811951,
+        "p95_regret": 0.22195029258728027,
+        "worst_regret": 0.4487096667289734,
+        "fourpoint_mae_db": 0.23580986261367798,
+        "bottleneck_bias_db": 0.27877888083457947,
+        "bottleneck_over_p95_db": 1.0814350843429565,
+        "bottleneck_over_fraction": 0.7888888888888889,
+        "bottleneck_identity_accuracy": 0.4666666666666667,
+        "true_min_gain_dBi_quantiles": [
+          0.9365636438131332,
+          5.395195245742798,
+          13.66799921989441
+        ],
+        "reference_min_gain_dBi_quantiles": [
+          1.4427126169204711,
+          5.641650915145874,
+          13.763984107971194
+        ],
+        "spectral_bound_gap_median": 0.4598962962627411,
+        "constraint_max_power_error": 2.384185791015625e-07,
+        "constraint_max_magnitude_error": null,
+        "strata": {
+          "clustered": {
+            "frames": 120,
+            "regret_p95": 0.10054145753383636,
+            "min_gain_p5_dBi": 2.553262233734131
+          },
+          "distributed_front": {
+            "frames": 120,
+            "regret_p95": 0.16368180513381958,
+            "min_gain_p5_dBi": 1.1879321336746216
+          },
+          "full_sphere_stress": {
+            "frames": 120,
+            "regret_p95": 0.2593654990196228,
+            "min_gain_p5_dBi": -0.23950017988681793
+          }
+        }
+      }
+    }
+  },
+  "controlled_continuity": {
+    "budget": "8starts x160steps, identical random starts except final warm start slot",
+    "true_min_gain_change_dB_quantiles": [
+      -0.021293234825134278,
+      0.0,
+      0.05201292037963869
+    ],
+    "cold_min_gain_p5_dBi": 0.15550784766674042,
+    "warm_min_gain_p5_dBi": 0.12872885167598724,
+    "cold_phase_invariant_jump_median": 0.21866987645626068,
+    "warm_phase_invariant_jump_median": 0.20712105929851532
+  },
+  "regret_trajectory_bootstrap95": {
+    "median": [
+      0.025929629802703857,
+      0.03810770362615585
+    ],
+    "p95": [
+      0.12069795932620764,
+      0.22902053594589233
+    ]
+  },
+  "whole_sphere_diagnostic": "Includes development angular blocks. Final acceptance remains held-out blocks from final_report.json."
+}
