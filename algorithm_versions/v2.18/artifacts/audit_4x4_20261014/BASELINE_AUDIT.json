@@ -1,0 +1,36 @@
+{
+  "status": "BASELINE_REPRODUCTION_FAIL",
+  "gates": {
+    "gated_vs_control_mean_ge_0p30_db": false,
+    "gated_vs_control_3_of_3_positive": false,
+    "gated_vs_static_mean_ge_0p10_db": false,
+    "gated_vs_static_at_least_2_of_3_positive": true,
+    "complex_operator_mean_not_degraded": false,
+    "q_mean_not_degraded": false,
+    "parameter_match_within_0p5_percent": true,
+    "all_outputs_finite": true
+  },
+  "paired_improvement_db": {
+    "gated_vs_control_amplitude": [
+      0.4572729794592867,
+      -0.28404642258081125,
+      -1.14018385268648
+    ],
+    "gated_vs_static_amplitude": [
+      0.8527976610544954,
+      0.16050861796214377,
+      -1.7796713778863378
+    ],
+    "gated_vs_control_complex": [
+      -0.06959436892569926,
+      0.022154253718916106,
+      -0.030889803400464544
+    ],
+    "gated_vs_control_q": [
+      0.25033981361172764,
+      -0.29148974785256243,
+      -0.5745005908041989
+    ]
+  },
+  "confirmation_status": "CONFIRMATION_NOT_OPENED"
+}

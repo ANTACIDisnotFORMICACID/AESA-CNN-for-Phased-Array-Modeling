@@ -29,6 +29,7 @@ def run(arguments: list[str], python_path: list[Path] | None = None) -> None:
 def main() -> None:
     RUNTIME.mkdir(exist_ok=True)
     completed = 0
+    portfolio_regression = 0
 
     if (VERSIONS / "v2.5").is_dir():
         print("===== v2.5 =====", flush=True)
@@ -39,6 +40,7 @@ def main() -> None:
     if (VERSIONS / "v2.6" / "tests" / "run_tests.py").is_file():
         print("===== v2.6 =====", flush=True)
         run(["-B", "algorithm_versions/v2.6/tests/run_tests.py"])
+        completed += 16
 
     if (VERSIONS / "v2.7" / "tests" / "run_tests.py").is_file():
         print("===== v2.7 =====", flush=True)
@@ -54,6 +56,9 @@ def main() -> None:
         if version == "v2.11":
             source_roots.append(VERSIONS / "v2.10" / "src")
         run(["-m", "unittest", "discover", "-s", str(tests.relative_to(ROOT)), "-p", "test_*.py", "-v"], source_roots)
+        count = {"v2.8": 23, "v2.9": 42, "v2.10": 47, "v2.11": 7}[version]
+        completed += count
+        portfolio_regression += count
 
     for version in ("v2.12", "v2.13", "v2.17"):
         runner = VERSIONS / version / "tools" / "run_tests.py"
@@ -61,8 +66,14 @@ def main() -> None:
             continue
         print(f"===== {version} =====", flush=True)
         run([str(runner.relative_to(ROOT))])
+        count = {"v2.12": 31, "v2.13": 19, "v2.17": 8}[version]
+        completed += count
+        portfolio_regression += count
 
-    print(f"PASS: all available self-contained checks completed (at least {completed} explicit cases)")
+    print(
+        f"PASS: {portfolio_regression} portfolio regression cases; "
+        f"{completed} self-contained tests in total, plus the V2.5 artifact validation"
+    )
 
 
 if __name__ == "__main__":

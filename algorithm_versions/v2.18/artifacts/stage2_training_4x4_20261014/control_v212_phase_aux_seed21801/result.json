@@ -1,0 +1,12 @@
+{
+  "schema": "v218-training-result-1",
+  "arm": "control_v212_phase_aux",
+  "seed": 21801,
+  "epochs": 240,
+  "best_epoch": 239,
+  "best_validation_amplitude_linear_nmse": 0.0025700944693867367,
+  "best_validation_amplitude_linear_nmse_db": -25.900509129413393,
+  "trained_from_scratch_or_exact_resume": true,
+  "elapsed_seconds_this_invocation": 896.7586786999891,
+  "blind_test_status": "sealed_not_opened"
+}

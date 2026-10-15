@@ -1,0 +1,6 @@
+{
+  "status": "AUDIT_COMPLETE",
+  "phase_aux_experiment_status": "PHASE_AUX_EXPERIMENT_FAIL",
+  "engineering_candidate_status": "ENGINEERING_CANDIDATE_NONE",
+  "confirmation_status": "CONFIRMATION_NOT_OPENED"
+}

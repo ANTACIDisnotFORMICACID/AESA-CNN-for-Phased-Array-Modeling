@@ -1,0 +1,12 @@
+{
+  "schema": "v218-training-result-1",
+  "arm": "dcar_gated_pm_canonical",
+  "seed": 21801,
+  "epochs": 240,
+  "best_epoch": 240,
+  "best_validation_amplitude_linear_nmse": 0.0024546158991409052,
+  "best_validation_amplitude_linear_nmse_db": -26.100164570784653,
+  "trained_from_scratch_or_exact_resume": true,
+  "elapsed_seconds_this_invocation": 994.4880380999966,
+  "blind_test_status": "sealed_not_opened"
+}

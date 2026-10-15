@@ -1,0 +1,281 @@
+{
+  "arm": "dcar_gated_pm_canonical",
+  "seed": 21803,
+  "best_epoch": 240,
+  "architecture": {
+    "v218_arm": "dcar_gated_pm_canonical",
+    "v216_builder_arm": "dcar_gated_pm",
+    "parameter_count": 28755,
+    "metadata": {
+      "family": "v216-controlled-depth-matched-dcar",
+      "mode": "gated",
+      "width": 24,
+      "depth": 2,
+      "branch_widths": [
+        [
+          36,
+          35
+        ],
+        [
+          35,
+          36
+        ]
+      ],
+      "input_maps": "v212-fourier27+row+column+edge+corner",
+      "stem_and_head": "v212-matched-3x3",
+      "residual_block_change_only": "parallel-row-and-column-two-convolution-branches",
+      "analytic_phase_preserved": true,
+      "graph_or_s_matrix_used": false,
+      "zero_start_output_head_and_second_branch_convolutions": true
+    },
+    "operator_auxiliary_enabled": false
+  },
+  "amplitude": {
+    "nmse": 0.0035257183481007814,
+    "nmse_db": -24.527523842520335,
+    "mae_db": 0.994113564491272,
+    "field_strength_quartiles": {
+      "weakest": {
+        "count": 1251840,
+        "nmse": 0.10656596720218658,
+        "nmse_db": -9.72381469006882,
+        "mae_db": 2.3994100093841553
+      },
+      "weak_mid": {
+        "count": 1251840,
+        "nmse": 0.02228795923292637,
+        "nmse_db": -16.51929695290684,
+        "mae_db": 0.8932279944419861
+      },
+      "strong_mid": {
+        "count": 1251839,
+        "nmse": 0.005193316377699375,
+        "nmse_db": -22.84555219306792,
+        "mae_db": 0.4419604241847992
+      },
+      "strongest": {
+        "count": 1251841,
+        "nmse": 0.001180304796434939,
+        "nmse_db": -29.28005828018589,
+        "mae_db": 0.24185633659362793
+      }
+    }
+  },
+  "operator": {
+    "complex_nmse": 1.831146478652954,
+    "complex_nmse_db": 2.6272308615110056,
+    "q_nmse": 0.007364614401012659,
+    "q_nmse_db": -21.328499871643793
+  },
+  "command_family": {
+    "hard_null": {
+      "nmse": 0.0036745695397257805,
+      "nmse_db": -24.347935293611037,
+      "mae_db": 0.8168041110038757,
+      "field_strength_quartiles": {
+        "weakest": {
+          "count": 188265,
+          "nmse": 0.08070269227027893,
+          "nmse_db": -10.93111976819161,
+          "mae_db": 1.8631672859191895
+        },
+        "weak_mid": {
+          "count": 188265,
+          "nmse": 0.017239976674318314,
+          "nmse_db": -17.634633261111723,
+          "mae_db": 0.7807921767234802
+        },
+        "strong_mid": {
+          "count": 188265,
+          "nmse": 0.003945072181522846,
+          "nmse_db": -24.0394504625677,
+          "mae_db": 0.39215269684791565
+        },
+        "strongest": {
+          "count": 188265,
+          "nmse": 0.001082929433323443,
+          "nmse_db": -29.653998422820905,
+          "mae_db": 0.23110432922840118
+        }
+      }
+    },
+    "random_constant_modulus": {
+      "nmse": 0.00357057130895555,
+      "nmse_db": -24.472622890766353,
+      "mae_db": 0.7903710007667542,
+      "field_strength_quartiles": {
+        "weakest": {
+          "count": 437655,
+          "nmse": 0.0737714096903801,
+          "nmse_db": -11.321119175731535,
+          "mae_db": 1.8175811767578125
+        },
+        "weak_mid": {
+          "count": 437655,
+          "nmse": 0.014837531372904778,
+          "nmse_db": -18.286383497515885,
+          "mae_db": 0.7241182327270508
+        },
+        "strong_mid": {
+          "count": 437655,
+          "nmse": 0.0038213215302675962,
+          "nmse_db": -24.177864187507083,
+          "mae_db": 0.3818868398666382
+        },
+        "strongest": {
+          "count": 437655,
+          "nmse": 0.0011474951170384884,
+          "nmse_db": -29.402491538497443,
+          "mae_db": 0.23789818584918976
+        }
+      }
+    },
+    "scan": {
+      "nmse": 0.003470944007858634,
+      "nmse_db": -24.595523921696024,
+      "mae_db": 1.101049542427063,
+      "field_strength_quartiles": {
+        "weakest": {
+          "count": 249390,
+          "nmse": 0.12338202446699142,
+          "nmse_db": -9.087481080778556,
+          "mae_db": 2.4664547443389893
+        },
+        "weak_mid": {
+          "count": 249390,
+          "nmse": 0.029582524672150612,
+          "nmse_db": -15.289647646056956,
+          "mae_db": 1.0467511415481567
+        },
+        "strong_mid": {
+          "count": 249390,
+          "nmse": 0.010331779718399048,
+          "nmse_db": -19.858248618970556,
+          "mae_db": 0.6036126017570496
+        },
+        "strongest": {
+          "count": 249390,
+          "nmse": 0.0015265668043866754,
+          "nmse_db": -28.162841857042164,
+          "mae_db": 0.28737980127334595
+        }
+      }
+    },
+    "sparse": {
+      "nmse": 0.003611296648159623,
+      "nmse_db": -24.423368352045223,
+      "mae_db": 0.7811201214790344,
+      "field_strength_quartiles": {
+        "weakest": {
+          "count": 188265,
+          "nmse": 0.07947950065135956,
+          "nmse_db": -10.997448701107924,
+          "mae_db": 1.8105268478393555
+        },
+        "weak_mid": {
+          "count": 188265,
+          "nmse": 0.014444664120674133,
+          "nmse_db": -18.402925522783338,
+          "mae_db": 0.7065721750259399
+        },
+        "strong_mid": {
+          "count": 188265,
+          "nmse": 0.003553503891453147,
+          "nmse_db": -24.493432046240574,
+          "mae_db": 0.37260112166404724
+        },
+        "strongest": {
+          "count": 188265,
+          "nmse": 0.001148324110545218,
+          "nmse_db": -29.399355165068492,
+          "mae_db": 0.23478026688098907
+        }
+      }
+    },
+    "taper": {
+      "nmse": 0.0032717667054384947,
+      "nmse_db": -24.852176714288664,
+      "mae_db": 1.7163965702056885,
+      "field_strength_quartiles": {
+        "weakest": {
+          "count": 188265,
+          "nmse": 0.36300772428512573,
+          "nmse_db": -4.400841337002076,
+          "mae_db": 4.112984657287598
+        },
+        "weak_mid": {
+          "count": 188265,
+          "nmse": 0.08072546124458313,
+          "nmse_db": -10.92989464856419,
+          "mae_db": 1.8332103490829468
+        },
+        "strong_mid": {
+          "count": 188265,
+          "nmse": 0.012745274230837822,
+          "nmse_db": -18.946508156942535,
+          "mae_db": 0.6817596554756165
+        },
+        "strongest": {
+          "count": 188265,
+          "nmse": 0.0011921123368665576,
+          "nmse_db": -29.23682817597048,
+          "mae_db": 0.237631693482399
+        }
+      }
+    }
+  },
+  "cancellation_null_subset": {
+    "nmse": 0.0036745695397257805,
+    "nmse_db": -24.347935293611037,
+    "mae_db": 0.8168041110038757,
+    "field_strength_quartiles": {
+      "weakest": {
+        "count": 188265,
+        "nmse": 0.08070269227027893,
+        "nmse_db": -10.93111976819161,
+        "mae_db": 1.8631672859191895
+      },
+      "weak_mid": {
+        "count": 188265,
+        "nmse": 0.017239976674318314,
+        "nmse_db": -17.634633261111723,
+        "mae_db": 0.7807921767234802
+      },
+      "strong_mid": {
+        "count": 188265,
+        "nmse": 0.003945072181522846,
+        "nmse_db": -24.0394504625677,
+        "mae_db": 0.39215269684791565
+      },
+      "strongest": {
+        "count": 188265,
+        "nmse": 0.001082929433323443,
+        "nmse_db": -29.653998422820905,
+        "mae_db": 0.23110432922840118
+      }
+    }
+  },
+  "diagnostics": {
+    "complex_branch_energy": {
+      "baseline_iq": 0.39224347472190857,
+      "ssh_iq": 0.5551899671554565,
+      "fourier_residual_iq": 0.2914017140865326
+    },
+    "residual_ssh_projection_ratio": 0.966530978679657,
+    "effective_messages": [
+      {
+        "block": 0,
+        "row_effective_energy": 0.17505495250225067,
+        "column_effective_energy": 0.18518371880054474
+      },
+      {
+        "block": 1,
+        "row_effective_energy": 0.210600808262825,
+        "column_effective_energy": 0.3128937780857086
+      }
+    ]
+  },
+  "cpu_latency_ms": 11.585249994823243,
+  "all_outputs_finite": true,
+  "blind_test_status": "sealed_not_opened"
+}

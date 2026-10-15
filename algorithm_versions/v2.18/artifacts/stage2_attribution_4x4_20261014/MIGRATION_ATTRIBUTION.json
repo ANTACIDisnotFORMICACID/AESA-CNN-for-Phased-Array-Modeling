@@ -1,0 +1,2692 @@
+{
+  "schema": "v218-stage2-attribution-1",
+  "status": "MIGRATION_ATTRIBUTION_PASS",
+  "failure_class": null,
+  "normalization_scale_from_canonical_to_v216": 7.284856841351336,
+  "overlap": {
+    "canonical_train": 3200,
+    "canonical_validation": 800,
+    "unmatched_not_traced": 900,
+    "maximum_direction_error": 6.006850114687196e-08
+  },
+  "equivalence": {
+    "aggregate_nmse": 6.2875416528087236e-15,
+    "aggregate_nmse_db": -142.01519124874375,
+    "per_command_nmse_db": [
+      -143.80916446195266,
+      -143.18564973829777,
+      -144.09193070730387,
+      -142.42364893226627,
+      -143.21768194359163,
+      -143.64738094005787,
+      -144.12271705653876,
+      -142.79296521623283,
+      -141.11028551492018,
+      -140.41269709240592,
+      -141.22760188205714,
+      -140.66792814195406,
+      -140.67567699220376,
+      -142.18018105852067,
+      -140.85134720848916,
+      -141.33916477290379
+    ],
+    "worst_command_nmse_db": -140.41269709240592,
+    "strong_relative_error_p99": 4.548205923224749e-07,
+    "finite": true
+  },
+  "equivalence_gates": {
+    "train_overlap_exactly_3200": true,
+    "validation_overlap_exactly_800": true,
+    "max_direction_error_le_1e-7": true,
+    "aggregate_nmse_db_le_-60": true,
+    "worst_command_nmse_db_le_-50": true,
+    "strong_relative_error_p99_lt_1e-3": true,
+    "finite": true
+  },
+  "attribution_signals": {
+    "command_shift_or_phase_gap": false,
+    "gated_optimization_instability": true
+  },
+  "v218_gated_advantage_db": {
+    "P2_old16": -0.34388315083334575,
+    "P3_frozen512": -0.32935868936266743
+  },
+  "panel_summaries": {
+    "P0": {
+      "v216:control_v212": {
+        "per_seed_nmse_db": [
+          -26.52931957173245,
+          -26.57150679492354,
+          -26.30567745846671
+        ],
+        "mean_nmse_db": -26.468834608374237,
+        "std_nmse_db": 0.14286403369848932,
+        "range_nmse_db": 0.2658293364568287,
+        "worst_seed_nmse_db": -26.30567745846671
+      },
+      "v216:dcar_gated_pm": {
+        "per_seed_nmse_db": [
+          -27.35662285615569,
+          -27.455741348683375,
+          -27.54233771660882
+        ],
+        "mean_nmse_db": -27.451567307149293,
+        "std_nmse_db": 0.09292776396388609,
+        "range_nmse_db": 0.1857148604531318,
+        "worst_seed_nmse_db": -27.35662285615569
+      }
+    },
+    "P1": {
+      "v218:control_v212_canonical": {
+        "per_seed_nmse_db": [
+          -28.23515356858941,
+          -28.751908659157152,
+          -27.995303604020762
+        ],
+        "mean_nmse_db": -28.327455277255776,
+        "std_nmse_db": 0.38665553976573613,
+        "range_nmse_db": 0.7566050551363901,
+        "worst_seed_nmse_db": -27.995303604020762
+      },
+      "v218:dcar_gated_pm_canonical": {
+        "per_seed_nmse_db": [
+          -28.292363464986273,
+          -27.04596916329736,
+          -26.95351809776612
+        ],
+        "mean_nmse_db": -27.430616908683252,
+        "std_nmse_db": 0.7477246454106972,
+        "range_nmse_db": 1.3388453672201521,
+        "worst_seed_nmse_db": -26.95351809776612
+      }
+    },
+    "P2": {
+      "v216:control_v212": {
+        "per_seed_nmse_db": [
+          -26.682270318482246,
+          -27.900824663998765,
+          -27.546201166901078
+        ],
+        "mean_nmse_db": -27.376432049794033,
+        "std_nmse_db": 0.626765377224028,
+        "range_nmse_db": 1.2185543455165195,
+        "worst_seed_nmse_db": -26.682270318482246
+      },
+      "v216:dcar_gated_pm": {
+        "per_seed_nmse_db": [
+          -28.369889007372638,
+          -28.370822093045426,
+          -27.382519488274877
+        ],
+        "mean_nmse_db": -28.04107686289765,
+        "std_nmse_db": 0.5703276070950318,
+        "range_nmse_db": 0.9883026047705492,
+        "worst_seed_nmse_db": -27.382519488274877
+      },
+      "v218:control_v212_canonical": {
+        "per_seed_nmse_db": [
+          -26.461301048655415,
+          -26.4915136139099,
+          -26.02349534101905
+        ],
+        "mean_nmse_db": -26.325436667861453,
+        "std_nmse_db": 0.26192484306825087,
+        "range_nmse_db": 0.4680182728908484,
+        "worst_seed_nmse_db": -26.02349534101905
+      },
+      "v218:dcar_gated_pm_canonical": {
+        "per_seed_nmse_db": [
+          -26.55336282265111,
+          -25.658440860502978,
+          -25.73285686793023
+        ],
+        "mean_nmse_db": -25.981553517028107,
+        "std_nmse_db": 0.4965972684561902,
+        "range_nmse_db": 0.8949219621481319,
+        "worst_seed_nmse_db": -25.658440860502978
+      }
+    },
+    "P3": {
+      "v216:control_v212": {
+        "per_seed_nmse_db": [
+          -27.119688337194674,
+          -28.05638132667701,
+          -27.833971391748946
+        ],
+        "mean_nmse_db": -27.67001368520688,
+        "std_nmse_db": 0.48939762595178177,
+        "range_nmse_db": 0.936692989482335,
+        "worst_seed_nmse_db": -27.119688337194674
+      },
+      "v216:dcar_gated_pm": {
+        "per_seed_nmse_db": [
+          -28.778042532664333,
+          -28.78009958418903,
+          -27.746838559861228
+        ],
+        "mean_nmse_db": -28.434993558904864,
+        "std_nmse_db": 0.5959605984432226,
+        "range_nmse_db": 1.0332610243278033,
+        "worst_seed_nmse_db": -27.746838559861228
+      },
+      "v218:control_v212_canonical": {
+        "per_seed_nmse_db": [
+          -26.25504744455465,
+          -26.340706533832495,
+          -26.20840302571416
+        ],
+        "mean_nmse_db": -26.26805233470043,
+        "std_nmse_db": 0.06710365072693648,
+        "range_nmse_db": 0.13230350811833702,
+        "worst_seed_nmse_db": -26.20840302571416
+      },
+      "v218:dcar_gated_pm_canonical": {
+        "per_seed_nmse_db": [
+          -26.692131438559702,
+          -25.876688306936,
+          -25.247261190517595
+        ],
+        "mean_nmse_db": -25.938693645337764,
+        "std_nmse_db": 0.7244280536478784,
+        "range_nmse_db": 1.4448702480421076,
+        "worst_seed_nmse_db": -25.247261190517595
+      }
+    }
+  },
+  "panels": {
+    "P0": [
+      {
+        "family": "v216",
+        "arm": "control_v212",
+        "seed": 21601,
+        "amplitude": {
+          "grid_micro_nmse": 0.0022236582536804294,
+          "grid_micro_nmse_db": -26.52931957173245,
+          "solid_angle_micro_nmse": 0.0022236582536804294,
+          "solid_angle_micro_nmse_db": -26.52931957173245,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.0010314122311331,
+              "nmse_db": -29.86567722762427,
+              "mae_db": 0.20955597227577194,
+              "bias_db": -0.09966388769594149,
+              "p95_abs_error_db": 0.5835064757250938
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.0015913388002191991,
+              "nmse_db": -27.9823734807095,
+              "mae_db": 0.27521933900686535,
+              "bias_db": -0.02395042207303039,
+              "p95_abs_error_db": 0.7551987900121335
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.00489491267848303,
+              "nmse_db": -23.102550512747825,
+              "mae_db": 0.495055454126865,
+              "bias_db": -0.05047340089811094,
+              "p95_abs_error_db": 1.5284904781103685
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.022530369384952394,
+              "nmse_db": -16.472316879685145,
+              "mae_db": 1.277858289220999,
+              "bias_db": -0.02689719620534599,
+              "p95_abs_error_db": 4.345699965845043
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.13188012821284667,
+              "nmse_db": -8.798206393109233,
+              "mae_db": 2.525313219583359,
+              "bias_db": 0.33411291438889157,
+              "p95_abs_error_db": 8.15281113001066
+            }
+          },
+          "finite_nonnegative": true
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "dcar_gated_pm",
+        "seed": 21601,
+        "amplitude": {
+          "grid_micro_nmse": 0.0018379670205549837,
+          "grid_micro_nmse_db": -27.35662285615569,
+          "solid_angle_micro_nmse": 0.0018379670205549837,
+          "solid_angle_micro_nmse_db": -27.35662285615569,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.0004964572602331102,
+              "nmse_db": -33.041181337625105,
+              "mae_db": 0.15542422954898033,
+              "bias_db": -0.019026487274448865,
+              "p95_abs_error_db": 0.3985937705088146
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.00131891855162143,
+              "nmse_db": -28.79782023008258,
+              "mae_db": 0.2544362002324759,
+              "bias_db": -0.02529933855483376,
+              "p95_abs_error_db": 0.698256285341736
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.004232117521856471,
+              "nmse_db": -23.734422808629677,
+              "mae_db": 0.4760880722534546,
+              "bias_db": -0.04893177250670762,
+              "p95_abs_error_db": 1.4159794728460158
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.02269672674233764,
+              "nmse_db": -16.440367710113794,
+              "mae_db": 1.3082210821896911,
+              "bias_db": 0.04375923779914748,
+              "p95_abs_error_db": 4.54964073971564
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.1389310492977715,
+              "nmse_db": -8.572006841992698,
+              "mae_db": 2.669163301555339,
+              "bias_db": 0.44823423582672556,
+              "p95_abs_error_db": 8.701321641742819
+            }
+          },
+          "finite_nonnegative": true
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "control_v212",
+        "seed": 21602,
+        "amplitude": {
+          "grid_micro_nmse": 0.0022021622851081356,
+          "grid_micro_nmse_db": -26.57150679492354,
+          "solid_angle_micro_nmse": 0.0022021622851081356,
+          "solid_angle_micro_nmse_db": -26.57150679492354,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.0006871930338326281,
+              "nmse_db": -31.62921251655545,
+              "mae_db": 0.1787762533357089,
+              "bias_db": -0.04125699135802328,
+              "p95_abs_error_db": 0.4784910876982733
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.0015932798750246684,
+              "nmse_db": -27.977079294702722,
+              "mae_db": 0.26777163675926674,
+              "bias_db": -0.025991222690073118,
+              "p95_abs_error_db": 0.7766671829925225
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.0050699116297067874,
+              "nmse_db": -22.949996105020055,
+              "mae_db": 0.4958275914433987,
+              "bias_db": -0.043048204108714974,
+              "p95_abs_error_db": 1.5483393466452773
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.02444753189928229,
+              "nmse_db": -16.117649785291796,
+              "mae_db": 1.3430269729497073,
+              "bias_db": -0.01402003292177662,
+              "p95_abs_error_db": 4.746405133357271
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.15378263031176076,
+              "nmse_db": -8.130927151572127,
+              "mae_db": 2.7792264856308617,
+              "bias_db": 0.2910413125188615,
+              "p95_abs_error_db": 9.408335815266701
+            }
+          },
+          "finite_nonnegative": true
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "dcar_gated_pm",
+        "seed": 21602,
+        "amplitude": {
+          "grid_micro_nmse": 0.0017964943890952459,
+          "grid_micro_nmse_db": -27.455741348683375,
+          "solid_angle_micro_nmse": 0.0017964943890952459,
+          "solid_angle_micro_nmse_db": -27.455741348683375,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.0006737780102360378,
+              "nmse_db": -31.714831669805818,
+              "mae_db": 0.17820732482119248,
+              "bias_db": -0.03817120125526933,
+              "p95_abs_error_db": 0.45388020172079424
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.0012698153317839873,
+              "nmse_db": -28.9625943354692,
+              "mae_db": 0.24273259871297762,
+              "bias_db": -0.01984973184209821,
+              "p95_abs_error_db": 0.6528644155149059
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.003968229248028225,
+              "nmse_db": -24.01403246226094,
+              "mae_db": 0.44250569067885276,
+              "bias_db": -0.004233999323789669,
+              "p95_abs_error_db": 1.3513936006321947
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.02231500038121809,
+              "nmse_db": -16.514031014041862,
+              "mae_db": 1.2689007762377293,
+              "bias_db": 0.031302841168704076,
+              "p95_abs_error_db": 4.260364706934598
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.13603446858341334,
+              "nmse_db": -8.663510356083268,
+              "mae_db": 2.5788959384270087,
+              "bias_db": 0.34283037406425954,
+              "p95_abs_error_db": 8.31392802436812
+            }
+          },
+          "finite_nonnegative": true
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "control_v212",
+        "seed": 21603,
+        "amplitude": {
+          "grid_micro_nmse": 0.0023411662468110633,
+          "grid_micro_nmse_db": -26.30567745846671,
+          "solid_angle_micro_nmse": 0.0023411662468110633,
+          "solid_angle_micro_nmse_db": -26.30567745846671,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.0008498166453452957,
+              "nmse_db": -30.706747666439934,
+              "mae_db": 0.20241729352389567,
+              "bias_db": -0.03249676780869887,
+              "p95_abs_error_db": 0.5122734553436339
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.0016689336978026228,
+              "nmse_db": -27.7756091631681,
+              "mae_db": 0.27719158173262876,
+              "bias_db": -0.03686482782208099,
+              "p95_abs_error_db": 0.7808669401134419
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.005215444736678968,
+              "nmse_db": -22.827086520600307,
+              "mae_db": 0.5110606271187623,
+              "bias_db": -0.04393321199284989,
+              "p95_abs_error_db": 1.5053895875340637
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.02802655694142525,
+              "nmse_db": -15.524302519787401,
+              "mae_db": 1.414480470498623,
+              "bias_db": 0.037786279289155233,
+              "p95_abs_error_db": 4.954300811044323
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.2119576611313358,
+              "nmse_db": -6.737508813985034,
+              "mae_db": 2.916279279897252,
+              "bias_db": 0.6314691388893416,
+              "p95_abs_error_db": 9.43063569492172
+            }
+          },
+          "finite_nonnegative": true
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "dcar_gated_pm",
+        "seed": 21603,
+        "amplitude": {
+          "grid_micro_nmse": 0.0017610278666735858,
+          "grid_micro_nmse_db": -27.54233771660882,
+          "solid_angle_micro_nmse": 0.0017610278666735858,
+          "solid_angle_micro_nmse_db": -27.54233771660882,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.0006354948312905079,
+              "nmse_db": -31.968879773698305,
+              "mae_db": 0.16827371416397835,
+              "bias_db": -0.04514241115093746,
+              "p95_abs_error_db": 0.4614977796801067
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.00120500657442978,
+              "nmse_db": -29.190105836029833,
+              "mae_db": 0.23492281663029257,
+              "bias_db": -0.030902389510661234,
+              "p95_abs_error_db": 0.6495242624055022
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.0039981205392501514,
+              "nmse_db": -23.98144116485525,
+              "mae_db": 0.4522105290312123,
+              "bias_db": -0.044084326247284145,
+              "p95_abs_error_db": 1.349936900115271
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.023111188416609904,
+              "nmse_db": -16.36177721785897,
+              "mae_db": 1.2766564148337467,
+              "bias_db": 0.01175669949559873,
+              "p95_abs_error_db": 4.456163598942255
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.1413515771885216,
+              "nmse_db": -8.496993413276243,
+              "mae_db": 2.5377710886638782,
+              "bias_db": 0.34555952609532314,
+              "p95_abs_error_db": 8.467069956359808
+            }
+          },
+          "finite_nonnegative": true
+        }
+      }
+    ],
+    "P1": [
+      {
+        "family": "v218",
+        "arm": "control_v212_canonical",
+        "seed": 21801,
+        "amplitude": {
+          "grid_micro_nmse": 0.0015013593160377358,
+          "grid_micro_nmse_db": -28.23515356858941,
+          "solid_angle_micro_nmse": 0.0015013593160377358,
+          "solid_angle_micro_nmse_db": -28.23515356858941,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.0015681564702622905,
+              "nmse_db": -28.0461060569421,
+              "mae_db": 0.21333866265324988,
+              "bias_db": -0.14645122663626747,
+              "p95_abs_error_db": 0.9198002054707228
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.0007858824701843506,
+              "nmse_db": -31.04642398447803,
+              "mae_db": 0.16989350557748364,
+              "bias_db": -0.02149023026930391,
+              "p95_abs_error_db": 0.5334121949373244
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.002773295779487718,
+              "nmse_db": -25.57003809272093,
+              "mae_db": 0.35331698913699927,
+              "bias_db": -0.029136031693847198,
+              "p95_abs_error_db": 1.1315360972569306
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.024364987759456756,
+              "nmse_db": -16.132338024645755,
+              "mae_db": 1.1814012928667519,
+              "bias_db": -0.08042802856391731,
+              "p95_abs_error_db": 4.587653325873889
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.17991524543201004,
+              "nmse_db": -7.449320343950435,
+              "mae_db": 2.356224519374947,
+              "bias_db": 0.26904265186115794,
+              "p95_abs_error_db": 8.298614808951166
+            }
+          },
+          "finite_nonnegative": true
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "dcar_gated_pm_canonical",
+        "seed": 21801,
+        "amplitude": {
+          "grid_micro_nmse": 0.0014817115065489097,
+          "grid_micro_nmse_db": -28.292363464986273,
+          "solid_angle_micro_nmse": 0.0014817115065489097,
+          "solid_angle_micro_nmse_db": -28.292363464986273,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.0008731093184399008,
+              "nmse_db": -30.589313766576232,
+              "mae_db": 0.16341865857147428,
+              "bias_db": -0.09100227533948242,
+              "p95_abs_error_db": 0.5889950326370187
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.0008161716953025385,
+              "nmse_db": -30.882184705613625,
+              "mae_db": 0.1639841751768103,
+              "bias_db": 0.011706951707264818,
+              "p95_abs_error_db": 0.5135505068253281
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.002905871762046486,
+              "nmse_db": -25.36723555304497,
+              "mae_db": 0.3422141324253235,
+              "bias_db": 0.0397963030458499,
+              "p95_abs_error_db": 1.166269346115706
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.03270483423762631,
+              "nmse_db": -14.853880477204164,
+              "mae_db": 1.1919458171883395,
+              "bias_db": 0.17889985691949878,
+              "p95_abs_error_db": 4.748680929136062
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.2433453829164905,
+              "nmse_db": -6.137768893749149,
+              "mae_db": 2.5019678919883384,
+              "bias_db": 0.6123613977630139,
+              "p95_abs_error_db": 8.68395245760965
+            }
+          },
+          "finite_nonnegative": true
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "control_v212_canonical",
+        "seed": 21802,
+        "amplitude": {
+          "grid_micro_nmse": 0.0013329354982443452,
+          "grid_micro_nmse_db": -28.751908659157152,
+          "solid_angle_micro_nmse": 0.0013329354982443452,
+          "solid_angle_micro_nmse_db": -28.751908659157152,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.00036774613906412866,
+              "nmse_db": -34.34451878197838,
+              "mae_db": 0.12581975063144238,
+              "bias_db": 0.041362966704044296,
+              "p95_abs_error_db": 0.33537224453784065
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.0007526016770628974,
+              "nmse_db": -31.234348182532653,
+              "mae_db": 0.1679404212134573,
+              "bias_db": 0.01887694283167025,
+              "p95_abs_error_db": 0.4790589731170995
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.0030546937301735577,
+              "nmse_db": -25.15032326489632,
+              "mae_db": 0.36271191861489205,
+              "bias_db": -0.02184169584927448,
+              "p95_abs_error_db": 1.204233559281529
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.029558211706509446,
+              "nmse_db": -15.293218446171418,
+              "mae_db": 1.2312754757293642,
+              "bias_db": 0.08604756252828089,
+              "p95_abs_error_db": 4.54933787154626
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.2196499616181114,
+              "nmse_db": -6.582688682877747,
+              "mae_db": 2.3967816854329516,
+              "bias_db": 0.5018511534881978,
+              "p95_abs_error_db": 8.20181405866803
+            }
+          },
+          "finite_nonnegative": true
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "dcar_gated_pm_canonical",
+        "seed": 21802,
+        "amplitude": {
+          "grid_micro_nmse": 0.0019742542594254156,
+          "grid_micro_nmse_db": -27.04596916329736,
+          "solid_angle_micro_nmse": 0.0019742542594254156,
+          "solid_angle_micro_nmse_db": -27.04596916329736,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.0010637812402002765,
+              "nmse_db": -29.731476727382624,
+              "mae_db": 0.17664081433412082,
+              "bias_db": -0.07814459093511893,
+              "p95_abs_error_db": 0.6972766178637944
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.0008507858818923225,
+              "nmse_db": -30.70179725477268,
+              "mae_db": 0.16292122386387164,
+              "bias_db": 0.004583478072177195,
+              "p95_abs_error_db": 0.543197021247292
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.004814122315541893,
+              "nmse_db": -23.17482879517979,
+              "mae_db": 0.36498823472883846,
+              "bias_db": 0.04000355835722051,
+              "p95_abs_error_db": 1.1967086832100706
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.0449046626038199,
+              "nmse_db": -13.477085623824612,
+              "mae_db": 1.1786673692979448,
+              "bias_db": 0.19677363438923892,
+              "p95_abs_error_db": 4.690564470393038
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.29519773472698135,
+              "nmse_db": -5.2988697950260955,
+              "mae_db": 2.3246431300120904,
+              "bias_db": 0.6586758646708137,
+              "p95_abs_error_db": 8.681162362666402
+            }
+          },
+          "finite_nonnegative": true
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "control_v212_canonical",
+        "seed": 21803,
+        "amplitude": {
+          "grid_micro_nmse": 0.001586607999419856,
+          "grid_micro_nmse_db": -27.995303604020762,
+          "solid_angle_micro_nmse": 0.001586607999419856,
+          "solid_angle_micro_nmse_db": -27.995303604020762,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.0006734832106360133,
+              "nmse_db": -31.716732263983367,
+              "mae_db": 0.1643557861983061,
+              "bias_db": -0.024155855831982046,
+              "p95_abs_error_db": 0.48622864998776766
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.0007998665682243778,
+              "nmse_db": -30.969824549043352,
+              "mae_db": 0.17245879592554728,
+              "bias_db": -0.003698860235975792,
+              "p95_abs_error_db": 0.5248103286451538
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.003689504408373021,
+              "nmse_db": -24.33031966405645,
+              "mae_db": 0.4096577217653498,
+              "bias_db": -0.06364449156002042,
+              "p95_abs_error_db": 1.227184689434298
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.03548381415602438,
+              "nmse_db": -14.499697040070394,
+              "mae_db": 1.2864609529672453,
+              "bias_db": -0.06065983451281033,
+              "p95_abs_error_db": 5.224139275733648
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.27654183065936616,
+              "nmse_db": -5.582391665275291,
+              "mae_db": 2.4450253465439573,
+              "bias_db": 0.5396117337896594,
+              "p95_abs_error_db": 9.010734012662201
+            }
+          },
+          "finite_nonnegative": true
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "dcar_gated_pm_canonical",
+        "seed": 21803,
+        "amplitude": {
+          "grid_micro_nmse": 0.002016732003775109,
+          "grid_micro_nmse_db": -26.95351809776612,
+          "solid_angle_micro_nmse": 0.002016732003775109,
+          "solid_angle_micro_nmse_db": -26.95351809776612,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 2888,
+              "nmse": 0.0011166078142354932,
+              "nmse_db": -29.520993371989334,
+              "mae_db": 0.18176630196863036,
+              "bias_db": -0.10311190149332905,
+              "p95_abs_error_db": 0.6373181513217476
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 24518,
+              "nmse": 0.0013510354102874945,
+              "nmse_db": -28.69333268083131,
+              "mae_db": 0.19105920977905408,
+              "bias_db": 0.029915541720961374,
+              "p95_abs_error_db": 0.5883786721647111
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 31040,
+              "nmse": 0.0038062275416820314,
+              "nmse_db": -24.195052525326957,
+              "mae_db": 0.38029215220551366,
+              "bias_db": 0.001994823332271812,
+              "p95_abs_error_db": 1.1948290206260803
+            },
+            "weak_below_-20_db": {
+              "count": 19954,
+              "nmse": 0.03319110938406639,
+              "nmse_db": -14.789782314321194,
+              "mae_db": 1.1802317998004812,
+              "bias_db": 0.11944571545516756,
+              "p95_abs_error_db": 4.75082628341274
+            },
+            "deep_null_below_-30_db": {
+              "count": 3742,
+              "nmse": 0.24524505204267494,
+              "nmse_db": -6.1039974599588405,
+              "mae_db": 2.3309398582785197,
+              "bias_db": 0.6713390653970336,
+              "p95_abs_error_db": 8.135150087463321
+            }
+          },
+          "finite_nonnegative": true
+        }
+      }
+    ],
+    "P2": [
+      {
+        "family": "v216",
+        "arm": "control_v212",
+        "seed": 21601,
+        "amplitude": {
+          "grid_micro_nmse": 0.0020160142853781187,
+          "grid_micro_nmse_db": -26.955063948262605,
+          "solid_angle_micro_nmse": 0.002146707967377548,
+          "solid_angle_micro_nmse_db": -26.682270318482246,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.002676228499072177,
+              "nmse_db": -25.72476808822893,
+              "mae_db": 0.31090855729276873,
+              "bias_db": -0.22246574967182792,
+              "p95_abs_error_db": 1.061061733446615
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.0013327419001807792,
+              "nmse_db": -28.75253948245866,
+              "mae_db": 0.21899307065819937,
+              "bias_db": -0.05062426120488725,
+              "p95_abs_error_db": 0.6473872351469167
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.0029203692598337313,
+              "nmse_db": -25.3456223164436,
+              "mae_db": 0.3595250468435109,
+              "bias_db": -0.033442672087778465,
+              "p95_abs_error_db": 1.091703818557929
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.014521191060649592,
+              "nmse_db": -18.379977603677926,
+              "mae_db": 0.9682034849029405,
+              "bias_db": 0.04421995201361974,
+              "p95_abs_error_db": 3.2856101390341137
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.10583248257460301,
+              "nmse_db": -9.753810162536245,
+              "mae_db": 2.0434275490313194,
+              "bias_db": 0.39026845435688384,
+              "p95_abs_error_db": 6.584067380427288
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.662102630331362,
+          "phase_aligned_complex_nmse_db": -24.682177931035095,
+          "q_nmse_db": -20.354463355737487
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "dcar_gated_pm",
+        "seed": 21601,
+        "amplitude": {
+          "grid_micro_nmse": 0.0014283526218674483,
+          "grid_micro_nmse_db": -28.451645636898256,
+          "solid_angle_micro_nmse": 0.001455496278220533,
+          "solid_angle_micro_nmse_db": -28.369889007372638,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.0008977335433881294,
+              "nmse_db": -30.468525473060197,
+              "mae_db": 0.18124099201830202,
+              "bias_db": -0.05760185442845506,
+              "p95_abs_error_db": 0.5980571236543124
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.0008767217324624129,
+              "nmse_db": -30.57138227879878,
+              "mae_db": 0.18803069765225341,
+              "bias_db": -0.012946162699043168,
+              "p95_abs_error_db": 0.5606785817432931
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.002804548496943099,
+              "nmse_db": -25.52137045662426,
+              "mae_db": 0.3626303421479763,
+              "bias_db": -0.016996379134051953,
+              "p95_abs_error_db": 1.1261977486662103
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.014569940194567362,
+              "nmse_db": -18.365422308808462,
+              "mae_db": 1.0064653297244892,
+              "bias_db": 0.005769677835870855,
+              "p95_abs_error_db": 3.4237064605119443
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.12360032376991545,
+              "nmse_db": -9.079803916152974,
+              "mae_db": 2.213918322580125,
+              "bias_db": 0.3661062712192013,
+              "p95_abs_error_db": 7.122904050062272
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.7041256231142135,
+          "phase_aligned_complex_nmse_db": -25.943045187285286,
+          "q_nmse_db": -22.368610306909492
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "control_v212",
+        "seed": 21602,
+        "amplitude": {
+          "grid_micro_nmse": 0.0015344010936421482,
+          "grid_micro_nmse_db": -28.14061100630541,
+          "solid_angle_micro_nmse": 0.0016215021677207261,
+          "solid_angle_micro_nmse_db": -27.900824663998765,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.001189077476570652,
+              "nmse_db": -29.247898471887943,
+              "mae_db": 0.20484371902422743,
+              "bias_db": -0.09424781903988891,
+              "p95_abs_error_db": 0.7093343626938662
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.0010216706921336851,
+              "nmse_db": -29.906890647056834,
+              "mae_db": 0.2008608427314667,
+              "bias_db": -0.03683674192958971,
+              "p95_abs_error_db": 0.5944113701593117
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.0026783928392578116,
+              "nmse_db": -25.721257247811348,
+              "mae_db": 0.3474052309153163,
+              "bias_db": -0.014233263522335587,
+              "p95_abs_error_db": 1.0937996667162746
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.014114121507279476,
+              "nmse_db": -18.503461480812927,
+              "mae_db": 0.9693690163369032,
+              "bias_db": -0.014080815700309425,
+              "p95_abs_error_db": 3.388070150207792
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.09941224214918692,
+              "nmse_db": -10.025601309903935,
+              "mae_db": 2.132775131854499,
+              "bias_db": 0.2533041838241163,
+              "p95_abs_error_db": 7.316206749303427
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6289600807166025,
+          "phase_aligned_complex_nmse_db": -25.165088374087215,
+          "q_nmse_db": -21.442891727409197
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "dcar_gated_pm",
+        "seed": 21602,
+        "amplitude": {
+          "grid_micro_nmse": 0.0013644953424485845,
+          "grid_micro_nmse_db": -28.650279424069325,
+          "solid_angle_micro_nmse": 0.0014551835971029425,
+          "solid_angle_micro_nmse_db": -28.370822093045426,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.0012881209041361696,
+              "nmse_db": -28.900433718093762,
+              "mae_db": 0.22880264658645216,
+              "bias_db": -0.11825837377635104,
+              "p95_abs_error_db": 0.6806251832077308
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.0008846320834262069,
+              "nmse_db": -30.53237313889895,
+              "mae_db": 0.1883012669943203,
+              "bias_db": -0.023865934170611672,
+              "p95_abs_error_db": 0.5647253988557137
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.0023068434891239027,
+              "nmse_db": -26.369818697682923,
+              "mae_db": 0.3233435361529292,
+              "bias_db": -0.008520031834184866,
+              "p95_abs_error_db": 0.9986066072625452
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.012055311632194737,
+              "nmse_db": -19.188215585429973,
+              "mae_db": 0.9266605397117098,
+              "bias_db": 0.011444825403526978,
+              "p95_abs_error_db": 3.3052540492491307
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.09725215851523113,
+              "nmse_db": -10.121007507133012,
+              "mae_db": 2.1109718541363445,
+              "bias_db": 0.26131397633462816,
+              "p95_abs_error_db": 6.961990369510316
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.718090817328033,
+          "phase_aligned_complex_nmse_db": -26.080429312821277,
+          "q_nmse_db": -22.459345868249105
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "control_v212",
+        "seed": 21603,
+        "amplitude": {
+          "grid_micro_nmse": 0.0017238819669431911,
+          "grid_micro_nmse_db": -27.634924733489633,
+          "solid_angle_micro_nmse": 0.001759461966444082,
+          "solid_angle_micro_nmse_db": -27.546201166901078,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.0016479248927224383,
+              "nmse_db": -27.830625859759863,
+              "mae_db": 0.2365915106342447,
+              "bias_db": -0.14618479333896475,
+              "p95_abs_error_db": 0.7882297752332152
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.001112802487369939,
+              "nmse_db": -29.535819122667007,
+              "mae_db": 0.20716850365855252,
+              "bias_db": -0.03443844019889683,
+              "p95_abs_error_db": 0.6310952767114015
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.00284804416456198,
+              "nmse_db": -25.454532803874116,
+              "mae_db": 0.3628789231898642,
+              "bias_db": -0.0052619379146174065,
+              "p95_abs_error_db": 1.133017125835459
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.016371329366812296,
+              "nmse_db": -17.859160540498642,
+              "mae_db": 1.08035707096889,
+              "bias_db": 0.09457296649731528,
+              "p95_abs_error_db": 3.869961512360625
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.15960840439424387,
+              "nmse_db": -7.969442440257354,
+              "mae_db": 2.475541996860646,
+              "bias_db": 0.6215295500691913,
+              "p95_abs_error_db": 8.504549008737282
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6349879519353907,
+          "phase_aligned_complex_nmse_db": -25.20549446895138,
+          "q_nmse_db": -21.316405750469237
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "dcar_gated_pm",
+        "seed": 21603,
+        "amplitude": {
+          "grid_micro_nmse": 0.0017336301049574252,
+          "grid_micro_nmse_db": -27.610435599811744,
+          "solid_angle_micro_nmse": 0.0018270399813255843,
+          "solid_angle_micro_nmse_db": -27.382519488274877,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.002165319168500404,
+              "nmse_db": -26.644780794943483,
+              "mae_db": 0.26713807440724185,
+              "bias_db": -0.18369164982739247,
+              "p95_abs_error_db": 0.9193670250097883
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.0010871046141022129,
+              "nmse_db": -29.63728660935616,
+              "mae_db": 0.19489261573211708,
+              "bias_db": -0.040944793008764545,
+              "p95_abs_error_db": 0.6016091626754164
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.0026667186497215576,
+              "nmse_db": -25.74022801827525,
+              "mae_db": 0.3505925108428737,
+              "bias_db": -0.041366284509484284,
+              "p95_abs_error_db": 1.0383387118722642
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.014812356597536954,
+              "nmse_db": -18.29375841148765,
+              "mae_db": 1.024691291187381,
+              "bias_db": 0.0018287644513026047,
+              "p95_abs_error_db": 3.5859212468994537
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.10885428410592553,
+              "nmse_db": -9.631544740464019,
+              "mae_db": 2.23166249941501,
+              "bias_db": 0.31351598491527993,
+              "p95_abs_error_db": 7.16215638159607
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6720626233384888,
+          "phase_aligned_complex_nmse_db": -25.035960588254696,
+          "q_nmse_db": -20.78836504949789
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "control_v212_canonical",
+        "seed": 21801,
+        "amplitude": {
+          "grid_micro_nmse": 0.0025813769866652016,
+          "grid_micro_nmse_db": -25.88148566059494,
+          "solid_angle_micro_nmse": 0.0022587589954257943,
+          "solid_angle_micro_nmse_db": -26.461301048655415,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.0005533580651061595,
+              "nmse_db": -32.56993755898095,
+              "mae_db": 0.16623880982214886,
+              "bias_db": -0.0635013748409066,
+              "p95_abs_error_db": 0.41578594943112046
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.0013566100629272587,
+              "nmse_db": -28.67544965792616,
+              "mae_db": 0.2449296144681574,
+              "bias_db": -0.0084345699233226,
+              "p95_abs_error_db": 0.7406103186210053
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.005218915759284373,
+              "nmse_db": -22.824197132179663,
+              "mae_db": 0.5344013290984085,
+              "bias_db": -0.10205942328002307,
+              "p95_abs_error_db": 1.6177050104174966
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.050438770484856635,
+              "nmse_db": -12.972355085016181,
+              "mae_db": 1.8375618730704417,
+              "bias_db": -0.08700938634112372,
+              "p95_abs_error_db": 6.819718005302999
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.41601159508402596,
+              "nmse_db": -3.8089456453952715,
+              "mae_db": 3.481922755472391,
+              "bias_db": 1.0201641604377631,
+              "p95_abs_error_db": 11.327535646379514
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6414632233564768,
+          "phase_aligned_complex_nmse_db": -23.47984795782896,
+          "q_nmse_db": -22.238041040852924
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "dcar_gated_pm_canonical",
+        "seed": 21801,
+        "amplitude": {
+          "grid_micro_nmse": 0.0025117205417800703,
+          "grid_micro_nmse_db": -26.00028682575902,
+          "solid_angle_micro_nmse": 0.002211381732642325,
+          "solid_angle_micro_nmse_db": -26.55336282265111,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.000517647331660257,
+              "nmse_db": -32.859660203241596,
+              "mae_db": 0.1617245354769683,
+              "bias_db": -0.07700169416550708,
+              "p95_abs_error_db": 0.40120153263481617
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.0012360242406570133,
+              "nmse_db": -29.079730118682825,
+              "mae_db": 0.2317613584886856,
+              "bias_db": -0.005674926700122619,
+              "p95_abs_error_db": 0.6572546362330292
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.005106155572002818,
+              "nmse_db": -22.919059574453804,
+              "mae_db": 0.5007994620778571,
+              "bias_db": 0.03745535905881661,
+              "p95_abs_error_db": 1.6145010477207644
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.053427925592525544,
+              "nmse_db": -12.722316875279029,
+              "mae_db": 1.774921089253758,
+              "bias_db": 0.3535788919374924,
+              "p95_abs_error_db": 6.289941411063159
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.4338004830929048,
+              "nmse_db": -3.627099686785199,
+              "mae_db": 3.6683867671713317,
+              "bias_db": 1.4317124314573744,
+              "p95_abs_error_db": 10.824836772779095
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.711057953924714,
+          "phase_aligned_complex_nmse_db": -23.639540932828176,
+          "q_nmse_db": -22.488383030400463
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "control_v212_canonical",
+        "seed": 21802,
+        "amplitude": {
+          "grid_micro_nmse": 0.0027573899598855103,
+          "grid_micro_nmse_db": -25.59501810081999,
+          "solid_angle_micro_nmse": 0.0022431000167481502,
+          "solid_angle_micro_nmse_db": -26.4915136139099,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.0004301426400223492,
+              "nmse_db": -33.6638750371765,
+              "mae_db": 0.1481549075759761,
+              "bias_db": 0.00524445850074512,
+              "p95_abs_error_db": 0.36722780407822775
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.0014206038486525492,
+              "nmse_db": -28.475270130862498,
+              "mae_db": 0.2453385611309234,
+              "bias_db": -0.01874817690342096,
+              "p95_abs_error_db": 0.6723496901722974
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.0058997898670384245,
+              "nmse_db": -22.29163456359696,
+              "mae_db": 0.5439704686787701,
+              "bias_db": -0.07401450738393968,
+              "p95_abs_error_db": 1.662540924755075
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.05193467599953385,
+              "nmse_db": -12.845425734309167,
+              "mae_db": 1.8713902786228465,
+              "bias_db": 0.09776724584781993,
+              "p95_abs_error_db": 6.683335405021559
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.42241277649746234,
+              "nmse_db": -3.742629543984159,
+              "mae_db": 3.774492100311213,
+              "bias_db": 1.1018117975244708,
+              "p95_abs_error_db": 11.318068340966706
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6825579277554685,
+          "phase_aligned_complex_nmse_db": -23.357778393292307,
+          "q_nmse_db": -22.060391354065224
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "dcar_gated_pm_canonical",
+        "seed": 21802,
+        "amplitude": {
+          "grid_micro_nmse": 0.0031030980323776343,
+          "grid_micro_nmse_db": -25.082045040651614,
+          "solid_angle_micro_nmse": 0.002717414659563908,
+          "solid_angle_micro_nmse_db": -25.658440860502978,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.0006385387688968839,
+              "nmse_db": -31.94812729400029,
+              "mae_db": 0.1842099221539642,
+              "bias_db": -0.0255975840918702,
+              "p95_abs_error_db": 0.43759623509646683
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.0013696049489352268,
+              "nmse_db": -28.634046833829142,
+              "mae_db": 0.24868151824418785,
+              "bias_db": 0.015544811110200006,
+              "p95_abs_error_db": 0.7205535643265493
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.0069711609729061425,
+              "nmse_db": -21.566948887399356,
+              "mae_db": 0.5348228967776888,
+              "bias_db": -0.03779675799486738,
+              "p95_abs_error_db": 1.77062839203934
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.06304276060888357,
+              "nmse_db": -12.003647775782333,
+              "mae_db": 1.8265583555443612,
+              "bias_db": 0.33412462583306224,
+              "p95_abs_error_db": 6.844412034882562
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.5262645910845952,
+              "nmse_db": -2.7879584984572476,
+              "mae_db": 3.87002856749339,
+              "bias_db": 1.400236698004949,
+              "p95_abs_error_db": 11.242528321473387
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6604041114975003,
+          "phase_aligned_complex_nmse_db": -23.220168329380368,
+          "q_nmse_db": -21.768900143415824
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "control_v212_canonical",
+        "seed": 21803,
+        "amplitude": {
+          "grid_micro_nmse": 0.002837128661550548,
+          "grid_micro_nmse_db": -25.47120968844815,
+          "solid_angle_micro_nmse": 0.0024983338132947884,
+          "solid_angle_micro_nmse_db": -26.02349534101905,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.0006258102682438226,
+              "nmse_db": -32.03557315262939,
+              "mae_db": 0.1794077153094765,
+              "bias_db": -0.010022923562230555,
+              "p95_abs_error_db": 0.461502181884585
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.001516885318324207,
+              "nmse_db": -28.190472521082345,
+              "mae_db": 0.25812039073303816,
+              "bias_db": 0.0012806707514375786,
+              "p95_abs_error_db": 0.7351005739593903
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.005446072341007709,
+              "nmse_db": -22.63916594158044,
+              "mae_db": 0.5447191186779796,
+              "bias_db": -0.08873197243515288,
+              "p95_abs_error_db": 1.6933611538461812
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.058836354171225604,
+              "nmse_db": -12.30354246419944,
+              "mae_db": 1.9433938673819684,
+              "bias_db": 0.15656009659984663,
+              "p95_abs_error_db": 7.109802173427294
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.5689118304956645,
+              "nmse_db": -2.4495503500430877,
+              "mae_db": 3.8643081511046513,
+              "bias_db": 1.6767005350074042,
+              "p95_abs_error_db": 12.198753242201878
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.596341179422586,
+          "phase_aligned_complex_nmse_db": -23.336850883320018,
+          "q_nmse_db": -21.90299836446301
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "dcar_gated_pm_canonical",
+        "seed": 21803,
+        "amplitude": {
+          "grid_micro_nmse": 0.0030781469465088742,
+          "grid_micro_nmse_db": -25.11710651387379,
+          "solid_angle_micro_nmse": 0.002671248634741453,
+          "solid_angle_micro_nmse_db": -25.73285686793023,
+          "command_family_macro_nmse": null,
+          "command_family_macro_nmse_db": null,
+          "command_family": {},
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 3651,
+              "nmse": 0.0006112222668496033,
+              "nmse_db": -32.13800832780266,
+              "mae_db": 0.163433116984115,
+              "bias_db": -0.06464992902706353,
+              "p95_abs_error_db": 0.4856032492240927
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 43626,
+              "nmse": 0.0015361588259163947,
+              "nmse_db": -28.13563879582425,
+              "mae_db": 0.25739517879197943,
+              "bias_db": 0.016562724823473193,
+              "p95_abs_error_db": 0.750203539443766
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 68549,
+              "nmse": 0.006488490411886747,
+              "nmse_db": -21.878563327908516,
+              "mae_db": 0.5554518017893506,
+              "bias_db": 0.0006571602572170623,
+              "p95_abs_error_db": 1.7902711810111107
+            },
+            "weak_below_-20_db": {
+              "count": 40654,
+              "nmse": 0.06061205140450702,
+              "nmse_db": -12.174410171188306,
+              "mae_db": 1.7992662727650093,
+              "bias_db": 0.24377270223633113,
+              "p95_abs_error_db": 6.363723008588527
+            },
+            "deep_null_below_-30_db": {
+              "count": 7322,
+              "nmse": 0.46085539927668684,
+              "nmse_db": -3.3643532004923187,
+              "mae_db": 3.4424271802405406,
+              "bias_db": 1.1461705023522548,
+              "p95_abs_error_db": 11.149767391929958
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6272311644954547,
+          "phase_aligned_complex_nmse_db": -22.42911806648646,
+          "q_nmse_db": -21.328498401901737
+        }
+      }
+    ],
+    "P3": [
+      {
+        "family": "v216",
+        "arm": "control_v212",
+        "seed": 21601,
+        "amplitude": {
+          "grid_micro_nmse": 0.0018238074490825463,
+          "grid_micro_nmse_db": -27.39021014809756,
+          "solid_angle_micro_nmse": 0.0019410251664089952,
+          "solid_angle_micro_nmse_db": -27.119688337194674,
+          "command_family_macro_nmse": 0.0019252817126362016,
+          "command_family_macro_nmse_db": -27.155057143155194,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.001995901293787334,
+              "solid_angle_nmse_db": -26.998609403149146
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.0020102083755664233,
+              "solid_angle_nmse_db": -26.96758921849097
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.0019293595487114065,
+              "solid_angle_nmse_db": -27.145868312101076
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.002162757197356769,
+              "solid_angle_nmse_db": -26.649922340361716
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0015281821477590761,
+              "solid_angle_nmse_db": -28.158248780560974
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.0015954432183207356,
+              "nmse_db": -27.97118647696604,
+              "mae_db": 0.2064939584821924,
+              "bias_db": -0.11932808432684985,
+              "p95_abs_error_db": 0.8231863308353029
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.0012033387903315647,
+              "nmse_db": -29.19612083335739,
+              "mae_db": 0.2079294204253742,
+              "bias_db": -0.05128655689147263,
+              "p95_abs_error_db": 0.6142263924147837
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.0025849208889136164,
+              "nmse_db": -25.87552743879138,
+              "mae_db": 0.33747998988607203,
+              "bias_db": -0.03434021192225781,
+              "p95_abs_error_db": 1.01593574076675
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.01348044675377038,
+              "nmse_db": -18.702957146640394,
+              "mae_db": 1.1859728662544318,
+              "bias_db": 0.023102879123550753,
+              "p95_abs_error_db": 4.450016781176891
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.08349860145708014,
+              "nmse_db": -10.78320798582977,
+              "mae_db": 2.3851353407263307,
+              "bias_db": 0.19195664536065493,
+              "p95_abs_error_db": 8.24264972056453
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.662102630331362,
+          "phase_aligned_complex_nmse_db": -24.682177931035095,
+          "q_nmse_db": -20.354463355737487
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "dcar_gated_pm",
+        "seed": 21601,
+        "amplitude": {
+          "grid_micro_nmse": 0.0013153284447492935,
+          "grid_micro_nmse_db": -28.809657879107007,
+          "solid_angle_micro_nmse": 0.0013249385816021088,
+          "solid_angle_micro_nmse_db": -28.778042532664333,
+          "command_family_macro_nmse": 0.0013161891302006592,
+          "command_family_macro_nmse_db": -28.806817001591547,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0013506516505442363,
+              "solid_angle_nmse_db": -28.694566463547382
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.0013274213376174584,
+              "solid_angle_nmse_db": -28.76991205576725
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.0014694719654168385,
+              "solid_angle_nmse_db": -28.32838694981575
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0013163700348643485,
+              "solid_angle_nmse_db": -28.806220123098885
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0011170306625604138,
+              "solid_angle_nmse_db": -29.519349053105177
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.0005183727441787637,
+              "nmse_db": -32.85357841558665,
+              "mae_db": 0.13498903427043552,
+              "bias_db": 0.0031353062219110772,
+              "p95_abs_error_db": 0.4402417812836572
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.0007754987078397829,
+              "nmse_db": -31.104189214848308,
+              "mae_db": 0.17945037633718444,
+              "bias_db": -0.007454676643536974,
+              "p95_abs_error_db": 0.5286525675445886
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.0022959467861188186,
+              "nmse_db": -26.39038181937294,
+              "mae_db": 0.3289891789378294,
+              "bias_db": -0.012720174785071144,
+              "p95_abs_error_db": 0.9853241408120401
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.013858416466177428,
+              "nmse_db": -18.582863916066625,
+              "mae_db": 1.2409123345322748,
+              "bias_db": -0.020020972984950217,
+              "p95_abs_error_db": 4.645763736885633
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.08343135783498702,
+              "nmse_db": -10.786706882699056,
+              "mae_db": 2.4892282294048442,
+              "bias_db": 0.07243097344105885,
+              "p95_abs_error_db": 8.484846608466315
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.7041256231142135,
+          "phase_aligned_complex_nmse_db": -25.943045187285286,
+          "q_nmse_db": -22.368610306909492
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "control_v212",
+        "seed": 21602,
+        "amplitude": {
+          "grid_micro_nmse": 0.0014885789497033294,
+          "grid_micro_nmse_db": -28.272281267470266,
+          "solid_angle_micro_nmse": 0.001564450647435412,
+          "solid_angle_micro_nmse_db": -28.05638132667701,
+          "command_family_macro_nmse": 0.0015536088594614542,
+          "command_family_macro_nmse_db": -28.086583108627877,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.001733518746029841,
+              "solid_angle_nmse_db": -27.610714575822612
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.0015957209008650303,
+              "solid_angle_nmse_db": -27.97043066502715
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.0016455023566745283,
+              "solid_angle_nmse_db": -27.83701491376286
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0016816528090891104,
+              "solid_angle_nmse_db": -27.742636629143817
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.00111164948464876,
+              "solid_angle_nmse_db": -29.54032129012731
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.000787207555809375,
+              "nmse_db": -31.039107460927596,
+              "mae_db": 0.16243162004183098,
+              "bias_db": -0.07008066732362117,
+              "p95_abs_error_db": 0.5281924807137883
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.0009777003654525378,
+              "nmse_db": -30.097942224811533,
+              "mae_db": 0.19848421356144705,
+              "bias_db": -0.028149003364677825,
+              "p95_abs_error_db": 0.5881044324077768
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.0024461712374977363,
+              "nmse_db": -26.115131446434148,
+              "mae_db": 0.3320937594484114,
+              "bias_db": -0.025250576953570126,
+              "p95_abs_error_db": 1.01286702576783
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.012420511956230616,
+              "nmse_db": -19.058605027758958,
+              "mae_db": 1.1540066299451535,
+              "bias_db": -0.017928189081201997,
+              "p95_abs_error_db": 4.332612209583002
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.07151723876936142,
+              "nmse_db": -11.455892616950694,
+              "mae_db": 2.310752764348474,
+              "bias_db": 0.08677379246756271,
+              "p95_abs_error_db": 8.108979832768838
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6289600807166025,
+          "phase_aligned_complex_nmse_db": -25.165088374087215,
+          "q_nmse_db": -21.442891727409197
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "dcar_gated_pm",
+        "seed": 21602,
+        "amplitude": {
+          "grid_micro_nmse": 0.0012701957342965548,
+          "grid_micro_nmse_db": -28.961293500874014,
+          "solid_angle_micro_nmse": 0.0013243111682498298,
+          "solid_angle_micro_nmse_db": -28.78009958418903,
+          "command_family_macro_nmse": 0.0013160176011574255,
+          "command_family_macro_nmse_db": -28.807383021852647,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.001342600904500409,
+              "solid_angle_nmse_db": -28.72053064569984
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.0013295374708991365,
+              "solid_angle_nmse_db": -28.76299418260654
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.001450759761497789,
+              "solid_angle_nmse_db": -28.384044985849982
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0013712196958162181,
+              "solid_angle_nmse_db": -28.62892957291598
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0010859701730735756,
+              "solid_angle_nmse_db": -29.641821027834958
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.0006987798292604674,
+              "nmse_db": -31.556596397041407,
+              "mae_db": 0.15082550367969133,
+              "bias_db": -0.05037587157902198,
+              "p95_abs_error_db": 0.5056754683529385
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.0007654704346282236,
+              "nmse_db": -31.160715787420507,
+              "mae_db": 0.1821956172895827,
+              "bias_db": -0.019029204251113943,
+              "p95_abs_error_db": 0.5387171890955254
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.002089922819843311,
+              "nmse_db": -26.79869751944006,
+              "mae_db": 0.31338789444151616,
+              "bias_db": -0.022364363233865425,
+              "p95_abs_error_db": 0.9529819033936403
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.012359087635203091,
+              "nmse_db": -19.08013588278087,
+              "mae_db": 1.1616243557165775,
+              "bias_db": 0.010291444698258328,
+              "p95_abs_error_db": 4.415344989733387
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.07844205346971873,
+              "nmse_db": -11.054510458189588,
+              "mae_db": 2.3556071519382193,
+              "bias_db": 0.14141689371637955,
+              "p95_abs_error_db": 8.303254849407073
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.718090817328033,
+          "phase_aligned_complex_nmse_db": -26.080429312821277,
+          "q_nmse_db": -22.459345868249105
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "control_v212",
+        "seed": 21603,
+        "amplitude": {
+          "grid_micro_nmse": 0.0016474935985468738,
+          "grid_micro_nmse_db": -27.8317626421266,
+          "solid_angle_micro_nmse": 0.0016466559236903474,
+          "solid_angle_micro_nmse_db": -27.833971391748946,
+          "command_family_macro_nmse": 0.0016360801945484106,
+          "command_family_macro_nmse_db": -27.861954126474163,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0017517318538486737,
+              "solid_angle_nmse_db": -27.565323726579678
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.0016714385423408802,
+              "solid_angle_nmse_db": -27.76909587490749
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.0017416720726370963,
+              "solid_angle_nmse_db": -27.590336119292118
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.001746357290937259,
+              "solid_angle_nmse_db": -27.57866898311906
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0012692012129781433,
+              "solid_angle_nmse_db": -28.9646952151532
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.0010301949935297887,
+              "nmse_db": -29.870805650045273,
+              "mae_db": 0.17677085961338396,
+              "bias_db": -0.07874954915319994,
+              "p95_abs_error_db": 0.6085833014155568
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.0010127956052958219,
+              "nmse_db": -29.944781918053096,
+              "mae_db": 0.2012043051000792,
+              "bias_db": -0.02851875939545116,
+              "p95_abs_error_db": 0.600754001963324
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.002594906384779867,
+              "nmse_db": -25.858783053711655,
+              "mae_db": 0.34659987405903264,
+              "bias_db": -0.02113109502173321,
+              "p95_abs_error_db": 1.0512128923323438
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.015556961630734278,
+              "nmse_db": -18.080752194193042,
+              "mae_db": 1.257888903967211,
+              "bias_db": 0.010723633333035654,
+              "p95_abs_error_db": 4.689423638479846
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.09133014417959193,
+              "nmse_db": -10.393858567465754,
+              "mae_db": 2.475567666639856,
+              "bias_db": 0.1739714251655138,
+              "p95_abs_error_db": 8.589672685997012
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6349879519353907,
+          "phase_aligned_complex_nmse_db": -25.20549446895138,
+          "q_nmse_db": -21.316405750469237
+        }
+      },
+      {
+        "family": "v216",
+        "arm": "dcar_gated_pm",
+        "seed": 21603,
+        "amplitude": {
+          "grid_micro_nmse": 0.0016019158266640202,
+          "grid_micro_nmse_db": -27.953603078371422,
+          "solid_angle_micro_nmse": 0.0016800265458932287,
+          "solid_angle_micro_nmse_db": -27.746838559861228,
+          "command_family_macro_nmse": 0.0016462204395995199,
+          "command_family_macro_nmse_db": -27.835120103803938,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0017565171500448721,
+              "solid_angle_nmse_db": -27.553476055454592
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.0018089296349759804,
+              "solid_angle_nmse_db": -27.4257832630547
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.0017181451271562872,
+              "solid_angle_nmse_db": -27.64940155253802
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0018305012155673003,
+              "solid_angle_nmse_db": -27.37429978383654
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0011170090702531592,
+              "solid_angle_nmse_db": -29.519433003446387
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.001165147280424808,
+              "nmse_db": -29.3361917418046,
+              "mae_db": 0.1755148794639284,
+              "bias_db": -0.07022123024332522,
+              "p95_abs_error_db": 0.6690278254331954
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.0010392064622025564,
+              "nmse_db": -29.83298161309369,
+              "mae_db": 0.1911187220483075,
+              "bias_db": -0.02997215560938294,
+              "p95_abs_error_db": 0.5881307256472469
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.0023941742463521342,
+              "nmse_db": -26.20844245126184,
+              "mae_db": 0.3297142220725358,
+              "bias_db": -0.027705443430788484,
+              "p95_abs_error_db": 0.9775240568812492
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.01335010076964881,
+              "nmse_db": -18.745154561318216,
+              "mae_db": 1.1978238119816684,
+              "bias_db": -0.0023880029130193977,
+              "p95_abs_error_db": 4.4906356059618115
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.08139564001163864,
+              "nmse_db": -10.893988576365865,
+              "mae_db": 2.3972909773836837,
+              "bias_db": 0.12675863633134157,
+              "p95_abs_error_db": 8.36319995057388
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6720626233384888,
+          "phase_aligned_complex_nmse_db": -25.035960588254696,
+          "q_nmse_db": -20.78836504949789
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "control_v212_canonical",
+        "seed": 21801,
+        "amplitude": {
+          "grid_micro_nmse": 0.002727161372838699,
+          "grid_micro_nmse_db": -25.64289163026528,
+          "solid_angle_micro_nmse": 0.002368619255632305,
+          "solid_angle_micro_nmse_db": -26.25504744455465,
+          "command_family_macro_nmse": 0.0023673499790866225,
+          "command_family_macro_nmse_db": -26.257375330508616,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0024051041534354336,
+              "solid_angle_nmse_db": -26.18866111688133
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.002362466600756482,
+              "solid_angle_nmse_db": -26.266343225899973
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.0024192503377121768,
+              "solid_angle_nmse_db": -26.16319189653097
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0022982789857070897,
+              "solid_angle_nmse_db": -26.38597253890136
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.002351649817821929,
+              "solid_angle_nmse_db": -26.286273482039984
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.0005343197915068379,
+              "nmse_db": -32.72198739006279,
+              "mae_db": 0.15469970624714702,
+              "bias_db": 0.0009386711570250864,
+              "p95_abs_error_db": 0.4197672087531541
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.0011070615917248142,
+              "nmse_db": -29.558282163370755,
+              "mae_db": 0.22779735839150295,
+              "bias_db": 0.006602301731762923,
+              "p95_abs_error_db": 0.6474977730421189
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.005213940603512201,
+              "nmse_db": -22.82833920561979,
+              "mae_db": 0.5296068231184665,
+              "bias_db": -0.09848126549734097,
+              "p95_abs_error_db": 1.7010931127567122
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.043982778296731945,
+              "nmse_db": -13.567173406680466,
+              "mae_db": 1.900785875772361,
+              "bias_db": 0.06407882821864105,
+              "p95_abs_error_db": 7.072887191144898
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.2553198139289513,
+              "nmse_db": -5.929154807456757,
+              "mae_db": 3.3291594068426686,
+              "bias_db": 0.7601088654335572,
+              "p95_abs_error_db": 10.86545110566385
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6414632233564768,
+          "phase_aligned_complex_nmse_db": -23.47984795782896,
+          "q_nmse_db": -22.238041040852924
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "dcar_gated_pm_canonical",
+        "seed": 21801,
+        "amplitude": {
+          "grid_micro_nmse": 0.002454615900000663,
+          "grid_micro_nmse_db": -26.100164569263484,
+          "solid_angle_micro_nmse": 0.0021418391673068775,
+          "solid_angle_micro_nmse_db": -26.692131438559702,
+          "command_family_macro_nmse": 0.0021394619197594176,
+          "command_family_macro_nmse_db": -26.696954391101883,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.002297897904464661,
+              "solid_angle_nmse_db": -26.38669270909967
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.0021710344536941865,
+              "solid_angle_nmse_db": -26.633332843620074
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.002074340455728216,
+              "solid_angle_nmse_db": -26.83119962551767
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.002103049320015066,
+              "solid_angle_nmse_db": -26.771505422641173
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0020509874648949582,
+              "solid_angle_nmse_db": -26.880369939190963
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.0004186024200126521,
+              "nmse_db": -33.781982652589114,
+              "mae_db": 0.141107233818096,
+              "bias_db": -0.0032689328084120626,
+              "p95_abs_error_db": 0.37086754261413124
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.000952023236724979,
+              "nmse_db": -30.213524513442245,
+              "mae_db": 0.21443836116270837,
+              "bias_db": 0.007212723922016787,
+              "p95_abs_error_db": 0.6083897934838051
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.004509245885772232,
+              "nmse_db": -23.45896082297665,
+              "mae_db": 0.4767658538061032,
+              "bias_db": 0.00564255402445278,
+              "p95_abs_error_db": 1.4983804360501938
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.043911831902842605,
+              "nmse_db": -13.574184447288921,
+              "mae_db": 1.8507282909029972,
+              "bias_db": 0.2752641877696812,
+              "p95_abs_error_db": 6.925395778931539
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.27459234957439754,
+              "nmse_db": -5.61311566822161,
+              "mae_db": 3.356576318361678,
+              "bias_db": 0.9230568713795678,
+              "p95_abs_error_db": 11.014728689717412
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.711057953924714,
+          "phase_aligned_complex_nmse_db": -23.639540932828176,
+          "q_nmse_db": -22.488383030400463
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "control_v212_canonical",
+        "seed": 21802,
+        "amplitude": {
+          "grid_micro_nmse": 0.0027063294807733495,
+          "grid_micro_nmse_db": -25.676193315480443,
+          "solid_angle_micro_nmse": 0.0023223589516652363,
+          "solid_angle_micro_nmse_db": -26.340706533832495,
+          "command_family_macro_nmse": 0.0023169821747192,
+          "command_family_macro_nmse_db": -26.350773073627515,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0025156486690756257,
+              "solid_angle_nmse_db": -25.993500117704414
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.002351483604960823,
+              "solid_angle_nmse_db": -26.286580448999842
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.0023183864564466153,
+              "solid_angle_nmse_db": -26.348141689276282
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0023879523604763654,
+              "solid_angle_nmse_db": -26.219743416082512
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.00201143978263657,
+              "solid_angle_nmse_db": -26.96492964564314
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.000501795986984911,
+              "nmse_db": -32.99472816192548,
+              "mae_db": 0.1527277465772322,
+              "bias_db": 0.04592229278100342,
+              "p95_abs_error_db": 0.41288630988912134
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.0011166826103288787,
+              "nmse_db": -29.520702469110958,
+              "mae_db": 0.2308927332294147,
+              "bias_db": 0.023231381862666736,
+              "p95_abs_error_db": 0.6531741334697667
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.005069791547624709,
+              "nmse_db": -22.95009896993575,
+              "mae_db": 0.5232485281181037,
+              "bias_db": -0.0855112213012403,
+              "p95_abs_error_db": 1.6022988962453395
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.044717527798551246,
+              "nmse_db": -13.495222143596802,
+              "mae_db": 1.956178137071901,
+              "bias_db": 0.11263736548269614,
+              "p95_abs_error_db": 7.22950862411339
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.2671730409466755,
+              "nmse_db": -5.732073664015134,
+              "mae_db": 3.4754595145647644,
+              "bias_db": 0.8087009558157855,
+              "p95_abs_error_db": 11.164537347149531
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6825579277554685,
+          "phase_aligned_complex_nmse_db": -23.357778393292307,
+          "q_nmse_db": -22.060391354065224
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "dcar_gated_pm_canonical",
+        "seed": 21802,
+        "amplitude": {
+          "grid_micro_nmse": 0.002889251129526898,
+          "grid_micro_nmse_db": -25.39214708267334,
+          "solid_angle_micro_nmse": 0.0025842300324954814,
+          "solid_angle_micro_nmse_db": -25.876688306936,
+          "command_family_macro_nmse": 0.0025814975565555897,
+          "command_family_macro_nmse_db": -25.881282816858757,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0027059493488074933,
+              "solid_angle_nmse_db": -25.676803369842517
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.002633504517144541,
+              "solid_angle_nmse_db": -25.794659323779776
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.0024303524792216916,
+              "solid_angle_nmse_db": -26.1433073517548
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0025643686171752385,
+              "solid_angle_nmse_db": -25.91019546665477
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.002573312820428984,
+              "solid_angle_nmse_db": -25.895074163049134
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.0005407942579796255,
+              "nmse_db": -32.669679282738954,
+              "mae_db": 0.15454052014439393,
+              "bias_db": 0.026808496865524535,
+              "p95_abs_error_db": 0.42231711638361324
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.0011007655786937957,
+              "nmse_db": -29.58305159429305,
+              "mae_db": 0.2257866440587541,
+              "bias_db": 0.03995013775715881,
+              "p95_abs_error_db": 0.64841240832035
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.005385438689570222,
+              "nmse_db": -22.68778913963093,
+              "mae_db": 0.5063101365754955,
+              "bias_db": -0.007689929682774844,
+              "p95_abs_error_db": 1.5983008379638186
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.050793895148455094,
+              "nmse_db": -12.941884818629457,
+              "mae_db": 1.8768155696011435,
+              "bias_db": 0.21151412064525474,
+              "p95_abs_error_db": 6.978320649173564
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.26311766176048546,
+              "nmse_db": -5.798499989394738,
+              "mae_db": 3.3352535870914517,
+              "bias_db": 0.7707755397093585,
+              "p95_abs_error_db": 10.835454327303017
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6604041114975003,
+          "phase_aligned_complex_nmse_db": -23.220168329380368,
+          "q_nmse_db": -21.768900143415824
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "control_v212_canonical",
+        "seed": 21803,
+        "amplitude": {
+          "grid_micro_nmse": 0.0027116225971755385,
+          "grid_micro_nmse_db": -25.66770755575491,
+          "solid_angle_micro_nmse": 0.0023941959809270106,
+          "solid_angle_micro_nmse_db": -26.20840302571416,
+          "command_family_macro_nmse": 0.002394374447032049,
+          "command_family_macro_nmse_db": -26.208079309708193,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.002552818259382084,
+              "solid_angle_nmse_db": -25.929801024526995
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.0023991203337675178,
+              "solid_angle_nmse_db": -26.19947968380408
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.002393762807079681,
+              "solid_angle_nmse_db": -26.209188851242082
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0024280217861527395,
+              "solid_angle_nmse_db": -26.147474207419744
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.0021981490487782223,
+              "solid_angle_nmse_db": -26.57942862928327
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.0005314900354443059,
+              "nmse_db": -32.74504873364804,
+              "mae_db": 0.15460944755496203,
+              "bias_db": 0.010850840859615261,
+              "p95_abs_error_db": 0.4228585762002952
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.0011644315719073898,
+              "nmse_db": -29.33886027795854,
+              "mae_db": 0.23195747874160594,
+              "bias_db": 0.01972894205995404,
+              "p95_abs_error_db": 0.6678667897955108
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.005153582079466589,
+              "nmse_db": -22.878908026924808,
+              "mae_db": 0.5224179206319284,
+              "bias_db": -0.054971254697874464,
+              "p95_abs_error_db": 1.6658818598073346
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.04218712522390604,
+              "nmse_db": -13.748200679324558,
+              "mae_db": 1.9001744174987956,
+              "bias_db": 0.04563514727941547,
+              "p95_abs_error_db": 6.942822327441384
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.22117656714623238,
+              "nmse_db": -6.552608868527047,
+              "mae_db": 3.3137859496351703,
+              "bias_db": 0.6230493458139353,
+              "p95_abs_error_db": 10.7056858717556
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.596341179422586,
+          "phase_aligned_complex_nmse_db": -23.336850883320018,
+          "q_nmse_db": -21.90299836446301
+        }
+      },
+      {
+        "family": "v218",
+        "arm": "dcar_gated_pm_canonical",
+        "seed": 21803,
+        "amplitude": {
+          "grid_micro_nmse": 0.003525718147828638,
+          "grid_micro_nmse_db": -24.52752408921358,
+          "solid_angle_micro_nmse": 0.00298726589703109,
+          "solid_angle_micro_nmse_db": -25.247261190517595,
+          "command_family_macro_nmse": 0.00298232845264261,
+          "command_family_macro_nmse_db": -25.25444528114749,
+          "command_family": {
+            "hard_null": {
+              "commands": 77,
+              "solid_angle_nmse": 0.003090297519598862,
+              "solid_angle_nmse_db": -25.099997066916963
+            },
+            "random_constant_modulus": {
+              "commands": 179,
+              "solid_angle_nmse": 0.0030232256931538273,
+              "solid_angle_nmse_db": -25.195294301848783
+            },
+            "scan": {
+              "commands": 102,
+              "solid_angle_nmse": 0.0029321201890678927,
+              "solid_angle_nmse_db": -25.328182317187824
+            },
+            "sparse": {
+              "commands": 77,
+              "solid_angle_nmse": 0.003044082518608117,
+              "solid_angle_nmse_db": -25.16543578941406
+            },
+            "taper": {
+              "commands": 77,
+              "solid_angle_nmse": 0.00282191634278435,
+              "solid_angle_nmse_db": -25.494558652824722
+            }
+          },
+          "fixed_field_bins": {
+            "strong_-3_to_0_db": {
+              "count": 114846,
+              "nmse": 0.0005519083602383464,
+              "nmse_db": -32.58133027246783,
+              "mae_db": 0.16166213468409638,
+              "bias_db": 0.037588334684166176,
+              "p95_abs_error_db": 0.42579416583313257
+            },
+            "mid_strong_-10_to_-3_db": {
+              "count": 1007878,
+              "nmse": 0.0013140688238179384,
+              "nmse_db": -28.813818881844515,
+              "mae_db": 0.24210142002843582,
+              "bias_db": 0.03565260221475286,
+              "p95_abs_error_db": 0.6890941303189828
+            },
+            "mid_weak_-20_to_-10_db": {
+              "count": 2115223,
+              "nmse": 0.006664349107702821,
+              "nmse_db": -21.76242260764277,
+              "mae_db": 0.5478982682452229,
+              "bias_db": 0.02548530067651877,
+              "p95_abs_error_db": 1.794114366302504
+            },
+            "weak_below_-20_db": {
+              "count": 1769413,
+              "nmse": 0.06285900752614233,
+              "nmse_db": -12.016324802914344,
+              "mae_db": 2.0099224183772404,
+              "bias_db": 0.32622537900066045,
+              "p95_abs_error_db": 7.472249244142428
+            },
+            "deep_null_below_-30_db": {
+              "count": 525542,
+              "nmse": 0.35428185474353563,
+              "nmse_db": -4.5065109036102715,
+              "mae_db": 3.5170856838916076,
+              "bias_db": 1.0498021716874095,
+              "p95_abs_error_db": 11.503178344472715
+            }
+          },
+          "finite_nonnegative": true
+        },
+        "operator": {
+          "raw_complex_nmse_db_diagnostic_only": 2.6272311644954547,
+          "phase_aligned_complex_nmse_db": -22.42911806648646,
+          "q_nmse_db": -21.328498401901737
+        }
+      }
+    ]
+  },
+  "phase_aux_training_authorized": true,
+  "confirmation_status": "CONFIRMATION_NOT_OPENED"
+}

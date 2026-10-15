@@ -18,3 +18,4 @@
 | [V2.15](v2.15/README.md) | 方向条件化局部图消息和真实/打乱 S 图反事实 | 完整复跑 `BLOCKED`；V2.16 去除 S 图混杂 |
 | [V2.16](v2.16/README.md) | 近等参数 Direction-Conditioned Axial Residual 受控验证 | 完整复跑 `BLOCKED`；V2.17 准备跨阵列数据 |
 | [V2.17](v2.17/README.md) | 1×4、2×4、1×8、4×4 跨阵列 HFSS 数据与分阵列可行性试验 | V2.18 检查 4×4 迁移归因 |
+| [V2.18](v2.18/README.md) | 4×4 canonical 迁移归因和 phase-aligned 辅助监督筛选 | 最终无工程候选；完整复跑 `BLOCKED` |

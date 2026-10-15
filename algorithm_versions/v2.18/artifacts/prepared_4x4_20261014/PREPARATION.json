@@ -1,0 +1,20 @@
+{
+  "schema": "v218-canonical-adapter-1",
+  "train_direction_count": 45071,
+  "validation_direction_count": 9780,
+  "train_command_count": 64,
+  "validation_command_count": 512,
+  "envelope_scale": 0.8229982852935791,
+  "canonical_operator_train_rms": 1.0,
+  "canonical_source_normalization_scale": 7.284856839008039,
+  "filtration_degree": 4,
+  "filtration_measure": "empirical_equal_loss",
+  "source_fingerprints_sha256": {
+    "train_operator_cache.npz": "f1c80739d9ff06a73f8d144f9d7e736b42e6a23382c3b4952f83df391c057734",
+    "validation_operator_cache.npz": "621f11831743f5914633161c618c154bb03aa7525ac90d65ab650ee4cd70d209",
+    "train_exchange.npz": "3801656a140157ad14d476d50820352f1cd50c6b961a4928a226e3b2cea64a28",
+    "validation_commands.npz": "6d36891d0f9b308f6abdb5655b37b726c4d75956e2de032506e824f90a2818de"
+  },
+  "blind_test_status": "sealed_not_opened",
+  "amplitude_recomputed_from_complex_operator": true
+}

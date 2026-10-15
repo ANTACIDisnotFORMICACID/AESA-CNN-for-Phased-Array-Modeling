@@ -1,0 +1,139 @@
+{
+  "arm": "control_v212_canonical",
+  "seed": 21803,
+  "best_epoch": 240,
+  "budget_sensitive": true,
+  "amplitude": {
+    "grid_micro_nmse": 0.0027116225971755385,
+    "grid_micro_nmse_db": -25.66770755575491,
+    "solid_angle_micro_nmse": 0.0023941959809270106,
+    "solid_angle_micro_nmse_db": -26.20840302571416,
+    "command_family_macro_nmse": 0.002394374447032049,
+    "command_family_macro_nmse_db": -26.208079309708193,
+    "command_family": {
+      "hard_null": {
+        "commands": 77,
+        "solid_angle_nmse": 0.002552818259382084,
+        "solid_angle_nmse_db": -25.929801024526995
+      },
+      "random_constant_modulus": {
+        "commands": 179,
+        "solid_angle_nmse": 0.0023991203337675178,
+        "solid_angle_nmse_db": -26.19947968380408
+      },
+      "scan": {
+        "commands": 102,
+        "solid_angle_nmse": 0.002393762807079681,
+        "solid_angle_nmse_db": -26.209188851242082
+      },
+      "sparse": {
+        "commands": 77,
+        "solid_angle_nmse": 0.0024280217861527395,
+        "solid_angle_nmse_db": -26.147474207419744
+      },
+      "taper": {
+        "commands": 77,
+        "solid_angle_nmse": 0.0021981490487782223,
+        "solid_angle_nmse_db": -26.57942862928327
+      }
+    },
+    "directional_features": {
+      "scan_peak": {
+        "commands": 102,
+        "mean_angular_error_deg": 1.2383400715368402,
+        "p95_angular_error_deg": 0.9845885436087244,
+        "mean_abs_peak_amplitude_error_db": 0.09850389443601812
+      },
+      "hard_null": {
+        "commands": 77,
+        "mean_angular_error_deg": 54.00368214724961,
+        "p95_angular_error_deg": 134.59135144512362,
+        "mean_abs_null_depth_error_db": 5.776690766332608
+      }
+    },
+    "fixed_field_bins": {
+      "strong_-3_to_0_db": {
+        "count": 114846,
+        "nmse": 0.0005314900354443059,
+        "nmse_db": -32.74504873364804,
+        "mae_db": 0.15460944755496203,
+        "bias_db": 0.010850840859615261,
+        "p95_abs_error_db": 0.4228585762002952
+      },
+      "mid_strong_-10_to_-3_db": {
+        "count": 1007878,
+        "nmse": 0.0011644315719073898,
+        "nmse_db": -29.33886027795854,
+        "mae_db": 0.23195747874160594,
+        "bias_db": 0.01972894205995404,
+        "p95_abs_error_db": 0.6678667897955108
+      },
+      "mid_weak_-20_to_-10_db": {
+        "count": 2115223,
+        "nmse": 0.005153582079466589,
+        "nmse_db": -22.878908026924808,
+        "mae_db": 0.5224179206319284,
+        "bias_db": -0.054971254697874464,
+        "p95_abs_error_db": 1.6658818598073346
+      },
+      "weak_below_-20_db": {
+        "count": 1769413,
+        "nmse": 0.04218712522390604,
+        "nmse_db": -13.748200679324558,
+        "mae_db": 1.9001744174987956,
+        "bias_db": 0.04563514727941547,
+        "p95_abs_error_db": 6.942822327441384
+      },
+      "deep_null_below_-30_db": {
+        "count": 525542,
+        "nmse": 0.22117656714623238,
+        "nmse_db": -6.552608868527047,
+        "mae_db": 3.3137859496351703,
+        "bias_db": 0.6230493458139353,
+        "p95_abs_error_db": 10.7056858717556
+      }
+    },
+    "finite_nonnegative": true
+  },
+  "operator": {
+    "raw_complex_nmse_db_diagnostic_only": 2.596341179422586,
+    "phase_aligned_complex_nmse_db": -23.336850883320018,
+    "q_nmse_db": -21.90299836446301
+  },
+  "architecture": {
+    "v218_arm": "control_v212_canonical",
+    "v216_builder_arm": "control_v212",
+    "parameter_count": 28789,
+    "metadata": {},
+    "operator_auxiliary_enabled": false,
+    "phase_aligned_auxiliary_enabled": false
+  },
+  "checkpoint_bytes": 126796,
+  "estimated_operator_macs_per_direction": 445824,
+  "latency": {
+    "single": {
+      "threads": 1,
+      "batch": 1,
+      "median_ms": 4.602399996656459,
+      "p95_ms": 6.637534998299088
+    },
+    "throughput": {
+      "threads": 12,
+      "batch": 256,
+      "median_ms": 9.555900003761053,
+      "p95_ms": 13.05127999439719
+    }
+  },
+  "diagnostics": {
+    "complex_branch_energy": {
+      "baseline_iq": 0.4271712601184845,
+      "ssh_iq": 0.5139104127883911,
+      "fourier_residual_iq": 0.2504802644252777
+    },
+    "residual_ssh_projection_ratio": 0.9649954438209534,
+    "effective_messages": [],
+    "effective_message_note": "not applicable to the V2.12 isotropic control"
+  },
+  "all_outputs_finite": true,
+  "confirmation_status": "CONFIRMATION_NOT_OPENED"
+}
